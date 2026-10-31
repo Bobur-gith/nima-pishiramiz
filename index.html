@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Nima pishiramiz?</title>
+<meta name="description" content="Uyda bor masalliqlarni yozing — 24 davlatdan 750 ta taomdan qaysi birini pishirish mumkinligini ko'ring.">
+<meta name="theme-color" content="#f5f6f1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B2%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Onest:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="top">
+    <div class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2b1d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18"/><path d="M5 11v5a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5"/><path d="M2 11h2M20 11h2"/><path d="M9 7c0-1 1-1.5 1-2.5M13 7c0-1 1-1.5 1-2.5"/></svg></div>
+    <div><h1>Nima pishiramiz?</h1><p id="stat"></p></div>
+  </header>
+
+  <section class="filters" aria-label="Filtrlar">
+    <div class="frow"><span class="flabel">1 · Davlat</span><div class="chips" id="fC"></div></div>
+    <div class="frow"><span class="flabel">2 · Qachon</span><div class="chips" id="fM"></div></div>
+    <div class="frow"><span class="flabel">3 · Quyuq yoki suyuq</span><div class="chips" id="fT"></div></div>
+  </section>
+
+  <section class="pantry">
+    <h2>Uyda nima bor? <button id="clr" hidden>Tozalash</button></h2>
+    <div class="field">
+      <input id="q" type="text" autocomplete="off" placeholder="masalan: tuxum, kartoshka, piyoz" aria-label="Masalliq yozing">
+      <button class="add" id="add">Qo‘shish</button>
+      <div class="sug" id="sug" hidden></div>
+    </div>
+    <div class="mine" id="mine"></div>
+    <div class="quick" id="quick"></div>
+    <p class="note">Tuz, suv, yog‘ va murch doim bor deb hisoblanadi.</p>
+  </section>
+</div>
+
+<main class="results wrap">
+  <div class="seg" id="seg" hidden></div>
+  <div class="rhead"><h2 id="rt">Taomlar</h2><span id="rc"></span></div>
+  <div class="grid" id="grid"></div>
+  <button class="more" id="more" hidden></button>
+</main>
+<footer class="wrap">Suratlar avtomatik ravishda Wikipedia va Wikimedia Commons'dan (erkin litsenziya) olinadi. «Tayyorlanish videosi» tugmasi YouTube'da shu taom retseptlarini ochadi.</footer>
+
+<div class="ov" id="ov" hidden></div>
+<article class="sheet" id="sheet" hidden role="dialog" aria-modal="true"></article>
+<div class="toast" id="toast" role="status"></div>
+
+
+<script>window.DB={list:[],add(c,f,l){this.list.push([c,f,l])}};</script>
+<script src="data/uz.js"></script>
+<script src="data/kz-kg-tj-tm.js"></script>
+<script src="data/ru-ua-by.js"></script>
+<script src="data/az-ge-am.js"></script>
+<script src="data/tr-ar.js"></script>
+<script src="data/cn-kr-jp-in.js"></script>
+<script src="data/it-fr-es.js"></script>
+<script src="data/de-gr-mx-us.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
