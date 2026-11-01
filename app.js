@@ -9,6 +9,10 @@ const store={get(k,d){try{const v=localStorage.getItem("np:"+k);return v?JSON.pa
 const slug=s=>norm(s).replace(/'/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const MEALMAP={n:"nonushta",t:"tushlik",k:"kechki",s:"shirinlik",i:"ichimlik"};
 const ALL=[];const used=new Set();
+const OLDREG={"O'zbekiston":"MDH","Qozog'iston":"MDH","Qirg'iziston":"MDH","Tojikiston":"MDH","Turkmaniston":"MDH","Rossiya":"MDH","Ukraina":"MDH","Belarus":"MDH","Ozarbayjon":"MDH","Gruziya":"MDH","Armaniston":"MDH","Moldova":"MDH","Turkiya":"Yaqin Sharq","Arab davlatlari":"Yaqin Sharq","Xitoy":"Osiyo","Koreya":"Osiyo","Yaponiya":"Osiyo","Hindiston":"Osiyo","Italiya":"Yevropa","Fransiya":"Yevropa","Ispaniya":"Yevropa","Germaniya":"Yevropa","Gretsiya":"Yevropa","Meksika":"Amerika","AQSh":"Amerika"};
+const REGIONS=["MDH","Yevropa","Osiyo","Yaqin Sharq","Afrika","Amerika","Okeaniya"];
+const REGION={};DB.list.forEach(([c,,,r])=>REGION[c]=OLDREG[c]||r||"Osiyo");
+DB.list.sort((a,b)=>REGIONS.indexOf(REGION[a[0]])-REGIONS.indexOf(REGION[b[0]]));
 for(const [country,flag,list] of DB.list){
   for(const r of list){
     let id=slug(r[0]);if(used.has(id))id=slug(country).slice(0,3)+"-"+id;used.add(id);
@@ -19,6 +23,7 @@ for(const [country,flag,list] of DB.list){
 }
 const FLAG={};DB.list.forEach(([c,f])=>FLAG[c]=f);
 const COUNTRIES=DB.list.map(x=>x[0]);
+const isCountry=c=>COUNTRIES.includes(c);
 const MEALS=[["nonushta","Nonushta"],["tushlik","Tushlik"],["kechki","Kechki ovqat"],["shirinlik","Shirinlik"],["ichimlik","Ichimlik"]];
 const STAPLE=new Set(["tuz","suv","yog'","murch","qora murch"]);
 const SYN={"go'sht":["gosht","gusht","mol go'shti","qo'y go'shti","mol","qo'y","мясо","говядина","баранина","ot go'shti"],"tovuq":["kurinka","курица","tovuq go'shti"],"kartoshka":["kartofel","картошка","картофель"],"piyoz":["лук"],"sabzi":["морковь","morkov"],"pomidor":["помидор","томат","tomat"],"tuxum":["яйцо","яйца","tuhum"],"guruch":["рис","ris"],"un":["мука"],"sut":["молоко"],"qatiq":["kefir","yogurt","кефир","йогурт"],"sariyog'":["сливочное масло","maslo"],"pishloq":["сыр","brinza","syr","mozzarella","parmezan"],"qiyma":["фарш","farsh"],"bodring":["огурец"],"karam":["капуста"],"sarimsoq":["чеснок"],"shakar":["сахар"],"non":["хлеб","xleb"],"lapsha":["лапша","noodle"],"makaron":["макароны","spagetti","vermishel"],"ko'kat":["ukrop","petrushka","kashnich","shivit","зелень","укроп"],"smetana":["сметана"],"tvorog":["творог","suzma","paneer"],"qaymoq":["сливки","slivki"],"limon":["лимон"],"olma":["яблоко"],"choy":["чай"],"baliq":["рыба"],"yasmiq":["чечевица"],"no'xat":["нут","noxat"],"loviya":["фасоль"],"baqlajon":["баклажан"],"bolgar qalampir":["болгарский перец","qalampir"],"kolbasa":["колбаса","sosiska","vetchina"]};
@@ -30,7 +35,7 @@ const VOCAB=[...new Set([...ALL.flatMap(d=>d.ing.map(i=>canon(i[0]))).filter(x=>
 
 /* ---------- state ---------- */
 let pantry=store.get("pantry",[]);
-let fC=store.get("fC",""),fM=store.get("fM",""),fT=store.get("fT",""),seg="auto",limit=48;
+let fR=store.get("fR",""),fC=store.get("fC",""),fM=store.get("fM",""),fT=store.get("fT",""),seg="auto",limit=48;
 
 function has(name){const c=canon(name);return pantry.includes(c)||(ALSO[c]||[]).some(a=>pantry.includes(a))}
 function match(d){const need=d.ing.filter(i=>!i[2]&&!STAPLE.has(canon(i[0])));const miss=need.filter(i=>!has(i[0])).map(i=>base(i[0]));return {need:need.length,have:need.length-miss.length,miss}}
@@ -70,7 +75,11 @@ function fillCover(el){const d=ALL.find(x=>x.id===el.dataset.cid);if(!d)return;
 function chipRow(el,items,val,key){el.innerHTML=items.map(([v,l,n])=>`<button class="chip" data-${key}="${esc(v)}" aria-pressed="${val===v}">${l}${n!=null?` <small>${n}</small>`:""}</button>`).join("")}
 function renderFilters(){
   const cnt=c=>ALL.filter(d=>d.country===c).length;
-  chipRow($("#fC"),[["","Barchasi",ALL.length],...COUNTRIES.map(c=>[c,`${FLAG[c]} ${esc(c)}`,cnt(c)])],fC,"c");
+  if(fC&&!isCountry(fC))fC="";
+  const rc=r=>ALL.filter(d=>REGION[d.country]===r).length;
+  chipRow($("#fC"),[["","🌍 Butun dunyo",ALL.length],...REGIONS.map(r=>[r,esc(r),rc(r)])],fR,"r");
+  const list=COUNTRIES.filter(c=>!fR||REGION[c]===fR);
+  $("#fCsel").innerHTML=`<option value="">${fR?"Barcha davlatlar — "+esc(fR):"Barcha davlatlar"} (${list.length})</option>`+list.map(c=>`<option value="${esc(c)}"${c===fC?" selected":""}>${FLAG[c]} ${esc(c)} — ${cnt(c)} ta</option>`).join("");
   chipRow($("#fM"),[["","Barchasi"],...MEALS],fM,"m");
   chipRow($("#fT"),[["","Barchasi"],["quyuq","Quyuq"],["suyuq","Suyuq"]],fT,"t");
 }
@@ -90,7 +99,7 @@ function renderSug(){const q=norm($("#q").value.split(/[,;]/).pop());const box=$
 function submit(){const v=$("#q").value;if(!v.trim())return;if(!/[,;]/.test(v)&&sugL.length&&!$("#sug").hidden&&!VOCAB.includes(canon(v)))addItems(sugL[sugI]);else addItems(v);$("#q").value="";$("#sug").hidden=true}
 
 function renderResults(){
-  let list=ALL.filter(d=>(!fC||d.country===fC)&&(!fM||d.meals.includes(fM))&&(!fT||d.type===fT)).map(d=>({d,m:match(d)}));
+  let list=ALL.filter(d=>(!fR||REGION[d.country]===fR)&&(!fC||d.country===fC)&&(!fM||d.meals.includes(fM))&&(!fT||d.type===fT)).map(d=>({d,m:match(d)}));
   const P=pantry.length>0;
   if(P)list.sort((a,b)=>a.m.miss.length-b.m.miss.length||(b.m.have/(b.m.need||1))-(a.m.have/(a.m.need||1))||a.d.time-b.d.time);
   const now=list.filter(x=>!x.m.miss.length),near=list.filter(x=>x.m.miss.length>0&&x.m.miss.length<=2);
@@ -98,7 +107,7 @@ function renderResults(){
   const sg=$("#seg");sg.hidden=!P;
   if(P)sg.innerHTML=[["now",`Hozir pishiring · ${now.length}`],["near",`1–2 tasi yetishmaydi · ${near.length}`],["all","Hammasi"]].map(([k,l])=>`<button data-sg2="${k}" aria-pressed="${s===k}">${l}</button>`).join("");
   const shown=s==="now"?now:s==="near"?near:list;
-  $("#rt").textContent=!P?(fC?`${FLAG[fC]} ${fC} taomlari`:"Taomlar"):s==="now"?"Hozir pishirsa bo‘ladi":s==="near"?"Ozgina yetishmaydi":"Barcha mos taomlar";
+  $("#rt").textContent=!P?(fC?`${FLAG[fC]} ${fC} taomlari`:fR?`${fR} taomlari`:"Taomlar"):s==="now"?"Hozir pishirsa bo‘ladi":s==="near"?"Ozgina yetishmaydi":"Barcha mos taomlar";
   $("#rc").textContent=`${shown.length} ta`;
   const g=$("#grid");
   if(!shown.length){g.innerHTML=`<div class="empty"><b>Hech narsa topilmadi</b>${s==="now"?"Yana bir-ikkita masalliq qo‘shing yoki «1–2 tasi yetishmaydi»ni oching.":"Filtrlarni o‘zgartirib ko‘ring."}</div>`;$("#more").hidden=true;return}
@@ -109,7 +118,7 @@ function renderResults(){
   g.querySelectorAll(".cover").forEach(el=>io?io.observe(el):fillCover(el));
   const mb=$("#more");mb.hidden=shown.length<=limit;mb.textContent=`Yana ko‘rsatish (${shown.length-limit})`;
 }
-function renderAll(){$("#stat").textContent=`${ALL.length} ta taom · ${COUNTRIES.length} davlat`;renderFilters();renderPantry();renderResults()}
+function renderAll(){$("#stat").textContent=`${ALL.length} ta taom · ${COUNTRIES.filter(c=>c!=="Arab davlatlari").length} davlat`;renderFilters();renderPantry();renderResults()}
 
 /* ---------- detail ---------- */
 let openId=null;const timers={};
@@ -126,7 +135,7 @@ function openDish(id){
     <div class="sb">
       <div><h2>${esc(d.name)}</h2><div class="sub">${d.flag} ${esc(d.country)} · ${fmtTime(d.time)}</div>
         <div class="pills">${d.meals.map(x=>`<span class="pill">${MEALS.find(z=>z[0]===x)[1]}</span>`).join("")}<span class="pill g">${d.type==="suyuq"?"Suyuq":"Quyuq"}</span></div></div>
-      <div class="acts"><a class="yt" href="https://www.youtube.com/results?search_query=${encodeURIComponent(d.ru+" рецепт")}" target="_blank" rel="noopener">${ytIcon}Tayyorlanish videosi</a></div>
+      <div class="acts"><a class="yt" href="https://www.youtube.com/results?search_query=${encodeURIComponent(/[а-яё]/i.test(d.ru)&&!/рецепт/i.test(d.ru)?d.ru+" рецепт":d.ru)}" target="_blank" rel="noopener">${ytIcon}Tayyorlanish videosi</a></div>
       <section><div class="sh"><h3>Masalliqlar</h3><span>${pantry.length?`${m.have}/${m.need} bor`:`${d.ing.length} ta`}</span></div><ul class="ings">${ing}</ul>
         ${pantry.length?(m.miss.length?`<div class="miss">Yetishmaydi: ${esc(m.miss.join(", "))}</div>`:`<div class="miss ok">✓ Hammasi bor — pishiravering!</div>`):""}</section>
       <section><div class="sh"><h3>Tayyorlash</h3><span>${d.steps.length} qadam</span></div><ol class="steps">${steps}</ol></section>
@@ -155,12 +164,13 @@ let tt;function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on
 $("#q").addEventListener("input",()=>{sugI=0;const v=$("#q").value;if(/[,;]\s*$/.test(v)){addItems(v);$("#q").value="";$("#sug").hidden=true;return}renderSug()});
 $("#q").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();submit()}else if(e.key==="ArrowDown"&&sugL.length){e.preventDefault();sugI=(sugI+1)%sugL.length;renderSug()}else if(e.key==="ArrowUp"&&sugL.length){e.preventDefault();sugI=(sugI-1+sugL.length)%sugL.length;renderSug()}else if(e.key==="Escape")$("#sug").hidden=true});
 $("#add").addEventListener("click",submit);
+$("#fCsel").addEventListener("change",e=>{fC=e.target.value;store.set("fC",fC);seg="auto";limit=48;renderResults()});
 $("#more").addEventListener("click",()=>{limit+=48;renderResults()});
 document.addEventListener("click",e=>{
   if(!e.target.closest(".field"))$("#sug").hidden=true;
   if(e.target.id==="ov"){closeDish();return}
   const b=e.target.closest("button");if(!b)return;const d=b.dataset;
-  if(d.c!==undefined){fC=d.c;store.set("fC",fC);seg="auto";limit=48;renderFilters();renderResults()}
+  if(d.r!==undefined){fR=d.r;fC="";store.set("fR",fR);store.set("fC","");seg="auto";limit=48;renderFilters();renderResults()}
   else if(d.m!==undefined){fM=d.m;store.set("fM",fM);seg="auto";limit=48;renderFilters();renderResults()}
   else if(d.t!==undefined){fT=d.t;store.set("fT",fT);seg="auto";limit=48;renderFilters();renderResults()}
   else if(d.qa)addItems(d.qa);
