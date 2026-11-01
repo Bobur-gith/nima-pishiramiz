@@ -221,3 +221,60 @@ footer{color:var(--muted);font-size:12px;padding-bottom:calc(36px + env(safe-are
 .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translate(-50%,140px);z-index:60;background:var(--ink);color:var(--bg);padding:11px 16px;border-radius:12px;font-weight:600;font-size:14px;transition:transform .3s;max-width:calc(100% - 32px);text-align:center}
 .toast.on{transform:translate(-50%,0)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+@media (max-width:440px){.top:has(.acct:not([hidden])) .mark{display:none}.top:has(.acct:not([hidden])) .lang button{min-width:30px;padding:0 6px}}
+
+/* ---------- kirish ekrani (gate) ---------- */
+body.locked>.wrap,body.locked>main,body.locked>footer,body.locked>.mini{display:none!important}
+.gate{background:radial-gradient(circle at 100% 0,rgba(242,165,22,.28),transparent 360px),radial-gradient(circle at 0 100%,rgba(29,106,67,.18),transparent 380px),var(--bg);min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:calc(64px + env(safe-area-inset-top,0px)) 20px calc(40px + env(safe-area-inset-bottom,0px));position:relative;text-align:center;overflow:hidden}
+.gtop{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:16px}
+.gcard{width:100%;max-width:380px;background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:30px 22px 24px;box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;gap:10px;position:relative;z-index:1}
+.gmark{width:64px;height:64px;border-radius:20px;background:var(--saffron);display:grid;place-items:center;transform:rotate(-6deg);box-shadow:0 8px 18px -10px rgba(160,100,0,.8)}
+.gmark svg{width:38px;height:38px}
+.gcard h1{font-size:28px;font-weight:800;line-height:1.1;margin-top:6px}
+.gtag{margin:0 0 8px;color:var(--muted);font-size:14.5px}
+.gbtn{width:100%;height:54px;display:flex;align-items:center;justify-content:center;gap:12px;border-radius:16px;border:1.5px solid var(--line);background:#fff;color:#1f1f1f;font-weight:700;font-size:16px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.gbtn:hover{border-color:#c9c2b2}
+.gbtn svg{width:24px;height:24px}
+.gsm{margin:2px 0 0;font-size:12px;color:var(--muted)}
+.gerr{margin:4px 0 0;font-size:13px;color:var(--chili);font-weight:600}
+.gst{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%}
+.gst .gic{font-size:40px;line-height:1}
+.gst b{font-family:var(--f-d);font-size:20px}
+.gst p{margin:0;color:var(--muted);font-size:14.5px}
+.gme{display:flex;align-items:center;gap:8px;margin-top:8px;padding:6px 12px 6px 6px;border-radius:999px;background:var(--surface-2);font-size:13.5px;font-weight:600;max-width:100%}
+.gme img{width:28px;height:28px;border-radius:50%}
+.gme span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-left:6px}
+.glink{margin-top:8px;border:0;background:none;color:var(--herb);font-weight:700;font-size:14px;padding:8px}
+.gspin{width:34px;height:34px;border-radius:50%;border:3px solid var(--line);border-top-color:var(--saffron);animation:gsp .8s linear infinite;margin:14px}
+@keyframes gsp{to{transform:rotate(360deg)}}
+.gfood{position:absolute;bottom:calc(18px + env(safe-area-inset-bottom,0px));left:0;right:0;font-size:26px;letter-spacing:8px;opacity:.55;white-space:nowrap}
+body:not(.locked) .gate{display:none}
+
+/* akkaunt tugmasi */
+.acct{position:relative;flex:none}
+.av{position:relative;width:38px;height:38px;border-radius:50%;border:2px solid var(--surface);padding:0;background:var(--herb);color:#fff;overflow:visible;box-shadow:0 0 0 1px var(--line);display:grid;place-items:center;font-weight:800}
+.av img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.av .dot{position:absolute;top:-5px;right:-6px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--chili);color:#fff;font:700 11px/18px var(--f-b);font-style:normal}
+.amenu{position:absolute;right:0;top:46px;z-index:35;min-width:230px;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:6px;display:flex;flex-direction:column}
+.amenu .aw{padding:8px 10px 10px;border-bottom:1px solid var(--line);margin-bottom:4px;display:flex;flex-direction:column;min-width:0}
+.amenu .aw small{color:var(--muted);overflow:hidden;text-overflow:ellipsis}
+.amenu button{border:0;background:none;text-align:left;padding:11px 10px;border-radius:10px;font-weight:600;display:flex;align-items:center;gap:6px}
+.amenu button:hover{background:var(--surface-2)}
+.cnt{font-style:normal;margin-left:auto;min-width:22px;height:22px;padding:0 6px;border-radius:11px;background:var(--chili);color:#fff;font-size:12px;display:grid;place-items:center}
+
+/* admin panel */
+.adl{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:2px 14px calc(18px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:8px}
+.urow{display:flex;align-items:center;gap:10px;padding:10px;border-radius:16px;background:var(--surface);border:1px solid var(--line);min-width:0}
+.urow img,.urow .ui{width:40px;height:40px;border-radius:50%;flex:none;object-fit:cover}
+.urow .ui{display:grid;place-items:center;background:var(--herb-soft);color:var(--herb);font-weight:800}
+.un{flex:1;min-width:0;display:flex;flex-direction:column}
+.un b{font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.un small{color:var(--muted);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ua{display:flex;gap:6px;flex:none}
+.ab{height:36px;padding:0 12px;border-radius:11px;border:0;font-weight:700;font-size:13px;white-space:nowrap}
+.ab.ok{background:var(--herb);color:var(--herb-ink)}
+.ab.no{background:var(--chili-soft);color:var(--chili)}
+.ab:disabled{opacity:.5}
+.ame{font-size:12px;color:var(--muted);font-weight:700}
+.adl .empty{margin-top:10px}

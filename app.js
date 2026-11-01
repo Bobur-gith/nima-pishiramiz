@@ -1,5 +1,6 @@
-(function(){
+window.startApp=function(){
 "use strict";
+if(window.__npStarted)return;window.__npStarted=true;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm=s=>String(s).toLowerCase().replace(/[ʻʼ‘’`´]/g,"'").replace(/ё/g,"е").replace(/\s+/g," ").trim();
@@ -313,7 +314,7 @@ document.addEventListener("click",e=>{
   if(e.target.id==="ov"){closeDish();return}
   if(e.target.id==="pov"){closePicker();return}
   const b=e.target.closest("button");if(!b)return;const d=b.dataset;
-  if(d.lang){if(lang!==d.lang){lang=d.lang;store.set("lang",lang);renderAll();if(!$("#picker").hidden)renderPicker()}}
+  if(d.lang){if(lang!==d.lang){lang=d.lang;store.set("lang",lang);renderAll();window.dispatchEvent(new Event("np-lang"));if(!$("#picker").hidden)renderPicker()}}
   else if(b.id==="pickC")openPicker();
   else if(b.id==="pkClose")closePicker();
   else if(d.pr!==undefined){pkR=d.pr;$("#pkSearch").value="";renderPicker();$("#pkList").scrollTop=0}
@@ -341,4 +342,4 @@ if("IntersectionObserver" in window){new IntersectionObserver(([e])=>{$("#mini")
 window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h&&BYID.has(h)){if(openId!==h)openDish(h)}else if(openId)closeDish()});
 renderAll();
 const h0=location.hash.slice(1);if(h0&&BYID.has(h0))openDish(h0);
-})();
+};
