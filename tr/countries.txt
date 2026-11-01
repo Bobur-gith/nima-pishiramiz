@@ -1,0 +1,196 @@
+Marokash	Марокко	Morocco
+Jazoir	Алжир	Algeria
+Tunis	Тунис	Tunisia
+Liviya	Ливия	Libya
+Sudan	Судан	Sudan
+Janubiy Sudan	Южный Судан	South Sudan
+Efiopiya	Эфиопия	Ethiopia
+Eritreya	Эритрея	Eritrea
+Jibuti	Джибути	Djibouti
+Somali	Сомали	Somalia
+Keniya	Кения	Kenya
+Uganda	Уганда	Uganda
+Tanzaniya	Танзания	Tanzania
+Ruanda	Руанда	Rwanda
+Burundi	Бурунди	Burundi
+Nigeriya	Нигерия	Nigeria
+Gana	Гана	Ghana
+Senegal	Сенегал	Senegal
+Fil suyagi qirg'og'i	Кот-д’Ивуар	Côte d’Ivoire
+Mali	Мали	Mali
+Burkina-Faso	Буркина-Фасо	Burkina Faso
+Niger	Нигер	Niger
+Kamerun	Камерун	Cameroon
+Chad	Чад	Chad
+Markaziy Afrika Respublikasi	ЦАР	Central African Republic
+Kongo DR	ДР Конго	DR Congo
+Kongo Respublikasi	Республика Конго	Republic of the Congo
+Gabon	Габон	Gabon
+Ekvatorial Gvineya	Экваториальная Гвинея	Equatorial Guinea
+San-Tome va Prinsipi	Сан-Томе и Принсипи	São Tomé and Príncipe
+Togo	Того	Togo
+Benin	Бенин	Benin
+Gambiya	Гамбия	Gambia
+Gvineya	Гвинея	Guinea
+Gvineya-Bisau	Гвинея-Бисау	Guinea-Bissau
+Syerra-Leone	Сьерра-Леоне	Sierra Leone
+Liberiya	Либерия	Liberia
+Mavritaniya	Мавритания	Mauritania
+Kabo-Verde	Кабо-Верде	Cape Verde
+Janubiy Afrika	ЮАР	South Africa
+Namibiya	Намибия	Namibia
+Botsvana	Ботсвана	Botswana
+Zimbabve	Зимбабве	Zimbabwe
+Zambiya	Замбия	Zambia
+Malavi	Малави	Malawi
+Mozambik	Мозамбик	Mozambique
+Angola	Ангола	Angola
+Lesoto	Лесото	Lesotho
+Esvatini	Эсватини	Eswatini
+Madagaskar	Мадагаскар	Madagascar
+Mavrikiy	Маврикий	Mauritius
+Komor orollari	Коморы	Comoros
+Seyshel orollari	Сейшелы	Seychelles
+Kanada	Канада	Canada
+Gvatemala	Гватемала	Guatemala
+Beliz	Белиз	Belize
+Gonduras	Гондурас	Honduras
+Salvador	Сальвадор	El Salvador
+Nikaragua	Никарагуа	Nicaragua
+Kosta-Rika	Коста-Рика	Costa Rica
+Panama	Панама	Panama
+Kuba	Куба	Cuba
+Yamayka	Ямайка	Jamaica
+Gaiti	Гаити	Haiti
+Dominikan Respublikasi	Доминиканская Республика	Dominican Republic
+Bagama orollari	Багамы	Bahamas
+Barbados	Барбадос	Barbados
+Trinidad va Tobago	Тринидад и Тобаго	Trinidad and Tobago
+Grenada	Гренада	Grenada
+Sent-Lyusiya	Сент-Люсия	Saint Lucia
+Sent-Vinsent va Grenadin	Сент-Винсент и Гренадины	Saint Vincent and the Grenadines
+Antigua va Barbuda	Антигуа и Барбуда	Antigua and Barbuda
+Dominika	Доминика	Dominica
+Sent-Kits va Nevis	Сент-Китс и Невис	Saint Kitts and Nevis
+Braziliya	Бразилия	Brazil
+Argentina	Аргентина	Argentina
+Peru	Перу	Peru
+Kolumbiya	Колумбия	Colombia
+Venesuela	Венесуэла	Venezuela
+Ekvador	Эквадор	Ecuador
+Boliviya	Боливия	Bolivia
+Chili	Чили	Chile
+Urugvay	Уругвай	Uruguay
+Paragvay	Парагвай	Paraguay
+Gayana	Гайана	Guyana
+Surinam	Суринам	Suriname
+Avstraliya	Австралия	Australia
+Yangi Zelandiya	Новая Зеландия	New Zealand
+Fiji	Фиджи	Fiji
+Papua – Yangi Gvineya	Папуа — Новая Гвинея	Papua New Guinea
+Samoa	Самоа	Samoa
+Tonga	Тонга	Tonga
+Vanuatu	Вануату	Vanuatu
+Solomon orollari	Соломоновы Острова	Solomon Islands
+Kiribati	Кирибати	Kiribati
+Tuvalu	Тувалу	Tuvalu
+Nauru	Науру	Nauru
+Palau	Палау	Palau
+Marshall orollari	Маршалловы Острова	Marshall Islands
+Mikroneziya	Микронезия	Micronesia
+Afg'oniston	Афганистан	Afghanistan
+Pokiston	Пакистан	Pakistan
+Bangladesh	Бангладеш	Bangladesh
+Shri-Lanka	Шри-Ланка	Sri Lanka
+Nepal	Непал	Nepal
+Butan	Бутан	Bhutan
+Maldiv orollari	Мальдивы	Maldives
+Mo'g'uliston	Монголия	Mongolia
+Shimoliy Koreya	КНДР	North Korea
+Tailand	Таиланд	Thailand
+Vyetnam	Вьетнам	Vietnam
+Laos	Лаос	Laos
+Kambodja	Камбоджа	Cambodia
+Myanma	Мьянма	Myanmar
+Malayziya	Малайзия	Malaysia
+Singapur	Сингапур	Singapore
+Indoneziya	Индонезия	Indonesia
+Filippin	Филиппины	Philippines
+Bruney	Бруней	Brunei
+Sharqiy Timor	Восточный Тимор	Timor-Leste
+Ozarbayjon	Азербайджан	Azerbaijan
+Gruziya	Грузия	Georgia
+Armaniston	Армения	Armenia
+Xitoy	Китай	China
+Koreya	Корея	Korea
+Yaponiya	Япония	Japan
+Hindiston	Индия	India
+Germaniya	Германия	Germany
+Gretsiya	Греция	Greece
+Meksika	Мексика	Mexico
+AQSh	США	USA
+Buyuk Britaniya	Великобритания	United Kingdom
+Irlandiya	Ирландия	Ireland
+Portugaliya	Португалия	Portugal
+Niderlandiya	Нидерланды	Netherlands
+Belgiya	Бельгия	Belgium
+Lyuksemburg	Люксембург	Luxembourg
+Shveytsariya	Швейцария	Switzerland
+Avstriya	Австрия	Austria
+Polsha	Польша	Poland
+Chexiya	Чехия	Czechia
+Slovakiya	Словакия	Slovakia
+Vengriya	Венгрия	Hungary
+Ruminiya	Румыния	Romania
+Moldova	Молдова	Moldova
+Bolgariya	Болгария	Bulgaria
+Serbiya	Сербия	Serbia
+Xorvatiya	Хорватия	Croatia
+Bosniya va Gertsegovina	Босния и Герцеговина	Bosnia and Herzegovina
+Sloveniya	Словения	Slovenia
+Chernogoriya	Черногория	Montenegro
+Shimoliy Makedoniya	Северная Македония	North Macedonia
+Albaniya	Албания	Albania
+Daniya	Дания	Denmark
+Norvegiya	Норвегия	Norway
+Shvetsiya	Швеция	Sweden
+Finlyandiya	Финляндия	Finland
+Islandiya	Исландия	Iceland
+Estoniya	Эстония	Estonia
+Latviya	Латвия	Latvia
+Litva	Литва	Lithuania
+Malta	Мальта	Malta
+Kipr	Кипр	Cyprus
+Andorra	Андорра	Andorra
+Monako	Монако	Monaco
+San-Marino	Сан-Марино	San Marino
+Lixtenshteyn	Лихтенштейн	Liechtenstein
+Vatikan	Ватикан	Vatican City
+Italiya	Италия	Italy
+Fransiya	Франция	France
+Ispaniya	Испания	Spain
+Qozog'iston	Казахстан	Kazakhstan
+Qirg'iziston	Кыргызстан	Kyrgyzstan
+Tojikiston	Таджикистан	Tajikistan
+Turkmaniston	Туркменистан	Turkmenistan
+Eron	Иран	Iran
+Iroq	Ирак	Iraq
+Suriya	Сирия	Syria
+Livan	Ливан	Lebanon
+Iordaniya	Иордания	Jordan
+Isroil	Израиль	Israel
+Falastin	Палестина	Palestine
+Saudiya Arabistoni	Саудовская Аравия	Saudi Arabia
+BAA	ОАЭ	UAE
+Qatar	Катар	Qatar
+Quvayt	Кувейт	Kuwait
+Bahrayn	Бахрейн	Bahrain
+Ummon	Оман	Oman
+Yaman	Йемен	Yemen
+Misr	Египет	Egypt
+Rossiya	Россия	Russia
+Ukraina	Украина	Ukraine
+Belarus	Беларусь	Belarus
+Turkiya	Турция	Turkey
+Arab davlatlari	Арабские страны	Arab countries
+O'zbekiston	Узбекистан	Uzbekistan

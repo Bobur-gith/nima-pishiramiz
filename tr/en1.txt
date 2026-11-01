@@ -1,0 +1,821 @@
+435	Feijoada
+440	Brigadeiro
+468	Ceviche
+544	Pavlova
+602	Kabuli palaw
+678	Buuz
+679	Khuushuur
+680	Tsuivan
+681	Khorkhog
+682	Guriltai shul
+683	Boortsog
+684	Bansh
+685	Suutei tsai (milk tea)
+686	Aaruul (dried curds)
+687	Budaatai khuurga
+694	Pad thai
+695	Tom yum
+700	Som tam
+716	Pho bo
+717	Banh mi
+776	Nasi goreng
+816	Dushbara
+817	Qutab with herbs
+818	Qutab with meat
+819	Shah plov
+820	Piti
+821	Lula kebab
+822	Dolma (vine leaves)
+823	Dovga
+824	Saj ichi
+825	Kufta bozbash
+826	Tike kebab
+827	Lavangi
+828	Kuku
+829	Chighirtma
+830	Baku pakhlava
+831	Shekerbura
+832	Qogal
+833	Ovdukh
+834	Fish lavangi
+835	Vegetable plov
+836	Azerbaijani tea
+837	Sherbet
+838	Ayran (Azerbaijan)
+839	Stuffed eggplant dolma
+840	Qutab with pumpkin
+841	Chicken chighirtma
+842	Kyata
+843	Govurma
+844	Lentil soup (mercimek)
+845	Shepherd's salad
+846	Adjarian khachapuri
+847	Imeretian khachapuri
+848	Khinkali
+849	Chakhokhbili
+850	Kharcho
+851	Satsivi
+852	Mtsvadi
+853	Lobio
+854	Pkhali
+855	Eggplant rolls with walnuts
+856	Ojakhuri
+857	Chakapuli
+858	Chkmeruli
+859	Kuchmachi
+860	Elarji
+861	Ghomi
+862	Achma
+863	Mchadi
+864	Kubdari
+865	Lobiani
+866	Churchkhela
+867	Pelamushi
+868	Gozinaki
+869	Tkemali sauce
+870	Ajapsandali
+871	Shkmeruli
+872	Chikhirtma
+873	Tarkhun lemonade
+874	Georgian salad
+875	Chicken kharcho
+876	Tolma (vine leaves)
+877	Cabbage tolma
+878	Khorovats
+879	Khash
+880	Lavash
+881	Ghapama
+882	Ishli kufta
+883	Spas
+884	Kufta
+885	Zhingyalov hats
+886	Lahmajo
+887	Ajapsandal (Armenian)
+888	Armenian pilaf
+889	Basturma
+890	Sujuk
+891	Gata
+892	Armenian pakhlava
+893	Anoushabour
+894	Tan
+895	Armenian coffee
+896	Matsun
+897	Armenian vegetable salad
+898	Fruit lavash
+899	Etchmiadzin kufta
+900	Tjvjik
+901	Kololak
+902	Harissa porridge
+903	Ishkhan trout
+904	Cherry kompot
+905	Lavash with cheese
+906	Egg fried rice
+907	Kung pao chicken
+908	Tomato and egg stir-fry
+909	Jiaozi
+910	Mapo tofu
+911	Sweet and sour chicken
+912	Chow mein
+913	Peking duck (homemade)
+914	Wonton soup
+915	Baozi
+916	Hot and sour soup
+917	Dan dan noodles
+918	Char siu
+919	Spring rolls
+920	Vegetable stir-fry
+921	Beef with broccoli
+922	Guobaorou
+923	Lamian
+924	Zongzi
+925	Jianbing
+926	Congee
+927	Egg drop soup
+928	Cashew chicken
+929	Mantou
+930	Tangyuan
+931	Mooncakes
+932	Chinese green tea
+933	Bubble tea
+934	Smashed cucumber salad
+935	Chinese eggplant
+936	Kimchi
+937	Bibimbap
+938	Bulgogi
+939	Korean carrot salad
+940	Kuksi
+941	Tteokbokki
+942	Kimchi jjigae
+943	Japchae
+944	Gimbap
+945	Korean fried chicken
+946	Samgyeopsal
+947	Doenjang jjigae
+948	Pajeon
+949	Bibim guksu
+950	Galbi
+951	Kongnamul salad
+952	Miyeokguk
+953	Fish hoe
+954	Naengmyeon
+955	Samgyetang
+956	Hotteok
+957	Bingsu
+958	Sikhye
+959	Korean eggplant
+960	Korean-style cabbage
+961	Dubu jorim
+962	Kimchi fried rice
+963	Gyeran-jjim
+964	Barley tea (bori cha)
+965	Odeng
+966	Ramen
+967	Sushi rolls
+968	Onigiri
+969	Chicken teriyaki
+970	Tempura
+971	Miso soup
+972	Udon
+973	Yakitori
+974	Tonkatsu
+975	Katsu curry
+976	Okonomiyaki
+977	Gyoza
+978	Oyakodon
+979	Gyudon
+980	Soba
+981	Tamagoyaki
+982	Chahan
+983	Nikujaga
+984	Sashimi
+985	Takoyaki
+986	Japanese curry
+987	Edamame
+988	Karaage
+989	Mochi
+990	Dorayaki
+991	Matcha tea
+992	Matcha latte
+993	Unagi don
+994	Sunomono
+995	Shabu-shabu
+996	Butter chicken
+997	Dal
+998	Biryani
+999	Paneer tikka masala
+1000	Chana masala
+1001	Naan
+1002	Samosa
+1003	Tandoori chicken
+1004	Aloo gobi
+1005	Palak paneer
+1006	Rogan josh
+1007	Chicken tikka masala
+1008	Dosa
+1009	Idli
+1010	Pulao
+1011	Chapati
+1012	Raita
+1013	Pakora
+1014	Korma
+1015	Vindaloo
+1016	Vegetable curry
+1017	Khichdi
+1018	Gulab jamun
+1019	Kheer
+1020	Jalebi
+1021	Gajar halwa
+1022	Masala chai
+1023	Mango lassi
+1024	Salted lassi
+1025	Aloo paratha
+1026	Schnitzel
+1027	Apple strudel
+1028	German potato salad
+1029	Sausages with sauerkraut
+1030	Sauerbraten
+1031	Potato dumplings
+1032	Spätzle
+1033	Königsberger Klopse
+1034	Kartoffelpuffer
+1035	Kartoffelsuppe
+1036	Rouladen
+1037	Krautsalat
+1038	Pretzel
+1039	Bratwurst with potatoes
+1040	Eintopf
+1041	Erbsensuppe
+1042	Black Forest cake
+1043	Käsekuchen
+1044	Apfelkuchen
+1045	Streuselkuchen
+1046	Lebkuchen
+1047	Berliner
+1048	Kaiserschmarrn
+1049	Apfelschorle
+1050	Hot apple punch
+1051	Pfannkuchen
+1052	Chicken fricassee
+1053	Beetroot salad
+1054	Bratkartoffeln
+1055	Gulaschsuppe
+1056	Greek salad
+1057	Moussaka
+1058	Souvlaki
+1059	Gyros
+1060	Tzatziki
+1061	Spanakopita
+1062	Pastitsio
+1063	Dolmades
+1064	Avgolemono
+1065	Fasolada
+1066	Keftedes
+1067	Gemista
+1068	Stifado
+1069	Greek lemon potatoes
+1070	Tiropita
+1071	Stuffed pita
+1072	Fish plaki
+1073	Revithia
+1074	Horta
+1075	Kalamari
+1076	Greek yogurt with honey
+1077	Baklava (Greek)
+1078	Loukoumades
+1079	Galaktoboureko
+1080	Kourabiedes
+1081	Frappé
+1082	Greek coffee
+1083	Bulgur pilaf
+1084	Saganaki
+1085	Fakes (lentil soup)
+1086	Tacos
+1087	Burrito
+1088	Quesadilla
+1089	Guacamole
+1090	Enchiladas
+1091	Chili con carne
+1092	Fajitas
+1093	Pozole
+1094	Pico de gallo
+1095	Huevos rancheros
+1096	Tamales
+1097	Nachos
+1098	Mexican rice
+1099	Tortilla soup
+1100	Chilaquiles
+1101	Tostadas
+1102	Elote
+1103	Carnitas
+1104	Frijoles
+1105	Mushroom quesadilla
+1106	Sopa de fideo
+1107	Churros (Mexican)
+1108	Tres leches
+1109	Arroz con leche
+1110	Flan (Mexican)
+1111	Horchata (Mexican)
+1112	Agua fresca
+1113	Mexican hot chocolate
+1114	Albondigas soup
+1115	Calabacitas
+1116	Homemade burger
+1117	Pancakes
+1118	Mac and cheese
+1119	Fried chicken
+1120	BBQ ribs
+1121	Hot dog
+1122	Caesar salad
+1123	Coleslaw
+1124	Clam chowder
+1125	French fries
+1126	Meatloaf
+1127	Buffalo wings
+1128	Club sandwich
+1129	American omelette
+1130	Chili
+1131	Pulled chicken
+1132	Cornbread
+1133	Brownies
+1134	New York cheesecake
+1135	Apple pie
+1136	Chocolate chip cookies
+1137	Doughnuts
+1138	Banana bread
+1139	Muffins
+1140	Homemade lemonade
+1141	Milkshake
+1142	Iced tea
+1143	Smoothie
+1144	Waffles
+1145	Mashed potatoes with gravy
+1278	Pierogi
+1279	Bigos
+1280	Żurek
+1281	Gołąbki
+1322	Gulyás
+1338	Sarmale
+1339	Mămăligă
+1352	Mamaliga (Moldovan)
+1353	Plăcintă
+1354	Zeamă
+1355	Moldovan sarmale
+1356	Mititei
+1357	Răcitură
+1358	Ghiveci
+1359	Tochitură moldovenească
+1360	Vărzări
+1361	Cozonac (Moldovan)
+1362	Colaci
+1363	Plum kompot
+1364	Shopska salad
+1365	Banitsa
+1366	Tarator
+1367	Kavarma
+1368	Kebapche
+1369	Kyufte
+1370	Bulgarian moussaka
+1371	Lyutenitsa
+1372	Sirene po shopski
+1373	Gyuvech
+1374	Bob chorba
+1376	Mekitsa
+1377	Ayran (Bulgarian)
+1378	Ćevapi
+1379	Pljeskavica
+1380	Serbian sarma
+1382	Gibanica
+1383	Ajvar
+1384	Pasulj
+1386	Prebranac
+1387	Kajmak
+1388	Proja
+1389	Vanilice
+1390	Krofne
+1403	Burek
+1469	Swedish meatballs
+1514	Cepelinai
+1515	Šaltibarščiai
+1516	Kugelis
+1517	Kibinai
+1562	Carbonara
+1563	Pizza Margherita
+1564	Lasagna
+1565	Spaghetti bolognese
+1566	Mushroom risotto
+1567	Tiramisu
+1568	Minestrone
+1569	Penne arrabbiata
+1570	Cacio e pepe
+1571	Bruschetta
+1572	Caprese salad
+1573	Ossobuco
+1574	Gnocchi
+1575	Fettuccine Alfredo
+1576	Parmigiana
+1577	Calzone
+1578	Focaccia
+1579	Arancini
+1580	Pasta al pesto
+1581	Ravioli
+1582	Pasta with tomato sauce
+1583	Saltimbocca
+1584	Panna cotta
+1585	Cannoli
+1586	Gelato
+1587	Biscotti
+1588	Cappuccino
+1589	Limonata
+1590	Frittata
+1591	Pasta e ceci
+1592	French omelette
+1593	French onion soup
+1594	Crêpes
+1595	Quiche Lorraine
+1596	Ratatouille
+1597	Coq au vin
+1598	Beef bourguignon
+1599	Croque monsieur
+1600	French toast
+1601	Salade niçoise
+1602	Bouillabaisse
+1603	Gratin dauphinois
+1604	Vichyssoise
+1605	Cassoulet
+1606	Croissants
+1607	Baguette
+1608	Crème brûlée
+1609	Chocolate mousse
+1610	Tarte Tatin
+1611	Macarons
+1612	Éclairs
+1613	Madeleines
+1614	Profiteroles
+1615	Café au lait
+1616	Hot chocolate
+1617	Citron pressé
+1618	Chicken in cream sauce
+1619	Cream of vegetable soup
+1620	French-style baked meat
+1621	Liver pâté
+1622	Paella
+1623	Gazpacho
+1624	Spanish tortilla
+1625	Patatas bravas
+1626	Croquetas
+1627	Gambas al ajillo
+1628	Albóndigas
+1629	Pan con tomate
+1630	Fabada
+1631	Cocido
+1632	Salmorejo
+1633	Pisto
+1634	Empanada
+1635	Arroz negro
+1636	Garlic chicken
+1637	Huevos rotos
+1638	Pulpo a la gallega
+1639	Herb tortilla
+1640	Churros
+1641	Crema catalana
+1642	Flan
+1643	Torrijas
+1644	Tarta de Santiago
+1645	Polvorón
+1646	Horchata
+1647	Virgin sangria
+1648	Café con leche
+1649	Pimientos de Padrón
+1650	Ensalada mixta
+1651	Potaje
+1652	Beshbarmak
+1653	Baursak
+1654	Kuyrdak
+1655	Kazy
+1656	Sorpa
+1657	Kazakh manti
+1658	Kazakh samsa
+1659	Kespe
+1660	Shalgam salad
+1661	Kazakh plov
+1662	Lagman (Kazakh)
+1663	Asip
+1664	Kurt
+1665	Shubat
+1666	Kumis
+1667	Kazakh tea
+1668	Zhent
+1669	Chak-chak (Kazakh)
+1670	Lamb and potato stew
+1671	Tushpara
+1672	Nauryz kozhe
+1673	Kazakh shashlik
+1674	Irimshik
+1675	Balish
+1676	Potato pancakes (draniki)
+1677	Rice porridge
+1678	Salad with kurt
+1679	Chicken soup (tauyk sorpa)
+1680	Potato samsa
+1681	Kazakh milk tea
+1682	Ashlan-fu
+1683	Beshbarmak (Kyrgyz)
+1684	Kuurdak
+1685	Chuchuk
+1686	Boorsok
+1687	Gan-fan
+1688	Oromo
+1689	Kyrgyz plov
+1690	Lagman (Kyrgyz)
+1691	Shorpo
+1692	Kyrgyz manti
+1693	Kyrgyz samsa
+1694	Dymdama
+1695	Kesme
+1696	Mampar
+1697	Zharma
+1698	Maksym
+1699	Kymyz
+1700	Talkan
+1701	Kattama
+1702	Kyrgyz chuchvara
+1703	Tandyr nan
+1704	Kurut soup
+1705	Guiru lagman
+1706	Potato pirozhki
+1707	Chicken gan-fan
+1708	Kyrgyz rice pudding
+1709	Ak chai
+1710	Fried shorpo
+1711	Kyrgyz shashlik
+1712	Qurutob
+1713	Tajik plov
+1714	Sambusa
+1715	Shirchoy
+1716	Oshi burida
+1717	Tajik mantu
+1718	Shurbo
+1719	Tajik kabob
+1720	Fatir
+1721	Qurutob with meat
+1722	Tajik dimlama
+1723	Lagman (Tajik)
+1724	Mastoba
+1725	Kichiri
+1726	Chakka
+1727	Javzobob
+1728	Eggs with tomatoes
+1729	Shakarob
+1730	Halvoi tar
+1731	Nishollo
+1732	Sumalak (Tajik)
+1733	Kulcha
+1734	Ugro
+1735	Kalla-pocha
+1736	Bichak
+1737	Tajik pelmeni
+1738	Tajik kompot
+1739	Dugh
+1740	Tajik green tea
+1741	Pan-fried meat (kabobi tobagi)
+1742	Ichlekli
+1743	Turkmen plov
+1744	Dograma
+1745	Gutap
+1746	Gutap with meat
+1747	Unash
+1748	Chorba
+1749	Turkmen shashlik
+1750	Turkmen manti
+1751	Turkmen somsa
+1752	Pishme
+1753	Chekdirme
+1754	Ishlekli
+1755	Tamdyr bread
+1756	Dovga (Turkmen)
+1757	Potato chorba
+1758	Vegetable stew
+1759	Lamb shurpa
+1760	Turkmen lagman
+1761	Chal
+1762	Turkmen green tea
+1763	Black tea with milk
+1764	Turkmen halva
+1765	Potato somsa
+1766	Chicken chorba
+1767	Pumpkin somsa (Turkmen)
+1768	Turkmen rice pudding
+1769	Govurma (fried meat)
+1770	Turkmen dolma
+1771	Ayran (Turkmen)
+1920	Koshari
+1938	Pelmeni
+1939	Blini
+1940	Syrniki
+1941	Olivier salad
+1942	Okroshka
+1943	Shchi
+1944	Solyanka
+1945	Beef Stroganoff
+1946	Golubtsy
+1947	Kotlety
+1948	Mashed potatoes
+1949	Buckwheat with meat
+1950	Semolina porridge
+1951	Pirozhki
+1952	Vinegret
+1953	Herring under a fur coat
+1954	Ukha
+1955	Kulebyaka
+1956	Cherry vareniki
+1957	Medovik
+1958	Napoleon cake
+1959	Kissel
+1960	Mors
+1961	Homemade kvass
+1962	Draniki (Russian)
+1963	Navy-style pasta
+1964	Chicken noodle soup
+1965	Cottage cheese casserole
+1966	Oladyi
+1967	Chicken Kiev
+1968	Borscht
+1969	Potato varenyky
+1970	Cottage cheese varenyky
+1971	Halushky
+1972	Deruny
+1973	Kholodets
+1974	Chicken Kiev (Ukrainian)
+1975	Kapusniak
+1976	Hrechanyky
+1977	Banosh
+1978	Kruchenyky
+1979	Uzvar
+1980	Pampushky
+1981	Syrnyky (Ukrainian)
+1982	Kartoplianyky
+1983	Zrazy
+1984	Beetroot salad (Ukrainian)
+1985	Kulish
+1986	Nalysnyky
+1987	Kyiv cake
+1988	Poppy seed roll
+1989	Apple charlotte
+1990	Apple kompot
+1991	Kysil
+1992	Green borscht
+1993	Lazy varenyky
+1994	Chicken cutlets
+1995	Potatoes in sour cream
+1996	Liver fritters
+1997	Bograch
+1998	Draniki
+1999	Machanka
+2000	Kalduny
+2001	Potato babka
+2002	Klyotski
+2003	Kholodnik
+2004	Zrazy (Belarusian)
+2005	Pyachysta
+2006	Bulbyanka
+2007	Kalduny with meat
+2008	Verashchaka
+2009	Belarusian blini
+2010	Belarusian cutlets
+2011	Buckwheat porridge
+2012	Sour cabbage soup
+2013	Cabbage pirozhki
+2014	Blini with cottage cheese
+2015	Cranberry kissel
+2016	Kvass (Belarusian)
+2017	Kompot (Belarusian)
+2018	Potato cutlets
+2019	Green shchi
+2020	Potato blini
+2021	Hot honey drink
+2022	Mushroom soup
+2023	Lazanki
+2024	Apple charlotte (Belarusian)
+2025	Sochni
+2026	Fish cutlets
+2027	Kalduny in pots
+2028	Menemen
+2029	Mercimek soup
+2030	İskender kebab
+2031	Adana kebab
+2032	Homemade döner
+2033	Lahmacun
+2034	Pide
+2035	Köfte
+2036	İmam bayıldı
+2037	Karnıyarık
+2038	Turkish manti
+2039	Sigara böreği
+2040	Börek
+2041	Simit
+2042	Ezogelin soup
+2043	Kuru fasulye
+2044	Turkish pilaf
+2045	Shepherd's salad (çoban)
+2046	Cacık
+2047	Baklava
+2048	Künefe
+2049	Sütlaç
+2050	Turkish delight
+2051	Aşure
+2052	Revani
+2053	Turkish tea
+2054	Turkish coffee
+2055	Ayran
+2056	Gözleme
+2057	Tavuk şiş
+2058	Hummus
+2059	Falafel
+2060	Chicken shawarma
+2061	Kabsa
+2062	Mandi
+2063	Maqluba (Arab)
+2064	Tabbouleh (Arab)
+2065	Fattoush
+2066	Baba ghanoush
+2067	Shish tawook
+2068	Kibbeh
+2069	Ful medames (Arab)
+2070	Shakshuka
+2071	Koshari (Arab)
+2072	Molokhia
+2073	Mansaf (Arab)
+2074	Musakhan (Arab)
+2075	Manakish
+2076	Fatayer
+2077	Ouzi
+2078	Shorbat adas
+2079	Kunafa
+2080	Basbousa
+2081	Luqaimat (Arab)
+2082	Maamoul
+2083	Umm Ali (Arab)
+2084	Arabic coffee
+2085	Mint tea
+2086	Laban
+2087	Jallab
+2088	Tashkent plov
+2089	Samarkand plov
+2090	Fergana plov
+2091	Bukhara plov
+2092	Khorezm plov
+2093	Choyxona plov
+2094	Fried lagman
+2095	Lagman soup
+2096	Manti
+2097	Pumpkin manti
+2098	Chuchvara
+2099	Chuchvara soup
+2100	Tandoor samsa
+2101	Flaky samsa
+2102	Green samsa
+2103	Pumpkin samsa
+2104	Uzbek shashlik
+2105	Liver kebab
+2106	Lula kebab (Uzbek)
+2107	Norin
+2108	Dimlama
+2109	Qozon kabob
+2110	Tandir gosht
+2111	Jiz
+2112	Uzbek dolma
+2113	Mastava
+2114	Qaynatma shurpa
+2115	Fried shurpa
+2116	Mashkhurda
+2117	Mashkichiri
+2118	Khonim
+2119	Tukhum barak
+2120	Shivit oshi
+2121	Halim (Uzbek)
+2122	Shirguruch
+2123	Quymoq
+2124	Qatlama
+2125	Patir bread
+2126	Obi non
+2127	Achichuk salad
+2128	Tashkent salad
+2129	Chalop
+2130	Ayron
+2131	Uzbek green tea
+2132	Black tea with lemon
+2133	Fruit kompot
+2134	Chak-chak
+2135	Flour halva
+2136	Nisholda
+2137	Sumalak
+2138	Parvarda
+2139	Bugirsoq
+2140	Hasib
+2141	Qazi
+2142	Potato pirozhki (Uzbek)
+2143	Gumma
+2144	Ugra osh
+2145	Koza shurpa
+2146	Uzbek fried fish
+2147	Cucumber yogurt salad

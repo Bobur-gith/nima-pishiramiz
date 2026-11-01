@@ -1,0 +1,352 @@
+tovuq	курица	chicken
+piyoz	лук	onion
+limon	лимон	lemon
+zaytun	оливки	olives
+zanjabil	имбирь	ginger
+zafaron	шафран	saffron
+go'sht	мясо	meat
+o'rik	абрикос	apricot
+dolchin	корица	cinnamon
+asal	мёд	honey
+bodom	миндаль	almonds
+kuskus	кускус	couscous
+sabzi	морковь	carrot
+qovoqcha	кабачок	zucchini
+qovoq	тыква	pumpkin
+no'xat	нут	chickpeas
+karam	капуста	cabbage
+yasmiq	чечевица	lentils
+pomidor	помидор	tomato
+ko'kat	зелень	herbs
+un	мука	flour
+lavash	лаваш	flatbread
+tuxum	яйцо	egg
+shakar	сахар	sugar
+qiyma	фарш	minced meat
+zira	зира	cumin
+baqlajon	баклажан	eggplant
+sarimsoq	чеснок	garlic
+msemen	мсемен	msemen
+manka	манка	semolina
+sariyog'	сливочное масло	butter
+xamirturush	дрожжи	yeast
+qabartma	разрыхлитель	baking powder
+loviya	фасоль	beans
+mayiz	изюм	raisins
+ras el hanout	рас-эль-ханут	ras el hanout
+bodring	огурец	cucumber
+kunjut	кунжут	sesame
+vermishel	вермишель	vermicelli
+choy	чай	tea
+yalpiz	мята	mint
+baliq	рыба	fish
+yashil bug'doy	зелёная пшеница	freekeh
+lapsha	лапша	noodles
+sholg'om	репа	turnip
+no'xat uni	нутовая мука	chickpea flour
+bolgar qalampir	болгарский перец	bell pepper
+guruch	рис	rice
+xurmo	финики	dates
+harissa	харисса	harissa
+non	хлеб	bread
+sabzavot	овощи	vegetables
+pishloq	сыр	cheese
+kartoshka	картофель	potato
+arpa uni	ячменная мука	barley flour
+arpa yormasi	ячневая крупа	barley groats
+ichak	кишка (оболочка)	casing
+makaron	макароны	pasta
+yer yong'oq	арахис	peanuts
+yer yong'oq moyi	арахисовое масло	peanut oil
+jo'xori uni	мука сорго	sorghum flour
+bamya	бамия	okra
+qatiq	кефир / йогурт	yogurt
+karkade	каркаде	hibiscus
+jo'xori	сорго	sorghum
+sut	молоко	milk
+yer yong'oq pastasi	арахисовая паста	peanut butter
+teff uni	мука теф	teff flour
+berbere	бербере	berbere
+rozmarin	розмарин	rosemary
+mitmita	митмита	mitmita
+zarchava	куркума	turmeric
+injera	инджера	injera
+qahva doni	кофейные зёрна	coffee beans
+hil	кардамон	cardamom
+achchiq qalampir	острый перец	chili
+banan	банан	banana
+xamir	тесто	dough
+kraxmal	крахмал	starch
+makkajo'xori uni	кукурузная мука	cornmeal
+tuz	соль	salt
+makkajo'xori	кукуруза	corn
+laym	лайм	lime
+kashnich	кинза	cilantro
+yog'	растительное масло	oil
+kokos suti	кокосовое молоко	coconut milk
+ko'k no'xat	зелёный горошек	green peas
+ismaloq	шпинат	spinach
+ovqatbop banan	плантан	plantain
+chapati	чапати	chapati
+yer yong'oq sousi	арахисовый соус	peanut sauce
+chinnigul	гвоздика	cloves
+kassava bargi	листья маниоки	cassava leaves
+kassava uni	мука маниоки	cassava flour
+bug'doy	пшеница	wheat
+palma moyi	пальмовое масло	palm oil
+tomat pasta	томатная паста	tomato paste
+egusi urug'i	семена эгуси	egusi seeds
+yam	ямс	yam
+ziravor	специи	spices
+ananas	ананас	pineapple
+apelsin sharbati	апельсиновый сок	orange juice
+jigar	печень	liver
+kassava	маниок	cassava
+spagetti	спагетти	spaghetti
+xantal	горчица	mustard
+qahva	кофе	coffee
+murch	перец	pepper
+attieke	аттьеке	attiéké
+palma mevasi	плоды пальмы	palm fruit
+tariq uni	просяная мука	millet flour
+moringa bargi	листья моринги	moringa leaves
+tariq	просо	millet
+achchiq barg	горькие листья	bitterleaf
+krevetka	креветки	shrimp
+eru bargi	листья эру	eru leaves
+kokoyam	кокоям	cocoyam
+palma pastasi	пальмовая паста	palm nut paste
+atanga mevasi	плоды атанга	atanga fruit
+odika	одика	odika
+kolbasa	колбаса	sausage
+jute bargi	листья джута	jute leaves
+qisqichbaqa	краб	crab
+guruch uni	рисовая мука	rice flour
+shirin kartoshka bargi	листья батата	sweet potato leaves
+tuya suti	верблюжье молоко	camel milk
+dengiz chig'anoqlari	моллюски	shellfish
+papayya	папайя	papaya
+karri	карри	curry powder
+sirka	уксус	vinegar
+kashnich urug'i	семена кориандра	coriander seeds
+o'rik murabbosi	абрикосовый джем	apricot jam
+qaymoq	сливки	cream
+rooibos	ройбуш	rooibos
+orxideya ildizi	клубни орхидеи	orchid tubers
+yong'oq	орехи	nuts
+kokos	кокосовая стружка	coconut
+ko'k piyoz	зелёный лук	spring onion
+agar jelesi	желе агар	agar jelly
+vanil	ваниль	vanilla
+muskat	мускатный орех	nutmeg
+sakkizoyoq	осьминог	octopus
+pechene	печенье	biscuits
+shokolad	шоколад	chocolate
+zarang siropi	кленовый сироп	maple syrup
+soya sousi	соевый соус	soy sauce
+qovoq urug'i	тыквенные семечки	pumpkin seeds
+kurka	индейка	turkey
+recado	рекадо	recado
+tortilla	тортилья	tortilla
+smetana	сметана	sour cream
+avokado	авокадо	avocado
+dengiz chig'anog'i	моллюск (конх)	conch
+oyoq	ножки	trotters
+apelsin	апельсин	orange
+sgushenka	сгущёнка	condensed milk
+salat	салат	lettuce
+vetchina	ветчина	ham
+qalampirmunchoq	душистый перец	allspice
+akki	акки	ackee
+qo'ziqorin	грибы	mushrooms
+shirin kartoshka	батат	sweet potato
+guava	гуава	guava
+non mevasi	хлебное дерево	breadfruit
+ildizmevalar	корнеплоды	root vegetables
+kakao	какао	cocoa
+bulon	бульон	stock
+asai	асаи	açaí
+granola	гранола	granola
+gazli suv	газированная вода	sparkling water
+guarana	гуарана	guaraná
+petrushka	петрушка	parsley
+oregano	орегано	oregano
+dulce de leche	варёная сгущёнка	dulce de leche
+soda	сода	baking soda
+mate	мате	yerba mate
+mayonez	майонез	mayonnaise
+yurak	сердце	heart
+binafsha makkajo'xori	фиолетовая кукуруза	purple corn
+kinoa	киноа	quinoa
+makkajo'xori kraxmali	кукурузный крахмал	cornstarch
+vafli	вафли	wafers
+panela	панела	panela
+rezavor	ягоды	berries
+jele	желе	jelly
+binafsha makkajo'xori uni	мука фиолетовой кукурузы	purple corn flour
+sosiska	сосиски	sausages
+pomidor sousi	томатный соус	tomato sauce
+biskvit	бисквит	sponge cake
+beze	безе	meringue
+shaftoli	персик	peach
+kassareep	кассарип	cassareep
+tayer ildizi	таро	taro
+suli	овсяные хлопья	oats
+vegemite	веджимайт	Vegemite
+rangli sepma	цветная посыпка	sprinkles
+kivi	киви	kiwi
+muzqaymoq	мороженое	ice cream
+makkajo'xori yormasi	кукурузные хлопья	cornflakes
+tayer bargi	листья таро	taro leaves
+sago kraxmali	крахмал саго	sago starch
+tarvuz	арбуз	watermelon
+pulaka	пулака	pulaka
+pandan	пандан	pandan
+pista	фисташки	pistachios
+mosh	маш	mung beans
+qurt	курт	qurut
+qora sedana	чернушка	nigella seeds
+sut kukuni	сухое молоко	milk powder
+xantal urug'i	горчичные семена	mustard seeds
+puri	пури	puri
+tamarind	тамаринд	tamarind
+roti	роти	roti
+jaggery	джаггери	jaggery
+xantal moyi	горчичное масло	mustard oil
+karam bargi	капустные листья	cabbage leaves
+bambuk novdasi	побеги бамбука	bamboo shoots
+turp	редька	radish
+grechka lapsha	гречневая лапша	buckwheat noodles
+nok	груша	pear
+tofu	тофу	tofu
+guruch lapshasi	рисовая лапша	rice noodles
+soya o'simtasi	ростки сои	bean sprouts
+limon o'ti	лемонграсс	lemongrass
+galangal	галангал	galangal
+yashil karri pastasi	зелёная паста карри	green curry paste
+rayhon	базилик	basil
+qizil karri pastasi	красная паста карри	red curry paste
+bambuk	бамбук	bamboo shoots
+brokkoli	брокколи	broccoli
+panang pastasi	паста пананг	panang paste
+karri pastasi	паста карри	curry paste
+mango	манго	mango
+suyak	кости	bones
+anis	бадьян	star anise
+guruch qog'ozi	рисовая бумага	rice paper
+salat bargi	листья салата	lettuce leaves
+baliq sousi	рыбный соус	fish sauce
+kroeung pastasi	паста крёнг	kroeung paste
+choy bargi	чайные листья	tea leaves
+sambal	самбал	sambal
+laksa pastasi	паста лакса	laksa paste
+palma shakari	пальмовый сахар	palm sugar
+kalmar	кальмар	squid
+tempe	темпе	tempeh
+keluak	келуак	keluak nuts
+dafna bargi	лавровый лист	bay leaf
+muz	лёд	ice
+meva	фрукты	fruit
+nordon sous	кислый соус	sour sauce
+quruq meva	сухофрукты	dried fruit
+kashtan	каштаны	chestnuts
+dumba	курдюк	lamb fat
+uzum bargi	виноградные листья	vine leaves
+alcha pastasi	паста из алычи	sour plum paste
+murabbo	варенье	jam
+rayhon urug'i	семена базилика	basil seeds
+alcha	алыча	sour plums
+tkemali	ткемали	tkemali
+anor	гранат	pomegranate
+tarxun	тархун	tarragon
+uzum sharbati	виноградный сок	grape juice
+olxo'ri	слива	plums
+mol oyog'i	говяжьи ножки	beef trotters
+bulgur	булгур	bulgur
+paprika	паприка	paprika
+gilos	вишня	cherries
+achchiq sous	острый соус	hot sauce
+ketchup	кетчуп	ketchup
+o'rdak	утка	duck
+kunjut pastasi	тахини	tahini
+hoysin sousi	соус хойсин	hoisin sauce
+bambuk bargi	бамбуковые листья	bamboo leaves
+qiyom	сироп	syrup
+loviya pastasi	паста из бобов	bean paste
+tapioka	тапиока	tapioca pearls
+guruch tayoqchalari	рисовые палочки	rice cakes
+achchiq qalampir pastasi	паста кочхуджан	gochujang
+kimchi	кимчи	kimchi
+shisha lapsha	стеклянная лапша	glass noodles
+nori	нори	nori
+soya pastasi	соевая паста	soybean paste
+dengiz karami	морская капуста	seaweed
+solod	солод	malt
+arpa	ячмень	barley
+baliq pishirig'i	рыбные котлетки	fish cakes
+miso	мисо	miso
+udon lapsha	лапша удон	udon noodles
+soba lapsha	лапша соба	soba noodles
+vasabi	васаби	wasabi
+soya dukkagi	стручки эдамаме	edamame
+matcha	матча	matcha
+tvorog	творог	cottage cheese
+gulkaram	цветная капуста	cauliflower
+yasmiq uni	чечевичная мука	lentil flour
+olma	яблоко	apple
+olma sharbati	яблочный сок	apple juice
+lavlagi	свёкла	beetroot
+ukrop	укроп	dill
+makkajo'xori bargi	кукурузные листья	corn husks
+chips	чипсы	chips
+tovuq qanoti	куриные крылья	chicken wings
+maskarpone	маскарпоне	mascarpone
+buyrak	почки	kidney
+qulupnay	клубника	strawberries
+midiya	мидии	mussels
+zaytun moyi	оливковое масло	olive oil
+selderey	сельдерей	celery
+endiviya	эндивий	endive
+olma pyuresi	яблочное пюре	apple sauce
+ismaloq bargi	листья шпината	spinach leaves
+go'sht bulon	мясной бульон	meat stock
+mak	мак	poppy seeds
+achitqi	закваска	sourdough starter
+qorin	рубец	tripe
+grechka uni	гречневая мука	buckwheat flour
+javdar uni	ржаная мука	rye flour
+urug'lar	семена	seeds
+qora murch	чёрный перец	black pepper
+marsipan	марципан	marzipan
+kama uni	мука кама	kama flour
+jelatin	желатин	gelatin
+yong'oq uni	миндальная мука	almond flour
+yer bodomi	земляной миндаль	tiger nuts
+ot go'shti	конина	horse meat
+bie suti	кобылье молоко	mare's milk
+talqon	толокно	toasted grain flour
+kurt	курт	kurt
+bug'doy uni	пшеничная мука	wheat flour
+kurut	курут	qurut
+behi	айва	quince
+suzma	сузьма	strained yogurt
+qo'y kallasi	баранья голова	lamb's head
+oyoqlar	ножки	trotters
+anor siropi	гранатовый соус	pomegranate molasses
+zirk	барбарис	barberries
+anor sharbati	гранатовый сок	pomegranate juice
+rediska	редис	radishes
+sumax	сумах	sumac
+kadayif	кадаиф	kataifi
+zatar	заатар	za'atar
+atirgul suvi	розовая вода	rose water
+xurmo siropi	финиковый сироп	date syrup
+matsa uni	мацовая мука	matzo meal
+hulba	пажитник	fenugreek
+qahva po'stlog'i	кофейная шелуха	coffee husks
+molokhiya	мулухия	molokhia
+grechka	гречка	buckwheat
+shovul	щавель	sorrel
+shakar sharbati	сахарный сироп	sugar syrup
+xurmo qiyomi	финиковый сироп	date syrup
+bedana tuxumi	перепелиные яйца	quail eggs

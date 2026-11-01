@@ -1,0 +1,4315 @@
+0	Tovuqni ziravor va piyoz bilan qizartiring.
+1	Oz suv bilan tajinda 1 soat dimlang.
+2	Limon va zaytun qo'shing.
+3	Go'shtni ziravor bilan qizartiring.
+4	2 soat dimlang.
+5	O'rik va asal qo'shib bodom bilan torting.
+6	Go'sht va sabzavotdan sho'rva qiling.
+7	Kuskusni bug'da pishiring.
+8	Ustiga sabzavot va sho'rva quyib torting.
+9	Go'sht va dukkaklarni pomidor bilan qaynating.
+10	Ko'kat qo'shing.
+11	Un bilan quyuqlashtiring, xurmo bilan torting.
+12	Tovuqni ziravor bilan pishirib titing.
+13	Filo qatlamlariga tovuq, tuxum va bodom soling.
+14	Pishirib dolchinli shakar seping.
+15	Mayda kofta yasang.
+16	Pomidor sousida pishiring.
+17	Tuxum chaqib yopib pishiring.
+18	Baqlajonni qaynatib ezing.
+19	Pomidor bilan pishiring.
+20	Non bilan torting.
+21	Tovuqni yasmiq va ziravor bilan pishiring.
+22	Msemen bo'laklarini tovoqqa soling.
+23	Ustiga tovuq va sous quying.
+24	Xamir qiling.
+25	Yupqa yoyib kvadrat buklang.
+26	Tovada pishiring.
+27	Suyuq xamir qiling.
+28	Bir tomonini pishiring — ming teshik hosil bo'ladi.
+29	Asal-sariyog' bilan torting.
+30	Loviyani qaynatib ezing.
+31	Sarimsoq qo'shing.
+32	Zira va zaytun moyi bilan torting.
+33	Go'shtni ziravor bilan pishiring.
+34	Mayiz va asal qo'shing.
+35	Bodom bilan torting.
+36	Mayda kubik qiling.
+37	Limon va moy qo'shing.
+38	Torting.
+39	Xamirdan gul shakllar yasang.
+40	Qovuring.
+41	Asalga botirib kunjut seping.
+42	Sharcha qilib upa-shakarga belang.
+43	Yorilguncha pishiring.
+44	Vermishelni bug'da pishiring.
+45	Sariyog' qo'shing.
+46	Gumbaz qilib dolchin, shakar, bodom seping.
+47	Choyni yuving.
+48	Yalpiz va shakar bilan damlang.
+49	Balanddan quying.
+50	Baliqni maydalab kofta qiling.
+51	Sho'rva qiling.
+52	Birga torting.
+53	Yupqa non pishirib maydalang.
+54	Go'shtli sous qiling.
+55	Non ustiga quying.
+56	Go'sht va pomidorni qovuring.
+57	Bug'doy va suv qo'shing.
+58	Yalpiz bilan torting.
+59	Oq sousda tovuq pishiring.
+60	Lapshani bug'da pishiring.
+61	Pechda 40 daqiqa pishiring.
+62	Kesib harissa bilan torting.
+63	Yupqa xamir yoying.
+64	Sabzavot sousi soling.
+65	Kvadrat buklab pishiring.
+66	To'ldiring.
+67	Xurmoli xamir qiling.
+68	Romb kesib qovuring.
+69	Asalga botiring.
+70	Pishiring.
+71	Qiyom quying.
+72	Kesing.
+73	Sous qiling.
+74	Tuxum chaqing.
+75	Varaqqa tunets va tuxum soling.
+76	Uchburchak buklang.
+77	No'xat sho'rvasini qiling.
+78	Nonni kosaga soling.
+79	Sho'rva, harissa va tuxum qo'shing.
+80	Baliqli sho'rva qiling.
+81	Tuxum va plombani aralashtiring.
+82	Pechda pishiring.
+83	Sabzavotni kuydirib arching.
+84	Maydalang.
+85	Moy va tunets bilan torting.
+86	Sabzavotni qovuring.
+87	Tuxum bilan torting.
+88	Xamir oshiring.
+89	Halqa qilib qovuring.
+90	Shakar seping.
+91	Arpa xamirini qaynatib gumbaz qiling.
+92	Atrofiga quying.
+93	Go'shtni qovuring.
+94	Pomidor va yorma qo'shing.
+95	Plomba qiling.
+96	Ichakka to'ldiring.
+97	Qaynating.
+98	Achchiq pomidor sousida makaronni pishiring.
+99	Go'sht qo'shing.
+100	Quyuq bo'tqa qiling.
+101	Gumbaz qiling.
+102	Asal quyib torting.
+103	Kuchli qaynating.
+104	Ko'pirtirib quying.
+105	Yer yong'oq bilan iching.
+106	Loviyani ezing.
+107	Moy va pishloq qo'shing.
+108	Achitilgan suyuq xamir qiling.
+109	Yupqa pishiring.
+110	Sho'rva bilan torting.
+111	Go'sht va piyozni pishiring.
+112	Bamya qo'shing.
+113	Kisra bilan torting.
+114	Qalin non pishiring.
+115	Go'shtli sous quying.
+116	Baliqni ivitng.
+117	Sous qilib pishiring.
+118	Damlang.
+119	Shakar qo'shing.
+120	Sovuq iching.
+121	Achiting.
+122	Go'shtli sous bilan torting.
+123	Yer yong'oqni qovuring.
+124	Karamel bilan aralashtiring.
+125	Jo'xori sharchalarini qaynating.
+126	Sut va shakar qo'shing.
+127	Bamya va pomidor qo'shing.
+128	Yer yong'oq bilan quyuqlashtiring.
+129	Teff va suvni 3 kun achiting.
+130	Yupqa quying, bir tomonini pishiring.
+131	Barcha taomlar bilan torting.
+132	Piyozni yog'siz uzoq qovuring.
+133	Sariyog' va berbere qo'shing.
+134	Tovuq va tuxum bilan 1 soat dimlang.
+135	Go'shtni bo'laklang.
+136	Kuchli olovda piyoz bilan qovuring.
+137	Injera bilan torting.
+138	Piyozni qovuring.
+139	Suv va un qo'shib aralashtiring.
+140	Quyuq holda injera bilan torting.
+141	Berbere va yasmiq qo'shing.
+142	Sariyog'ni ziravor bilan eriting.
+143	Qiymaga qo'shing.
+144	Biroz qizdirib torting.
+145	Ko'katni qo'shing.
+146	Yumshaguncha dimlang.
+147	Sabzavot qo'shing.
+148	Dimlang.
+149	Sousni qovuring.
+150	Injera bo'laklarini qo'shing.
+151	Issiq torting.
+152	O'rtasini chuqur qiling.
+153	Ziravorli sariyog' quying.
+154	Donni qovuring.
+155	Maydalab jebenada qaynating.
+156	Uch marta quyib iching.
+157	Qatiqni qizdiring.
+158	Suzma oling.
+159	Achchiq taomlar bilan torting.
+160	Berbere va go'sht qo'shing.
+161	Tovuq va berbere qo'shing.
+162	Tuxum bilan dimlang.
+163	Un va suv qo'shing.
+164	Nonni maydalang.
+165	Ziravorli sariyog' bilan aralashtiring.
+166	Qatiq bilan torting.
+167	Ezing.
+168	Guruch qo'shing.
+169	Achchiq sho'rva qaynating.
+170	Asal bilan torting.
+171	Xamirga botiring.
+172	Sut qo'shing.
+173	Iching.
+174	Go'shtni ziravorlab pishiring.
+175	Mayiz bilan torting.
+176	Sariyog' va shakar bilan torting.
+177	Mayda kubik qilib qovuring.
+178	Uchburchak o'rang.
+179	Doim aralashtirib pishiring.
+180	Quyuqlashtiring.
+181	Ziravor bilan qaynating.
+182	Yassi qilib pishiring.
+183	Qaynoq suvga unni soling.
+184	Qattiq aralashtirib quyuq qiling.
+185	Sukuma va go'sht bilan torting.
+186	Go'shtni tuzlang.
+187	Cho'g'da sekin pishiring.
+188	Kachumbari bilan torting.
+189	Piyoz va pomidorni qovuring.
+190	Ugali bilan torting.
+191	Makkajo'xori va loviyani pishiring.
+192	Piyoz va pomidor bilan qovuring.
+193	Mayda to'g'rang.
+194	Laym qo'shing.
+195	Yumshoq xamir qiling.
+196	Spiral buklab yoying.
+197	Go'sht va ziravorni qovuring.
+198	Uchburchak kesib qovuring.
+199	Choy bilan torting.
+200	Hammasini qaynating.
+201	Go'sht bilan torting.
+202	Sutda qaynating.
+203	Bananlarni arching.
+204	Sous bilan dimlang.
+205	Ezib torting.
+206	Sabzavotli omlet pishiring.
+207	Chapatiga o'rang.
+208	Tovuq va sousni banan bargiga o'rang.
+209	Bug'da 1,5 soat pishiring.
+210	Loviyani pishiring.
+211	Posho qiling.
+212	Yer yong'oqni maydalang.
+213	Suv bilan qaynating.
+214	Go'shtni pishiring.
+215	Banan qo'shing.
+216	Quyuq qiling.
+217	Shakllang.
+218	Ziravorni qovuring.
+219	Go'sht va guruch qo'shing.
+220	Marinadlang.
+221	Sixga tering.
+222	Grilda pishiring.
+223	Kartoshka fri qiling.
+224	Ustiga tuxum quying.
+225	Omlet qilib torting.
+226	Banan va kokos qo'shing.
+227	Yupqa xamirga plomba soling.
+228	Konvert buklang.
+229	Tovada qovuring.
+230	Barglarni maydalab qaynating.
+231	Yer yong'oq pastasi qo'shing.
+232	Guruch bilan torting.
+233	Kartoshka bilan torting.
+234	Qovoqni qaynating.
+235	Loviya qo'shing.
+236	Qalampir qo'shing.
+237	Qozonda qatlamlang.
+238	Bug'doy va tovuqni uzoq pishiring.
+239	Sariyog' bilan torting.
+240	Aralashtiring.
+241	Baliqni qovuring.
+242	Pomidor va qalampirni maydalab quyuq sous qiling.
+243	Guruch va bulon qo'shing.
+244	Past olovda pishirib tovuq bilan torting.
+245	Palma moyida egusini qovuring.
+246	Bulon va ko'kat qo'shing, fufu bilan torting.
+247	Ziravorli yer yong'oq kukuniga go'shtni belang.
+248	Yamni qaynating.
+249	Yopishqoq bo'lguncha tuying.
+250	Qalampir sousini qiling.
+251	Go'sht va ko'kat qo'shing.
+252	Archilgan loviyani qalampir bilan maydalang.
+253	Qoliplarga quying.
+254	Bug'da 1 soat pishiring.
+255	Loviyani maydalab ko'pirtiring.
+256	Qoshiqda qovuring.
+257	Go'shtni ziravor bilan qaynating.
+258	Achchiq qiling.
+259	Palma moyini qizdiring.
+260	Qalampir pastasini qovuring.
+261	Go'sht qo'shib guruch bilan torting.
+262	Go'sht bulonini qiling.
+263	Maydalangan bamya qo'shing.
+264	Fufu bilan torting.
+265	Sharcha qilib qovuring.
+266	Mayda kubiklarga kesing.
+267	Tilimlang.
+268	Tuz seping.
+269	Suzing.
+270	Muz qo'shing.
+271	Guruchni pishiring.
+272	Sabzavot va jigar bilan qovuring.
+273	Kassava va bananni tuyib fufu qiling.
+274	Yer yong'oqli tovuq sho'rvasi qiling.
+275	Loviya va guruchni birga pishiring.
+276	Qo'shimchalar bilan torting.
+277	Shito sousi qo'shing.
+278	Kubik qilib ziravorlang.
+279	Yer yong'oq bilan torting.
+280	Achitilgan xamirdan banku qiling.
+281	Baliqni grilda pishiring.
+282	Achchiq sous bilan torting.
+283	Palma moyli sousga qo'shing.
+284	Qovurilgan banan bilan torting.
+285	Achitilgan xamirni bargga o'rang.
+286	2 soat qaynating.
+287	Baliq va sous bilan torting.
+288	Tovuq va sabzavotni qaynating.
+289	Sabzavotni maydalab qaytaring.
+290	Baliqni ko'kat pastasi bilan to'ldirib qovuring.
+291	Sabzavot va pomidor bilan sho'rva qiling.
+292	Guruchni sho'rvada pishiring.
+293	Tovuqni limon va piyozda marinadlang.
+294	Grilda qizartiring.
+295	Piyoz sousida dimlang.
+296	Yer yong'oq va pomidor sousida pishiring.
+297	Qatiq va shakar qo'shing.
+298	Sovuq torting.
+299	Yarim oy qiling.
+300	Qahvani murch bilan qovuring.
+301	Shakar bilan iching.
+302	Attiekeni bug'da isiting.
+303	Pomidor-piyoz salati bilan torting.
+304	Bananni kubik qilib qovuring.
+305	Achchiq sous qiling.
+306	Hammasini yopiq qozonga soling.
+307	Suv qo'shmasdan silkitib dimlang.
+308	Attieke bilan torting.
+309	Attieke bilan birga torting.
+310	Piyoz va qalampir seping.
+311	Tuying.
+312	Palma mevasidan sous qiling.
+313	Foutou bilan torting.
+314	Zanjabilni maydalab siqing.
+315	Shakar va limon qo'shing.
+316	Yer yong'oq sousi qo'shing.
+317	Bamya sousi bilan torting.
+318	Ko'katli sous qiling.
+319	Bug'da pishiring.
+320	Qatiq qo'shing.
+321	Siqing.
+322	Go'sht va sabzavotni pomidorda pishiring.
+323	Sous bilan torting.
+324	Ko'katni qaynating.
+325	Baliq va guruch qo'shing.
+326	Go'shtni quriting.
+327	Ziravorli pastaga botiring.
+328	Grilda tugating.
+329	Barg qo'shing.
+330	Tariq sharchalarini maydalang.
+331	Qatiq bilan aralashtiring.
+332	Yumshoq pishiring.
+333	Barglarni qaynatib achchig'ini chiqaring.
+334	Yer yong'oq pastasi bilan pishiring.
+335	Go'sht va krevetka qo'shing.
+336	Tovuqni qovuring.
+337	Sabzavot bilan dimlang.
+338	Qovurilgan banan qo'shing.
+339	Barglarni maydalang.
+340	Palma moyida pishiring.
+341	Loviyani maydalang.
+342	Palma moyi qo'shing.
+343	Bargga o'rab bug'da pishiring.
+344	Sariq sous qiling.
+345	Oshiring.
+346	Yer yong'oq qo'shing.
+347	Boule bilan torting.
+348	Sharchalar yasang.
+349	Sousda pishiring.
+350	Barglarni tuyib qaynating.
+351	Sous qo'shing.
+352	Palma pastasi bilan dimlang.
+353	Fufu yoki guruch bilan torting.
+354	Barglarni tuyib uzoq qaynating.
+355	Baliq va moy qo'shing.
+356	Baliqni ziravor bilan bargga o'rang.
+357	Cho'g'da pishiring.
+358	Achitilgan kassavani tuying.
+359	Bargga o'rang.
+360	Barglarni tuying.
+361	Yer yong'oq bilan pishiring.
+362	O'rang.
+363	Issiq suvda yumshating.
+364	Non bilan yeying.
+365	Baliqni soling.
+366	Odikani eriting.
+367	Go'sht bilan pishiring.
+368	Achchiq sho'rva qiling.
+369	Baliq soling.
+370	Baliq va sabzavotni qatlamlang.
+371	Palma moyi bilan dimlang.
+372	Funji bilan torting.
+373	Tuzlang.
+374	Ko'kat va pomidor qo'shing.
+375	Barglarni qaynating.
+376	Baliq qo'shing.
+377	Pomidorli bulonga un qo'shing.
+378	Tovuq bilan torting.
+379	Yer yong'oqni maydalab yog'ini siqing.
+380	Qizil xamir qiling.
+381	Qisqichbaqa soling.
+382	Sutni ivitib pishloq qiling.
+383	Yer yong'oq va pomidor qo'shing.
+384	Qizartiring.
+385	Barg sousini qiling.
+386	Guruch pishiring.
+387	Moy qo'shing.
+388	Go'sht va moy bilan uzoq pishiring.
+389	Bosib kesing.
+390	Palma pastasini qaynating.
+391	Baliq va sabzavotni pishiring.
+392	Ziravorli sariyog' surting.
+393	Sekin olovda pishiring.
+394	Bug'lang.
+395	Uch marta damlang.
+396	Ko'pirtiring.
+397	Sovuting.
+398	Quying.
+399	Makkajo'xori va loviyani ivitng.
+400	Go'sht bilan 2,5 soat pishiring.
+401	Ertasiga qovurib tuxum bilan torting.
+402	Achchiq baliq soling.
+403	Pishloq bilan torting.
+404	Qiymani piyoz, karri va mayiz bilan qovuring.
+405	Sutga ivitilgan non qo'shib qolipga soling.
+406	Tuxumli sut quyib 180°C da 35 daqiqa pishiring.
+407	Go'shtli karri pishiring.
+408	Non ichini o'ying.
+409	Karrini nonga to'ldiring.
+410	Kolbasani spiral holda cho'g'da pishiring.
+411	Piyoz sousi qiling.
+412	Pap bilan torting.
+413	Chakalaka bilan torting.
+414	Karri va loviya qo'shing.
+415	15 daqiqa dimlang.
+416	Go'shtni cho'yan qozonda qizartiring.
+417	Sabzavotlarni qatlam qilib tering.
+418	Aralashtirmasdan 2,5 soat pishiring.
+419	Go'shtni sirka va ziravorda marinadlang.
+420	Osib 5 kun quriting.
+421	Yupqa tilimlab torting.
+422	Karrili marinadda ushlang.
+423	O'rik bilan sixga tering.
+424	Qiyma to'ldiring.
+425	Xamirni pishiring.
+426	Sutli krem qaynatib quying.
+427	Sovutib dolchin seping.
+428	Xamirni o'rim qiling.
+429	Muzli qiyomga botiring.
+430	Xamir qilib pishiring.
+431	Issiq qaymoqli sous quying.
+432	Past haroratda bir kecha quriting.
+433	5 daqiqa kuting.
+434	Sut yoki limon bilan iching.
+435	Go'shtni mayda to'g'rab grilda pishiring.
+436	Ziravorli tuz seping.
+437	Salsa bilan torting.
+438	Dimlama bilan torting.
+439	Qatlamlang.
+440	Sekin pishiring.
+441	Quriting.
+442	Go'shtni tuzli suvda 3 soat qaynating.
+443	Tolalarga ajrating.
+444	Birga pishiring.
+445	Nyama bilan torting.
+446	Ko'katni pishiring.
+447	Sadza bilan torting.
+448	Bo'tqa qiling.
+449	Ifisashi bilan torting.
+450	Yer yong'oqli sous qiling.
+451	Baliqni yuving.
+452	Sous bilan pishiring.
+453	Nshima bilan torting.
+454	Ildiz bilan achiting.
+455	Nsima bilan torting.
+456	Kokos sousi bilan torting.
+457	Yer yong'oq va kokos bilan pishiring.
+458	Pyure va yong'oqni aralashtiring.
+459	Qolipga soling.
+460	Palma moyi va sabzavot bilan dimlang.
+461	Garnirlarni tayyorlang.
+462	Qiyom qiling.
+463	Kokos va sarig' qo'shing.
+464	Sutni qaynating.
+465	Un qo'shing.
+466	Go'shtni qizartiring.
+467	Ko'kat va suv qo'shing.
+468	Uzoq qaynating.
+469	Maxsus qolipda pishiring.
+470	To'g'rang.
+471	Yasmiqni pishirib maydalang.
+472	Xamirga solib yupqa yoying.
+473	Tovada pishirib karri bilan torting.
+474	Kolbasa qo'shing.
+475	Yasmiqni ivitib maydalang.
+476	Sharcha qiling.
+477	Jele qiling.
+478	Sut bilan aralashtiring.
+479	Sariyog'da qovuring.
+480	Vanil va qaymoq qo'shing.
+481	Kokos bilan pishiring.
+482	Kokos qo'shing.
+483	Bananni kokos sutida pishiring.
+484	Sakkizoyoqni yumshating.
+485	Kokosli karrida pishiring.
+486	Qiring.
+487	Sariyog' va undan qo'ng'ir sous qiling.
+488	Fri ustiga pishloq va issiq sous quying.
+489	Qiymani ziravor bilan pishiring.
+490	Xamirga soling.
+491	200°C da 40 daqiqa pishiring.
+492	Xamirni qoliplarga bosing.
+493	Sariyog'-shakar plombasini quying.
+494	190°C da 18 daqiqa pishiring.
+495	Pechene-kokos asos qiling.
+496	Sariyog'li krem yoying.
+497	Shokolad quyib sovuting.
+498	Halqa qilib asalli suvda qaynating.
+499	Kunjut sepib pishiring.
+500	Go'shtni bug'da isiting.
+501	Nonga qalin soling.
+502	Xantal bilan torting.
+503	Yassi qiling.
+504	Quymoq pishiring.
+505	Tering.
+506	Sirop quying.
+507	Oval cho'zib qovuring.
+508	Dolchinli shakar seping.
+509	Issiq sirop-qaymoq ustiga soling.
+510	Yog'och taxtada grilda pishiring.
+511	Urug' va qalampirni qovurib maydalang.
+512	Pomidor bilan sous qiling.
+513	Tovuqni dimlang.
+514	Qizil achchiq sho'rva qiling.
+515	Kurkani pishiring.
+516	Tamal bilan torting.
+517	Xamir va sous qiling.
+518	Qalampirni to'ldiring.
+519	Tuxumga botirib qovuring.
+520	Pomidor sousi bilan torting.
+521	Banan pyuresiga loviya-shokolad soling.
+522	Sut bilan qaynating.
+523	Issiq iching.
+524	Guruch va kokos qo'shing.
+525	Kokosli baliq sho'rvasi qiling.
+526	Bananni tuying.
+527	Plomba soling.
+528	Tortillani isiting.
+529	Loviya, pishloq, smetana soling.
+530	Buklab torting.
+531	Bir likopchada torting.
+532	Kokosli sho'rva qiling.
+533	Chig'anoq qo'shing.
+534	Bananni tilimlab qovuring.
+535	Karam salati qiling.
+536	Xamirga pishloq va loviya soling.
+537	Tovada pishirib curtido bilan torting.
+538	Sirkada marinadlang.
+539	1 kun tindiring.
+540	Curtido bilan torting.
+541	Kunjut seping.
+542	Loviya va guruchni qo'shib qovuring.
+543	Kassavani qaynating.
+544	Bargda torting.
+545	Xamir va plomba qiling.
+546	4 soat qaynating.
+547	Go'shtni pishirib titing.
+548	Un bilan quyuqlashtiring.
+549	Biskvit pishiring.
+550	Sut shimdiring.
+551	Har birini alohida tayyorlang.
+552	Bir likopchaga tering.
+553	Go'shtni qaynating.
+554	Tovuqni pishiring.
+555	Zanjabilni qaynating.
+556	Tovuqni qaynating.
+557	Yam qo'shing.
+558	Ko'kat bilan torting.
+559	Bosib yassilang.
+560	Qayta qovuring.
+561	Kassava pyuresiga qiyma soling.
+562	Baliqni laymda marinadlang.
+563	Piyoz qo'shing.
+564	Go'shtni qaynatib titing.
+565	Sabzavotli sousda dimlang.
+566	Guruch va loviya bilan torting.
+567	Guruchni loviya suvida pishiring.
+568	Nonga qatlamlang.
+569	Bosib qizartiring.
+570	Qiymani qovuring.
+571	Sous va zaytun qo'shing.
+572	Bosing.
+573	Sarimsoqli sitrus sousi qiling.
+574	Ustiga quying.
+575	Espresso qiling.
+576	Shakar ko'pigini qo'shing.
+577	Karamel qiling.
+578	Aralashma quying.
+579	Ziravorli pasta qiling.
+580	Tovuqni bir kecha marinadlang.
+581	Grilda sekin pishiring.
+582	Baliqni tuzsizlantiring.
+583	Sabzavot bilan qovuring.
+584	Akki qo'shib ehtiyotkor aralashtiring.
+585	Qovurib karrida dimlang.
+586	Sariq xamir qiling.
+587	Achchiq qiyma soling.
+588	Uzunchoq qilib qovuring.
+589	Uzoq dimlang.
+590	Sitrusda marinadlang.
+591	Qaynatib so'ng qovuring.
+592	Pikliz bilan torting.
+593	Qo'ziqorin suvini oling.
+594	Guruchni shu suvda pishiring.
+595	Qovoqni pishirib ezing.
+596	Go'sht va sabzavot qo'shing.
+597	Makaron bilan torting.
+598	Sirkaga bosing.
+599	Guruch, loviya va go'shtni tayyorlang.
+600	Salat bilan torting.
+601	Bananni qaynatib ezing.
+602	Sirkali piyoz bilan torting.
+603	Pishloq va tuxum bilan yeying.
+604	Ildizmevalar qo'shing.
+605	Loviyani pishirib ezing.
+606	Kokos va shakar qo'shing.
+607	Sovuq sutga sharbatni sekin quying.
+608	Xamirga mayda masalliq qo'shing.
+609	Urib yupqalang.
+610	Belab qovuring.
+611	Xamirga guava o'rang.
+612	Bamyali makkajo'xori bo'tqasi qiling.
+613	Baliqni sousda pishiring.
+614	Shirin kartoshka pudingi qiling.
+615	Go'shtni laymda marinadlang.
+616	Sariq xamir lepeshkalarini qovuring.
+617	No'xat karrisini qiling.
+618	Ikki lepeshka orasiga soling.
+619	Karri qiling.
+620	Roti pishiring.
+621	O'rab torting.
+622	Shakarni karamellab tovuqni qizartiring.
+623	Guruch va loviya qo'shing.
+624	Non qovuring.
+625	Baliqni belab qovuring.
+626	Nonga soling.
+627	Hammasini qatlamlang.
+628	Kokos sutida suvi qochguncha pishiring.
+629	Krem qiling.
+630	Muskat qo'shing.
+631	Muzlating.
+632	Yumshating.
+633	Bananni qaynating.
+634	Baliqni sabzavot bilan qovuring.
+635	Non mevasini cho'g'da pishiring.
+636	Baliqni titing.
+637	Fungie qiling.
+638	Go'shtli pepperpot dimlang.
+639	Loviyani ivitib go'sht bilan 2,5 soat pishiring.
+640	Guruch, farofa va apelsin bilan torting.
+641	Sut va yog'ni qaynatib kraxmalga quying.
+642	Tuxum va pishloq qo'shing.
+643	Sharchalar yasab 180°C da 25 daqiqa pishiring.
+644	Sabzavot bilan qatlamlang.
+645	Kokos suti va moy bilan dimlang.
+646	Tovuqni titing.
+647	Bulonli xamirga o'rab tomchi shakl bering.
+648	Yog'li tomonini kesib tuzlang.
+649	Sixga taqib cho'g'da pishiring.
+650	Past olovda 12 daqiqa aralashtiring.
+651	Sharcha qilib shokoladga belang.
+652	Asai va bananni blenderlang.
+653	Kosaga soling.
+654	Granola va meva seping.
+655	Piyozni sariyog'da qovuring.
+656	Unni qo'shib qizartiring.
+657	Feijoada bilan torting.
+658	Kassavani pyure qiling.
+659	Krevetkani qovuring.
+660	Kokos bilan birlashtiring.
+661	Palma moyida qovuring.
+662	Krevetkali plomba bilan torting.
+663	Yoping.
+664	Sarimsoqli guruch qiling.
+665	Kassava pyuresi qiling.
+666	Go'sht bilan qatlamlang.
+667	Pishloq sepib pishiring.
+668	Nonni kokosda ivitng.
+669	Krevetka va yong'oq bilan pishiring.
+670	Quyuq holda torting.
+671	Suv hammomida pishiring.
+672	Laymni shakar bilan ezing.
+673	Muz va gazli suv qo'shing.
+674	Shakarli suvni qaynating.
+675	Qahvani filtrlang.
+676	Kichik finjonda iching.
+677	Cho'g'ni tayyorlang.
+678	Go'shtni sekin 2,5 soat pishiring.
+679	Chimichurri bilan torting.
+680	Moy va sirka qo'shing.
+681	Qiymani piyoz bilan pishiring.
+682	Xamirga solib chetini burang.
+683	Yupqalang.
+684	Belang.
+685	Hammasini 3 soat pishiring.
+686	Pishloqni grilda eriting.
+687	Oregano seping.
+688	Kolbasani grilda pishiring.
+689	Pechene pishiring.
+690	Juftlab dulce de leche bilan yopishtiring.
+691	Kokosga belang.
+692	Sutni shakar bilan past olovda aralashtiring.
+693	3 soat quyuqlashtiring.
+694	Go'shtga plomba yoying.
+695	Rulet qiling.
+696	Pishirib sovuq torting.
+697	Makkajo'xorini qiring.
+698	Piyoz va pishloq bilan pishiring.
+699	Kalabasaga mate soling.
+700	80°C suv quying.
+701	Bombilla bilan iching.
+702	Qatlamli xamir qiling.
+703	Yarim oy o'rang.
+704	Pishirib qiyom surting.
+705	Baliqni kubiklang.
+706	Laym sharbatida 10 daqiqa marinadlang.
+707	Piyoz va shirin kartoshka bilan torting.
+708	Go'shtni kuchli olovda qovuring.
+709	Sabzavot va soya qo'shing.
+710	Fri va guruch bilan torting.
+711	Nonli qalampir sousi qiling.
+712	Guruch va tuxum bilan torting.
+713	Kartoshka pyuresini laym bilan qiling.
+714	Tovuq va avokado bilan qatlamlang.
+715	Kartoshkani qaynating.
+716	Pishloqli sariq sous qiling.
+717	Ustiga quyib tuxum bilan torting.
+718	Pechda aylantirib pishiring.
+719	Fri bilan torting.
+720	Pishloq qo'ying.
+721	Kartoshka va guruch qo'shing.
+722	Kashnich bilan torting.
+723	Aralashtirib qovuring.
+724	Sutli krem qiling.
+725	Ustiga beze qo'ying.
+726	Dolchin seping.
+727	Pyure va undan xamir oshiring.
+728	Suzib shakar va laym qo'shing.
+729	Kinoani yuving.
+730	Sabzavot bilan qaynating.
+731	Pishloq qo'shing.
+732	Qiyma, kolbasa va bananni qovuring.
+733	Guruch, tuxum va avokado bilan katta likopchada torting.
+734	Yassi doira qiling.
+735	Tovada pishirib pishloq bilan torting.
+736	Tovuq va kartoshkani qaynating.
+737	Kartoshka erib quyuqlashsin.
+738	Qaymoq va kaper bilan torting.
+739	Kokos sutini karamellang.
+740	Sharcha yasang.
+741	Vafliga surting.
+742	Ikkinchi bilan yoping.
+743	Panelani suvda eriting.
+744	Limon qo'shing.
+745	Issiq yoki sovuq iching.
+746	Arepa pishiring.
+747	Tovuq-avokado salati qiling.
+748	Go'shtni titib dimlang.
+749	Loviya, guruch, banan tayyorlang.
+750	Makkajo'xorini maydalang.
+751	Pishloq bilan buklang.
+752	Pishloq tayoqchalarini xamirga o'rang.
+753	Panelani karamellang.
+754	Guruchni pishirib maydalang.
+755	Muz bilan iching.
+756	Kassava va baliqni qaynating.
+757	Marinadlangan piyoz qo'shing.
+758	Laym bilan torting.
+759	Krevetkani qaynating.
+760	Pomidorli laym sousiga soling.
+761	Pyure qiling.
+762	Pishloq solib yassi qiling.
+763	Kartoshkani qaynatib qisman ezing.
+764	Sut va pishloq qo'shing.
+765	Avokado bilan torting.
+766	Bananni qovurib ezing.
+767	Pishloq qo'shib sharcha qiling.
+768	Mevalarni qaynating.
+769	Sersuv plomba qilib sovuting.
+770	Xamirga o'rab chetini burang.
+771	Go'shtni yupqa urib qovuring.
+772	Guruch va kartoshka ustiga qo'ying.
+773	Tuxum va salat bilan torting.
+774	Go'shtli sho'rvaga qo'shing.
+775	Go'sht va kolbasani qovuring.
+776	Fri ustiga qo'ying.
+777	Tuxum va sabzavot bilan torting.
+778	Go'shtni guruch bilan pishiring.
+779	Tuxum va banan qo'shing.
+780	Pastel bilan iching.
+781	Makkajo'xori pyuresi bilan yoping.
+782	Shakar sepib pishiring.
+783	Pino plombasini qiling.
+784	Xamirga o'rang.
+785	Har kosaga bittadan torting.
+786	Sosiskani pishiring.
+787	Avokado va pomidor qo'shing.
+788	Doira kesing.
+789	O'rikni qaynating.
+790	Bug'doyni pishiring.
+791	Go'shtni yupqa qovuring.
+792	Qatlamlab nonga soling.
+793	Milanesa qiling.
+794	Sous va pishloq qo'ying.
+795	Pechda eriting.
+796	Doira yoying.
+797	Krem surting.
+798	Beze seping.
+799	Qayta to'ldiring.
+800	Qolipga quying.
+801	180°C da 45 daqiqa pishiring.
+802	Halqa shakllang.
+803	Uvoq qiling.
+804	Tovada bosib pishiring.
+805	Tovuq bulonini qiling.
+806	Sharchalar soling.
+807	Muzli suv bilan damlang.
+808	Go'shtni kassareep bilan 3 soat dimlang.
+809	Ziravor qo'shing.
+810	Hammasini birga pishiring.
+811	Ildizmevalarni kokosda pishiring.
+812	Tayer bilan qatlamlang.
+813	Qiymali sous qiling.
+814	Pishirib ketchup bilan torting.
+815	Beze yoying.
+816	120°C da 75 daqiqa pishiring.
+817	Qaymoq va meva bilan bezang.
+818	Biskvitni kubiklang.
+819	Shokoladga botiring.
+820	Doira qiling.
+821	Piyoz qovuring.
+822	Nonga o'rang.
+823	Nonni qizartiring.
+824	Sariyog' va yupqa vegemite surting.
+825	Limon seping.
+826	Sariyog' surting.
+827	Sepma seping.
+828	Uchburchak kesing.
+829	Mayin ko'pikli sut quying.
+830	Masalliqlarni savatga tering.
+831	Yer o'chog'ida (yoki pechda past haroratda) 4 soat pishiring.
+832	Beze pishiring.
+833	Qaymoq yoying.
+834	Kivi bilan bezang.
+835	Pishloq qo'shib xamirga soling.
+836	Tuxum va baliqni aralashtiring.
+837	Quymoq qilib qovuring.
+838	Limon bilan torting.
+839	Tayoqcha qiling.
+840	Sarimsoq va rozmarin suqing.
+841	180°C da 2 soat pishiring.
+842	Sabzavot bilan torting.
+843	Karamel qilib soda qo'shing.
+844	Sindiring.
+845	Muzqaymoqqa aralashtiring.
+846	Shokolad glazur va yong'oq qo'ying.
+847	Kokos suti qo'shing.
+848	Yer o'chog'ida pishiring.
+849	Barglarni kokosda pishiring.
+850	Tovuq qo'shing.
+851	Roti bilan torting.
+852	Kassavani qiring.
+853	Kokos bilan aralashtiring.
+854	Toshlarni qizdiring.
+855	Bargga o'ralgan masalliqlarni teng qatlamlang.
+856	3 soat pishiring.
+857	Kraxmalni namlang.
+858	Barglarga kokos suti soling.
+859	Lapsha va sous qo'shing.
+860	Kakao qo'shing.
+861	Barglarga go'sht va kokos soling.
+862	Tarvuzni qiring.
+863	Xamir sharchalarini qaynating.
+864	Karamel kokos sousi quying.
+865	Yamni qiring.
+866	Kokos va go'sht bilan bargga o'rang.
+867	Kassava xamiriga go'sht soling.
+868	Kokosda pishiring.
+869	Kokos bilan torting.
+870	Ildizni qaynating.
+871	Go'sht va piyozdan sho'rva qiling.
+872	Ustiga qovurilgan sabzi somonchasi, mayiz va bodom qo'yib dimlang.
+873	Qiyma va piyozni qovurib manti tuging.
+874	Bug'da 30 daqiqa pishiring.
+875	Sarimsoqli qatiq va yasmiq sousi bilan torting.
+876	Ko'k piyozni chuchvaraga soling.
+877	Qatiq va qiyma sousi bilan torting.
+878	Yupqa xamirga kartoshka plombasini soling.
+879	Piyozni to'q qovuring.
+880	Go'sht va pomidor qo'shing.
+881	Qatiq qo'shib dimlang.
+882	Qiymaga mayda sabzavot va ziravor qo'shing.
+883	Katta yassi kotlet yasang.
+884	Ko'p yog'da qovuring.
+885	Vermishelni sariyog'da qovuring.
+886	Sut va xurmo qo'shing.
+887	Yong'oq bilan torting.
+888	Guruch va moshni yopishqoq pishiring.
+889	Qurt sousi qiling.
+890	Qiyma bilan torting.
+891	Hil qo'shing.
+892	Pista bilan sovuq torting.
+893	Uzun yoyib naqsh soling.
+894	Baqlajonni qovuring.
+895	Pomidor sousida dimlang.
+896	Sarimsoqli qatiq bilan torting.
+897	Spiral qovuring.
+898	Qiyomga botiring.
+899	Tovuqni qatiq va ziravorda pishiring.
+900	Guruchni 70% qaynating.
+901	Qatlamlab dimlang.
+902	Go'shtni ziravor bilan 4 soat sekin pishiring.
+903	Zanjabil va limon bilan torting.
+904	Pomidor qo'shib suvini qochiring.
+905	Zanjabil va qalampir bilan torting.
+906	Hammasini uzoq pishiring.
+907	Qovurilgan piyoz va limon bilan torting.
+908	Qiymani qoring.
+909	Sixga uzun yopishtiring.
+910	Qoring.
+911	Dal pishiring.
+912	Xamirga kartoshka soling.
+913	Yoying.
+914	Ko'katni pishirib ezing.
+915	Sariyog' va makkajo'xori noni bilan torting.
+916	Botiring.
+917	Chatni bilan torting.
+918	Sharcha qovuring.
+919	Qiyomga soling.
+920	Sutda choyni qaynating.
+921	Ziravor seping.
+922	Xom go'shtni marinadlab qozon tagiga soling.
+923	Ustiga yarim pishgan guruch va kartoshka.
+924	Zich yopib 1,5 soat dimlang.
+925	Xantal pastasini qiling.
+926	Guruch va yasmiq qo'shing.
+927	Quyuq pishiring.
+928	Guruchni suvda bir kecha ivitng.
+929	Tuz va piyoz qo'shing.
+930	Qovurilgan baliq bilan torting.
+931	Go'shtni oz suvda pishiring.
+932	Kartoshka va no'xat plombasini qiling.
+933	Puri teshib to'ldiring.
+934	Nordon suv quyib yeying.
+935	Guruch bilan dimlang.
+936	Sutni quyuqlashtiring.
+937	Karamel shakar qo'shing.
+938	Achitib sovuting.
+939	Kokosli plomba soling.
+940	Sutdan paneer qiling.
+941	Sharchalarni qiyomda pishiring.
+942	Shirin sutga soling.
+943	Choy qaynating.
+944	Ziravor qovurib qo'shing.
+945	Tovuq karrisini pishiring.
+946	Dal qiling.
+947	Guruch va bir nechta karri bilan torting.
+948	Rotini kesing.
+949	Sabzavot, tovuq va tuxum bilan qovuring.
+950	Karri sousi qo'shib aralashtiring.
+951	Xamirni achiting.
+952	Chuqur tovada aylantirib pishiring.
+953	O'rtasiga tuxum chaqing.
+954	Qaynoq suv bilan xamir qiling.
+955	Ipdek siqib chiqaring.
+956	Hammasini ezib aralashtiring.
+957	Guruchni bulonda pishiring.
+958	Karri va qo'shimchalar bilan bargga o'rang.
+959	Pechda 30 daqiqa pishiring.
+960	Yasmiqni pishiring.
+961	Ziravor bilan torting.
+962	Bug'da 45 daqiqa pishiring.
+963	Kokos suti qo'shib quyuqlashtiring.
+964	Romb kesib torting.
+965	3 daqiqa kuting.
+966	Sabzavot karri va achar bilan torting.
+967	Qiymaga ziravor qo'shing.
+968	Burmali tuging.
+969	Bug'da 12 daqiqa pishiring, pomidor achari bilan torting.
+970	Bulon qiling.
+971	Sabzavot va lapsha qo'shing.
+972	Guruchni ivitib maydalang.
+973	Go'shtni grilda qizartiring.
+974	Bo'laklang.
+975	Ziravor va moy bilan aralashtiring.
+976	Ko'katni ivitng.
+977	Pomidor bilan qaynating.
+978	Suv qo'shing.
+979	Nordon sho'rva qiling.
+980	Shirin plomba soling.
+981	Sopol idishda achiting.
+982	Qalampirni suvda qaynating.
+983	Pishloq qo'shib eriting.
+984	Qizil guruch bilan torting.
+985	Qo'ziqorinni pishiring.
+986	Turp va qalampir qo'shing.
+987	Tovuqni mayda to'g'rang.
+988	Ziravor bilan pishiring.
+989	Tuging.
+990	Choyni qaynating.
+991	Sariyog' va tuz qo'shib chayqating.
+992	Baliqni tuzli suvda qaynating.
+993	Tiniq sho'rva qiling.
+994	Guruch, laym va qalampir bilan torting.
+995	Hammasini aralashtiring.
+996	Roshi non bilan torting.
+997	Yupqa yoying.
+998	Baliqni pishiring.
+999	Sharcha qilib xamirga o'rang.
+1000	Karam va tuxumni qovuring.
+1001	Kokos suti va shakar qo'shing.
+1002	Hil bilan torting.
+1003	Qiymaga piyoz va suv qo'shing.
+1004	Tepasi ochiq tuging.
+1005	Bug'da 20 daqiqa pishiring.
+1006	Qiyma soling.
+1007	Yarim oy qilib yassilang.
+1008	Lapsha qiling.
+1009	Go'sht va sabzavotni qovuring.
+1010	Lapshani bug'da birga pishiring.
+1011	Qozonga go'sht va sabzavot soling.
+1012	Qizigan toshlar qo'shing.
+1013	Yopib 1,5 soat pishiring.
+1014	Go'shtdan sho'rva qiling.
+1015	Lapsha kesing.
+1016	Kichik bo'laklarni qovuring.
+1017	Mitti chuchvara yasang.
+1018	Sutli choy yoki sho'rvada pishiring.
+1019	Choyni suvda qaynating.
+1020	Sut va tuz qo'shing.
+1021	Cho'mich bilan ko'pirtirib iching.
+1022	Qatiqdan suzma qiling.
+1023	Quyoshda quriting.
+1024	Sovuq go'sht bulonini qiling.
+1025	Lapshani yuvib sovuting.
+1026	Bulon, go'sht, tuxum va nok bilan torting.
+1027	Kam achchiq pasta surting.
+1028	Tofu qobig'ini yupqa qiling.
+1029	Guruch to'ldiring.
+1030	Achchiq sous quying.
+1031	Guruch ustiga quying.
+1032	Tovuq va qo'ziqorin qo'ying.
+1033	Katta tuging.
+1034	Kunjut-asal soling.
+1035	Lapshani ivitng.
+1036	Krevetka va tuxumni qovuring, lapsha va sous qo'shing.
+1037	O'simta, yer yong'oq va laym bilan torting.
+1038	Limon o'tli bulon qaynating.
+1039	Qo'ziqorin va krevetka soling.
+1040	Laym va baliq sousi bilan ta'mlang.
+1041	Kokos suti va galangalni qaynating.
+1042	Tovuq va qo'ziqorin qo'shing.
+1043	Pastani kokos sutida qovuring.
+1044	Tovuq va baqlajon qo'shing.
+1045	Rayhon bilan guruch ustida torting.
+1046	Pastani qovuring.
+1047	Go'sht va kokos suti qo'shing.
+1048	Go'shtni kokos sutida 1 soat pishiring.
+1049	Kartoshka va pasta qo'shing.
+1050	Papayyani somoncha qiling.
+1051	Sarimsoq va qalampirni ezing.
+1052	Laym va sous bilan aralashtiring.
+1053	Sarimsoq va qalampirni qovuring.
+1054	Qiyma va sous qo'shing.
+1055	Rayhon bilan, guruch va quymoq tuxum bilan torting.
+1056	Lapsha va tuxum qo'shing.
+1057	Qora soya bilan karamellang.
+1058	Qiymani oz suvda pishiring.
+1059	Laym va sous qo'shing.
+1060	Ko'kat va guruch kukuni bilan aralashtiring.
+1061	Tovuqni kokos va ziravorda marinadlang.
+1062	Sixga tering, grilda pishiring.
+1063	Yer yong'oq sousi bilan torting.
+1064	Tovuqni zanjabil bilan qaynating.
+1065	Soya-zanjabil sousi bilan torting.
+1066	Karri bulon qiling.
+1067	Lapsha va tovuq qo'shing.
+1068	Qarsildoq lapsha bilan torting.
+1069	Yopishqoq guruch bilan torting.
+1070	Baliqni maydalang.
+1071	Pasta va loviya qo'shing.
+1072	Yassi qilib qovuring.
+1073	Guruchni bug'da pishiring.
+1074	Shirin kokos suti bilan shimdiring.
+1075	Mango bilan torting.
+1076	Kuchli choy damlang.
+1077	Sgushenka qo'shing.
+1078	Muz va sut bilan iching.
+1079	Kraxmal sharchalarini pishiring.
+1080	Shirin kokos sutiga soling.
+1081	Muz bilan torting.
+1082	Lapsha soling.
+1083	Go'sht va o'simta bilan torting.
+1084	Kuydirilgan piyoz va zanjabil bilan suyakni 2,5 soat qaynating.
+1085	Lapshani kosaga soling, xom go'shtni yupqa qo'ying.
+1086	Qaynoq bulon quyib ko'kat va laym bilan torting.
+1087	Sabzi va turpni tez marinadlang.
+1088	Bagetga hammasini soling.
+1089	Qog'ozni namlang.
+1090	Lapsha, krevetka, ko'katni o'rang.
+1091	Kotletcha va go'shtni marinadlab grilda pishiring.
+1092	Shirin-nordon sous qiling.
+1093	Lapsha va ko'kat bilan torting.
+1094	Go'shtni marinadlab grilda pishiring.
+1095	Quymoq tuxum va sous bilan torting.
+1096	Limon o'tli achchiq bulon qaynating.
+1097	Lapsha bilan torting.
+1098	Shakarni karamellang.
+1099	Baliq va sous qo'shing.
+1100	Sopol idishda dimlang.
+1101	Sariq zirali xamir qiling.
+1102	Yupqa quymoq pishirib plomba soling.
+1103	Ko'kat bilan o'rab yeying.
+1104	Nordon bulon qiling.
+1105	Baliq va ananas qo'shing.
+1106	Go'shtni kubik qiling.
+1107	Juda qizigan tovada silkitib qovuring.
+1108	Filtrda qahva damlang.
+1109	Loviyalarni pishiring.
+1110	Kokos suti va muz bilan torting.
+1111	Mosh qo'shing.
+1112	Oz bulonli sous qiling.
+1113	Lapsha ustiga quying.
+1114	Qiymani pishiring.
+1115	Laym va ko'kat qo'shing.
+1116	Papayyani qiring.
+1117	Ezib aralashtiring.
+1118	Bir kecha ivitng.
+1119	Savatda bug'da 25 daqiqa pishiring.
+1120	Qo'l bilan yeying.
+1121	Go'sht va sabzavotni qaynating.
+1122	Yopishqoq guruch bilan quyuqlashtiring.
+1123	Qalin lapsha qo'shing.
+1124	Qovurilgan sarimsoq bilan torting.
+1125	Ziravorli qiyma qiling.
+1126	Bagetni kesing.
+1127	Pasta va kokos sutini aralashtiring.
+1128	Baliq va tuxum qo'shing.
+1129	Barg idishlarda bug'da 25 daqiqa pishiring.
+1130	Go'shtni marinadlab qovuring.
+1131	Salat ustiga qo'ying.
+1132	Laym-murch sousi bilan torting.
+1133	Go'shtni kokos va sarimsoqda marinadlang.
+1134	Go'sht va ko'kat bilan torting.
+1135	Sabzavot va suv qo'shing.
+1136	Baliq bilan pishiring.
+1137	Baliqli karri sho'rva qiling.
+1138	Yangi ko'kat bilan torting.
+1139	Guruchni kokosda aralashtiring.
+1140	Banan qo'yib bargga o'rang.
+1141	2 soat bug'da pishiring.
+1142	Baliqli bulon qiling.
+1143	Guruch uni bilan quyuqlashtiring.
+1144	Lapsha va qovurilgan piyoz bilan torting.
+1145	Karam va pomidorni to'g'rang.
+1146	Choy bargi qo'shing.
+1147	Qarsildoq dukkaklar bilan aralashtiring.
+1148	Tovuq va pomidor sousi qiling.
+1149	Lapsha bilan aralashtiring.
+1150	Kokosli tovuq sho'rvasi qiling.
+1151	Tuxum va qovurilgan piyoz bilan torting.
+1152	Ziravor pastasini qovuring.
+1153	Yog' ajralguncha dimlang.
+1154	Maxsus tovada pishiring.
+1155	Juftlab torting.
+1156	Jele va guruch tayyorlang.
+1157	Kuchli damlang.
+1158	Guruchni kokos sutida pishiring.
+1159	Qaynatilgan tuxum va yer yong'oq tayyorlang.
+1160	Sambal bilan torting.
+1161	3 soat quruq holgacha pishiring.
+1162	Kuchli olovda qovuring.
+1163	Soya sousi qo'shing.
+1164	Kokos suti va bulon qo'shing.
+1165	Lapsha va krevetka bilan torting.
+1166	Xamir qorib tindiring.
+1167	Juda yupqa cho'zib buklang.
+1168	Tovada pishirib dal bilan torting.
+1169	Sambal qo'shing.
+1170	Quymoq tuxum bilan torting.
+1171	Pomidorli achchiq sous qiling.
+1172	Yashil jele chiviqlar qiling.
+1173	Kokos suti va siropga soling.
+1174	Balanddan quyib ko'pirtiring.
+1175	Rangli xamirni qatlam-qatlam bug'da pishiring.
+1176	Kesib torting.
+1177	Tovuqni sekin qaynatib muzli suvga soling.
+1178	Guruchni bulon va sarimsoqda pishiring.
+1179	Uch xil sous bilan torting.
+1180	Qisqichbaqani qovuring.
+1181	Shirin-achchiq pomidor sousi qiling.
+1182	Tuxum quyib bulochka bilan torting.
+1183	Lapsha qo'shing.
+1184	Kaya murabbosini bug'da pishiring.
+1185	Kaya va sariyog' bilan, yumshoq tuxum bilan torting.
+1186	Sarimsoq va murch bilan 2 soat qaynating.
+1187	Choy bilan iching.
+1188	Bulonda qovuring.
+1189	Dengiz mahsulotlarini qo'shing.
+1190	Lapshani pishiring.
+1191	Ustiga sabzavot va kalmar qo'ying.
+1192	Yer yong'oq sousi quying.
+1193	Piyoz va sarimsoqni qovuring.
+1194	Guruch va shirin soya qo'shing.
+1195	Quymoq tuxum va krupuk bilan torting.
+1196	Pasta qovuring.
+1197	Kokos suti bilan 3 soat pishiring.
+1198	Quruq holda torting.
+1199	Sabzavotlarni qaynating.
+1200	Yer yong'oq sousi qiling.
+1201	Ustiga quyib torting.
+1202	Sariq ziravorli tovuq bulonini qiling.
+1203	Lapsha va tuxum bilan torting.
+1204	Laym seping.
+1205	Qovurilgan piyoz bilan torting.
+1206	Mayin qiyma va kraxmaldan sharchalar yasang.
+1207	Bulonda pishiring.
+1208	Tovuqni ziravorli suvda qaynating.
+1209	Kokos sutida pishiring.
+1210	Tovuq va tuxum bilan torting.
+1211	Ziravorli suvga botiring.
+1212	Qora ziravor pastasi qiling.
+1213	Go'sht bilan 2 soat pishiring.
+1214	Qalin quymoq pishiring.
+1215	Shokolad va yong'oq seping.
+1216	Buklab kesing.
+1217	Xamirga shakar soling.
+1218	Kokos va siropga soling.
+1219	Ichiga tuxum solib qaynating.
+1220	Qovurib nordon sous bilan torting.
+1221	Hammasini qozonga soling.
+1222	40 daqiqa dimlang.
+1223	Sousni quyuqlashtirib guruch bilan torting.
+1224	Go'shtni pomidor bilan qaynating.
+1225	Tamarind qo'shing.
+1226	Sabzavotlar bilan nordon sho'rva qiling.
+1227	Ingichka o'rang.
+1228	Tovuq va sabzavotni qovuring.
+1229	Lapsha va bulon qo'shing.
+1230	Kalamansi bilan torting.
+1231	Go'shtni 2 soat qaynating.
+1232	Sabzavot qo'shib torting.
+1233	Zanjabilni qovuring.
+1234	Tovuq va suv qo'shing.
+1235	Sabzavot bilan pishiring.
+1236	Tovuq va zanjabilni qovuring.
+1237	Guruch va suv qo'shing.
+1238	Bo'tqa qilib tuxum bilan torting.
+1239	Pomidor sousida 1,5 soat dimlang.
+1240	Piyoz halqalari bilan torting.
+1241	Stakanga shirin masalliqlar soling.
+1242	Sut va muzqaymoq bilan torting.
+1243	Aralashmani quying.
+1244	Bug'da 40 daqiqa pishiring.
+1245	Bargli qolipda pishiring.
+1246	Bananni o'rang.
+1247	Karamellang.
+1248	Kraxmalga qaynoq suv quyib yopishqoq qiling.
+1249	Bambuk cho'p bilan o'rang.
+1250	Nordon sousga botirib yeying.
+1251	Guruchni kokos bilan aralashtiring.
+1252	Uzoq pishiring.
+1253	Kichik pishiriqlar yasang.
+1254	Baliqni marinadlang.
+1255	Makkajo'xori va moshni pishiring.
+1256	Qovoq qo'shing.
+1257	Go'shtni ziravorlang.
+1258	Bambukka solib olovda pishiring.
+1259	Xamirni juda yupqa yoyib 2x2 sm kesing.
+1260	Qiymaga mayda piyoz va tuz qo'shing.
+1261	No'xatdek qiyma solib mitti chuchvara tuging.
+1262	Go'sht sho'rvasida 5 daqiqa qaynating, yalpiz seping.
+1263	Yumshoq xamir qorib yupqa doira yoying.
+1264	Yarmiga tuzlangan ko'kat qo'ying.
+1265	Yarim oy qilib yoping.
+1266	Quruq tovada 2 daqiqa pishirib sariyog' surting.
+1267	Xamir yoying.
+1268	Qiymani yupqa yoying.
+1269	Guruchni yarim pishguncha qaynating.
+1270	Go'sht, quruq meva va kashtanni qovuring.
+1271	Qozonga sariyog'li lavash yoying, guruch va go'shtni soling.
+1272	Lavash bilan yopib, pechda 1 soat pishiring.
+1273	No'xatni ivitib qo'ying.
+1274	Hammasini sopol idishga soling.
+1275	Pechda 3 soat sekin pishiring.
+1276	Nonni kosaga to'g'rab, sho'rva bilan torting.
+1277	Qiymaga mayda piyoz va dumba qo'shing.
+1278	Qattiq qorib sovuting.
+1279	Sixga yopishtiring.
+1280	Cho'g'da 10 daqiqa pishiring.
+1281	Barglarni yumshating.
+1282	Qiyma va guruchni aralashtiring.
+1283	O'rab qozonga tering.
+1284	50 daqiqa past olovda pishiring, qatiq bilan torting.
+1285	Qatiq, tuxum va guruchni aralashtiring.
+1286	Doim aralashtirib qaynating.
+1287	Issiq yoki sovuq torting.
+1288	Sabzavotlarni alohida qovuring.
+1289	Hammasini sajda yoki tovada birga qizdiring.
+1290	Lavash bilan torting.
+1291	No'xatni qaynating.
+1292	Qiyma va guruchdan katta frikadelka yasang.
+1293	Sho'rvaga kartoshka bilan soling.
+1294	30 daqiqa pishiring.
+1295	Yong'oq, piyoz va alcha pastasini aralashtiring.
+1296	Tovuq ichiga to'ldiring.
+1297	Ustiga ham surting.
+1298	180°C da 1 soat pishiring.
+1299	Ko'katni mayda to'g'rang.
+1300	Tuxum bilan aralashtiring.
+1301	Tovada yopib past olovda pishiring.
+1302	Ag'darib qizartiring.
+1303	Piyoz va pomidor qo'shing.
+1304	Yopib pishiring.
+1305	Yupqa qatlamlar yoyib, orasiga yong'oq-shakar seping.
+1306	Romb kesib, har biriga yong'oq qo'ying.
+1307	180°C da 50 daqiqa pishiring.
+1308	Asal qiyomi quying.
+1309	Xamir qoring.
+1310	Yong'oq va shakarni maydalang.
+1311	Yarim oy qilib, chekich bilan naqsh soling.
+1312	180°C da 20 daqiqa pishiring.
+1313	Qatlamlarga sariyog' surting.
+1314	Kichik dumaloq qilib.
+1315	Pechda 25 daqiqa pishiring.
+1316	Bodring va tuxumni to'g'rang.
+1317	Qatiq va suv bilan aralashtiring.
+1318	Plomba tayyorlang.
+1319	Baliq ichiga to'ldiring.
+1320	Folgaga o'rang.
+1321	Guruchni qaynating.
+1322	Sabzavot va mayizni sariyog'da qovuring.
+1323	Guruch bilan qatlam qiling.
+1324	30 daqiqa dimlang.
+1325	Choynakni isiting.
+1326	Qora choy damlang.
+1327	Armudu stakanda torting.
+1328	Murabbo bilan iching.
+1329	Shakarni suvda eriting.
+1330	Qatiqni suv bilan aralashtiring.
+1331	Baqlajon ichini o'ying.
+1332	Pomidor bilan qozonga tering.
+1333	45 daqiqa dimlang.
+1334	Qovoqni dimlab ezing.
+1335	Qovoq soling.
+1336	Sariyog'-shakar uvog'i soling.
+1337	O'rab kesing.
+1338	Go'shtni o'z yog'ida qovuring.
+1339	Alcha qo'shib dimlang.
+1340	Plov bilan torting.
+1341	Sabzavotlarni qovuring.
+1342	Yasmiq va suv qo'shing.
+1343	25 daqiqa qaynating.
+1344	Blenderda silliq qiling.
+1345	Sabzavotlarni kubik qiling.
+1346	Yog' va tuz bilan aralashtiring.
+1347	Xamir qorib 1 soat oshiring.
+1348	Qayiq shaklida yoyib o'rtasiga pishloq soling.
+1349	220°C da 15 daqiqa pishiring, o'rtasiga tuxum chaqib 3 daqiqa qo'shimcha pishiring.
+1350	Sariyog' qo'yib aralashtirib yeying.
+1351	Qatiq, soda, undan yumshoq xamir qoring.
+1352	Doira yoyib o'rtasiga pishloq soling.
+1353	Yopib qayta yassi qiling.
+1354	Tovada har tomonini 5 daqiqa pishiring.
+1355	Qattiq xamir qorib 30 daqiqa tindiring.
+1356	Qiymaga piyoz, ko'kat, ziravor va 150 ml suv qo'shing.
+1357	Doira yoyib qiyma solib, burma qilib yig'ing.
+1358	Qaynoq suvda 12 daqiqa pishiring.
+1359	Tovuqni o'z yog'ida 10 daqiqa qizartiring.
+1360	Piyoz qo'shib qovuring.
+1361	Pomidorni ezib qo'shing, 30 daqiqa dimlang.
+1362	Sarimsoq va ko'kat qo'shing.
+1363	Go'shtdan sho'rva qaynating.
+1364	Guruch soling.
+1365	Piyoz, pomidor, tkemali qo'shing.
+1366	Yong'oq, sarimsoq, ko'kat bilan torting.
+1367	Tovuqni qaynatib qovuring.
+1368	Yong'oq, sarimsoq va sho'rvadan quyuq sous qiling.
+1369	Tovuqni sousga soling.
+1370	Sovuq holda torting.
+1371	Go'shtni piyoz bilan marinadlang.
+1372	Piyoz va anor bilan torting.
+1373	Loviyani ivitib 1 soat qaynating.
+1374	Loviyani ezib, yong'oq, sarimsoq qo'shing.
+1375	Ismaloqni qaynatib siqing.
+1376	Yong'oq va sarimsoq bilan maydalang.
+1377	Anor donasi bilan bezang.
+1378	Baqlajonni uzunasiga yupqa kesib qovuring.
+1379	Yong'oq pastasini tayyorlang.
+1380	Baqlajonga surtib o'rang.
+1381	Anor bilan bezang.
+1382	Kartoshkani alohida qovuring.
+1383	Piyoz bilan birlashtiring.
+1384	Ko'kat seping.
+1385	Go'shtni tarxun va ko'k piyoz bilan qozonga soling.
+1386	Tkemali qo'shing.
+1387	Past olovda 1 soat dimlang.
+1388	Tovuqni yassi qilib qovuring.
+1389	Sarimsoq, sut va qaymoqdan sous qiling.
+1390	Tovuqni sousda 20 daqiqa pishiring.
+1391	Jigarni qaynatib to'g'rang.
+1392	Piyoz bilan qovuring.
+1393	Yong'oq qo'shing.
+1394	Unni suvda quyuq qaynating.
+1395	Pishloqni qo'shib cho'zilguncha aralashtiring.
+1396	Sharchalar qiling.
+1397	Unni suvda qaynatib quyuq bo'tqa qiling.
+1398	Yaxshilab ezing.
+1399	Lobio bilan iste'mol qiling.
+1400	Xamirdan yupqa varaqlar qilib qaynating.
+1401	Qatlam-qatlam pishloq va sariyog' bilan tering.
+1402	Ustini xom varaq bilan yoping.
+1403	180°C da 30 daqiqa pishiring.
+1404	Unni tuz va iliq suv bilan qoring.
+1405	Yassi lepeshka yasang.
+1406	Go'shtni mayda to'g'rab ziravor qo'shing.
+1407	Yassi pirog qiling.
+1408	Yong'oqni ipga tizing.
+1409	Sharbatni un bilan quyuq qaynating.
+1410	Ipni bir necha marta botiring.
+1411	1 hafta quriting.
+1412	Sharbatni qaynating.
+1413	Unni qo'shib quyuqlashtiring.
+1414	Sovutib yong'oq seping.
+1415	Yong'oqni qovuring.
+1416	Asalni qaynating.
+1417	Yong'oqni qo'shing.
+1418	Yassi qilib kesing.
+1419	Olxo'rini qaynatib ezing.
+1420	10 daqiqa qaynating.
+1421	Sabzavotlarni bo'laklang.
+1422	Qovurib qatlam qiling.
+1423	Sarimsoqli sut quying.
+1424	Tovuqdan sho'rva qiling.
+1425	Piyozni un bilan qovuring.
+1426	Tuxumni sirka bilan aralashtirib quying.
+1427	Tarxunni shakar bilan ezing.
+1428	Suv va limon qo'shing.
+1429	Sabzavotlarni to'g'rang.
+1430	Yog' bilan aralashtiring.
+1431	Sho'rva qaynating.
+1432	Pomidor va yong'oq qo'shing.
+1433	Sarimsoq bilan torting.
+1434	Qiymani guruch va piyoz bilan aralashtiring.
+1435	50 daqiqa pishiring, sarimsoqli qatiq bilan torting.
+1436	O'rab tering.
+1437	Pomidor bilan dimlang.
+1438	Go'shtni piyoz va ziravorlar bilan marinadlang.
+1439	Oyoqlarni bir kecha ivitib tozalang.
+1440	8 soat past olovda qaynating.
+1441	Tuzlamasdan kosaga soling.
+1442	Sarimsoq, tuz va quruq lavash bilan torting.
+1443	Un, suv va tuzdan xamir qorib tindiring.
+1444	Juda yupqa yoying.
+1445	Quruq tovada har tomonini 30 soniya pishiring.
+1446	Sochiqqa o'rab saqlang.
+1447	Qovoq qopqog'ini kesib ichini tozalang.
+1448	Yarim pishgan guruch, quruq meva, asal va sariyog'ni aralashtiring.
+1449	Qovoqqa to'ldiring.
+1450	180°C da 1,5 soat pishiring.
+1451	Bulgur va qiymaning yarmidan qobiq xamir qiling.
+1452	Qolgan qiymani piyoz va yong'oq bilan qovuring.
+1453	Qobiq ichiga plomba solib tuxumsimon yasang.
+1454	Qaynatib yoki qovurib torting.
+1455	Qatiq va tuxumni aralashtiring.
+1456	Pishgan yormani qo'shib doim aralashtirib qaynating.
+1457	Ko'kat va quruq yalpiz qo'shing.
+1458	Go'shtni juda mayin qilib uring.
+1459	Tuxum va piyoz qo'shing.
+1460	Katta sharchalar yasang.
+1461	Tuzli suvda 20 daqiqa qaynating.
+1462	Ko'p xil mayda ko'kat soling.
+1463	Yassi qilib yoping.
+1464	Quruq tovada pishiring.
+1465	Yupqa xamir doiralar yoying.
+1466	Qiyma va sabzavotni maydalab surting.
+1467	250°C da 8 daqiqa pishiring.
+1468	Vermishelni sariyog'da qizartiring.
+1469	Quruq meva qo'shib dimlang.
+1470	Go'shtni 3 kun tuzga ko'ming.
+1471	Press ostida quriting.
+1472	Paprika-sarimsoq pastasi bilan qoplang.
+1473	2 hafta osib quriting.
+1474	Qiymani ziravor bilan aralashtiring.
+1475	Press ostida yassilang.
+1476	Ichiga sariyog'-shakar-un uvog'ini soling.
+1477	Yassi qilib naqsh soling.
+1478	Qatlamlar yoying.
+1479	Yong'oq seping.
+1480	Romb kesib pishiring.
+1481	Bug'doyni yumshaguncha qaynating.
+1482	Quruq meva va shakar qo'shing.
+1483	20 daqiqa pishiring.
+1484	Yong'oq bilan sovuq torting.
+1485	Jazvaga qahva, shakar va sovuq suv soling.
+1486	Past olovda ko'pik ko'tarilguncha isiting.
+1487	Olovdan olib, qaytaring.
+1488	Kichik finjonda torting.
+1489	Sutni qaynatib iliq holgacha sovuting.
+1490	Iliq joyda 8 soat ushlang.
+1491	Muzlatgichda saqlang.
+1492	Mevani qaynatib pyure qiling.
+1493	Yupqa qatlam qilib yoying.
+1494	Quyoshda 1–2 kun quriting.
+1495	Rulet qilib saqlang.
+1496	Qiymaga hammasini qo'shing.
+1497	Sho'rvada qaynating.
+1498	Jigarni bo'laklang.
+1499	Pomidor qo'shing.
+1500	Qiyma va guruchdan frikadelka yasang.
+1501	Frikadelka va kartoshka soling.
+1502	Bug'doyni ivitib qo'ying.
+1503	Tovuq bilan 4 soat qaynating.
+1504	Go'shtni tolalab, doim aralashtirib ezing.
+1505	Baliqni tozalang.
+1506	Tuz va ko'kat soling.
+1507	Grilda yoki tovada 10 daqiqa pishiring.
+1508	Suvni qaynating.
+1509	Gilos soling.
+1510	Lavashga pishloq va ko'kat soling.
+1511	Buklang.
+1512	Tovada qizdiring.
+1513	Tuxumni qovurib maydalang.
+1514	Kuchli olovda tovuq va sabzini 4 daqiqa qovuring.
+1515	Sovuq guruchni solib 4 daqiqa qovuring.
+1516	Soya sousi, tuxum, ko'k piyoz qo'shing.
+1517	Tovuqni kubiklab kraxmal va soyada aralashtiring.
+1518	Qalampir va sarimsoqni 30 soniya qovuring.
+1519	Tovuqni 5 daqiqa qovurib qalampir qo'shing.
+1520	Sous, shakar va yer yong'oq qo'shing.
+1521	Tuxumni yumshoq qovurib oling.
+1522	Pomidorni 4 daqiqa sershira qovuring.
+1523	Shakar va tuz qo'shing.
+1524	Tuxumni qaytarib guruch bilan torting.
+1525	Qiymaga karam, zanjabil, soya qo'shing.
+1526	Burmali yarim oy qilib yoping.
+1527	6 daqiqa qaynating, sirka-soya bilan torting.
+1528	Tofuni kubiklab qaynoq suvda ushlang.
+1529	Qiymani qovuring, sarimsoq va sous qo'shing.
+1530	Suv va tofuni qo'shib 5 daqiqa qaynating.
+1531	Kraxmal bilan quyuqlashtiring.
+1532	Tovuqni kraxmalga belab qovuring.
+1533	Qalampir va ananasni qovuring.
+1534	Ketchup, sirka, shakardan sous qiling.
+1535	Lapshani qaynatib suzing.
+1536	Lapshani qo'shing.
+1537	Soya sousi bilan qovuring.
+1538	O'rdakni qaynoq suv bilan chayib quriting.
+1539	Asal-soya bilan surting, 4 soat quriting.
+1540	200°C da 1,5 soat pishiring.
+1541	Yupqa tilimlab blin va bodring bilan torting.
+1542	Yupqa xamir kvadratlar kesing.
+1543	Qiyma soling, tuging.
+1544	Bulonda 5 daqiqa qaynating.
+1545	Ko'k piyoz bilan torting.
+1546	Qiyma tayyorlang.
+1547	Dumaloq tugib yoping.
+1548	Bug'da 15 daqiqa pishiring.
+1549	Bulonni qaynating.
+1550	Tofu va qo'ziqorin soling.
+1551	Sirka, soya, murch qo'shing.
+1552	Kraxmal bilan quyuqlashtirib tuxum quying.
+1553	Sous aralashmasini tayyorlang.
+1554	Lapshani qaynating.
+1555	Sous va qiyma bilan aralashtiring.
+1556	Go'shtni sousda 4 soat marinadlang.
+1557	Asal surting.
+1558	Tilimlab torting.
+1559	Plombani qovuring.
+1560	Varaqqa o'rang.
+1561	Kuchli olovda 5 daqiqa qovuring.
+1562	Soya va sarimsoq qo'shing.
+1563	Go'shtni yupqa kesib kraxmalga aralashtiring.
+1564	Brokkoli qo'shing.
+1565	Sous bilan 2 daqiqa qovuring.
+1566	Go'shtni yupqa kesib kraxmalga belang.
+1567	Ikki marta qovuring.
+1568	Nordon-shirin sous qiling.
+1569	Aralashtirib torting.
+1570	Sho'rva va go'sht quying.
+1571	Guruchni ivitib qo'ying.
+1572	Barglarga guruch va go'sht soling.
+1573	Uchburchak qilib bog'lang.
+1574	2,5 soat qaynating.
+1575	Yupqa blin quying.
+1576	Ustiga tuxum chaqib yoying.
+1577	Ko'k piyoz va sous qo'shing.
+1578	Guruchni 1,5 l suvda past olovda pishiring.
+1579	Bo'tqa holiga keltiring.
+1580	Tovuq va zanjabil qo'shing.
+1581	Tuxumni ingichka oqimda quying.
+1582	Ko'k piyoz seping.
+1583	Yong'oq va sous qo'shing.
+1584	Bo'laklarga kesing.
+1585	20 daqiqa tindiring.
+1586	Guruch unidan xamir qiling.
+1587	Ichiga shirin pasta soling.
+1588	Qaynatib qiyomli suvda torting.
+1589	Pasta soling.
+1590	Qolipda naqsh bering.
+1591	Suvni 80°C gacha sovuting.
+1592	Choyni damlang.
+1593	2 daqiqa kuting.
+1594	Kichik piyolada iching.
+1595	Tapiokani 20 daqiqa qaynating.
+1596	Choy damlab sovuting.
+1597	Stakanga tapioka va muz bilan quying.
+1598	Bodringni urib yorib bo'laklang.
+1599	Soya va sirka bilan aralashtiring.
+1600	Baqlajonni kraxmalga belab qovuring.
+1601	Sarimsoqni qovuring.
+1602	Baqlajonni aralashtiring.
+1603	Karamni bo'laklab mo'l tuzda 2 soat ushlab yuving.
+1604	Sarimsoq, zanjabil, qalampir, shakardan pasta qiling.
+1605	Karamni pasta bilan aralashtiring.
+1606	Bankada 1 kun xonada, so'ng muzlatgichda saqlang.
+1607	Sabzavotlarni alohida qisqa qovuring.
+1608	Go'shtni soya sousida qovuring.
+1609	Guruch ustiga guruhlab tering.
+1610	Quymoq tuxum va sous bilan aralashtiring.
+1611	Go'shtni juda yupqa kesing.
+1612	Soya, shakar, sarimsoq va qirilgan nokda 1 soat marinadlang.
+1613	Kunjut seping, guruch bilan torting.
+1614	Sabzini uzun ingichka qiring.
+1615	Tuz, shakar, sirka bilan ezing.
+1616	Qalampir va sarimsoq qo'yib, qaynoq yog' quying.
+1617	2 soat damlang.
+1618	Go'shtni yupqa kesib qovuring.
+1619	Tuxumdan quymoq qilib kesing.
+1620	Sovuq suvga soya, sirka, shakar qo'shing.
+1621	Lapsha, go'sht, bodring va tuxum ustiga quying.
+1622	Suvga qalampir pastasi va shakar qo'shib qaynating.
+1623	Tayoqchalarni soling.
+1624	10 daqiqa quyuqlashguncha pishiring.
+1625	Go'sht va kimchini qovuring.
+1626	Tofu va piyoz soling.
+1627	15 daqiqa qaynating.
+1628	Sabzavot va go'shtni alohida qovuring.
+1629	Hammasini soya va kunjut yog'i bilan aralashtiring.
+1630	Guruchga kunjut yog'i va tuz qo'shing.
+1631	Norini guruch bilan qoplang.
+1632	Ingichka masalliqlarni terib rulet qiling.
+1633	Tovuqni kraxmalga belab ikki marta qovuring.
+1634	Qalampir pastasi, asal, soya sousini qaynating.
+1635	Tovuqni sousga aralashtiring.
+1636	Go'shtni yupqa tilimlang.
+1637	Grilda qovuring.
+1638	Salat bargiga go'sht, sarimsoq va sous qo'ying.
+1639	O'rab yeying.
+1640	Suvga soya pastasini eriting.
+1641	Kartoshka va piyoz soling.
+1642	Qovoqcha va tofu qo'shing.
+1643	Un, tuxum va suvdan suyuq xamir qiling.
+1644	Ko'k piyozni uzun kesib qo'shing.
+1645	Tovada yassi quymoq qiling.
+1646	Soya-sirka sousi bilan torting.
+1647	Lapshani qaynatib sovuq suvda yuving.
+1648	Sousni aralashtiring.
+1649	Lapshani sous bilan aralashtiring.
+1650	Bodring va tuxum bilan torting.
+1651	Qovurg'ani yupqa kesing.
+1652	Marinadda 4 soat ushlang.
+1653	Kunjut bilan torting.
+1654	O'simtani 5 daqiqa qaynating.
+1655	Sovuq suvda yuving.
+1656	Sarimsoq, tuz va kunjut yog'i qo'shing.
+1657	Karamni ivitib qo'ying.
+1658	Go'shtni kunjut yog'ida qovuring.
+1659	Karam va suv qo'shing.
+1660	20 daqiqa qaynating.
+1661	Baliqni ingichka kesib sirkada 15 daqiqa ushlang.
+1662	Sabzavotni somoncha qiling.
+1663	Qalampir va sarimsoq qo'shing.
+1664	Qaynoq yog' quyib aralashtiring.
+1665	Sovuq bulon tayyorlang.
+1666	Lapshani qaynatib yuving.
+1667	Muzli bulon quyib, go'sht va tuxum qo'ying.
+1668	Tovuq ichiga guruch va sarimsoq soling.
+1669	Suvda 1 soat qaynating.
+1670	Tuz va murch bilan torting.
+1671	Ichiga shakar, dolchin, yong'oq soling.
+1672	Tovada bosib yassi qiling.
+1673	Har tomonini qizartiring.
+1674	Muzni mayda qirib.
+1675	Sgushenka quying.
+1676	Meva bilan bezang.
+1677	Solodni suvda ivitib suzing.
+1678	Guruch bilan aralashtiring.
+1679	Iliq joyda 4 soat ushlang.
+1680	Shakar qo'shib qaynating, sovuq iching.
+1681	Baqlajonni somoncha qilib qovuring.
+1682	Sovutib torting.
+1683	Karamni kvadrat kesing.
+1684	Sirka, shakar, tuzli suvda marinadlang.
+1685	Sabzi va sarimsoq qo'shing.
+1686	2 soat tindiring.
+1687	Tofuni qizartiring.
+1688	5 daqiqa dimlang.
+1689	Kimchini qovuring.
+1690	Soya qo'shib qovuring.
+1691	Tuxumni suv bilan ko'pirtiring.
+1692	Sopol idishga quying.
+1693	Yopib 10 daqiqa past olovda pishiring.
+1694	Arpani qovuring.
+1695	Suvda 10 daqiqa qaynating.
+1696	Turpdan bulon qaynating.
+1697	Baliq pishirig'ini sixga tering.
+1698	Bulonda 10 daqiqa qaynating.
+1699	Soya sousi bilan torting.
+1700	Tovuqni zanjabil bilan 25 daqiqa qaynating.
+1701	Tuxumni 7 daqiqa qaynatib muzli suvga soling.
+1702	Sho'rvaga soya qo'shing.
+1703	Lapsha, sho'rva, tovuq, tuxum va ko'k piyozni kosaga tering.
+1704	Guruchni pishirib sirka, shakar, tuz bilan aralashtiring.
+1705	Noriga guruch yoying.
+1706	Baliq va bodring qo'yib o'rang.
+1707	8 bo'lakka kesing.
+1708	Ho'l qo'l bilan uchburchak qiling.
+1709	Ichiga plomba soling.
+1710	Nori bilan o'rang.
+1711	Soya, asal, zanjabildan sous qiling.
+1712	Sousni quyib quyuqlashtiring.
+1713	Muzli suv, tuxum, undan suyuq xamir qiling.
+1714	Krevetka va sabzavotni botiring.
+1715	180°C yog'da 2 daqiqa qovuring.
+1716	Tofu va karam soling.
+1717	Olovdan olib miso eriting.
+1718	Bulon qaynatib soya qo'shing.
+1719	Udonni qaynating.
+1720	Bulon va tovuq qo'ying.
+1721	Tovuqni mayda bo'laklang.
+1722	Sixga ko'k piyoz bilan tering.
+1723	Sous surting.
+1724	Go'shtni urib yupqalang.
+1725	Un, tuxum, nonga belang.
+1726	Karam va sous bilan torting.
+1727	Suv qo'shib 20 daqiqa qaynating.
+1728	Karri qo'shib quyuqlashtiring.
+1729	Guruch va tonkatsu bilan torting.
+1730	Un, tuxum, suvdan xamir qiling.
+1731	Mayda karam qo'shing.
+1732	Tovada yassi qiling, ustiga go'sht qo'ying.
+1733	Ag'darib pishiring, sous va mayonez quying.
+1734	Yupqa doiralar yoying.
+1735	Burmali yoping.
+1736	Tovada qizartirib, suv quyib yopib bug'lang.
+1737	Piyoz va tovuqni sousda pishiring.
+1738	Tuxum quying.
+1739	Yopib yarim pishiring.
+1740	Piyozni sousda pishiring.
+1741	Yupqa go'shtni qo'shing.
+1742	3 daqiqa pishiring.
+1743	Sous tayyorlang.
+1744	Lapshani sousga botirib yeying.
+1745	Tuxumni aralashtiring.
+1746	Yupqa qatlam quyib rulet qiling.
+1747	Takrorlang.
+1748	Tuxumni qovuring.
+1749	Soya qo'shing.
+1750	Suv va soya qo'shib 25 daqiqa pishiring.
+1751	Baliqni o'tkir pichoqda yupqa tilimlang.
+1752	Muz ustiga tering.
+1753	Soya va vasabi bilan torting.
+1754	Maxsus qolipga quying.
+1755	Kalmar bo'lakchasini soling.
+1756	Aylantirib sharcha qilib pishiring.
+1757	Go'sht va piyozni qovuring.
+1758	Karri bilan quyuqlashtiring.
+1759	Tuzli suvda 5 daqiqa qaynating.
+1760	Tovuqni soya va zanjabilda marinadlang.
+1761	Kraxmalga belang.
+1762	Unni suv va shakar bilan qaynatib yopishqoq qiling.
+1763	Kraxmalga yoyib bo'laklang.
+1764	Ichiga pasta soling.
+1765	Dumaloq qiling.
+1766	Kichik quymoqlar pishiring.
+1767	Ikkitasi orasiga pasta soling.
+1768	Matchani piyolaga eling.
+1769	Ko'pirtirgich bilan ko'pirtiring.
+1770	Darhol iching.
+1771	Matchani ozgina suvda eriting.
+1772	Sutni isitib ko'pirtiring.
+1773	Birlashtiring.
+1774	Shirin soya sousi surting.
+1775	Guruch ustiga qo'ying.
+1776	Bodringni yupqa tilimlang.
+1777	Tuz bilan 10 daqiqa ushlab siqing.
+1778	Sirka va shakar qo'shing.
+1779	Stol ustida go'sht va sabzavotni bulonga botirib pishiring.
+1780	Sousga botiring.
+1781	Oxirida bulonga lapsha soling.
+1782	Tovuqni qatiq va karrida 30 daqiqa marinadlab qizartiring.
+1783	Sariyog'da sarimsoq va pomidorni 10 daqiqa qaynatib silliq sous qiling.
+1784	Qaymoq va tovuqni qo'shib 10 daqiqa dimlang.
+1785	Guruch yoki naan bilan torting.
+1786	Yasmiqni 20 daqiqa qaynating.
+1787	Piyoz, sarimsoq, karrini qovuring.
+1788	Yasmiqqa qo'shib guruch bilan torting.
+1789	Go'shtni qatiq va ziravorda 1 soat marinadlang.
+1790	Piyozni qarsildoq qovuring.
+1791	Go'shtni 40 daqiqa dimlang, guruchni 70% qaynating.
+1792	Qatlam qilib 25 daqiqa dimlang.
+1793	Paneerni qatiq va karrida marinadlang.
+1794	Piyoz va pomidordan masala qiling.
+1795	Paneer qo'shib 5 daqiqa dimlang.
+1796	Piyoz, sarimsoq, zanjabilni qovuring.
+1797	Pomidor va no'xatni qo'shing.
+1798	Tomchi shaklida yoying.
+1799	Qizigan tovada har tomonini 2 daqiqa pishiring.
+1800	Sarimsoqli sariyog' surting.
+1801	Kartoshka va no'xatdan plomba qiling.
+1802	Konus qilib yoping.
+1803	Tovuqni kesib, qatiq va ziravorda 4 soat marinadlang.
+1804	220°C pechda 35 daqiqa pishiring.
+1805	Piyoz bilan torting.
+1806	Kartoshka va gulkaramni qo'shing.
+1807	Ziravor va pomidor qo'shing.
+1808	Yopib 20 daqiqa dimlang.
+1809	Ismaloqni qaynatib blenderda maydalang.
+1810	Ismaloq va paneer qo'shing.
+1811	Qaymoq bilan torting.
+1812	Piyoz va ziravor qo'shing.
+1813	Qatiq va pomidor qo'shib 1 soat dimlang.
+1814	Tovuqni marinadlab grilda pishiring.
+1815	Pomidorli sous qiling.
+1816	Qaymoq qo'shing.
+1817	Un va suvdan suyuq xamir qilib bir kecha achiting.
+1818	Qizigan tovaga yupqa quying.
+1819	Qarsildoq bo'lguncha pishiring.
+1820	Kartoshka plombasi bilan buklang.
+1821	Guruch va yasmiqni ivitib maydalang.
+1822	Bir kecha achiting.
+1823	Bug'da 12 daqiqa pishiring.
+1824	Piyoz va ziravorni qovuring.
+1825	Sabzavot va guruchni qo'shing.
+1826	Suv quyib 15 daqiqa pishiring.
+1827	Dimlab torting.
+1828	Un, suv va tuzdan yumshoq xamir qoring.
+1829	Olovda ko'pchiting.
+1830	Bodringni qiring.
+1831	Qovurilgan zira qo'shing.
+1832	Unni suv va ziravor bilan aralashtiring.
+1833	Sabzavotni botiring.
+1834	Qatiq va maydalangan yong'oq qo'shing.
+1835	Qaymoq bilan dimlang.
+1836	Go'sht qo'shib 1 soat dimlang.
+1837	Sabzavot va karri qo'shing.
+1838	Suv qo'shib 25 daqiqa pishiring.
+1839	Guruch va yasmiqni yuving.
+1840	Sariyog'da zirani qovuring.
+1841	Guruch, yasmiq va suv qo'shing.
+1842	Sut kukuni va undan xamir qiling.
+1843	Sharchalar yasab qovuring.
+1844	Hilli shakar qiyomiga soling.
+1845	1 soat shimdiring.
+1846	Guruchni sutda past olovda pishiring.
+1847	Shakar va hil qo'shing.
+1848	Quyuqlashguncha aralashtiring.
+1849	Suyuq xamir qilib achiting.
+1850	Spiral shaklida yog'ga quying.
+1851	Sabzini qiring.
+1852	Sutda suvi qochguncha pishiring.
+1853	Shakar va sariyog' qo'shing.
+1854	Suvda zanjabil va dolchinni qaynating.
+1855	Choy solib 2 daqiqa qaynating.
+1856	Suzib torting.
+1857	Mangoni tozalang.
+1858	Qatiq va shakar bilan blenderda maydalang.
+1859	Tuz va zira qo'shing.
+1860	Kartoshka plombasi qiling.
+1861	Ichiga solib yoying.
+1862	Sariyog'da qizartiring.
+1863	Go'shtni 5 mm qalinlikda urib tuzlang.
+1864	Unga, tuxumga, non uvog'iga botiring.
+1865	Ko'p yog'da har tomonini 3 daqiqa qovuring.
+1866	Limon va kartoshka bilan torting.
+1867	Elastik xamir qorib tindiring.
+1868	Olmani shakar va dolchin bilan aralashtiring.
+1869	Xamirni yupqa cho'zib, olma yoyib o'rang.
+1870	190°C da 40 daqiqa pishiring.
+1871	Kartoshkani qaynatib tilimlang.
+1872	Piyoz va bodring qo'shing.
+1873	Sirka, yog' va bulon bilan aralashtiring.
+1874	30 daqiqa damlang.
+1875	Karamni qo'shib 30 daqiqa dimlang.
+1876	Sosiskalarni qovuring.
+1877	Karam bilan torting.
+1878	Go'shtni sirka va sabzavotda 2 kun marinadlang.
+1879	Marinad bilan 2 soat dimlang.
+1880	Sousi bilan torting.
+1881	Kartoshkani qaynatib ezing.
+1882	Un, tuxum, kraxmal qo'shing.
+1883	Un, tuxum va suvdan yopishqoq xamir qiling.
+1884	Teshikli moslamadan qaynoq suvga o'tkazing.
+1885	Suzib chiqqach oling.
+1886	Pishloq va qovurilgan piyoz bilan torting.
+1887	Qiymadan sharchalar yasang.
+1888	Bulonda 15 daqiqa qaynating.
+1889	Un, sut va limondan oq sous qiling.
+1890	Sharchalarni sousga soling.
+1891	Kartoshkani qirib siqing.
+1892	Tuxum va un qo'shing.
+1893	Yassi qovuring.
+1894	Olma pyuresi bilan torting.
+1895	Qisman ezing.
+1896	Sosiska qo'shing.
+1897	Go'shtni urib xantal surting.
+1898	Bodring va piyoz qo'yib rulet qiling.
+1899	Bulonda 1,5 soat dimlang.
+1900	Karamni ingichka to'g'rang.
+1901	Tuz bilan ezing.
+1902	Sirka, shakar, yog' qo'shing.
+1903	1 soat tindiring.
+1904	Uzun ip qilib bog'lang.
+1905	Sodali qaynoq suvga 30 soniya botiring.
+1906	Yirik tuz sepib 220°C da 15 daqiqa pishiring.
+1907	Sosiskalarni grilda qovuring.
+1908	Kartoshkani qovuring.
+1909	Sabzavotlarni soling.
+1910	40 daqiqa pishiring.
+1911	No'xatni ivitib qaynating.
+1912	Kartoshka va sabzi qo'shing.
+1913	Ezib quyuq qiling.
+1914	Shokoladli biskvit pishiring.
+1915	3 qatlamga kesing.
+1916	Gilos va ko'pirtirilgan qaymoq bilan qatlang.
+1917	Shokolad qirindisi seping.
+1918	Qumloq xamir qilib qolipga yoying.
+1919	Tvorog, tuxum, shakarni aralashtiring.
+1920	Xamir ustiga quying.
+1921	170°C da 60 daqiqa pishiring.
+1922	Qolipga yoying.
+1923	Olma tilimlarini tering.
+1924	180°C da 40 daqiqa pishiring.
+1925	Xamirturushli xamir qilib yoying.
+1926	Un, sariyog', shakardan uvoq qiling.
+1927	Uvoq seping.
+1928	180°C da 25 daqiqa pishiring.
+1929	Asalni isiting.
+1930	Un, yong'oq, ziravor qo'shing.
+1931	Kesib pishiring.
+1932	Glazur surting.
+1933	Yog'da qovuring.
+1934	Murabbo to'ldirib upa-shakar seping.
+1935	Quymoq xamiri qiling.
+1936	Tovada qalin quymoq pishiring.
+1937	Bo'laklarga yirting.
+1938	Upa-shakar sepib torting.
+1939	Sharbatni sovuting.
+1940	Gazli suv bilan teng aralashtiring.
+1941	Sharbatni ziravorlar bilan isiting.
+1942	10 daqiqa damlang.
+1943	Qalinroq quymoq pishiring.
+1944	Murabbo bilan.
+1945	Oq sous qiling.
+1946	Qo'ziqorin qo'shing.
+1947	Lavlagini qaynatib tilimlang.
+1948	Sirka va yog' bilan aralashtiring.
+1949	Kartoshkani tilimlang.
+1950	Qizarguncha qovuring.
+1951	Piyoz va kolbasa qo'shing.
+1952	Paprika qo'shing.
+1953	Suv quyib 1 soat qaynating.
+1954	Kartoshka va qalampir qo'shing.
+1955	Sabzavotlarni yirik to'g'rang.
+1956	Piyozni halqa qiling.
+1957	Ustiga brinza va zaytun qo'ying.
+1958	Zaytun moyi va oregano seping.
+1959	Baqlajon va kartoshkani qovuring.
+1960	Qiymani pomidor bilan dimlang.
+1961	Qatlamlang, beshamel quying.
+1962	Go'shtni limon va sarimsoqda marinadlang.
+1963	Lavash va tsatsiki bilan torting.
+1964	Go'shtni ziravor bilan qovuring.
+1965	Yupqa to'g'rang.
+1966	Lavashga sabzavot va sous bilan soling.
+1967	Bodringni qirib siqing.
+1968	Qatiq va sarimsoq qo'shing.
+1969	Zaytun moyi va ukrop qo'shing.
+1970	Ismaloqni dimlab pishloq va tuxum qo'shing.
+1971	Filo qatlamlariga moy surting.
+1972	Plombani qatlamlang.
+1973	Makaronni pishiring.
+1974	Qatlamlab beshamel quying.
+1975	Guruchni piyoz va ko'kat bilan aralashtiring.
+1976	Barglarga o'rang.
+1977	Limon va suv bilan 45 daqiqa pishiring.
+1978	Tovuqdan sho'rva qilib guruch soling.
+1979	Tuxum va limonni ko'pirtiring.
+1980	Issiq sho'rvadan oz-oz qo'shib aralashtiring.
+1981	Sho'rvaga qaytaring.
+1982	Loviyani ivitib qaynating.
+1983	Zaytun moyi bilan torting.
+1984	Tsatsiki bilan torting.
+1985	Sabzavot ichini o'ying.
+1986	Guruch va o'yilgan pomidor bilan to'ldiring.
+1987	Kartoshka bilan qolipga tering.
+1988	Dolchin bilan 1,5 soat dimlang.
+1989	Kartoshkani bo'laklang.
+1990	Limon, moy, oregano bilan aralashtiring.
+1991	200°C da 50 daqiqa pishiring.
+1992	Pishloq va tuxumni aralashtiring.
+1993	Filoga soling.
+1994	Uchburchak qiling.
+1995	Pitani isiting.
+1996	Pitaga to'ldiring.
+1997	Baliqni qolipga qo'ying.
+1998	Ustiga sabzavot quying.
+1999	Past olovda pishiring.
+2000	Zaytun moyi va limon quying.
+2001	Kalmarni halqa qiling.
+2002	Unga belang.
+2003	Ko'p yog'da 2 daqiqa qovuring.
+2004	Qatiqni kosaga soling.
+2005	Asal quying.
+2006	Suyuq xamir oshiring.
+2007	Sut, manka, tuxumdan krem qiling.
+2008	Filo orasiga soling.
+2009	Sariyog'ni ko'pirtiring.
+2010	Un va yong'oq qo'shing.
+2011	Yarim oy qilib pishiring.
+2012	Upa-shakarga belang.
+2013	Qahva, shakar va ozgina suvni ko'pirtiring.
+2014	Stakanga quying.
+2015	Muz va suv qo'shing.
+2016	Sut bilan iching.
+2017	Jazvaga qahva va suv soling.
+2018	Ko'pik ko'tarilguncha isiting.
+2019	Finjonga quying.
+2020	Bulgur va suv qo'shing.
+2021	15 daqiqa pishiring.
+2022	Pishloqni unga belang.
+2023	Tovada qizartiring.
+2024	Yasmiqni qaynating.
+2025	Sirka bilan torting.
+2026	Qiymani ziravor bilan qovuring.
+2027	Qiyma, sabzavot va pishloq soling.
+2028	Guruch va tovuqni pishiring.
+2029	Loviyani isiting.
+2030	Tortillaga soling.
+2031	Zich o'rab qizdiring.
+2032	Tovuq va qalampirni qovuring.
+2033	Tortillaning yarmiga pishloq va plomba soling.
+2034	Quruq tovada qizartiring.
+2035	Avokadoni qo'pol ezing.
+2036	Mayda sabzavot qo'shing.
+2037	Laym va tuz bilan ta'mlang.
+2038	Chips bilan torting.
+2039	Tovuqni qaynatib titing.
+2040	Tortillaga o'rang.
+2041	Pomidor sousi quying.
+2042	Pishloq sepib pechda 20 daqiqa pishiring.
+2043	Qiyma va piyozni qovuring.
+2044	Qalampir va ziravor qo'shing.
+2045	Pomidor va loviyani qo'shib 40 daqiqa dimlang.
+2046	Tovuq va sabzavotni tasma qilib qovuring.
+2047	Tortilla bilan torting.
+2048	Har kim o'zi o'raydi.
+2049	Makkajo'xori qo'shing.
+2050	1 soat pishiring.
+2051	Karam va laym bilan torting.
+2052	Hammasini mayda kubik qiling.
+2053	Laym va tuz qo'shing.
+2054	Pomidor sousi qiling.
+2055	Tortillani qizartiring.
+2056	Ustiga loviya va quymoq tuxum qo'ying.
+2057	Sous quying.
+2058	Un va sariyog'dan xamir qiling.
+2059	Bargga xamir va tovuq soling.
+2060	Chipsni patnisga yoying.
+2061	Loviya va pishloq seping.
+2062	Pechda 5 daqiqa eriting.
+2063	Pico de gallo bilan torting.
+2064	Guruchni qizartiring.
+2065	Pomidor pyuresi qo'shing.
+2066	Suv quyib 18 daqiqa pishiring.
+2067	Pomidorli sho'rva qiling.
+2068	Tovuqni soling.
+2069	Tortillani qarsildoq qovuring.
+2070	Avokado va tortilla bilan torting.
+2071	Tortillani qovuring.
+2072	Pomidor sousiga aralashtiring.
+2073	Pishloq seping.
+2074	Loviya surting.
+2075	Tovuq va salat qo'ying.
+2076	Makkajo'xorini grilda qizartiring.
+2077	Mayonez surting.
+2078	Pishloq va qalampir seping.
+2079	Go'shtni ziravor va apelsin sharbatida 2,5 soat dimlang.
+2080	Titib oling.
+2081	Tovada qarsildoq qiling.
+2082	Tako bilan torting.
+2083	Loviyani qaynating.
+2084	Loviyani qo'shib ezing.
+2085	Qo'ziqorinni qovuring.
+2086	Vermishelni qizartiring.
+2087	Bulon quying.
+2088	Dolchinli shakarga belang.
+2089	Shokolad bilan torting.
+2090	Uch xil sutni aralashtiring.
+2091	Biskvitga shimdiring.
+2092	Ko'pirtirilgan qaymoq bilan bezang.
+2093	Guruchni dolchin bilan qaynating.
+2094	Shakar soling.
+2095	Quyuqlashguncha pishiring.
+2096	Tuxum, sgushenka va sutni aralashtiring.
+2097	Ag'darib torting.
+2098	Guruchni dolchin bilan ivitib qo'ying.
+2099	Suzib sut va shakar qo'shing.
+2100	Tarvuzni maydalang.
+2101	Laym va shakar qo'shing.
+2102	Sutni dolchin bilan isiting.
+2103	Shokoladni eriting.
+2104	Qiyma va guruchdan sharchalar yasang.
+2105	Pomidorli sho'rvaga soling.
+2106	10 daqiqa dimlang.
+2107	Qiymadan 4 ta yassi kotlet yasab tuzlang.
+2108	Qizigan tovada har tomonini 3 daqiqa qovurib pishloq qo'ying.
+2109	Bulochkani qizartiring.
+2110	Kotlet va sabzavotni tering.
+2111	Quruq va suyuq masalliqlarni alohida aralashtiring.
+2112	Tovada qalin quymoqlar pishiring.
+2113	Asal yoki sirop bilan torting.
+2114	Sariyog', un, sutdan sous qiling.
+2115	Pishloqni eriting.
+2116	Makaron bilan aralashtiring.
+2117	Tovuqni qatiqda 2 soat ushlang.
+2118	Ziravorli unga belang.
+2119	Ko'p yog'da 15 daqiqa qovuring.
+2120	Qovurg'ani ziravor bilan ishqalang.
+2121	Folgada 150°C da 2,5 soat pishiring.
+2122	BBQ sousini surting.
+2123	Grilda karamellang.
+2124	Sosiskani qaynating yoki qovuring.
+2125	Bulochkani isiting.
+2126	Sosiskani soling.
+2127	Ketchup va xantal quying.
+2128	Nondan kruton qiling.
+2129	Salat, tovuq, krutonni aralashtiring.
+2130	Sous va pishloq seping.
+2131	Karam va sabzini ingichka to'g'rang.
+2132	Mayonez va sirka qo'shing.
+2133	Kartoshka va suv qo'shing.
+2134	Sut va dengiz mahsuloti qo'shing.
+2135	Kartoshkani tayoqcha qiling.
+2136	Suvda yuvib quriting.
+2137	Ikki marta ko'p yog'da qovuring.
+2138	Baton qilib qolipga soling.
+2139	Ketchup surting.
+2140	Qanotlarni pechda 40 daqiqa pishiring.
+2141	Sariyog' va sousni eriting.
+2142	Qanotlarni aralashtiring.
+2143	Qatlam-qatlam masalliqlarni tering.
+2144	Uch qavat qiling.
+2145	Tuxumni ko'pirtiring.
+2146	Tovaga quying.
+2147	Plomba qo'shing.
+2148	Pomidor va loviya qo'shing.
+2149	Tovuqni sousda 1,5 soat dimlang.
+2150	Sanchqi bilan titing.
+2151	Sous bilan aralashtiring.
+2152	Bulochkada torting.
+2153	200°C da 25 daqiqa pishiring.
+2154	Shokolad va sariyog'ni eriting.
+2155	Tuxum va shakar qo'shing.
+2156	Un aralashtiring.
+2157	Pechene va sariyog'dan asos qiling.
+2158	Pishloq, tuxum, shakarni aralashtiring.
+2159	Suv hammomida 160°C da 1 soat pishiring.
+2160	Bir kecha sovuting.
+2161	Qumloq xamir qiling.
+2162	Pirog qilib yoping.
+2163	190°C da 50 daqiqa pishiring.
+2164	Sariyog' va shakarni ko'pirtiring.
+2165	Shokolad bo'laklari qo'shing.
+2166	180°C da 12 daqiqa pishiring.
+2167	Halqa kesing.
+2168	Bananni ezing.
+2169	175°C da 55 daqiqa pishiring.
+2170	Limon sharbatini siqing.
+2171	Shakarni issiq suvda eriting.
+2172	1 l sovuq suv bilan aralashtiring.
+2173	Muz va yalpiz bilan torting.
+2174	Hammasini blenderga soling.
+2175	Shakar qo'shib sovuting.
+2176	Limon va muz qo'shing.
+2177	Vafli dazmolida pishiring.
+2178	Meva bilan torting.
+2179	Tovuq bulonidan sous qiling.
+2180	Pyurega quying.
+2181	Kartoshkani tayoqcha qilib bir marta qovuring.
+2182	Un, qabartma va sovuq suvdan suyuq xamir qiling.
+2183	Baliqni xamirga botirib 180°C yog'da 6 daqiqa qovuring.
+2184	Kartoshkani qayta qarsillaguncha qovuring.
+2185	Sosiskani qovuring.
+2186	Qo'ziqorin va yarim pomidorni qovuring.
+2187	Loviyani isiting, tuxumni qovuring.
+2188	Qizartirilgan non bilan bir likopchada torting.
+2189	Qiyma, piyoz, sabzini qovurib 20 daqiqa dimlang.
+2190	Kartoshkadan sutli pyure qiling.
+2191	Qiyma ustiga pyure yoying.
+2192	Qiymani sabzavot bilan dimlang.
+2193	Un, tuxum, sutni ko'pirtirib 15 daqiqa tindiring.
+2194	Qolip uyalariga yog' quyib 230°C da qizdiring.
+2195	Xamirni quying.
+2196	Eshigini ochmay 20 daqiqa pishiring.
+2197	Go'shtni tuz, murch bilan ishqalab 190°C da 1,5 soat pishiring.
+2198	Kartoshka va sabzini yonida qovuring.
+2199	Go'sht sharbatidan un bilan sous qiling.
+2200	Yorkshir pudingi bilan torting.
+2201	Go'shtni har tomondan qizartiring.
+2202	Qo'ziqorinni maydalab suvini qochiring.
+2203	Go'shtni qo'ziqorin va xamirga o'rang.
+2204	Tuxum surtib 200°C da 40 daqiqa pishiring.
+2205	Kartoshkadan pyure qiling.
+2206	Piyozdan qo'ng'ir sous qiling.
+2207	Xom go'sht va sabzavotni mayda to'g'rang.
+2208	Yarim oy qilib chetini burang.
+2209	Sosiskani qolipda qizartiring.
+2210	Puding xamirini qiling.
+2211	Qizigan qolipga quying.
+2212	220°C da 25 daqiqa pishiring.
+2213	Go'sht va buyrakni piyoz bilan 1,5 soat dimlang.
+2214	Xamir bilan yoping.
+2215	200°C da 30 daqiqa pishiring.
+2216	Baliqni qaynatib titing.
+2217	Sariyog'da karri bilan aralashtiring.
+2218	Qaynatilgan tuxum bilan torting.
+2219	Go'shtni 1 soat qaynating.
+2220	Arpa qo'shing.
+2221	Ichki a'zolarni qaynatib maydalang.
+2222	Qovurilgan suli va piyoz bilan aralashtiring.
+2223	Qobiqqa yoki folgaga soling.
+2224	3 soat bug'da pishiring.
+2225	Pishloq, sut, xantalni eriting.
+2226	Pishloq aralashmasini surting.
+2227	Grilda 3 daqiqa qizartiring.
+2228	Sariyog' va tuz qo'shing.
+2229	Fish and chips bilan torting.
+2230	Halqalarga quyib tovada pishiring.
+2231	Teshiklar paydo bo'lguncha kuting.
+2232	Un va sariyog'ni uvoq qiling.
+2233	Sut qo'shib tez qoring.
+2234	220°C da 12 daqiqa pishiring, murabbo va qaymoq bilan torting.
+2235	Xurmoni qaynoq suvda ezing.
+2236	Sariyog', shakar, qaymoqdan karamel qiling.
+2237	Issiq pudingga quying.
+2238	Hammasini ko'pirtiring.
+2239	Ikki qolipda 180°C da 22 daqiqa pishiring.
+2240	Orasiga murabbo va qaymoq soling.
+2241	Upa-shakar seping.
+2242	Pechene va mevani qatlamlang.
+2243	Tuxumli krem qaynating.
+2244	Ko'pirtirilgan qaymoq bilan yoping.
+2245	Olmani bo'laklab qolipga soling.
+2246	Un, sariyog', shakarni uvoq qiling.
+2247	Olma ustiga seping.
+2248	190°C da 35 daqiqa pishiring.
+2249	Nonga sariyog' surting.
+2250	Qolipga mayiz bilan tering.
+2251	Tuxumli sut quying.
+2252	180°C da 35 daqiqa pishiring.
+2253	Qaymoqni ko'pirtiring.
+2254	Bezeni sindiring.
+2255	Qulupnay bilan aralashtiring.
+2256	Darhol torting.
+2257	Sariyog', shakar, asalni eriting.
+2258	Suli qo'shing.
+2259	Qolipga bosing.
+2260	180°C da 20 daqiqa pishirib kesing.
+2261	Qolipga bosib teshiklang.
+2262	160°C da 25 daqiqa pishiring.
+2263	Qaynoq suv bilan choy damlang.
+2264	4 daqiqa kuting.
+2265	Skon bilan iching.
+2266	Limonad tayyorlang.
+2267	Mevalarni to'g'rang.
+2268	Pishloq va piyoz qo'shing.
+2269	200°C da 35 daqiqa pishiring.
+2270	2 soat past olovda dimlang.
+2271	Karamni dimlang.
+2272	Sut, sariyog' va karamni qo'shing.
+2273	Yarim kartoshkani qirib, yarmini pyure qiling.
+2274	Un, sut qo'shing.
+2275	Un, soda, tuzni aralashtiring.
+2276	Qatiq qo'shib tez qoring.
+2277	Xoch belgisi kesing.
+2278	Ko'k piyozni sutda qaynating.
+2279	Kartoshkani ezing.
+2280	Sutni qo'shing.
+2281	O'rtasiga sariyog' qo'yib torting.
+2282	Sosiska va qo'ziqorinni qovuring.
+2283	Pomidorni qovuring.
+2284	Tuxum pishiring.
+2285	Soda non bilan torting.
+2286	Sosiskani qizartiring.
+2287	Kartoshka va piyoz bilan qatlamlang.
+2288	Suv quyib 1 soat dimlang.
+2289	Baliq va sut qo'shing.
+2290	10 daqiqa pishiring.
+2291	Mayizni choyda bir kecha ivitib qo'ying.
+2292	Un, shakar, tuxum qo'shing.
+2293	170°C da 1 soat pishiring.
+2294	Pyurega un va sariyog' qo'shing.
+2295	Yassi doira qilib 4 ga kesing.
+2296	Nonushtada torting.
+2297	Karamni shu suvda pishiring.
+2298	Oq sous bilan torting.
+2299	Issiq qahvaga shakar qo'shing.
+2300	Ustiga ko'pirtirilgan qaymoq qo'ying.
+2301	Aralashtirmay iching.
+2302	Kartoshkani ingichka tayoqcha qilib qovuring.
+2303	Piyoz va titilgan baliqni qovuring.
+2304	Kartoshka va tuxumni qo'shib aralashtiring.
+2305	Zaytun va ko'kat bilan torting.
+2306	Baliqni sutda qaynatib titing.
+2307	Piyoz, baliq, qaymoq bilan aralashtiring.
+2308	200°C da 20 daqiqa pishiring.
+2309	Kartoshka va piyozni qaynating.
+2310	Ezib silliq qiling.
+2311	Ingichka to'g'ralgan karamni soling.
+2312	Kolbasa tilimlari bilan torting.
+2313	Xamirni o'rab kesib qoliplarga bosing.
+2314	Sut, sarig', un, shakardan krem qaynating.
+2315	250°C da 15 daqiqa pishiring.
+2316	Nonlar orasiga go'sht va kolbasa tering.
+2317	Ustiga pishloq qo'yib pechda eriting.
+2318	Achchiq pomidor sousini quying.
+2319	Quymoq tuxum qo'ying.
+2320	Go'shtni yupqa urib sarimsoqda marinadlang.
+2321	Bulochkaga soling.
+2322	Dengiz mahsulotlarini soling.
+2323	Sershira holda torting.
+2324	Go'sht va kolbasani qo'shing.
+2325	Sabzavot soling.
+2326	1 soat dimlang.
+2327	Go'shtni sarimsoq, paprikada marinadlang.
+2328	Midiyani qo'shib ochilguncha pishiring.
+2329	Qovurilgan kartoshka bilan torting.
+2330	Sardinani tuz bilan ishqalang.
+2331	Cho'g'da har tomonini 4 daqiqa pishiring.
+2332	Non va salat bilan torting.
+2333	Qalampir, sarimsoq, limon, moydan sous qiling.
+2334	Tovuqni marinadlang.
+2335	Grilda 40 daqiqa pishiring.
+2336	Sous surtib torting.
+2337	Go'shtni 1,5 soat qaynating.
+2338	Alohida likopchalarda torting.
+2339	Sakkizoyoqni 45 daqiqa qaynating.
+2340	Kartoshkani pishiring va bosib yoring.
+2341	Pechda qizartiring.
+2342	Sarimsoqli moy quying.
+2343	Kolbasa va sabzavot qo'shing.
+2344	O'rdakni qaynatib titing.
+2345	Bulonda guruchni pishiring.
+2346	Qolipga o'rdak va guruchni qatlamlang.
+2347	Kolbasa qo'yib pechda qizartiring.
+2348	Go'shtni yupqa urib sarimsoqli moyda qovuring.
+2349	Xantal qo'shing.
+2350	Sariyog' va shakarni krem qiling.
+2351	Pechenelarni qahvaga botiring.
+2352	Qatlamlab krem surting.
+2353	Muzlatgichda 4 soat ushlang.
+2354	Guruchni suvda qaynating.
+2355	Sut va limon po'stini qo'shing.
+2356	Shakar va sarig'ni qo'shing.
+2357	Dolchin bilan naqsh soling.
+2358	Kartoshka pyuresiga qo'shing.
+2359	Tuxum va ko'kat qo'shing.
+2360	Qoshiqda shakllab qovuring.
+2361	Shakarga belang.
+2362	Espresso tayyorlang.
+2363	Sutni ko'pirtiring.
+2364	Baland stakanda aralashtiring.
+2365	Kartoshka va karamni birga qaynating.
+2366	Sut qo'shib ezing.
+2367	Sosiskani isiting.
+2368	Hammasini birga qaynating.
+2369	Suvini to'king.
+2370	Sariyog' bilan ezing.
+2371	No'xatni 1 soat qaynating.
+2372	Quyuq bo'lguncha pishiring.
+2373	Sosiska bilan torting.
+2374	Sariyog', un, bulondan quyuq ragu qiling, go'sht qo'shing.
+2375	Sovutib sharchalar yasang.
+2376	Tuxum va non uvog'iga belang.
+2377	Ragu qiling.
+2378	Silindr shaklida yasang.
+2379	Mitti quymoqlar pishiring.
+2380	Sariyog' qo'ying.
+2381	Katta yupqa quymoqlar pishiring.
+2382	Pishloq yoki olma qo'shing.
+2383	Sirop bilan torting.
+2384	Xamir qilib vafli dazmolida pishiring.
+2385	Ikkiga ajrating.
+2386	Karamel sirop qiling.
+2387	Orasiga surting.
+2388	Seldni tozalang.
+2389	Mayda piyoz seping.
+2390	Bodring bilan torting.
+2391	Baliqni bo'laklang.
+2392	Sarimsoqli sous bilan torting.
+2393	Olmani dolchin bilan aralashtiring.
+2394	To'r bilan yoping.
+2395	175°C da 1 soat pishiring.
+2396	Qoshiqda yog'ga tashlang.
+2397	Shokolad seping.
+2398	Bosib qo'ying.
+2399	Non orasiga pishloq soling.
+2400	Ketchup bilan torting.
+2401	Piyozni qovurib midiya soling.
+2402	Qopqoqni yopib 6 daqiqa pishiring.
+2403	Qaymoq qo'shib fri bilan torting.
+2404	Kartoshkani qalin tayoqcha qiling.
+2405	160°C da 6 daqiqa qovuring.
+2406	180°C da qarsillaguncha qayta qovuring.
+2407	Xantal surtilgan non va suv qo'shing.
+2408	Tovuqni sabzavot bilan qaynating.
+2409	Kartoshka qo'shing.
+2410	Qaymoq va sarig' bilan quyuqlashtiring.
+2411	Yirik shakar qo'shing.
+2412	Bo'laklab dazmolda pishiring.
+2413	Endiviyani qaynating.
+2414	Vetchinaga o'rang.
+2415	Beshamel quyib pishloq seping.
+2416	Yupqa yoyib kesing.
+2417	Piyoz va shirin-nordon sousda dimlang.
+2418	Sutni isiting.
+2419	Pomidor ichini o'ying.
+2420	Krevetkani mayonez bilan aralashtiring.
+2421	Pomidorga to'ldiring.
+2422	Loviyani alohida pishiring.
+2423	Tuxum, un, piyoz qo'shing.
+2424	Suv, kartoshka va loviya qo'shing.
+2425	Qoshiqda qaynoq suvga tashlang.
+2426	Suzib oling.
+2427	Qovurilgan sariyog' bilan torting.
+2428	Baliqni unga belang.
+2429	Olxo'rini tering.
+2430	Go'shtni marinadlang.
+2431	Jele quyib sovuting.
+2432	Go'shtni ingichka kesing.
+2433	Sirkali sous bilan aralashtiring.
+2434	Tuxum bilan bezang.
+2435	Bretzel shaklida o'rang.
+2436	Bodom seping.
+2437	Tvorogni sariyog'da eriting.
+2438	Tuxum qo'shing.
+2439	Silliq bo'lguncha aralashtiring.
+2440	Idishni sarimsoq bilan ishqalang.
+2441	Sharbatni isitib pishloqni eriting.
+2442	Non bo'laklarini botirib yeying.
+2443	Kartoshkani po'sti bilan qaynating.
+2444	Pishloqni eritib qirib oling.
+2445	Kartoshka ustiga quying.
+2446	Kartoshkani qiring.
+2447	Sariyog'li tovaga bosing.
+2448	10 daqiqa qizartiring.
+2449	Ag'darib yana 8 daqiqa pishiring.
+2450	Go'shtni ingichka kesib tez qovuring.
+2451	Piyoz va qo'ziqorin qo'shing.
+2452	Qaymoq quying.
+2453	Ryosti bilan torting.
+2454	Makaron va kartoshkani birga qaynating.
+2455	Qaymoq va pishloq qo'shing.
+2456	Qovurilgan piyoz seping.
+2457	Sulini sutda bir kecha ivitib qo'ying.
+2458	Olmani qirib qo'shing.
+2459	Ikki ipdan o'rim qiling.
+2460	Tuxum surting.
+2461	Unni sariyog'da jigarrang qovuring.
+2462	Piyoz qo'shib 40 daqiqa qaynating.
+2463	Qaymoqni isiting.
+2464	Mevani to'g'rang.
+2465	Botirib yeying.
+2466	Karamelga yong'oq va qaymoq qo'shing.
+2467	Xamir ichiga soling.
+2468	Qolipga tering.
+2469	Pechda 50 daqiqa pishiring.
+2470	Spetsle xamiri qiling, kolbasa qo'shing.
+2471	Sutli bulonda 15 daqiqa pishiring.
+2472	Kukunni qo'shing.
+2473	Un, tuxum, non uvog'iga belang.
+2474	Ko'p yog'da tovani silkitib qovuring.
+2475	Limon va kartoshka salati bilan torting.
+2476	Go'shtni sabzavot bilan 2,5 soat qaynating.
+2477	Bulonni alohida torting.
+2478	Go'shtni tilimlang.
+2479	Olmali xren va kartoshka bilan torting.
+2480	Piyozni ko'p qovuring.
+2481	Paprika va go'sht qo'shing.
+2482	Suv quyib 2 soat dimlang.
+2483	Upa-shakar va olxo'ri pyuresi bilan torting.
+2484	Elastik xamir qiling.
+2485	Yupqa cho'zib o'rang.
+2486	Kesib o'rik murabbosi surting.
+2487	Shokolad glazur quying.
+2488	Nonni sutga ivitng.
+2489	Tuxum va qovurilgan piyoz qo'shing.
+2490	Issiq bulon va sirka quying.
+2491	Yupqa quymoqlar pishiring.
+2492	Lentaga kesing.
+2493	Issiq bulonga soling.
+2494	Ichiga murabbo soling.
+2495	Sariyog' va mak seping.
+2496	Yong'oqli xamir qiling.
+2497	Murabbo surtib to'r qo'ying.
+2498	Tvorogli xamir qiling.
+2499	O'rikni o'rang.
+2500	Qovurilgan non uvog'iga belang.
+2501	Spetsle qiling.
+2502	Pishloq bilan qatlamlang.
+2503	Tovuqni bo'laklang.
+2504	Qiymani muzli suv bilan mayin qiling.
+2505	160°C da 1 soat pishiring.
+2506	Xamir cho'zing.
+2507	Tvorogli plomba soling.
+2508	Qo'shing.
+2509	O'tli damlama qiling.
+2510	Gazli suv bilan aralashtiring.
+2511	Kartoshka pyuresini tvorog va qovurilgan piyoz bilan aralashtiring.
+2512	Xamirni yupqa yoyib doira kesing, plomba solib yoping.
+2513	Qaynoq suvda suzib chiqqach 3 daqiqa pishiring.
+2514	Karam va piyozni qo'shing.
+2515	Past olovda 1,5 soat dimlang.
+2516	Kolbasani suvda qaynating.
+2517	Achitqi va kartoshka qo'shing.
+2518	Sarimsoq bilan ta'mlang, tuxum bilan torting.
+2519	Qiyma va guruchni o'rang.
+2520	Pomidor sousida 50 daqiqa dimlang.
+2521	Tovuqni sabzavot bilan 2 soat sekin qaynating.
+2522	Qovurib kartoshka va karam bilan torting.
+2523	Kartoshka va piyozni qirib siqing.
+2524	Yassi qovurib smetana bilan torting.
+2525	Lavlagi va sabzavotlarni 40 daqiqa qaynating.
+2526	Suzib sirka va sarimsoq qo'shing.
+2527	Tiniq sho'rva holida torting.
+2528	Kolbasani bo'laklab qovuring.
+2529	Piyoz qo'shib karamellang.
+2530	Xantal va non bilan torting.
+2531	Batonni uzunasiga kesing.
+2532	Qo'ziqorin va pishloq qo'ying.
+2533	Pechda 10 daqiqa pishirib ketchup quying.
+2534	Go'shtni unga belab qizartiring.
+2535	Piyoz va paprika qo'shing.
+2536	1,5 soat dimlang.
+2537	Yupqa blinlar pishiring.
+2538	Qiyma solib o'rang.
+2539	Non uvog'iga belab qovuring.
+2540	Dumaloq qilib qovuring.
+2541	Murabbo to'ldirib glazur surting.
+2542	Tvorogni silliq qiling.
+2543	Mak plombasini yoyib rulet qiling.
+2544	Mevalarni suvda qaynating.
+2545	Pierogi yasang.
+2546	Qaynatib qovurilgan piyoz bilan torting.
+2547	Kartoshka pyuresiga un va tuxum qo'shing.
+2548	Kolbaska qilib qiya kesing.
+2549	Qaynatib sariyog' bilan torting.
+2550	Kotlet yasang.
+2551	Kolbasa va piyozni qovuring.
+2552	Tomat bilan birga 20 daqiqa dimlang.
+2553	Go'shtni sabzavot bilan 2 soat dimlang.
+2554	Sabzavotni blenderda ezib qaymoq qo'shing.
+2555	Knedlik va murabbo bilan torting.
+2556	Xamir oshiring, non kubiklarini qo'shing.
+2557	Baton qiling.
+2558	20 daqiqa qaynatib ip bilan kesing.
+2559	Go'sht va ziravorlarni qo'shing.
+2560	2 soat dimlang, knedlik bilan torting.
+2561	Go'shtni zira bilan pechda 2 soat pishiring.
+2562	Knedlik bilan torting.
+2563	Pishloqni qalin tilimlang.
+2564	Qovurib tartar sousi bilan torting.
+2565	Kartoshka va qo'ziqorinni qaynating.
+2566	Pashot tuxum va ukrop bilan torting.
+2567	Ezilgan sarimsoq qo'shing.
+2568	Qovurilgan non bilan torting.
+2569	Sarimsoq, tuxum, un qo'shing.
+2570	Yupqa qovuring.
+2571	Mevani o'rang.
+2572	Qaynatib sariyog' va shakar bilan torting.
+2573	Tayoqqa spiral qilib o'rang.
+2574	Pishirib dolchinli shakarga belang.
+2575	Xamirdan dumaloqlar yasang.
+2576	O'rtasiga tvorog yoki murabbo soling.
+2577	Sarimsoq va ziravor bilan torting.
+2578	Sosiskalarni yorib piyoz soling.
+2579	Sirkali marinadga bosing.
+2580	3 kun ushlab torting.
+2581	Murabbo solib bulochka qiling.
+2582	Zich terib pishiring.
+2583	Qirilgan kartoshka va undan xamir qiling.
+2584	Mayda bo'laklarni qaynoq suvga tushiring.
+2585	Brinza bilan aralashtirib torting.
+2586	Karamni qaynating.
+2587	Kolbasa va qo'ziqorin qo'shing.
+2588	1 soat pishirib smetana bilan torting.
+2589	Halushki qiling.
+2590	Karamni qovuring.
+2591	Pyure va undan xamir qiling.
+2592	Yupqa yoyib quruq tovada pishiring.
+2593	Murabbo surtib o'rang.
+2594	Qirib siqing.
+2595	Sarimsoq va tuxum qo'shing.
+2596	Murabbo solib dumaloq qiling.
+2597	Smetana bilan torting.
+2598	Kartoshka xamiridan barmoqdek yasang.
+2599	Mak va shakar seping.
+2600	Go'shtni piyoz bilan qovuring.
+2601	Karam qo'shib 1 soat dimlang.
+2602	Olma soling.
+2603	O'rab pishiring.
+2604	Piyozni qovurib paprika qo'shing.
+2605	Go'sht va suv qo'shib 1 soat qaynating.
+2606	Sabzavotlarni solib 30 daqiqa pishiring.
+2607	Piyozni qovuring, paprika qo'shing.
+2608	Tovuqni 40 daqiqa dimlang.
+2609	Smetana qo'shib nokedli bilan torting.
+2610	Go'sht va paprika qo'shing.
+2611	Oz suvda 1,5 soat dimlang.
+2612	Sarimsoq, smetana, pishloq bilan torting.
+2613	Baliq boshlari va piyozdan bulon qiling.
+2614	Suzib paprika qo'shing.
+2615	Baliq bo'laklarini 10 daqiqa pishiring.
+2616	Qiyma va guruchni barglarga o'rang.
+2617	Tuzlangan karam ustiga tering.
+2618	Qalampir va pomidor qo'shib 15 daqiqa dimlang.
+2619	Xohlasangiz tuxum qo'shing.
+2620	Sabzavotni qaynating.
+2621	Sariyog' va unni qovurib qo'shing.
+2622	Sut bilan quyuqlashtiring.
+2623	Tvorog va smetana qo'shing.
+2624	Qovurilgan kolbasa seping.
+2625	Qaynoq suvga mayda bo'laklab tushiring.
+2626	Paprikash bilan torting.
+2627	6 ta yupqa korj pishiring.
+2628	Shokoladli krem qiling.
+2629	Qatlamlab ustiga karamel quying.
+2630	Xamirni lentaga kesib tayoqqa o'rang.
+2631	Pechda karamellab pishiring.
+2632	Uch xil biskvit pishiring.
+2633	Krem bilan qatlamlang.
+2634	Shokolad sousi quying.
+2635	Murabbo surting.
+2636	Gilosni dolchin bilan qaynating.
+2637	Smetana va un aralashmasi bilan quyuqlashtiring.
+2638	Kartoshka va tuxumni qaynatib tilimlang.
+2639	Kolbasa bilan qatlamlang.
+2640	Smetana quyib pishiring.
+2641	Qiyma, guruch, piyozni aralashtiring.
+2642	Karam bargiga o'rang.
+2643	Pomidor bilan 2 soat dimlang.
+2644	Tuzli suvni qaynating.
+2645	Unni sepib doim aralashtiring.
+2646	Quyuq bo'lgach ag'darib pishloq bilan torting.
+2647	Qiymaga sarimsoq va soda qo'shing.
+2648	Barmoqdek yasang.
+2649	Grilda qovurib xantal bilan torting.
+2650	Qorinni 3 soat qaynating.
+2651	Smetana va sarig' bilan quyuqlashtiring.
+2652	Sirka va sarimsoq qo'shing.
+2653	Sabzavotli sho'rvaga soling.
+2654	Nordon qilib ko'kat bilan torting.
+2655	Mamaliga va quymoq tuxum bilan torting.
+2656	Baqlajon va qalampirni kuydirib arching.
+2657	Maydalab piyoz bilan qovuring.
+2658	1 soat dimlang, non bilan torting.
+2659	Baqlajonni olovda kuydiring.
+2660	Etini mayda to'g'rang.
+2661	Piyoz va yog' bilan aralashtiring.
+2662	Halqa va sharcha yasab qovuring.
+2663	Smetana va murabbo bilan torting.
+2664	Yong'oq-kakao plombasini yoyib o'rang.
+2665	Qolipda 1 soat pishiring.
+2666	Tvorog soling.
+2667	Karamni piyoz bilan qovuring.
+2668	Tomat qo'shing.
+2669	Birga 20 daqiqa dimlang.
+2670	Nordon qiling.
+2671	Unni tuzli suvda quyuq pishiring.
+2672	Ag'daring.
+2673	Brinza va smetana bilan torting.
+2674	Cho'zma xamir qiling.
+2675	Tvorog yoki qovoq soling.
+2676	Spiral qilib tovada qovuring.
+2677	Sabzavot va uy lapshasini soling.
+2678	Nordon qilib ko'kat qo'shing.
+2679	Smetana bilan dimlang.
+2680	Kolbaska yasang.
+2681	5 soat qaynating.
+2682	Go'shtni maydalang.
+2683	Sarimsoqli sho'rva bilan qotiring.
+2684	Birga 40 daqiqa dimlang.
+2685	Mamaliga, tuxum, brinza bilan torting.
+2686	O'rim qiling.
+2687	Uch ipdan o'rib halqa qiling.
+2688	Yog' va sirka bilan aralashtiring.
+2689	Ustidan brinzani qirib seping.
+2690	Tuxum, qatiq, brinzani aralashtiring.
+2691	Filoga surtib o'rang.
+2692	Spiral qilib 200°C da 35 daqiqa pishiring.
+2693	Bodringni mayda to'g'rang.
+2694	Qatiqni suv bilan suyultiring.
+2695	Sarimsoq, yong'oq, ukrop qo'shib sovuq torting.
+2696	Sopol idishda pechda 1 soat pishiring.
+2697	Cho'zinchoq yasang.
+2698	Yassi kotlet yasang.
+2699	Kartoshka va qiymani qatlamlang.
+2700	Qatiq-tuxum quyib yana 15 daqiqa pishiring.
+2701	Qalampir va baqlajonni kuydirib arching.
+2702	Pomidor bilan maydalang.
+2703	Sopol idishga brinza va sabzavot soling.
+2704	Pechda 15 daqiqa pishiring.
+2705	Tuxum chaqib yana 5 daqiqa pishiring.
+2706	Pechda 1 soat pishiring.
+2707	Sutni qaynatib 45°C ga sovuting.
+2708	Achitqi qo'shing.
+2709	8 soat iliqda ushlang.
+2710	Murabbo yoki brinza bilan torting.
+2711	Suv bilan aralashtiring.
+2712	Qiymani sarimsoq bilan qorib bir kecha ushlang.
+2713	Grilda qovurib non va piyoz bilan torting.
+2714	Non va kaymak bilan torting.
+2715	Dudlangan go'sht bilan qatlamlang.
+2716	Go'shtni urib kaymak qo'yib o'rang.
+2717	Plomba aralashtiring.
+2718	Filo bilan qatlamlang.
+2719	Qalampirni kuydirib arching.
+2720	Yog' bilan quyuqlashguncha pishiring.
+2721	Quyuq qilib torting.
+2722	Qalampirga qiyma to'ldiring.
+2723	Qatlamlab pechda pishiring.
+2724	Sutni qaynatib sayoz idishga quying.
+2725	Ustidagi qatlamni 12 soat davomida yig'ing.
+2726	Tuzlab non bilan torting.
+2727	Kichik doiralar pishiring.
+2728	Juftlab murabbo bilan yopishtiring.
+2729	Murabbo to'ldiring.
+2730	Go'sht va kartoshkani qopqoqli idishga soling.
+2731	Ustini cho'g' bilan yoping (yoki pechda).
+2732	2 soat sekin pishiring.
+2733	Kalmar va piyozni qovuring.
+2734	Bulonni oz-ozdan quyib pishiring.
+2735	Tvorog yoyib o'rang.
+2736	Qaynatib yoki qaymoq bilan pishiring.
+2737	Go'shtni sirkada bir kecha marinadlang.
+2738	Qizartirib sabzavot bilan 3 soat dimlang.
+2739	Njoki bilan torting.
+2740	Pomidor va baliqni qo'shing.
+2741	Silkitib 30 daqiqa pishiring, mamaliga bilan torting.
+2742	Pyure bilan torting.
+2743	Quyuq sho'rva qiling.
+2744	Xamirni rombga kesib buklang.
+2745	Tovuq ragu qiling.
+2746	Qiymani bir kecha ushlang.
+2747	Kolbaska yasab qovuring.
+2748	Somun va piyoz bilan torting.
+2749	Qiyma va piyozni aralashtiring.
+2750	Filoga solib spiral o'rang.
+2751	Qaymoq-sarig' bilan quyuqlashtiring.
+2752	3 soat sekin pishiring.
+2753	Sabzavotlarni to'ldiring.
+2754	Qozonga tering.
+2755	Kartoshkani mayda kubik qiling.
+2756	Filoga o'rang.
+2757	Olmani qiyomda pishiring.
+2758	Ichiga yong'oq soling.
+2759	Xurmosimon pishiriqlar yasang.
+2760	Issiq qiyom quying.
+2761	Qahva qo'shib ko'pirtiring.
+2762	Lokum bilan torting.
+2763	Yong'oq-asal plombasini yoying.
+2764	O'rab halqa qolipda pishiring.
+2765	Kolbasani issiq suvda 20 daqiqa ushlang.
+2766	Karamni isiting.
+2767	Karam va kartoshka qo'shing.
+2768	Quyuq qilib pishiring.
+2769	Qaynatib sous bilan torting.
+2770	Xamir qatlamlari yoying.
+2771	Tvorog, olma, mak, yong'oq qatlamlarini tering.
+2772	Sochiqqa o'rab qaynating.
+2773	Arpa va loviyani qaynating.
+2774	Sabzavot va kolbasa qo'shing.
+2775	Quyuq bo'tqa holiga keltiring.
+2776	Unni qaynoq suvga soling.
+2777	Titib sariyog' bilan torting.
+2778	Ikki qatlam xamir pishiring.
+2779	Vanil krem va qaymoq qiling.
+2780	Qatlamlab sovuting.
+2781	Tvorog plombasini solib yoping.
+2782	Pishloq bilan tering.
+2783	Kartoshkani qaynating, un qo'shing.
+2784	Doim aralashtiring.
+2785	Kaymak va pishloq bilan torting.
+2786	Tuxum bilan quyuqlashtiring.
+2787	Sut va kartoshka qo'shing.
+2788	Pechda 1,5 soat pishiring.
+2789	Baliqdan bulon qiling.
+2790	Sabzavot va guruch qo'shing.
+2791	Asal yoki pishloq bilan torting.
+2792	Kaymakni eriting.
+2793	Un qo'shib yog' ajralguncha aralashtiring.
+2794	Qovurilgan piyoz va paprika qo'shing.
+2795	Sopol idishda pechda 30 daqiqa pishiring.
+2796	Kuydirib arching.
+2797	Oval xamir yoying.
+2798	Mayda go'sht soling.
+2799	Pishirib oxirida tuxum qo'shing.
+2800	Brinza seping.
+2801	Filoni qatlamlang.
+2802	Pishloq soling.
+2803	Kartoshka va pomidor qo'shing.
+2804	Go'sht va guruchni qovuring.
+2805	Qatiq, tuxum, un aralashmasini quying.
+2806	Qalampir va pomidorni qovuring.
+2807	Tvorog qo'shing.
+2808	Qatlam-qatlam qaymoq bilan pishiring.
+2809	Har qatlamdan keyin pechda qizartiring.
+2810	Qalampirga tvorog to'ldiring.
+2811	Ko'katni piyoz bilan aralashtiring.
+2812	Un bilan xamir qiling.
+2813	Uch xil sutni shimdiring.
+2814	Karamel quying.
+2815	Javdar noniga sariyog' surting.
+2816	Ustiga seld, tuxum, piyoz tering.
+2817	Ko'kat bilan bezab torting.
+2818	Qoshiqda shakllang.
+2819	Sariyog'da qovurib kartoshka bilan torting.
+2820	Go'shtni qarsillaguncha qovuring.
+2821	Petrushkali oq sous bilan torting.
+2822	Maxsus tovada aylantirib pishiring.
+2823	Murabbo va upa-shakar bilan torting.
+2824	Go'shtni tuzlab 200°C da 2 soat pishiring.
+2825	Qizil karamni dimlang.
+2826	Guruchni sutda pishirib sovuting.
+2827	Ko'pirtirilgan qaymoq va bodom qo'shing.
+2828	Gilos sousi bilan torting.
+2829	Qolipda 3 soat oshiring.
+2830	Shakl berib murabbo soling.
+2831	200°C da 15 daqiqa pishiring.
+2832	Piyoz, bodring, sous qo'shing.
+2833	Sarig' va shakarni ko'pirtiring.
+2834	Qatiq va limon qo'shing.
+2835	Pechene bilan sovuq torting.
+2836	Go'sht va karamni qatlamlang.
+2837	Murch seping, suv quying.
+2838	2 soat dimlab kartoshka bilan torting.
+2839	Kotlet yasab qovuring.
+2840	Qo'ng'ir sous qiling.
+2841	Sousda 15 daqiqa dimlang.
+2842	Sut va qaymoq qo'shing.
+2843	Baliqni 5 daqiqa pishiring.
+2844	Tuz, shakar, ukropni balliqqa surting.
+2845	Bosib 2 kun muzlatgichda ushlang.
+2846	Yupqa tilimlab xantal sousi bilan torting.
+2847	Quyuq dimlama holiga keltiring.
+2848	Baliqni mayin qiling.
+2849	Bulonda qaynatib oq sous bilan torting.
+2850	Pyurega un qo'shing.
+2851	Quruq tovada pishirib sariyog' va shakar bilan torting.
+2852	Yurak shaklli vafli pishiring.
+2853	Murabbo va smetana bilan torting.
+2854	Yupqa xamir pishiring.
+2855	Konus qilib o'rang.
+2856	Qaymoq to'ldiring.
+2857	Guruch bo'tqasini sovuting.
+2858	Qizil sous bilan torting.
+2859	Mayda sharchalar yasang.
+2860	Qaymoqli sous, kartoshka va brusnika bilan torting.
+2861	Piyoz va baliq bilan qatlamlang.
+2862	Qaymoq quyib 1 soat pishiring.
+2863	Dolchinli sariyog' yoyib o'rang.
+2864	Kesib 220°C da 10 daqiqa pishiring.
+2865	Xantal va blin bilan torting.
+2866	Surting.
+2867	2 kun bosib qo'ying.
+2868	Qirilgan kartoshkani xamirga qo'shing.
+2869	Brusnika bilan torting.
+2870	Hammasini kubik qilib qovuring.
+2871	Lavlagi bilan torting.
+2872	Krem, murabbo, qaymoq bilan qatlamlang.
+2873	Yashil marsipan bilan yoping.
+2874	175°C da 15 daqiqa pishiring.
+2875	O'rtasi yopishqoq qolsin.
+2876	Bulochka pishiring.
+2877	Tepasini kesib bodom pastasi soling.
+2878	Yupqa blin pishiring.
+2879	Murabbo bilan torting.
+2880	Guruchni sutda bo'tqa qiling.
+2881	Javdar xamiridan oval yoyib bo'tqa soling.
+2882	Pishirib tuxumli sariyog' bilan torting.
+2883	Baliq va qaymoq qo'shing.
+2884	Ukrop bilan torting.
+2885	Piyoz va suv qo'shib dimlang.
+2886	Pyure va brusnika bilan torting.
+2887	Javdar xamiriga baliq va go'sht o'rang.
+2888	Past haroratda 5 soat pishiring.
+2889	Go'shtni piyoz va murch bilan qozonga soling.
+2890	Suv quying.
+2891	Pechda 3 soat pishiring.
+2892	Dolchin yoyib o'rang.
+2893	Uchburchak kesib pishiring.
+2894	Xamirni qolipga bosing.
+2895	Chernika soling.
+2896	Smetanali krem quyib pishiring.
+2897	Pishloqni tovada isiting.
+2898	Rezavor murabbosi bilan torting.
+2899	Un va solodni suv bilan pishiring.
+2900	Qolipda pechda 3 soat pishiring.
+2901	Qaymoq bilan sovuq torting.
+2902	Baliq va kartoshkani qaynating.
+2903	Piyozli oq sous qiling.
+2904	Sutni qaynatib sovuting.
+2905	Achitqi qo'shib 8 soat ushlang.
+2906	Dokada suzib quyuq qiling.
+2907	Xom va qovurilgan piyoz qo'shing.
+2908	Remulad bilan torting.
+2909	Kartoshkaga oq sous qiling.
+2910	Romb kesib o'rtasidan o'tkazing.
+2911	Yopiq qolipda 100°C da 10 soat pishiring.
+2912	Baliqni tuzlang.
+2913	Kolbasani pechda pishiring.
+2914	Unni qatiqqa aralashtiring.
+2915	Qotiring.
+2916	Sabzavotlarni qaynatib to'g'rang.
+2917	Seld qo'shing.
+2918	Pushti smetana sousi bilan aralashtiring.
+2919	Kilka va tuxum tering.
+2920	Dolchinli xamirni o'rang.
+2921	Uzunasiga kesib o'rim qiling.
+2922	Nonni suvda qaynating.
+2923	Ezib mayiz qo'shing.
+2924	Aralashtirib qatiq bilan torting.
+2925	Nonni qovurib uvoq qiling.
+2926	Qaymoq va murabbo bilan qatlamlang.
+2927	Javdar xamirini qiling.
+2928	Kartoshka va sabzi qatlamini soling.
+2929	Go'sht va piyoz soling.
+2930	Lavlagini qaynatib qiring.
+2931	Kefir bilan aralashtiring.
+2932	Tuxum va issiq kartoshka bilan torting.
+2933	Go'shtni urib belang.
+2934	Tvorogni shakar bilan aralashtiring.
+2935	Batonchik yasang.
+2936	Shokoladga botirib muzlating.
+2937	Xom va qaynatilgan kartoshkadan massa qiling.
+2938	Ichiga qiyma solib dirijabl shakli bering.
+2939	25 daqiqa qaynatib smetana sousi bilan torting.
+2940	Lavlagini qiring.
+2941	Kefir, bodring, ukrop qo'shing.
+2942	Issiq kartoshka bilan torting.
+2943	Kartoshkani qirib tuxum va sut qo'shing.
+2944	Qovurilgan go'sht va piyoz qo'shing.
+2945	Qirilgan kartoshka va piyozni aralashtiring.
+2946	Aylanadigan tayoqda qatlamlab pishiring.
+2947	Qirrali shakl hosil bo'ladi.
+2948	Xamir chiviqlarini qovuring.
+2949	Asal bilan aralashtiring.
+2950	Tepalik qilib mak seping.
+2951	Tvorog va tuxumni aralashtiring.
+2952	Xamirga solib yoping.
+2953	Nonni kesing.
+2954	Pomidor surting.
+2955	Tunets, zaytun, kapers soling.
+2956	Makaron va qiyma sousini aralashtiring.
+2957	Xamir qobig'iga soling.
+2958	Pechda 45 daqiqa pishiring.
+2959	Baliq va ko'katni aralashtiring.
+2960	Sarimsoq bilan ezing.
+2961	Xurmo pastasi soling.
+2962	Sharbatni siqing.
+2963	Gazli suv qo'shing.
+2964	Pishloqni tilimlang.
+2965	Go'shtni yirik bo'laklab marinadlang.
+2966	Cho'g'da 2 soat aylantirib pishiring.
+2967	Qiymaga piyoz va ko'kat qo'shing.
+2968	Kolbaskacha yasang.
+2969	Go'sht va kartoshkani folgaga o'rang.
+2970	160°C da 3 soat pishiring.
+2971	Ochib qizartiring.
+2972	Limonli suvda pishiring.
+2973	Dimlab bulgur bilan torting.
+2974	Qovoq va bulgurni aralashtiring.
+2975	Go'sht va no'xatni 2 soat qaynating.
+2976	Kartoshka va karamni qaynating.
+2977	Sarimsoq bilan qovurib yassi qiling.
+2978	Qiymani dimlang.
+2979	Makaronga to'ldiring.
+2980	Beshamel quyib pishiring.
+2981	Krem qaynating.
+2982	Shakar sepib karamellang.
+2983	Yassi yoying.
+2984	Shakar seping va pishiring.
+2985	Ko'kat, guruch, pishloq plombasini qiling.
+2986	Un, suv, moydan suyuq xamir qiling.
+2987	Pechda qarsildoq qiling.
+2988	Baliqni ivitib qo'ying.
+2989	Zaytun bilan torting.
+2990	Nonni moy bilan namlang.
+2991	Masalliqlarni tering.
+2992	Bosib 30 daqiqa qo'ying.
+2993	Barg shaklida yoying.
+2994	Bodom va shakar sepib pishiring.
+2995	Shokolad-yong'oq krem qiling.
+2996	Vafli qatlamlariga surting.
+2997	Shokolad bilan qoplang.
+2998	Yupqa yoyib tovada pishiring.
+2999	Pishloq va ko'kat bilan o'rang.
+3000	Qiyma solib shlyapa shaklida yoping.
+3001	Bulonda qaynating.
+3002	Varaqlarga plomba soling.
+3003	Beshamel bilan pishiring.
+3004	Non va sutni aralashtiring.
+3005	Meva va asal qo'shing.
+3006	Pishloq bilan aralashtiring.
+3007	Unni sutda qaynating.
+3008	Yopib tindiring.
+3009	Sariyog'da uvoq bo'lguncha qovuring.
+3010	Xamir sharlarini bulonda pishiring.
+3011	Bo'tqa pishiring.
+3012	Kolbasani qovuring.
+3013	Makaron va pishloq bilan torting.
+3014	Go'shtga kolbasa mahkamlang.
+3015	Pomidorli rizotto qiling.
+3016	Ichiga pishloq solib shakllang.
+3017	Ko'pirtirilgan qaymoq to'ldiring.
+3018	Makaronni tuzli suvda pishiring.
+3019	Dudlangan go'shtni qarsillaguncha qovuring.
+3020	Tuxum, pishloq, murchni aralashtiring.
+3021	Olovdan tashqarida makaron, tuxum va makaron suvini tez aralashtiring.
+3022	Yupqa yoyib pomidor sousi surting.
+3023	250°C da 10 daqiqa pishirib rayhon qo'ying.
+3024	Qiymani pomidor bilan 30 daqiqa dimlang.
+3025	Beshamel sous qiling.
+3026	List, qiyma, beshamel, pishloq qatlamlarini tering.
+3027	Piyoz va sabzini qovuring.
+3028	Qiyma qo'shing.
+3029	Pomidor qo'shib 40 daqiqa dimlang.
+3030	Spagetti bilan torting.
+3031	Piyoz va qo'ziqorinni qovuring.
+3032	Guruchni qo'shib 2 daqiqa qovuring.
+3033	Issiq bulonni oz-ozdan quyib 20 daqiqa aralashtiring.
+3034	Sariyog' va pishloq qo'shing.
+3035	Sarig'ni shakar bilan ko'pirtirib maskarpone qo'shing.
+3036	Oqsilni ko'pirtirib kremga qo'shing.
+3037	Qahvaga botirilgan pechene va krem qatlamlarini tering.
+3038	6 soat muzlatib kakao seping.
+3039	Suv va pomidor qo'shing.
+3040	Loviya va makaron qo'shib 10 daqiqa pishiring.
+3041	Sarimsoq va qalampirni moyda qovuring.
+3042	Pomidorni 12 daqiqa qaynating.
+3043	Spagettini kamroq suvda pishiring.
+3044	Murchni quruq tovada qizdiring.
+3045	Pishloqni makaron suvi bilan pasta qiling.
+3046	Hammasini tez aralashtiring.
+3047	Sarimsoq bilan ishqalang.
+3048	Mayda pomidor va rayhon qo'ying.
+3049	Zaytun moyi seping.
+3050	Pomidor va pishloqni tilimlang.
+3051	Navbatlab tering.
+3052	Rayhon qo'ying.
+3053	Zaytun moyi va tuz seping.
+3054	Pomidor va bulon qo'shib 1,5 soat dimlang.
+3055	Rizotto bilan torting.
+3056	Un va tuxum qo'shib xamir qiling.
+3057	Kolbaska qilib kesing.
+3058	Qaynoq suvda suzib chiqqach oling, sous bilan torting.
+3059	Sariyog' va qaymoqni isiting.
+3060	Baqlajonni tilimlab qovuring.
+3061	Qatlamlab pishloq seping.
+3062	Doira yoyib yarmiga plomba soling.
+3063	230°C da 15 daqiqa pishiring.
+3064	Qolipga yoyib barmoq bilan chuqurchalar qiling.
+3065	Moy va tuz seping.
+3066	220°C da 20 daqiqa pishiring.
+3067	Guruchga pishloq qo'shing.
+3068	Rayhon, yong'oq, pishloq, sarimsoqni moy bilan maydalang.
+3069	Pesto bilan aralashtiring.
+3070	Ismaloq va tvorogdan plomba qiling.
+3071	Yupqa yoyib kvadrat ravioli yasang.
+3072	3 daqiqa qaynatib sous bilan torting.
+3073	Pomidorni 15 daqiqa qaynating.
+3074	Rayhon seping.
+3075	Ustiga kolbasa qo'yib mahkamlang.
+3076	Qaymoqni shakar bilan isiting.
+3077	Jelatin qo'shing.
+3078	4 soat muzlatib rezavor bilan torting.
+3079	Xamirni yupqa yoyib trubkaga o'rang.
+3080	Tvorog va shakardan krem qiling.
+3081	Trubkalarni to'ldiring.
+3082	Sarig'ni shakar bilan ko'pirtiring.
+3083	Issiq sut quyib quyuqlashguncha isiting.
+3084	Muzlatib har 30 daqiqada aralashtiring.
+3085	Xamir qorib yong'oq qo'shing.
+3086	Batonchik qilib pishiring.
+3087	Kesib qayta quriting.
+3088	Qahva bilan torting.
+3089	Espresso ustiga quying.
+3090	Ustiga kakao seping.
+3091	Shakarli suv bilan aralashtiring.
+3092	Kartoshka va piyozni qovuring.
+3093	Tuxum va pishloq quying.
+3094	Pechda usti qizarguncha qizdiring.
+3095	Sarimsoq va pomidorni qovuring.
+3096	No'xat va suv qo'shing.
+3097	Makaron soling.
+3098	Sariyog'da quying.
+3099	Doim aralashtirib yarim qotiring.
+3100	Uch qavat qilib buklang.
+3101	Piyozni past olovda 40 daqiqa karamellang.
+3102	Un va bulon qo'shib 15 daqiqa qaynating.
+3103	Kosaga non va pishloq qo'ying.
+3104	Grilda pishloq eriguncha qizdiring.
+3105	Silliq xamir qiling.
+3106	30 daqiqa tindiring.
+3107	Juda yupqa pishiring.
+3108	Shokolad yoki murabbo bilan torting.
+3109	Kolbasa va pishloq soling.
+3110	Tuxum va qaymoq quying.
+3111	Pomidor-piyoz sousi qilib qolipga yoying.
+3112	Sabzavotlarni yupqa tilimlab navbatlab tering.
+3113	Tovuqni qizartiring.
+3114	Sharbat va bulon quyib 1,5 soat dimlang.
+3115	Sabzavot va tomat pasta qo'shing.
+3116	Bulon quyib 2,5 soat dimlang.
+3117	Qo'ziqorin qo'shib torting.
+3118	Nonga kolbasa va pishloq qo'ying.
+3119	Ustini yoping.
+3120	Pishloq sepib grilda eriting.
+3121	Tuxum, sut, shakarni aralashtiring.
+3122	Nonni botiring.
+3123	Kartoshka, tuxum, loviyani qaynating.
+3124	Baliq va pomidor qo'shing.
+3125	Zaytun moyi va limon bilan aralashtiring.
+3126	Piyoz, sarimsoq, pomidorni qovuring.
+3127	Suv va kartoshka qo'shing.
+3128	Baliqni solib 10 daqiqa pishiring.
+3129	Kartoshkani yupqa tilimlang.
+3130	Sarimsoqli qaymoq quying.
+3131	Piyozni sariyog'da yumshating.
+3132	Kartoshka va bulon qo'shib 20 daqiqa qaynating.
+3133	Qaymoq qo'shib sovuq torting.
+3134	Go'sht va kolbasani qizartiring.
+3135	Pechda 2 soat pishiring.
+3136	Xamir qorib sovuting.
+3137	Sariyog'ni ichiga o'rab 3 marta buklang.
+3138	Uchburchak kesib o'rang.
+3139	Xamir qorib 2 soat oshiring.
+3140	Uzun baton qiling.
+3141	Qiya kesiklar qiling.
+3142	240°C da bug' bilan 25 daqiqa pishiring.
+3143	Sarig'ni shakar bilan aralashtiring.
+3144	Issiq qaymoq qo'shing.
+3145	Qoliplarda suv hammomida 150°C da 40 daqiqa pishiring.
+3146	Sovutib shakar sepib karamellang.
+3147	Sarig' qo'shing.
+3148	Ko'pirtirilgan oqsilni aralashtiring.
+3149	4 soat muzlatgichda ushlang.
+3150	Shakar va sariyog'dan karamel qiling.
+3151	Olmani karamelga tering.
+3152	Pishirib ag'daring.
+3153	Oqsilni shakar bilan ko'pirtiring.
+3154	Bodom uni qo'shing.
+3155	Kichik doiralar qilib 30 daqiqa quriting.
+3156	150°C da 14 daqiqa pishirib krem bilan yopishtiring.
+3157	Zavarnoy xamir qiling.
+3158	Uzunchoq qilib pishiring.
+3159	Qaymoqli krem qiling.
+3160	To'ldirib shokolad surting.
+3161	Tuxum va shakarni ko'pirtiring.
+3162	Un va sariyog' qo'shing.
+3163	200°C da 10 daqiqa pishiring.
+3164	Zavarnoy xamirdan kichik sharchalar pishiring.
+3165	Shokolad quying.
+3166	Qahva damlang.
+3167	Teng aralashtiring.
+3168	Kosada iching.
+3169	Limonni siqing.
+3170	Suv va shakar qo'shing.
+3171	Muz soling.
+3172	Qaymoq quyib 15 daqiqa dimlang.
+3173	Kruton bilan torting.
+3174	Go'shtni urib qolipga tering.
+3175	Ustiga piyoz va kartoshka qo'ying.
+3176	Mayonez va pishloq seping.
+3177	Jigar, piyoz, sabzini qovuring.
+3178	Blenderda maydalang.
+3179	Sovutib non bilan torting.
+3180	Keng tovada tovuqni qizartiring.
+3181	Sabzavotni qo'shib 5 daqiqa qovuring.
+3182	Guruchni yoyib 900 ml qaynoq suv quying.
+3183	Aralashtirmasdan 18 daqiqa pishiring, limon bilan torting.
+3184	Non, sirka, moy, tuz bilan blenderda maydalang.
+3185	2 soat sovuting.
+3186	Muzdek torting.
+3187	Kartoshka va piyozni ko'p moyda 20 daqiqa yumshating.
+3188	Tovada 5 daqiqa pishiring.
+3189	Ag'darib 3 daqiqa pishiring.
+3190	Kartoshkani kubik qilib qovuring.
+3191	Pomidor, paprika, sarimsoqdan achchiq sous qiling.
+3192	Kartoshkaga quying.
+3193	Quyuq beshamel qilib tovuq qo'shing.
+3194	Kotlet yasab tuxum va nonga belang.
+3195	Moyni sarimsoq va qalampir bilan qizdiring.
+3196	Krevetkani soling.
+3197	Pomidor sousida 20 daqiqa dimlang.
+3198	Pomidorni nonga ishqalang.
+3199	Loviyani ivitib qo'ying.
+3200	Kolbasa va go'sht bilan 2 soat past olovda pishiring.
+3201	Go'sht bilan 2 soat qaynating.
+3202	Sho'rva va go'shtni alohida torting.
+3203	Pomidor, non, sarimsoqni moy bilan maydalang.
+3204	Kosaga quying.
+3205	Qaynatilgan tuxum seping.
+3206	Navbatlab qovuring.
+3207	Pomidor qo'shib 25 daqiqa dimlang.
+3208	Bulon quyib 30 daqiqa dimlang.
+3209	Tuxumni yumshoq qovuring.
+3210	Kartoshka ustiga qo'ying.
+3211	Sarig'ini yorib aralashtiring.
+3212	Bo'laklab tering.
+3213	Paprika, tuz va moy seping.
+3214	Ismaloq va piyozni qovuring.
+3215	Ikki tomonini pishiring.
+3216	Qaynoq suvga un va sariyog' qo'shib xamir qiling.
+3217	Qandolat qopidan yog'ga siqib qovuring.
+3218	Issiq shokolad bilan torting.
+3219	Sutni limon po'sti bilan isiting.
+3220	Sarig', shakar, kraxmalni aralashtiring.
+3221	Shakardan karamel qilib qolipga quying.
+3222	Qolipga quyib suv hammomida 45 daqiqa pishiring.
+3223	Sovutib ag'daring.
+3224	Sutni shakar va dolchin bilan isiting.
+3225	Nonni shimdiring.
+3226	Bodom uni va limon po'sti qo'shing.
+3227	Upa-shakar eling.
+3228	Unni quruq tovada qovuring.
+3229	170°C da 15 daqiqa pishiring.
+3230	Bir kecha ivitib qo'ying.
+3231	Suv bilan maydalang.
+3232	Suzib shakar qo'shing.
+3233	Sharbat bilan aralashtiring.
+3234	1 soat sovuting.
+3235	Moyni qizdiring.
+3236	Qalampirni po'sti qavarguncha qovuring.
+3237	Yirik tuz seping.
+3238	Salat va sabzavotni to'g'rang.
+3239	Zaytun moyi va sirka bilan aralashtiring.
+3240	Ismaloq soling.
+3241	Go'shtni tuzli suvda 2,5 soat qaynating.
+3242	Un, tuxum va suvdan xamir qorib, yupqa yoyib 7x7 sm kesing.
+3243	Xamirni sho'rvada 5 daqiqa qaynating, halqa piyozni 2 daqiqa ushlang.
+3244	Xamir ustiga go'sht va piyoz qo'yib, sho'rvani alohida torting.
+3245	Iliq sut, xamirturush, shakar va tuxumni aralashtiring.
+3246	Un qo'shib yumshoq xamir qorib, 1 soat oshiring.
+3247	1 sm qalinlikda yoyib romb qilib kesing.
+3248	Ko'p yog'da ko'pchib oltin bo'lguncha qovuring.
+3249	Go'sht va ichki a'zolarni kubik qilib, o'z yog'ida 20 daqiqa qovuring.
+3250	Piyozni qo'shib 5 daqiqa qovuring.
+3251	Kartoshkani alohida qovurib qo'shing.
+3252	Tuz, murch sepib issiq torting.
+3253	Go'shtni tuz, sarimsoq, zira bilan 1 kun marinadlang.
+3254	Ichakka zich to'ldirib bog'lang.
+3255	2 kun salqin joyda quriting.
+3256	2,5 soat past olovda qaynating, tilimlab torting.
+3257	Go'shtni sovuq suvga solib qaynating, ko'pigini oling.
+3258	Butun piyoz qo'shib 2 soat past olovda qaynating.
+3259	Kartoshkani solib 20 daqiqa pishiring.
+3260	Ko'kat sepib, kosada torting.
+3261	Go'sht va piyozni mayda to'g'rab ziravor qo'shing.
+3262	Yupqa yoyib kvadrat kesing, qiyma solib tuging.
+3263	Qasqonda 45 daqiqa bug'da pishiring.
+3264	Uchburchak qilib yoping.
+3265	Un va tuxumdan xamir qorib ingichka lapsha kesing.
+3266	Kartoshka va piyozni solib 15 daqiqa qaynating.
+3267	Lapshani solib 5 daqiqa pishiring.
+3268	Turp, sabzi va qalampirni somoncha qiling.
+3269	Piyozni ingichka halqalang.
+3270	Sirka, tuz, shakar bilan aralashtiring.
+3271	Ustidan qizigan yog' quying.
+3272	Sabzini qo'shib, suv quyib 30 daqiqa qaynating.
+3273	Guruchni solib suvi qochguncha pishiring.
+3274	Yopib 25 daqiqa dimlang.
+3275	Sabzavotlarni qo'shib 8 daqiqa qovuring.
+3276	Suv qo'shib 10 daqiqa dimlang.
+3277	Lapsha ustiga vaja quyib torting.
+3278	Ichakni tozalang.
+3279	Guruch, mayda jigar, go'sht va piyozni aralashtiring.
+3280	Ichakni to'ldirib bog'lang.
+3281	1 soat past olovda qaynating.
+3282	Qatiqni dokaga solib bir kecha suzing.
+3283	Suzmani tuzlab, kichik sharchalar yasang.
+3284	Quyoshda yoki shamollatiladigan joyda 3–5 kun quriting.
+3285	Qattiq bo'lgach saqlang.
+3286	Yangi tuya sutini toza idishga soling.
+3287	Oldingi shubatdan ozgina qo'shing.
+3288	Iliq joyda 1 kun achiting, vaqti-vaqti bilan aralashtiring.
+3289	Sovuq holida iching.
+3290	Sutni teri yoki yog'och idishga soling.
+3291	Achitqi (eski qimiz) qo'shing.
+3292	Kun davomida tez-tez aralashtiring.
+3293	1 kunda achib tayyor bo'ladi, sovuq iching.
+3294	Kuchli qora choy damlang.
+3295	Piyolaga issiq sut quying.
+3296	Ustidan choy quyib aralashtiring.
+3297	Bo'g'irsoq bilan torting.
+3298	Sariyog' va asalni eriting.
+3299	Talqon va mayizni qo'shib aralashtiring.
+3300	Qolipga bosib sovuting.
+3301	Bo'laklab choy bilan torting.
+3302	Tuxum va undan xamir qoring.
+3303	Ingichka kesib qovuring.
+3304	Asalni qaynatib qovurilganlarga aralashtiring.
+3305	Tepalik qilib shakllang.
+3306	Piyoz va sabzi qo'shib qovuring.
+3307	Kartoshka va suv qo'shib 50 daqiqa dimlang.
+3308	Tuz, murch bilan ta'mlang.
+3309	Xamir qorib yupqa yoying.
+3310	Mayda kvadratlar kesib qiyma solib tuging.
+3311	Go'sht sho'rvasida 7 daqiqa qaynating.
+3312	Go'shtni qaynatib mayda to'g'rang.
+3313	Donlarni yumshaguncha qaynating.
+3314	Sovugach qatiq, sut, go'sht va suv qo'shing.
+3315	Tuzlab sovuq torting — 7 masalliqli bayram taomi.
+3316	Go'shtni piyoz, tuz, murch bilan marinadlang.
+3317	Cho'g'da 15 daqiqa pishiring.
+3318	Sutni qaynatib qatiq qo'shing.
+3319	Ivigan pishloqni past olovda 1,5 soat pishiring.
+3320	Suvi qochib qizg'ish bo'lsin.
+3321	Sovutib bo'laklang.
+3322	Go'sht, piyoz, kartoshkani kubik qilib ziravor qo'shing.
+3323	Katta pirog qilib yoping.
+3324	180°C da 60 daqiqa pishiring.
+3325	Kartoshka va piyozni qirib suvini siqing.
+3326	Tuxum, un, tuz qo'shing.
+3327	Qizigan yog'da yassi qilib qovuring.
+3328	Guruchni suvda 10 daqiqa qaynating.
+3329	Sut quyib 20 daqiqa pishiring.
+3330	Sariyog' qo'yib torting.
+3331	Kurtni maydalab seping.
+3332	Yog' va tuz qo'shib aralashtiring.
+3333	Tovuqni 2 l suvda 30 daqiqa qaynating.
+3334	Kartoshka, sabzi, piyozni soling.
+3335	15 daqiqadan so'ng lapshani soling.
+3336	5 daqiqa pishirib ko'kat seping.
+3337	Kartoshkani kubik qilib piyoz bilan aralashtiring.
+3338	Uchburchak somsa qiling.
+3339	Choy damlang.
+3340	Piyolada choy va sutni aralashtiring.
+3341	Xohlasangiz sariyog' qo'shing.
+3342	Kraxmalni suv bilan qaynatib qotiring va kubiklang.
+3343	Tuxumdan quymoq qilib ingichka kesing.
+3344	Pomidor va sarimsoqni qovurib, sirka va sovuq suv qo'shing.
+3345	Kosaga lapsha, kraxmal, tuxum solib, achchiq-nordon suyuqlik quying.
+3346	Go'shtni 2,5 soat qaynating.
+3347	Xamirni yupqa yoyib kesing va sho'rvada qaynating.
+3348	Go'shtni mayda to'g'rab, piyoz bilan xamirga aralashtiring.
+3349	Sho'rvani alohida torting.
+3350	Go'shtni mayda bo'laklab o'z yog'ida qovuring.
+3351	Qovurilgan kartoshka qo'shing.
+3352	Go'shtni ziravorlar bilan marinadlang.
+3353	Qaynatib tilimlang.
+3354	Xamir qorib oshiring.
+3355	Yoyib kvadrat kesing.
+3356	Guruchni alohida pishiring.
+3357	Go'sht va sabzavotlarni lag'mon vajasi kabi qovuring.
+3358	Ozgina suv qo'shib dimlang.
+3359	Guruch ustiga vaja quyib torting.
+3360	Xamirni katta yupqa yoying.
+3361	Qiyma yoyib rulet qiling.
+3362	Ilon shaklida buklab qasqonga qo'ying.
+3363	40 daqiqa bug'da pishiring.
+3364	Sabzi va suv qo'shib 30 daqiqa qaynating.
+3365	Suv qo'shib dimlang.
+3366	Go'shtni sekin qaynating.
+3367	Sabzavotlarni yirik soling.
+3368	Tugib yoping.
+3369	45 daqiqa bug'da pishiring.
+3370	Go'shtni qozonga tering.
+3371	Sabzavotlarni qatlam qiling.
+3372	Zich yopib.
+3373	1 soat past olovda dimlang.
+3374	Xamirdan qalinroq lapsha kesing.
+3375	Lapshani soling.
+3376	5 daqiqa qaynating.
+3377	Xamirni chimdib mayda bo'laklar qiling.
+3378	Suv qo'shib qaynating.
+3379	Xamir bo'laklarini soling va 7 daqiqa pishiring.
+3380	Arpa unini suvda qaynatib quyuq bo'tqa qiling.
+3381	Qatiq va suv qo'shing.
+3382	Bir kecha achitib, sovuq iching.
+3383	Donni qovurib maydalang.
+3384	Suvda qaynatib quyuq qiling.
+3385	Achitqi qo'shib 1 kun achiting.
+3386	Sutga achitqi qo'shing.
+3387	Tez-tez aralashtiring.
+3388	1 kun achiting.
+3389	Sariyog'ni eriting.
+3390	Talqon va shakarni qo'shing.
+3391	Aralashtirib bo'lakchalar yasang.
+3392	Xamirni yupqa yoyib sariyog' surting.
+3393	Rulet qilib spiral buklang.
+3394	Qayta yoyib tovada pishiring.
+3395	Mayda chuchvara tuging.
+3396	Tuzli suvda 6 daqiqa qaynating.
+3397	Doira qilib yoying.
+3398	Naqsh soling.
+3399	Kurutni suvda eritib oling.
+3400	Go'sht va kartoshkadan sho'rva qiling.
+3401	Kurut eritmasini qo'shing.
+3402	5 daqiqa qaynatib torting.
+3403	Go'shtni yupqa to'g'rab qovuring.
+3404	Sabzavotlarni qo'shing.
+3405	Lapshani qo'shib qovuring.
+3406	Pyure tayyorlang.
+3407	Pirojki yasang.
+3408	Ozgina suv bilan dimlang.
+3409	Sut quyib pishiring.
+3410	Boorsok bilan torting.
+3411	Suv quyib 40 daqiqa qaynating.
+3412	Kartoshka solib pishiring.
+3413	Qurtni iliq suvda ivitib eritma qiling.
+3414	Nonni bo'laklab katta tovoqqa soling.
+3415	Ustidan qurt eritmasini quying.
+3416	Qovurilgan piyoz, pomidor, bodring va ko'kat tering.
+3417	Sabzi va behi qo'shing.
+3418	Suv qo'shib zirvak qiling.
+3419	Guruchni solib dimlang.
+3420	Sut qo'shib qaynating, tuzlang.
+3421	Kosaga to'g'ralgan non soling.
+3422	Ustiga shirchoy va sariyog' quying.
+3423	Xamirdan lapsha kesing.
+3424	Go'sht, no'xat va sabzavotdan sho'rva qiling.
+3425	No'xat qo'shing.
+3426	Xamir qorib qatlam-qatlam sariyog' surting.
+3427	Buklab yoying.
+3428	Doira qilib.
+3429	Qurt eritmasini tayyorlang.
+3430	Nonga quying.
+3431	Go'sht va sabzavotni ustiga tering.
+3432	Sabzavot qatlamlarini qo'ying.
+3433	Guruch va kartoshka soling.
+3434	Moshni qaynating.
+3435	Suzmaga mayda ko'kat qo'shing.
+3436	Go'shtni mayda qovuring.
+3437	Pomidorni tilimlang.
+3438	Piyozni ezib qo'shing.
+3439	Osh bilan torting.
+3440	Unni sariyog'da qovuring.
+3441	Shakar qiyomini qo'shing.
+3442	Qiyom qaynating.
+3443	Oqsilni ko'pirtiring.
+3444	Qiyomni qo'shing.
+3445	Undirilgan bug'doy sharbatini oling.
+3446	Un va yog' bilan qo'shing.
+3447	24 soat aralashtirib pishiring.
+3448	Tonggacha dimlang.
+3449	Kichik doiralar yasang.
+3450	Ingichka ugra kesing.
+3451	Ugrani soling.
+3452	5 daqiqa pishiring.
+3453	Kalla va oyoqlarni kuydirib tozalang.
+3454	Sovuq suvda qaynating.
+3455	Piyoz qo'shib 4 soat pishiring.
+3456	Go'shtini ajratib sho'rva bilan torting.
+3457	Qovoqni piyoz bilan aralashtiring.
+3458	Qaynatib torting.
+3459	Meva va shakar soling.
+3460	Choy soling.
+3461	Piyolada torting.
+3462	Go'shtni tovada qovuring.
+3463	Go'sht va piyozni mayda to'g'rab tuzlang.
+3464	Ikki doira orasiga qiyma solib yoping.
+3465	Sabzini qo'shing.
+3466	Nonni mayda to'g'rang.
+3467	Go'sht va piyozni maydalab nonga qo'shing.
+3468	Ustidan issiq sho'rva quying.
+3469	Ko'kat soling.
+3470	Tovada pishirib sariyog' surting.
+3471	Lapsha va sabzavotni qo'shing.
+3472	Romb shaklida kesing.
+3473	Pomidor va piyoz qo'shing.
+3474	Dimlab pishiring.
+3475	Xamirni yoying.
+3476	Katta pirog qiling.
+3477	Qumda yoki pechda pishiring.
+3478	Naqshlang.
+3479	Kartoshka soling.
+3480	Sabzi va piyoz qo'shing.
+3481	Qatlam qiling.
+3482	Yopib.
+3483	Qaytaring.
+3484	Unni qovuring.
+3485	Qiyom qo'shing.
+3486	Sut quying.
+3487	Go'shtni mayda to'g'rang.
+3488	O'z yog'ida qovuring.
+3489	Qalampir ichini tozalang.
+3490	Qiyma va guruch soling.
+3491	Pomidor bilan 50 daqiqa dimlang.
+3492	Qiymani suvi siqilgan piyoz bilan qorib yassi sixga yopishtiring.
+3493	Grilda pomidor bilan pishiring.
+3494	Zafaronli guruch va sariyog' bilan torting.
+3495	Tovuqni qatiq, limon, zafaronda 2 soat marinadlang.
+3496	Grilda 15 daqiqa pishiring.
+3497	Ko'katlarni mayda to'g'rab qovuring.
+3498	Go'sht, loviya va limonni qo'shing.
+3499	2 soat dimlab guruch bilan torting.
+3500	Yong'oqni maydalab qovuring.
+3501	Suv va anor siropi qo'shib 1 soat qaynating.
+3502	Tovuqni soling, 40 daqiqa pishiring.
+3503	Guruchni yarim qaynatib suzing.
+3504	Tagiga qatiqli guruch yoying, ustiga qolganini soling.
+3505	Past olovda 45 daqiqa dimlang, qarsildoq tag hosil bo'ladi.
+3506	Dukkaklilarni qaynating.
+3507	Ko'kat va lapshani qo'shing.
+3508	Kashk va qovurilgan piyoz bilan torting.
+3509	No'xat va tomat qo'shib 1,5 soat dimlang.
+3510	Kartoshka somonchalari bilan torting.
+3511	Baqlajonni qovurib ezing.
+3512	Kashk qo'shing.
+3513	Qovurilgan piyoz, yalpiz va yong'oq bilan torting.
+3514	Baqlajonni kuydirib arching.
+3515	Sarimsoq va pomidor bilan qovuring.
+3516	Tuxum qo'shib aralashtiring.
+3517	Tovuqni piyoz bilan pishiring.
+3518	Zirkni shakar bilan qovuring.
+3519	Zafaronli guruch ustiga seping.
+3520	Guruchni yarim qaynating.
+3521	Loviya va ukrop bilan qatlamlang.
+3522	Dimlab go'sht bilan torting.
+3523	Hammasini 3 soat qaynating.
+3524	Sho'rvani nonga quyib iching.
+3525	Qolganini ezib alohida yeying.
+3526	Yopiq tovada past olovda pishiring.
+3527	Qatiq-tuxum-zafaron bilan aralashtiring.
+3528	Tovuq bilan qatlamlab pechda 1,5 soat pishiring.
+3529	Guruchni yumshaguncha qaynating.
+3530	Shakar va zafaron qo'shing.
+3531	Dolchin bilan naqshlab sovuq torting.
+3532	Kraxmal lapshasini qiling.
+3533	Shakar qiyomiga soling.
+3534	Muzlatib limon bilan torting.
+3535	Zafaronli sut-qaymoq qaynating.
+3536	Sovutib muzlating.
+3537	Pista bilan torting.
+3538	Uzun yassi qilib barmoq bilan chiziq torting.
+3539	Kunjut sepib 230°C da 15 daqiqa pishiring.
+3540	Yangi ko'katlarni yuving.
+3541	Pishloq va yong'oq bilan likopchaga tering.
+3542	Qatiqni gazli suv bilan aralashtiring.
+3543	Tuz va yalpiz qo'shing.
+3544	Choyni hil bilan damlang.
+3545	10 daqiqa kuting.
+3546	Stakanda qand bilan iching.
+3547	Go'sht va piyozni dimlang.
+3548	Qovurilgan baqlajon va pomidorni qo'shing.
+3549	Shirin-nordon suvda pishiring.
+3550	Guruch va yasmiqni qaynating.
+3551	Ko'kat va sharchalar qo'shing.
+3552	Anor sharbati bilan nordon qiling.
+3553	Qirilgan kartoshka va qiymani qoring.
+3554	Qovurib non bilan torting.
+3555	Bug'doy va go'shtni 4 soat qaynating.
+3556	Ezib bir xil massa qiling.
+3557	Dolchin va shakar bilan torting.
+3558	Oqsil bilan ko'pirtiring.
+3559	Pista qo'shib kesing.
+3560	Shakar, asal, sariyog'ni karamellang.
+3561	Zafaron qo'shing.
+3562	Yupqa quyib pista seping.
+3563	Limon va tuz qo'shing.
+3564	Yong'oqni maydalang.
+3565	Anor siropi va sarimsoq qo'shing.
+3566	Zaytun bilan aralashtiring.
+3567	Baliqni orqasidan yorib tuzlang.
+3568	Olov yonida 1 soat sekin pishiring.
+3569	Pomidor va piyoz bilan torting.
+3570	Sabzavotlarni o'yib to'ldiring.
+3571	Barglarni o'rang.
+3572	Nordon suvda 1 soat pishiring.
+3573	Go'shtni ziravor bilan pechda 2,5 soat pishiring.
+3574	Bodom va mayiz bilan torting.
+3575	Nonni bo'laklab tovoqqa soling.
+3576	Ustidan sho'rva va go'sht quying.
+3577	Qobiq xamir qiling.
+3578	Qiyma plombasini soling.
+3579	Qovuring yoki qaynating.
+3580	Qiyma sharchalar bilan qatlamlang.
+3581	Pomidor sousi quyib pishiring.
+3582	Qatlamlarni sariyog'lab pishiring.
+3583	Pomidor va bamya qo'shing.
+3584	1 soat dimlang, guruch bilan torting.
+3585	Romb shaklida yasang.
+3586	Qizigan pechda pishiring.
+3587	Xurmo pastasini o'rang.
+3588	Istikanda shakar bilan iching.
+3589	Guruch va qiymani aralashtiring.
+3590	Qaynatib qovuring.
+3591	Bulgur va qiymadan qobiq qiling.
+3592	Qovurilgan qiyma plombasini soling.
+3593	Nonni qovuring.
+3594	Sabzavotni to'g'rang.
+3595	Sumaxli limon sousi bilan aralashtiring.
+3596	Yong'oq va non bilan maydalang.
+3597	Anor siropi qo'shing.
+3598	Mitti chuchvara yasab pishiring.
+3599	Qatiqni qaynating.
+3600	Chuchvarani qatiqda pishiring.
+3601	Guruchni ko'kat bilan aralashtiring.
+3602	Limon va moyda pishirib sovuq torting.
+3603	Qovurilgan nonni tovoqqa soling.
+3604	Issiq no'xat qo'shing.
+3605	Sarimsoqli qatiq va yong'oq quying.
+3606	Qatiqni tuxum bilan qaynating.
+3607	Go'shtni soling, guruch bilan torting.
+3608	Pishloq va mankani qizdirib cho'zing.
+3609	Yupqa yoyib qaymoq o'rang.
+3610	Xurmo soling.
+3611	Qolipda pishiring.
+3612	Bulgurni ivitng.
+3613	Ko'katni juda mayda to'g'rang.
+3614	Pomidor, limon va moy bilan aralashtiring.
+3615	Muzli suv qo'shing.
+3616	Qobiq qiling.
+3617	Zatar moyini surting.
+3618	Sarimsoq sousi (toum) bilan torting.
+3619	Kuydiring.
+3620	Pasta va limon qo'shing.
+3621	Ismaloq plombasini soling.
+3622	Uchburchak qilib pishiring.
+3623	Yasmiqni yarim qaynating.
+3624	Guruch qo'shib pishiring.
+3625	Qarsildoq piyoz bilan torting.
+3626	Sarimsoqni tuz bilan ezing.
+3627	Yog'ni ingichka oqimda qo'shib ko'pirtiring.
+3628	Qatlamlab qolipga bosing.
+3629	Romb kesing.
+3630	Qiyma qo'yib burchaklarini burang.
+3631	Guruchni sutda pishiring.
+3632	Shakar va atirgul suvi qo'shing.
+3633	Siropni suvda eriting.
+3634	Mayiz va yong'oq bilan iching.
+3635	Go'shtni qatiqli sousda 2 soat pishiring.
+3636	Non ustiga guruch va go'sht qo'ying.
+3637	Sous va bodom bilan torting.
+3638	Qovurilgan sabzavot va tovuqni qatlamlang.
+3639	Go'sht va sabzavotni ziravorlang.
+3640	Yer o'chog'ida yoki pechda 3 soat pishiring.
+3641	Pomidorni qo'shib 15 daqiqa pishiring.
+3642	Piyozni sumax bilan qovuring.
+3643	Nonga tovuq bilan qo'ying.
+3644	Qizdiring.
+3645	Freekeh qo'shing.
+3646	Kofta yasang.
+3647	Tahini sousi quyib pishiring.
+3648	Qaynatilgan tuxum tilimlang.
+3649	Pitaga salat va tahini bilan soling.
+3650	Falafel qovuring.
+3651	Pitaga salat bilan soling.
+3652	Tahini quying.
+3653	Juda mayda kubik qiling.
+3654	Uch ipdan o'ring.
+3655	Tuxum surtib pishiring.
+3656	Yopiq idishda 100°C da bir kecha pishiring.
+3657	Matsa sharchalarini yasang.
+3658	Bulonda 30 daqiqa pishiring.
+3659	Kvadrat kesing.
+3660	Doira yoyib shokolad surting.
+3661	Uchburchak kesib o'rang va pishiring.
+3662	Qovurib smetana bilan torting.
+3663	Kunjutli uvoqqa belang.
+3664	Piyozni sumax bilan ko'p moyda qovuring.
+3665	Nonga piyoz va tovuq qo'yib pechda qizdiring.
+3666	Tovuq, sabzavot, guruchni qatlamlang.
+3667	Pishirib patnisga ag'daring.
+3668	Kadayifni sariyog'lang.
+3669	Pishirib qiyom quying.
+3670	Yasmiq va guruchni pishiring.
+3671	Lavashga o'rang.
+3672	Qatiq quying.
+3673	Zatar surting.
+3674	Uzun halqa qiling.
+3675	Kunjutga belab pishiring.
+3676	Tovuqni ziravor bilan pishiring.
+3677	Mayiz va bodom bilan torting.
+3678	Go'shtni ziravorlab sekin pishiring.
+3679	Dudlangan ta'm bering.
+3680	Bug'doy va tovuqni qaynating.
+3681	Qatiq qo'shib ezing.
+3682	Qiyma-tuxum plombasini soling.
+3683	Buklab tovada qovuring.
+3684	Guruchni bulon va sutda yumshoq pishiring.
+3685	Bug'doy va go'shtni 4 soat pishiring.
+3686	Yupqa xamir bo'laklarini soling.
+3687	Hil va zafaron qo'shing.
+3688	Xurmo bilan iching.
+3689	Tovuqni ziravor va limon bilan pishiring.
+3690	Sirop quyib kunjut seping.
+3691	Vermishelni zafaronli shakar suvida pishiring.
+3692	Ustiga quymoq tuxum qo'ying.
+3693	Go'sht va sabzavotni dimlang.
+3694	Nonni tovoqqa tering.
+3695	Ustiga dimlama quying.
+3696	Xurmo siropi bilan torting.
+3697	Un qo'shib ezing.
+3698	Choyni hil bilan qaynating.
+3699	Tovuq va guruchni pishiring.
+3700	Ezib bo'tqa qiling.
+3701	Sabzavot va go'shtni dimlang.
+3702	Shirin vermishel pishiring.
+3703	Pishirilgan xamirni maydalang.
+3704	Yong'oq va issiq sut quying.
+3705	Baliqni ziravorlab qovuring.
+3706	Guruchni baliq sho'rvasida pishiring.
+3707	Xamir sharchalarini qiyma bilan to'ldiring.
+3708	Pomidorli sho'rvada pishiring.
+3709	Krevetkani ziravor bilan qovuring.
+3710	Un va ziravor qo'shing.
+3711	Sirop va sariyog' qo'shing.
+3712	Dimlab baliq bilan torting.
+3713	Kraxmalni suvda eriting.
+3714	Shakar bilan doim aralashtirib pishiring.
+3715	Sariyog' va yong'oq qo'shing.
+3716	Go'shtni ziravor pastasida marinadlang.
+3717	Yer o'chog'ida (yoki pechda 140°C) 24 soat pishiring.
+3718	Limonli guruch qiling.
+3719	Doim aralashtirib 2 soat pishiring.
+3720	Halva bilan iching.
+3721	Go'sht bulonida sabzavotni pishiring.
+3722	Hulba ko'pigini tayyorlang.
+3723	Qaynab turgan holda ustiga qo'yib torting.
+3724	Sopol idishda qaynating.
+3725	Hulba ko'pigi bilan torting.
+3726	Tovuqni ziravorlab sekin pishiring.
+3727	Yupqa qatlamlar yoyib sariyog' surting.
+3728	Ustma-ust tering.
+3729	Pishirib asal quying.
+3730	Nonni qatiqli sousga botiring.
+3731	Go'shtni qatiqda marinadlang.
+3732	Kartoshka bilan qovuring.
+3733	Unni suvda doim aralashtirib quyuq pishiring.
+3734	Gumbaz shakli bering.
+3735	O'rtasiga sariyog' va asal quying.
+3736	Zanjabil qo'shing.
+3737	Guruch, yasmiq, makaronni pishiring.
+3738	Qarsildoq piyoz va pomidor sousi qiling.
+3739	Qatlamlab torting.
+3740	Sarimsoq, limon, moy bilan torting.
+3741	Ivitilgan loviyani ko'kat bilan maydalang.
+3742	Yassi sharcha yasang.
+3743	Molokhiyani soling.
+3744	Qovurilgan sarimsoq qo'shing.
+3745	Sabzavotlarni o'ying.
+3746	Guruchli ko'kat bilan to'ldiring.
+3747	Pomidorli suvda pishiring.
+3748	Non va guruchni qatlamlang.
+3749	Sarimsoq-sirkali sous quying.
+3750	Qiymani sabzavot bilan aralashtiring.
+3751	Nonga to'ldiring.
+3752	Pechda 20 daqiqa pishiring.
+3753	Xamirni yupqa cho'zib sariyog' surting.
+3754	Ko'p qatlam buklang.
+3755	Pishirib asal yoki pishloq bilan torting.
+3756	Xamir bo'laklarini qolipga soling.
+3757	Issiq shirin sut quying.
+3758	Sutda pishiring.
+3759	Qaynoq suvda damlang.
+3760	Sovuq yoki issiq iching.
+3761	Sut va kraxmalni qaynating.
+3762	Dolchin va yong'oq bilan iching.
+3763	Silliq qiling.
+3764	Juda issiq pechda ko'pchiting.
+3765	Un, tuxum, suv va tuzdan qattiq xamir qoring.
+3766	Qiymaga mayda piyoz, tuz, murch qo'shing.
+3767	Yupqa yoyib doira kesing, qiyma solib uchlarini birlashtiring.
+3768	Tuzli qaynoq suvda 7 daqiqa pishiring, smetana bilan torting.
+3769	Tuxum, shakar, tuzni aralashtirib sut quying.
+3770	Un qo'shib suyuq xamir qiling.
+3771	Har tomonini 1 daqiqa pishirib sariyog' surting.
+3772	Tvorog, tuxum, shakar va unni aralashtiring.
+3773	Yassi kotlet yasab unga belang.
+3774	Har tomonini 3 daqiqadan qizartiring.
+3775	Kartoshka, sabzi, tuxumni qaynatib sovuting.
+3776	Kolbasa, bodring va no'xat qo'shing.
+3777	Mayonez bilan aralashtiring.
+3778	Kartoshka va tuxumni qaynatib sovuting.
+3779	Kefir va sovuq suv quyib tuzlang.
+3780	Go'shtdan 1 soat sho'rva qaynating.
+3781	Kartoshka va karamni soling.
+3782	Qovurilgan sabzi, piyoz, pomidorni qo'shing.
+3783	15 daqiqa qaynatib smetana bilan torting.
+3784	Piyoz va tomat pastani qovuring.
+3785	Kolbasa, bodring va qovurilganni qo'shing.
+3786	10 daqiqa qaynatib limon va zaytun bilan torting.
+3787	Go'shtni ingichka tasma qilib to'g'rang.
+3788	Un va smetana qo'shib 10 daqiqa dimlang.
+3789	Karam barglarini yumshating.
+3790	Pomidorli sousda 50 daqiqa dimlang.
+3791	Nonni sutda ivitib, qiymaga qo'shing.
+3792	Piyoz, tuxum, tuz qo'shib qoring.
+3793	Ozgina suv bilan 10 daqiqa dimlang.
+3794	Issiq sut va sariyog' qo'shib ezing.
+3795	Kotlet bilan torting.
+3796	Piyoz va sabzi qo'shing.
+3797	Grechka va 600 ml suv qo'shing.
+3798	Yopib 20 daqiqa pishiring.
+3799	Mankani aralashtirib ingichka quying.
+3800	Kartoshka pyuresiga qovurilgan piyoz qo'shing.
+3801	Lavlagi, kartoshka, sabzini qaynatib sovuting.
+3802	Kubik qiling.
+3803	Bodring va karamni qo'shing.
+3804	Sabzavot va tuxumni qaynating.
+3805	Seldni mayda to'g'rang.
+3806	Qatlam qiling: seld, kartoshka, sabzi, tuxum, lavlagi, har birini mayonezlang.
+3807	3 soat muzlatgichda tindiring.
+3808	Baliqdan sho'rva qaynating.
+3809	Kartoshka, piyoz, sabzi soling.
+3810	Plomba: guruch, baliq, tuxum.
+3811	Uzun pirog qiling.
+3812	Gilosni shakar bilan aralashtiring.
+3813	Varenik yasang.
+3814	Qaynatib smetana bilan torting.
+3815	Asal, shakar, sariyog'ni eriting, tuxum va un qo'shing.
+3816	8 ta yupqa korj yoyib pishiring.
+3817	Smetanani shakar bilan krem qiling.
+3818	Korjlarni kremlab, 8 soat tindiring.
+3819	Un va sariyog'dan xamir qorib korjlar pishiring.
+3820	Sut, tuxum, shakardan krem qaynating.
+3821	Korjlarni kremlang.
+3822	Bir kecha tindiring.
+3823	Rezavorni 1 l suvda qaynating.
+3824	Kraxmalni suvda eritib quying.
+3825	Rezavorni ezib sharbatini oling.
+3826	Qoldig'ini suvda qaynating.
+3827	Shakar va sharbat qo'shing.
+3828	Nonni quritib qaynoq suvga soling, 6 soat damlang.
+3829	Suzib shakar va xamirturush qo'shing.
+3830	12 soat achiting.
+3831	Sovuq saqlang.
+3832	Tuxum, un qo'shing.
+3833	Makaronni qaynating.
+3834	Kartoshka, sabzi, piyoz soling.
+3835	Kefir, tuxum, shakarni aralashtiring.
+3836	Un va soda qo'shing.
+3837	Qoshiqda tovaga qo'ying.
+3838	Har tomonini 2 daqiqa qovuring.
+3839	Filesni urib yupqalang.
+3840	Ichiga sovuq sariyog' qo'yib o'rang.
+3841	Tuxum va non uvog'iga ikki marta belang.
+3842	Ko'p yog'da 10 daqiqa qovuring.
+3843	Kartoshka, so'ng karamni soling.
+3844	Lavlagi, sabzi, piyoz, pomidorni 10 daqiqa qovurib qo'shing.
+3845	Sarimsoq qo'shib, smetana bilan torting.
+3846	Doira kesib pyure solib yoping.
+3847	Tvorogni tuxum va shakar bilan aralashtiring.
+3848	Un, tuxum, sutdan xamir qoring.
+3849	Mayda bo'laklarga chimdib kesing.
+3850	Qaynoq suvda 5 daqiqa pishiring.
+3851	Sariyog' yoki smetana bilan torting.
+3852	Go'shtni 5 soat past olovda qaynating.
+3853	Go'shtni ajratib maydalang.
+3854	Sho'rvani sarimsoq bilan qolipga quying.
+3855	Muzlatgichda qotiring.
+3856	Sariyog' qo'yib o'rang.
+3857	Ikki marta belang.
+3858	Kartoshka va tariq soling.
+3859	Tuzlangan karamni qo'shing.
+3860	Grechka va qiymani aralashtiring.
+3861	Piyoz va tuxum qo'shing.
+3862	Smetanani suv bilan qaynating.
+3863	Makkajo'xori unini quyib aralashtiring.
+3864	Pishloq va qo'ziqorin bilan torting.
+3865	Qo'ziqorin va piyoz soling.
+3866	Rulet qilib bog'lang.
+3867	Smetanada 40 daqiqa dimlang.
+3868	Quruq mevani yuvib 2 l suvda qaynating.
+3869	Asal qo'shing.
+3870	Sovutib iching.
+3871	Kichik sharchalar yasab qolipga tering.
+3872	Sarimsoqli yog' surting.
+3873	Pyure, tuxum va undan xamir qiling.
+3874	Ichiga qiyma solib kotlet yasang.
+3875	Ichiga qaynatilgan tuxum va piyoz solib kotlet yasang.
+3876	Sarimsoq va yong'oq qo'shing.
+3877	Tariq va kartoshka soling.
+3878	Qovurilgan piyoz qo'shing.
+3879	Blinlarga solib o'rang.
+3880	Oqsilni shakar bilan ko'pirtiring, yong'oq qo'shing.
+3881	Ikki korj qilib 150°C da 2 soat quriting.
+3882	Sariyog'li krem tayyorlang.
+3883	Korjlarni kremlab bezang.
+3884	Makni shakar bilan bug'lab ezing.
+3885	Olma ustiga quying.
+3886	Olma va shakar soling.
+3887	Rezavorni qaynating.
+3888	Kraxmal quying.
+3889	Shovulni qo'shing.
+3890	Tuxum va smetana bilan torting.
+3891	Kolbaska yasab kesing.
+3892	Qaynatib.
+3893	Qiymaga piyoz, tuxum, non qo'shing.
+3894	Garnir bilan torting.
+3895	Kartoshkani bo'laklab qovuring.
+3896	Smetana va sarimsoq qo'shib 20 daqiqa dimlang.
+3897	Jigarni maydalab xamir qiling.
+3898	Oladyi kabi qovuring.
+3899	Paprika va suv qo'shing.
+3900	1 soat qaynating.
+3901	Kartoshka va qalampir qo'shib pishiring.
+3902	Kartoshka va piyozni mayda qirib suvini siqing.
+3903	Un va smetana bilan sous qiling.
+3904	Blin bilan torting.
+3905	Kartoshkani qirib siqing, tuxum qo'shing.
+3906	Kartoshka massasiga qiyma solib kotlet yasang.
+3907	Kartoshkani qirib, tuxum va qovurilgan piyoz qo'shing.
+3908	Kartoshka pyuresi, tuxum, undan sharchalar yasang.
+3909	Go'sht sho'rvasini qaynating.
+3910	Kletskilarni soling.
+3911	7 daqiqa pishiring.
+3912	Bodring va ko'katni to'g'rang.
+3913	Tuxum bilan sovuq torting.
+3914	Go'shtga sarimsoq va sabzi suqing.
+3915	Tuz, murch bilan ishqalang.
+3916	Folgaga o'rab.
+3917	Qovurilgan piyoz va sabzi qo'shing.
+3918	Kartoshka massasi qiling.
+3919	Un va suv qo'shib sous qiling.
+3920	Grechkani yuving.
+3921	500 ml suvda 20 daqiqa pishiring.
+3922	Sut bilan torting.
+3923	Karamni qo'shing.
+3924	Karamni piyoz bilan dimlang.
+3925	Blin pishiring.
+3926	Nonni damlang.
+3927	Shakar va xamirturush qo'shing.
+3928	Meva soling.
+3929	Shovulni soling.
+3930	Tuxum, sut, un qo'shing.
+3931	Yupqa blin qiling.
+3932	Suvni dolchin bilan qaynating.
+3933	Limon soling.
+3934	Qo'ziqorin va piyozni qovuring.
+3935	Suvga kartoshka bilan soling.
+3936	Xamirdan kvadrat bo'lakchalar kesing.
+3937	Karam va piyozni qovuring.
+3938	Olmaga quying.
+3939	Xamir qorib doira yoying.
+3940	Tvorog plombasini qo'ying.
+3941	Yarmidan buklang.
+3942	Piyoz, tuxum, non qo'shing.
+3943	Kalduny yasang.
+3944	Sopol idishga soling.
+3945	Smetana quying.
+3946	Qalampir va piyozni yog'da 5 daqiqa qovuring.
+3947	Mayda pomidorni qo'shib 5 daqiqa pishiring.
+3948	Tuxum chaqib sekin aralashtiring.
+3949	Yumshoq holida non bilan torting.
+3950	Piyoz va sabzini 5 daqiqa qovuring.
+3951	Yasmiq, kartoshka va 1,5 l suv qo'shib 25 daqiqa qaynating.
+3952	Go'shtni yupqa tilimlab tez qovuring.
+3953	Pomidorni sariyog'da sous qiling.
+3954	Non ustiga go'sht qo'ying.
+3955	Sous va eritilgan sariyog' quying, qatiq bilan torting.
+3956	Qiymaga mayda qalampir va dumba qo'shing.
+3957	Yassi sixga yopishtiring.
+3958	Tovuqni ziravor bilan marinadlab qovuring.
+3959	Lavashga sous, sabzavot va go'sht soling.
+3960	Limon va ko'kat bilan o'rab yeying.
+3961	Qayiq shaklida yoying.
+3962	Qiyma yoki pishloq soling.
+3963	230°C da 12 daqiqa pishiring.
+3964	Qiymaga piyoz, non va ziravor qo'shing.
+3965	Cho'zinchoq kotlet yasang.
+3966	Grilda yoki tovada qovuring.
+3967	Piyoz salati bilan torting.
+3968	Baqlajonni uzunasiga kesib qovuring.
+3969	Baqlajon ichiga to'ldiring.
+3970	Qiyma va sabzavotni qovuring.
+3971	Baqlajonni yorib to'ldiring.
+3972	Mitti manti tuging.
+3973	Qaynatib suzing.
+3974	Sarimsoqli qatiq quying.
+3975	Ustiga paprikali sariyog' quying.
+3976	Yufkani uchburchak kesing.
+3977	Pishloq va ko'kat soling.
+3978	Sigaradek o'rang.
+3979	Yufkalarni sut-tuxum bilan namlab qolipga tering.
+3980	Orasiga pishloq seping.
+3981	Ustiga tuxum surting.
+3982	Halqa shaklida o'rang.
+3983	Sharbatga botirib kunjutga belang.
+3984	Yasmiq, guruch, bulgurni qo'shing.
+3985	1,5 l suv quyib 30 daqiqa qaynating.
+3986	Yalpiz va limon bilan torting.
+3987	Tomat pasta, loviya va suv qo'shing.
+3988	1 soat pishiring, guruch bilan torting.
+3989	Sabzavotlarni mayda kubik qiling.
+3990	Suv bilan biroz suyultiring.
+3991	Yalpiz va zaytun moyi bilan torting.
+3992	Yupqa qatlamlarni sariyog' bilan qolipga 10 qavat tering.
+3993	Yong'oq seping, yana 10 qavat tering.
+3994	Romb kesib 180°C da 40 daqiqa pishiring.
+3995	Kadayifni sariyog' bilan aralashtiring.
+3996	Yarmini qolipga bosib, pishloq yoying.
+3997	Yoping va pishiring.
+3998	Pechda usti qizarguncha pishiring.
+3999	Shakar va limondan qiyom qiling.
+4000	Kraxmalni suvda qaynatib qiyomga qo'shing.
+4001	1 soat aralashtirib pishiring.
+4002	Qolipda qotirib kubik kesing.
+4003	Donlarni alohida qaynating.
+4004	Hammasini birlashtirib shakar qo'shing.
+4005	30 daqiqa qaynating.
+4006	Yong'oq va anor bilan torting.
+4007	Manka, un, qatiq qo'shing.
+4008	Pastki choynakda suv qaynating.
+4009	Ustki choynakka choy solib bug'da 15 daqiqa damlang.
+4010	Stakanga yarim damlama, yarim suv quying.
+4011	Ko'pikni finjonga quying.
+4012	Qolganini quyib torting.
+4013	Ismaloq va pishloq soling.
+4014	Buklab yoping.
+4015	Tovuqni qatiq va ziravorda marinadlang.
+4016	Grilda 12 daqiqa pishiring.
+4017	Pilav bilan torting.
+4018	Masalliqlarni blenderga soling.
+4019	Muzli suv qo'shib 3 daqiqa silliq qiling.
+4020	Tuzlab likopchaga yoying.
+4021	Zaytun moyi quyib non bilan torting.
+4022	No'xatni bir kecha ivitib suvini to'king.
+4023	Piyoz, sarimsoq, ko'kat bilan maydalang.
+4024	Yong'oqdek sharchalar yasang.
+4025	Ko'p yog'da 4 daqiqa qovuring.
+4026	Tovuqni ziravor bilan qovuring.
+4027	Qatiq va sarimsoqdan sous qiling.
+4028	Lavashga sous, tovuq, sabzavot soling.
+4029	O'rab tovada qizdiring.
+4030	Tovuqni piyoz bilan qizartiring.
+4031	Pomidor, sabzi, ziravor va suv qo'shib 30 daqiqa qaynating.
+4032	Guruchni sho'rvaga soling, 20 daqiqa dimlang.
+4033	Mayiz va yong'oq bilan torting.
+4034	Go'shtni ziravor bilan ishqalab qaynating.
+4035	Sho'rvada guruchni pishiring.
+4036	Go'shtni pechda qizartiring.
+4037	Guruch ustida torting.
+4038	Qozonga tovuq, sabzavot va guruch qatlam qiling.
+4039	Suv quyib 40 daqiqa pishiring.
+4040	Patnisga ag'darib torting.
+4041	Bulgurni qaynoq suvda ivitng.
+4042	Limon va zaytun moyi bilan aralashtiring.
+4043	Nonni qarsildoq qilib quriting.
+4044	Limon va yog' bilan aralashtiring.
+4045	Non bo'laklarini qo'shing.
+4046	Baqlajonni olovda kuydirib pishiring.
+4047	Po'stini arching.
+4048	Kunjut pastasi, limon va sarimsoq bilan ezing.
+4049	Sarimsoq sousi bilan torting.
+4050	Tuxumsimon yasang.
+4051	Sarimsoq, limon, zira qo'shing.
+4052	Zaytun moyi va non bilan torting.
+4053	Piyoz va qalampirni qovuring.
+4054	Pomidor qo'shib quyuq sous qiling.
+4055	Chuqurchalarga tuxum chaqing.
+4056	Yopib 6 daqiqa pishiring.
+4057	Guruch, yasmiq, makaronni alohida pishiring.
+4058	Pomidor sousi tayyorlang.
+4059	Qatlam qilib, sous va piyoz bilan torting.
+4060	Molokhiyani maydalab soling.
+4061	Sarimsoqni qovurib qo'shing.
+4062	Lavash ustiga guruch va go'sht qo'ying.
+4063	Sous va yong'oq bilan torting.
+4064	Nonga piyoz va tovuq qo'ying.
+4065	Pechda 10 daqiqa qizdiring.
+4066	Yassi doiralar yoying.
+4067	Zatar va moy aralashmasini surting.
+4068	Ismaloqni piyoz va limon bilan aralashtiring.
+4069	Go'sht va guruchni pishiring.
+4070	Yufkaga soling.
+4071	Xalta qilib o'rang.
+4072	Silliq qilib limon bilan torting.
+4073	Yarmini bosib pishloq yoying.
+4074	Yopib 30 daqiqa pishiring.
+4075	Qolipga yoyib romb kesing.
+4076	Qoshiqda yog'ga tashlab qovuring.
+4077	Asal yoki xurmo qiyomiga botiring.
+4078	Manka va sariyog'dan xamir qiling.
+4079	Ichiga xurmo pastasi soling.
+4080	Xamirni maydalab qolipga soling.
+4081	Yong'oq va mayiz seping.
+4082	Shakarli issiq sut quying.
+4083	Qahvani 10 daqiqa qaynating.
+4084	Kichik finjonlarda xurmo bilan torting.
+4085	Ko'k choy damlang.
+4086	Yalpiz va shakar qo'shing.
+4087	3 daqiqa damlang.
+4088	Balanddan stakanga quying.
+4089	Qiyomni sovuq suv bilan aralashtiring.
+4090	Mayiz va yong'oq seping.
+4091	Qozonda yog'ni qizdirib, go'shtni qizartiring, piyoz qo'shib 5 daqiqa qovuring.
+4092	Somoncha sabzini solib 10 daqiqa qovuring.
+4093	Zira, tuz va 1,5 l suv quyib, 40 daqiqa zirvak qaynating.
+4094	Guruchni tekis soling, suv guruchdan 1 barmoq baland bo'lsin.
+4095	Suvi qochgach guruchni yig'ib, sarimsoq qo'yib, yopib 25 daqiqa dimlang.
+4096	Go'shtni yirik bo'laklab, qizigan yog'da qizartiring, piyoz qo'shing.
+4097	Sabzini aralashtirmasdan go'sht ustiga qatlam qilib yoying.
+4098	Suv quyib, past olovda 40 daqiqa zirvak pishiring.
+4099	Guruchni yoyib, aralashtirmasdan suv quying.
+4100	Suvi qochgach yopib 30 daqiqa dimlang, qatlamlarini buzmay suzing.
+4101	Yog'da piyozni to'q qizartiring — oshning rangi shundan.
+4102	Go'shtni solib jigarrang tusga kirguncha qovuring.
+4103	Sabzini 10 daqiqa qovurib, suv va ziravor qo'shib 30 daqiqa qaynating.
+4104	Ivitilgan guruchni soling, suvi qochguncha pishiring.
+4105	Yopib 25 daqiqa dimlang, aralashtirib suzing.
+4106	Go'sht va piyozni yog'da qizartiring.
+4107	Sabzi, mayiz va no'xatni solib, suv quyib 40 daqiqa qaynating.
+4108	Guruchni yoyib, suvi qochguncha pishiring.
+4109	Yopib 30 daqiqa dimlang — ta'mi shirinroq bo'ladi.
+4110	Go'shtni mayda to'g'rab, piyoz bilan qovuring.
+4111	Sabzini qo'shib 10 daqiqa qovuring, suv quyib 30 daqiqa qaynating.
+4112	Guruchni soling, suvi qochgach yopib 25 daqiqa dimlang.
+4113	Xorazmda sabzi kubik shaklida to'g'raladi.
+4114	Go'shtni katta bo'laklarda yaxshilab qovuring.
+4115	Piyoz va sabzini qo'shib qovuring.
+4116	Suv va ziravor qo'shib zirvakni 40 daqiqa qaynating.
+4117	Guruchni soling, pishgach yopib 30 daqiqa dimlang.
+4118	Qaynatilgan bedana tuxumi bilan suzing.
+4119	Go'shtni ingichka to'g'rab, kuchli olovda 5 daqiqa qovuring.
+4120	Piyoz, qalampir, karam va pomidorni qo'shib 8 daqiqa qovuring.
+4121	Sarimsoq, tuz va yarim stakan suv qo'shib 10 daqiqa dimlang.
+4122	Lapshani qaynatib suzing va tovaga solib 3 daqiqa birga qovuring.
+4123	Go'shtni kubik qilib yog'da 5 daqiqa qovuring.
+4124	Piyoz, sabzi, turp, qalampir va pomidorni qo'shib 7 daqiqa qovuring.
+4125	Kartoshka va 2 l suv qo'shib 25 daqiqa qaynating, tuzlang.
+4126	Lapshani alohida qaynatib kosaga soling, ustidan vaja quying.
+4127	Un, suv va tuzdan qattiq xamir qorib, 20 daqiqa tindiring.
+4128	Go'sht va piyozni mayda to'g'rab, tuz, murch, zira bilan aralashtiring.
+4129	Xamirni yupqa yoyib, 12x12 sm kvadrat kesing, qiyma solib tugib yoping.
+4130	Moylangan qasqonda 40 daqiqa bug'da pishiring, qatiq bilan torting.
+4131	Qovoqni mayda kubik qilib, piyoz, tuz, murch va ozgina shakar bilan aralashtiring.
+4132	Xamirga qovoq solib manti shaklida tuging.
+4133	Qasqonda 40 daqiqa pishiring.
+4134	Qiymani mayda piyoz, tuz, murch bilan aralashtiring.
+4135	Xamirni yupqa yoyib, 4x4 sm kvadrat kesib qiyma soling, uchlarini birlashtirib tuging.
+4136	Qaynoq tuzli suvda suzib chiqqach 5 daqiqa pishiring, qatiq bilan torting.
+4137	Chuchvara tugib oling.
+4138	Piyoz va pomidorni yog'da 5 daqiqa qovuring.
+4139	1,5 l suv quyib, kartoshka qo'shib 15 daqiqa qaynating.
+4140	Chuchvarani solib, suzib chiqqach 7 daqiqa pishiring, ko'kat seping.
+4141	Un, iliq suv va tuzdan xamir qorib, 30 daqiqa tindiring.
+4142	Go'sht, dumba va piyozni mayda to'g'rab, tuz, murch, zira qo'shing.
+4143	Xamirni yupqa yoyib, sariyog' surtib rulet qiling va bo'laklang.
+4144	Har bo'lakni yoyib qiyma soling, uchburchak qilib yoping.
+4145	Tuxum surtib, kunjut sepib, 200°C da 30 daqiqa pishiring.
+4146	Xamir qorib yupqa yoying, sariyog' surtib rulet qilib 1 soat sovuting.
+4147	Ruletni kesib, kesigi tepada qolsin, yoyib qiyma soling.
+4148	Xamir qorib, 20 daqiqa tindiring.
+4149	Ko'katni mayda to'g'rab, piyoz, tuz va yog' bilan aralashtiring.
+4150	Xamirni bo'laklab yoying, ko'kat solib yoping.
+4151	Tuxum surtib, 200°C da 25 daqiqa pishiring.
+4152	Qovoqni mayda kubik qilib, piyoz, tuz, murch bilan aralashtiring.
+4153	Xamirga solib uchburchak qilib yoping.
+4154	Go'shtni 3 sm bo'laklarga kesing.
+4155	Halqa piyoz, tuz, murch, zira bilan ezib aralashtiring, kamida 2 soat marinadlang.
+4156	Sixga go'sht va dumbani navbatlab tering.
+4157	Cho'g'da aylantirib 12–15 daqiqa pishiring, piyoz bilan torting.
+4158	Jigarni 3 sm bo'laklab, tuz va zira seping.
+4159	Sixga jigar va dumbani navbatlab tering.
+4160	Cho'g'da 8–10 daqiqa pishiring — ortiqcha pishirmang.
+4161	Halqa piyoz bilan torting.
+4162	Qiymaga mayda piyoz, dumba, tuz, murch, zira qo'shing.
+4163	10 daqiqa qorib, idishga urib yopishqoq qiling, 30 daqiqa sovuting.
+4164	Ho'l qo'l bilan sixga cho'zinchoq qilib yopishtiring.
+4165	Cho'g' yoki grilda 10 daqiqa aylantirib pishiring.
+4166	Go'shtni tuzli suvda 2 soat qaynatib sovuting.
+4167	Un, tuxum va sho'rvadan qattiq xamir qoring, yupqa yoyib qaynating.
+4168	Xamir va go'shtni ingichka ip qilib to'g'rang.
+4169	Murch qo'shib aralashtiring, issiq sho'rva bilan torting.
+4170	Qozon tagiga yog' quyib, go'sht bo'laklarini tering.
+4171	Ustiga qatlam-qatlam piyoz, sabzi, kartoshka, qalampir, pomidor tering, har birini tuzlang.
+4172	Eng ustini karam barglari bilan yoping.
+4173	Suv qo'shmasdan, zich yopib past olovda 1 soat dimlang.
+4174	Go'shtni yog'da har tomondan qizartirib, tuzlang.
+4175	Yarim stakan suv quyib, yopib 40 daqiqa dimlang.
+4176	Kartoshkani yirik bo'laklab alohida qizartiring.
+4177	Go'shtga qo'shib, zira sepib 10 daqiqa dimlang, piyoz bilan torting.
+4178	Go'shtni tuz, zira, murch va sarimsoq bilan ishqalab, 2 soat marinadlang.
+4179	Folgaga zich o'rang.
+4180	160°C pechda 3 soat pishiring.
+4181	Folgani ochib, 220°C da 15 daqiqa qizartiring.
+4182	Go'shtni mayda bo'laklarga kesing.
+4183	Kuchli olovda o'z yog'ida 15 daqiqa qovuring.
+4184	Tuz, murch, zira qo'shing.
+4185	Halqa piyoz va pomidor qo'shib 5 daqiqa qovuring, issiq non bilan torting.
+4186	Barglarni qaynoq suvda 3 daqiqa ushlang.
+4187	Qiymani guruch, piyoz, tuz, murch bilan aralashtiring.
+4188	Har bargga qiyma solib o'rang va qozonga zich tering.
+4189	Pomidor va suv qo'shib, ustiga likopcha bosib 50 daqiqa pishiring.
+4190	Go'shtni kubik qilib piyoz bilan qovuring.
+4191	Sabzi va pomidorni qo'shib 5 daqiqa qovuring.
+4192	2 l suv quyib 20 daqiqa qaynating.
+4193	Kartoshka va guruchni solib 20 daqiqa pishiring, qatiq bilan torting.
+4194	No'xat qo'shib, past olovda 1 soat qaynating.
+4195	Yirik sabzi, piyoz va qalampirni solib 20 daqiqa qaynating.
+4196	Kartoshka va pomidorni solib 20 daqiqa pishiring, ko'kat seping.
+4197	Go'shtni yog'da qizartiring.
+4198	Piyoz, sabzi, pomidorni qo'shib 7 daqiqa qovuring.
+4199	2 l suv quyib 40 daqiqa qaynating.
+4200	Moshni 2 l suvda 30 daqiqa qaynating.
+4201	Go'sht, piyoz, sabzi va pomidorni alohida qovurib qo'shing.
+4202	Guruch va kartoshkani solib 25 daqiqa pishiring.
+4203	Moshni 20 daqiqa yarim pishguncha qaynating.
+4204	Go'sht va piyozni yog'da qovuring.
+4205	Moshni suvi bilan qo'shib, guruchni soling.
+4206	Aralashtirib quyuq bo'tqa qiling, yopib 15 daqiqa dimlang.
+4207	Qattiq xamir qorib tindiring.
+4208	Xamirni katta yupqa yoyib, qiymani yoying va rulet qilib o'rang.
+4209	Qasqonda 40 daqiqa pishiring, bo'laklab qatiq bilan torting.
+4210	Qattiq xamir qorib yupqa yoying, 7x7 sm kvadrat kesing.
+4211	Tuxumni sut va tuz bilan ko'pirtiring.
+4212	Xamirning 3 chetini yopishtirib cho'ntak qiling, ichiga tuxum quyib yoping.
+4213	Tuzli suvda 5 daqiqa qaynating, sariyog' quyib torting.
+4214	Ukropni ezib sharbatidan yashil xamir qoring va lapsha qilib kesing.
+4215	Go'sht, piyoz, sabzi, kartoshkadan quyuq vaja tayyorlang.
+4216	Lapsha ustiga vaja va qatiq qo'yib torting.
+4217	Bug'doyni bir kecha ivitib qo'ying.
+4218	Go'sht va bug'doyni ko'p suvda 4 soat past olovda qaynating.
+4219	Go'shtni tolalarga ajratib qaytaring.
+4220	Doim aralashtirib bir xil quyuq massa qiling, eritilgan yog' bilan torting.
+4221	Guruchni 500 ml suvda 10 daqiqa qaynating.
+4222	Sut quyib, past olovda 25 daqiqa aralashtirib pishiring.
+4223	Ustiga sariyog' qo'yib torting.
+4224	Tuxum, sut, shakar va tuzni aralashtiring.
+4225	Unni qo'shib smetanadek xamir qiling.
+4226	Qizigan tovaga qoshiqda quying.
+4227	Har tomonini 2 daqiqadan qizartirib, qaymoq bilan torting.
+4228	Yumshoq xamir qorib, 20 daqiqa tindiring.
+4229	Yupqa yoyib sariyog' surting, rulet qilib spiral buklang.
+4230	Qayta yoyib, tovada har tomonini 4 daqiqadan qizartiring.
+4231	Qaymoq va choy bilan torting.
+4232	Iliq sutga xamirturush, tuz, sariyog' qo'shing.
+4233	Un solib qattiq xamir qorib, 1 soat oshiring.
+4234	Doira qilib yoyib, o'rtasini chekich bilan naqshlang.
+4235	Sut surtib kunjut sepib, 250°C da 15 daqiqa pishiring.
+4236	Iliq suv, xamirturush va tuzdan xamir qorib, 1 soat oshiring.
+4237	Bo'laklab doira qiling, chetini qalinroq qoldiring.
+4238	O'rtasini chekich bilan teshiklab, kunjut seping.
+4239	250°C pechda 15 daqiqa pishiring.
+4240	Piyozni ingichka halqalab, tuz bilan ezib yuving.
+4241	Pomidorni yupqa tilimlang.
+4242	Hammasini aralashtirib, tuz va murch seping.
+4243	Turpni somoncha qilib, 10 daqiqa suvda ushlab achchig'ini chiqaring.
+4244	Qaynatilgan go'shtni ingichka to'g'rang.
+4245	Piyozni qizartirib qovuring.
+4246	Hammasini mayonez bilan aralashtirib, tuxum bilan bezang.
+4247	Qatiqni 300 ml sovuq suv bilan aralashtiring.
+4248	Ko'kat va sarimsoq qo'shib tuzlang.
+4249	Muz bilan sovuq torting.
+4250	Qatiqni teng miqdorda sovuq suv bilan aralashtiring.
+4251	Chimdim tuz qo'shib ko'pirtiring.
+4252	Choynakni qaynoq suv bilan chayqating.
+4253	Choy solib qaynoq suv quying, 3 daqiqa damlang.
+4254	Piyolaga quyib choynakka qaytaring, 3 marta takrorlang.
+4255	Piyolaning yarmigacha quyib torting.
+4256	Choynakni isitib, qora choy soling.
+4257	Qaynoq suv quyib 5 daqiqa damlang.
+4258	Piyolaga limon tilimi qo'yib torting.
+4259	2 l suvni qaynating.
+4260	Mevalarni solib, shakar qo'shib 15 daqiqa qaynating.
+4261	Yopib sovuting, sovuq torting.
+4262	Tuxum va undan qattiq xamir qoring.
+4263	Yupqa yoyib, ingichka cho'plarga kesing.
+4264	Qizigan yog'da oltin rangga kelguncha qovuring.
+4265	Asal va shakarni 3 daqiqa qaynatib, qovurilganlarga aralashtiring va shakllang.
+4266	Sariyog'da unni jigarrang tusga kirguncha 15 daqiqa qovuring.
+4267	Sutga shakar solib qaynating.
+4268	Sutni oz-ozdan unga quyib tez aralashtiring.
+4269	Yong'oq qo'shib qolipda sovuting.
+4270	Shakar va 100 ml suvdan qiyom qaynating.
+4271	Oqsillarni qattiq ko'pikka ko'pirtiring.
+4272	Issiq qiyomni ingichka oqim bilan quyib ko'pirtirishda davom eting.
+4273	Limon qo'shing, non bilan torting.
+4274	Bug'doyni 5 kun undirib, maysasini maydalab sharbatini siqing.
+4275	Qozonda yog'ni qizdirib, un va sharbatni qo'shing.
+4276	To'xtovsiz aralashtirib 20–24 soat pishiring.
+4277	Qo'ng'ir, shirin massa bo'lgach, tonggacha dimlang.
+4278	Shakar va suvdan quyuq qiyom qaynating.
+4279	Iliqroq holda cho'zib, oqarguncha tortib buklang.
+4280	Ingichka tasma qilib cho'zing va yostiqcha shaklida kesing.
+4281	Unga belab sovuting.
+4282	Iliq sut, xamirturush, shakar, tuxumni aralashtiring.
+4283	Un qo'shib xamir qorib, 1 soat oshiring.
+4284	Ko'p yog'da ko'pchiguncha qovuring.
+4285	Ichakni yaxshilab tozalab yuving.
+4286	Guruch, mayda go'sht, jigar, piyoz va ziravorlarni aralashtiring.
+4287	Ichakni 2/3 qismigacha to'ldirib bog'lang.
+4288	Past olovda 1 soat qaynating, teshib chiqib ketmasligi uchun igna bilan teshing.
+4289	Go'shtni yog'i bilan tuz, zira, sarimsoq bilan ishqalab 1 kun qoldiring.
+4290	Ichakka zich to'ldirib, uchlarini bog'lang.
+4291	2 kun salqin joyda osib quriting.
+4292	Past olovda 2,5 soat qaynating, tilimlab torting.
+4293	Kartoshkani pyure qilib, qovurilgan piyoz qo'shing.
+4294	Xamirga pyure solib yoping.
+4295	Qizigan yog'da har tomonini 3 daqiqadan qovuring.
+4296	Iliq sut, xamirturush va undan xamir qorib 1 soat oshiring.
+4297	Qiyma va piyozni qovurib sovuting.
+4298	Xamirni bo'laklab, qiyma solib yoping.
+4299	Ko'p yog'da har tomonini 3 daqiqadan qovuring.
+4300	Un va tuxumdan qattiq xamir qorib, juda ingichka ugra kesing.
+4301	Go'sht, piyoz, sabzi va pomidorni qovuring.
+4302	2 l suv quyib 30 daqiqa qaynating.
+4303	Ugrani solib 5 daqiqa pishiring.
+4304	Masalliqlarni yirik to'g'rab sopol ko'zaga soling.
+4305	Sovuq suv quyib tuzlang.
+4306	Pechda 160°C da 3 soat sekin pishiring.
+4307	Ko'kat sepib, ko'zaning o'zida torting.
+4308	Baliqni tozalab bo'laklang, tuz va murch seping.
+4309	Qizigan yog'da har tomonini 5 daqiqadan qovuring.
+4310	Halqa piyoz va limon bilan torting.
+4311	Bodringni kubik qiling.
+4312	Qatiq, mayda ko'kat va sarimsoq qo'shing.
+4313	Tuzlab aralashtiring.
+4314	Sovuq holida torting.

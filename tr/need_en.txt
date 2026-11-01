@@ -1,0 +1,821 @@
+435|Feijoada|Фейжоада
+440|Brigadeiro|Бригадейро
+468|Ceviche|Севиче
+544|Pavlova|Павлова
+602|Qabuli palov|Кабули плов
+678|Buuz|Бузы
+679|Khuushuur|Хушуур
+680|Tsuivan|Цуйван
+681|Khorkhog|Хорхог
+682|Guriltai shul|Гурилтай шул
+683|Boortsog|Боорцог
+684|Bansh|Банш
+685|Suutei tsai|Сүүтэй цай
+686|Aaruul|Ааруул
+687|Budaatai khuurga|Будаатай хуурга
+694|Pad thai|Пад тай
+695|Tom yum|Том ям
+700|Som tam|Сом там
+716|Pho bo|Фо бо
+717|Banh mi|Бань ми
+776|Nasi goreng|Наси горенг
+816|Dushbara|Дюшбара
+817|Qutab ko'katli|Кутабы с зеленью
+818|Qutab go'shtli|Кутабы с мясом
+819|Plov (shah plov)|Шах плов
+820|Piti|Пити
+821|Lyulya kabob|Люля-кебаб
+822|Dolma (uzum bargi)|Долма
+823|Dovga|Довга
+824|Saj ichi|Садж ичи
+825|Kyuftya bozbash|Кюфта бозбаш
+826|Kebab tike|Тикя кебаб
+827|Lavangi|Лявянги
+828|Kuku|Кюкю
+829|Chyhyrtma|Чыгыртма
+830|Pakhlava (Boku)|Пахлава бакинская
+831|Shakarbura|Шекербура
+832|Qogal|Кята / Гогал
+833|Ovdukh|Овдух
+834|Lyavangi baliq|Рыбное лявянги
+835|Ash-sabzavot plov|Овощной плов
+836|Ozarbayjon choyi|Азербайджанский чай
+837|Sherbet|Шербет
+838|Ayran (ozarbayjoncha)|Айран
+839|Badimjan dolmasi|Баклажаны долма
+840|Gutab qovoqli|Кутабы с тыквой
+841|Toyug chyhyrtma|Чыгыртма из курицы
+842|Kyata|Кята
+843|Govurma|Говурма
+844|Merci sho'rva|Мерджимек
+845|Sabzavot salati (choban)|Пастуший салат
+846|Xachapuri (ajar)|Хачапури по-аджарски
+847|Xachapuri (imeretin)|Хачапури по-имеретински
+848|Xinkali|Хинкали
+849|Chaxoxbili|Чахохбили
+850|Xarcho|Харчо
+851|Satsivi|Сациви
+852|Mtsvadi|Мцвади
+853|Lobio|Лобио
+854|Pxali|Пхали
+855|Badrijani nigvzit|Баклажаны с орехами
+856|Ojaxuri|Оджахури
+857|Chakapuli|Чакапули
+858|Chkmeruli|Чкмерули
+859|Kuchmachi|Кучмачи
+860|Elarji|Эларджи
+861|Gomi|Гоми
+862|Achma|Ачма
+863|Mchadi|Мчади
+864|Kubdari|Кубдари
+865|Lobiani|Лобиани
+866|Churchxela|Чурчхела
+867|Pelamushi|Пеламуши
+868|Gozinaki|Гозинаки
+869|Tkemali sousi|Ткемали
+870|Ajapsandali|Аджапсандали
+871|Shkmeruli (tovuq sarimsoq sousda)|Шкмерули
+872|Chixirtma|Чихиртма
+873|Tarxun limonadi|Тархун
+874|Gruzincha sabzavot salati|Грузинский салат
+875|Kharcho tovuqli|Харчо из курицы
+876|Tolma (uzum bargi)|Толма
+877|Karam tolmasi|Капустная толма
+878|Xorovats|Хоровац
+879|Xash|Хаш
+880|Lavash|Лаваш
+881|Ghapama|Хапама
+882|Ishli kyufta|Ишли кюфта
+883|Spas|Спас
+884|Kyufta|Кюфта
+885|Jengyalov xats|Жингял хац
+886|Lahmajo|Лахмаджо
+887|Ajapsandal (armancha)|Аджапсандал
+888|Armancha plov|Армянский плов
+889|Bastyrma|Бастурма
+890|Sujuk|Суджук
+891|Gata|Гата
+892|Pakhlava (armancha)|Пахлава
+893|Anushapur|Анушапур
+894|Tan|Тан
+895|Armancha qahva|Армянский кофе
+896|Matsun|Мацун
+897|Armancha salat (sabzavotli)|Овощной салат
+898|Ttu lavash|Тту лаваш
+899|Kufta Echmiadzin|Кюфта эчмиадзинская
+900|Tjvjik|Тжвжик
+901|Kololik|Кололак
+902|Harisa|Арисса
+903|Ishxan baliq|Форель Ишхан
+904|Armancha gilos kompoti|Компот из вишни
+905|Zhingalov xac pishloqli|Лаваш с сыром
+906|Qovurilgan guruch|Жареный рис с яйцом
+907|Kung pao tovuq|Курица гунбао
+908|Pomidorli tuxum|Яйца с помидорами
+909|Jiaozi|Цзяоцзы
+910|Mapo tofu|Мапо тофу
+911|Nordon-shirin tovuq|Курица в кисло-сладком соусе
+912|Chow mein|Чоу мейн
+913|Pekin o'rdagi (uyda)|Утка по-пекински
+914|Vonton sho'rva|Суп вонтон
+915|Baozi|Баоцзы
+916|Achchiq-nordon sho'rva|Кисло-острый суп
+917|Dan dan lapsha|Лапша дань-дань
+918|Char siu|Чар сиу
+919|Spring roll|Спринг-роллы
+920|Sabzavotli qovurma|Овощи вок
+921|Mol go'shti brokkoli bilan|Говядина с брокколи
+922|Guobaorou|Гобаожоу
+923|Xitoycha lag'mon (lamian)|Ламянь
+924|Zongzi|Цзунцзы
+925|Jianbing|Цзяньбин
+926|Kongee|Конджи
+927|Xitoycha tuxum sho'rva|Яичный суп
+928|Tovuq yong'oq bilan|Курица с кешью
+929|Mantou|Маньтоу
+930|Tang yuan|Танъюань
+931|Oy pishiriqlari|Лунные пряники
+932|Ko'k choy (xitoycha)|Китайский зелёный чай
+933|Sut choy (bubble tea)|Бабл ти
+934|Erxuan bodring salati|Салат из огурцов по-китайски
+935|Xitoycha baqlajon|Баклажаны по-китайски
+936|Kimchi|Кимчи
+937|Pibimpap|Пибимпап
+938|Bulgogi|Пулькоги
+939|Morkovcha (koreyscha sabzi)|Морковь по-корейски
+940|Kuksi|Кукси
+941|Tteokbokki|Токпокки
+942|Kimchi jjigae|Кимчи чиге
+943|Japchae|Чапчхэ
+944|Kimbap|Кимпап
+945|Koreyscha qovurilgan tovuq|Корейская курица
+946|Samgyeopsal|Самгёпсаль
+947|Doenjang jjigae|Твенжан чиге
+948|Pajeon|Пхаджон
+949|Bibim guksu|Пибим куксу
+950|Galbi|Кальби
+951|Kongnamul salat|Кондяпча / салат из ростков сои
+952|Miyeokguk|Миёкгук
+953|Hoe (baliq xe)|Хе из рыбы
+954|Kuksu sovuq (naengmyeon)|Нэнмён
+955|Samgyetang|Самгетан
+956|Hotteok|Хотток
+957|Bingsu|Пинсу
+958|Sikhye|Сикхе
+959|Koreyscha baqlajon|Баклажаны по-корейски
+960|Koreyscha karam (chimchi tez)|Капуста по-корейски
+961|Tofu jorim|Тубу чорим
+962|Kimchi bokkeumbap|Кимчи покымпап
+963|Gyeranjjim|Кереджим
+964|Koreyscha choy (bori cha)|Ячменный чай
+965|Odeng|Оденг
+966|Ramen|Рамен
+967|Sushi (maki)|Суши роллы
+968|Onigiri|Онигири
+969|Teriyaki tovuq|Курица терияки
+970|Tempura|Темпура
+971|Miso sho'rva|Мисо суп
+972|Udon|Удон
+973|Yakitori|Якитори
+974|Tonkatsu|Тонкацу
+975|Katsu karri|Кацу карри
+976|Okonomiyaki|Окономияки
+977|Gyoza|Гёдза
+978|Oyakodon|Оякодон
+979|Gyudon|Гюдон
+980|Soba|Соба
+981|Tamagoyaki|Тамагояки
+982|Chahan|Тяхан
+983|Nikujaga|Никудзяга
+984|Sashimi|Сашими
+985|Takoyaki|Такояки
+986|Yaponcha karri|Японское карри
+987|Edamame|Эдамаме
+988|Karaage|Караагэ
+989|Mochi|Моти
+990|Dorayaki|Дораяки
+991|Matcha choy|Матча
+992|Matcha latte|Матча латте
+993|Unagi don|Унаги дон
+994|Yaponcha salat (sunomono)|Суномоно
+995|Shabu-shabu|Сябу-сябу
+996|Batter chiken|Баттер чикен
+997|Dal|Дал
+998|Biryani|Бирьяни
+999|Paneer tikka masala|Панир тикка масала
+1000|Chana masala|Чана масала
+1001|Naan|Наан
+1002|Samosa|Самоса
+1003|Tandoori tovuq|Тандури чикен
+1004|Aloo gobi|Алу гоби
+1005|Palak paneer|Палак панир
+1006|Rogan josh|Роган джош
+1007|Tovuq tikka masala|Чикен тикка масала
+1008|Dosa|Доса
+1009|Idli|Идли
+1010|Pulav (hindcha)|Пулао
+1011|Chapati|Чапати
+1012|Raita|Райта
+1013|Pakora|Пакора
+1014|Korma|Корма
+1015|Vindaloo|Виндалу
+1016|Sabzavot karri|Овощное карри
+1017|Kichdi|Кичри
+1018|Gulab jamun|Гулаб джамун
+1019|Kheer|Кхир
+1020|Jalebi|Джалеби
+1021|Halva gajar|Гаджар халва
+1022|Masala choy|Масала чай
+1023|Mango lassi|Манго ласси
+1024|Lassi tuzli|Солёный ласси
+1025|Aloo paratha|Алу паратха
+1026|Shnitsel|Шницель
+1027|Olmali shtrudel|Штрудель
+1028|Kartoshka salati (nemischa)|Немецкий картофельный салат
+1029|Sosiska karam bilan|Сосиски с капустой
+1030|Sauerbraten|Зауэрбратен
+1031|Kartoshka knedli|Картофельные кнедли
+1032|Shpetsle|Шпецле
+1033|Kyonigsberg klops|Кёнигсбергские клопсы
+1034|Kartoshka quymoqlari (Kartoffelpuffer)|Картофельные оладьи
+1035|Kartoshka sho'rva (Kartoffelsuppe)|Картофельный суп
+1036|Ruladen|Рулады
+1037|Krautsalat|Капустный салат
+1038|Pretzel|Брецель
+1039|Bratvurst kartoshka bilan|Братвурст
+1040|Eintopf|Айнтопф
+1041|Nemischa no'xat sho'rva (Erbsensuppe)|Гороховый суп
+1042|Qora o'rmon torti|Шварцвальдский торт
+1043|Kezekuxen|Чизкейк немецкий
+1044|Apfelkuxen|Яблочный пирог
+1045|Shtrayzelkuxen|Штрейзельный пирог
+1046|Lebkuxen|Лебкухен
+1047|Berliner|Берлинер
+1048|Kaiserschmarrn|Кайзершмаррн
+1049|Apfelschorle|Яблочный шорле
+1050|Issiq olma ichimligi|Горячий яблочный пунш
+1051|Sut quymoq (Pfannkuchen)|Немецкие блины
+1052|Tovuq fritasse|Куриное фрикасе
+1053|Lavlagi salati (Rote Bete)|Салат из свёклы
+1054|Bratkartoffeln|Жареная картошка по-немецки
+1055|Goulash sho'rva (Gulaschsuppe)|Гуляш-суп
+1056|Grek salati|Греческий салат
+1057|Musaka|Мусака
+1058|Suvlaki|Сувлаки
+1059|Gyros|Гирос
+1060|Tsatsiki|Дзадзики
+1061|Spanakopita|Спанакопита
+1062|Pastitsio|Пастицио
+1063|Dolmades|Долмадес
+1064|Avgolemono|Авголемоно
+1065|Fasolada|Фасолада
+1066|Keftedes|Кефтедес
+1067|Gemista|Гемиста
+1068|Stifado|Стифадо
+1069|Grek kartoshkasi|Картофель по-гречески
+1070|Tiropita|Тиропита
+1071|Horiatiki pita|Пита с начинкой
+1072|Grek baliq (plaki)|Рыба плаки
+1073|Revithia|Ревития
+1074|Horta|Хорта
+1075|Kalamari|Кальмары
+1076|Grek qatig'i asal bilan|Греческий йогурт с мёдом
+1077|Paxlava (grekcha)|Баклава
+1078|Lukumades|Лукумадес
+1079|Galaktoburiko|Галактобуреко
+1080|Kurabiedes|Курабьедес
+1081|Frappe|Фраппе
+1082|Grekcha qahva|Греческий кофе
+1083|Bulgur pilavi|Пилав из булгура
+1084|Saganaki|Саганаки
+1085|Grek yasmiq sho'rva (fakes)|Факес
+1086|Tako|Тако
+1087|Burrito|Буррито
+1088|Kesadilya|Кесадилья
+1089|Gvakamole|Гуакамоле
+1090|Enchiladas|Энчилада
+1091|Chili kon karne|Чили кон карне
+1092|Fajitas|Фахитас
+1093|Pozole|Позоле
+1094|Pico de gallo|Пико де гальо
+1095|Uevos rancheros|Уэвос ранчерос
+1096|Tamales|Тамалес
+1097|Nachos|Начос
+1098|Meksikacha guruch|Мексиканский рис
+1099|Tortilla sho'rva|Суп тортилья
+1100|Chilaquiles|Чилакилес
+1101|Tostadas|Тостадас
+1102|Elote|Элоте
+1103|Karnitas|Карнитас
+1104|Meksikacha loviya (frijoles)|Фрихолес
+1105|Kesadilya qo'ziqorinli|Кесадилья с грибами
+1106|Sopa de fideo|Сопа де фидео
+1107|Churros (meksikacha)|Чуррос
+1108|Tres leches|Трес лечес
+1109|Arroz kon leche|Аррос кон лече
+1110|Flan (meksikacha)|Флан
+1111|Orchata (meksikacha)|Орчата
+1112|Agua fresca|Агуа фреска
+1113|Meksikacha issiq shokolad|Мексиканский горячий шоколад
+1114|Albondigas sho'rva|Суп альбондигас
+1115|Kalabasitas|Калабаситас
+1116|Uy burgeri|Бургер
+1117|Pankeyk|Панкейки
+1118|Makaron pishloq bilan (mac and cheese)|Макароны с сыром
+1119|Qovurilgan tovuq|Жареная курица
+1120|BBQ qovurg'a|Рёбрышки барбекю
+1121|Hot dog|Хот-дог
+1122|Sezar salati|Салат Цезарь
+1123|Kolslou|Коул слоу
+1124|Klem chauder|Клэм чаудер
+1125|Kartoshka fri|Картофель фри
+1126|Mitlof|Митлоф
+1127|Tovuq qanotlari (buffalo)|Крылышки баффало
+1128|Klab sendvich|Клаб-сэндвич
+1129|Omlet (amerikancha)|Американский омлет
+1130|Chili (amerikancha)|Чили
+1131|Pulled chicken|Рваная курица
+1132|Kukurza noni (cornbread)|Кукурузный хлеб
+1133|Brauni|Брауни
+1134|Chizkeyk (Nyu-York)|Чизкейк Нью-Йорк
+1135|Olma piroggi|Яблочный пирог
+1136|Shokoladli pechenye|Шоколадное печенье
+1137|Donat|Пончики
+1138|Banan noni|Банановый хлеб
+1139|Kekslar (maffin)|Маффины
+1140|Uy limonadi|Лимонад
+1141|Milkshake|Молочный коктейль
+1142|Muzli choy|Холодный чай
+1143|Smuzi|Смузи
+1144|Vafli|Вафли
+1145|Kartoshka pyure tovuq sousida|Картофельное пюре с подливой
+1278|Pierogi|Вареники пероги
+1279|Bigos|Бигос
+1280|Zhurek|Журек
+1281|Gołąbki|Голубцы польские
+1322|Gulyás|Гуляш венгерский
+1338|Sarmale|Сармале
+1339|Mămăligă|Мамалыга
+1352|Mamaliga (moldavcha)|Мамалыга молдавская
+1353|Plachinda|Плачинды
+1354|Zeama|Зама
+1355|Sarmale (moldavcha)|Голубцы молдавские
+1356|Mititei|Мититеи
+1357|Răcitură|Холодец молдавский
+1358|Ghiveci|Гивеч
+1359|Tochitura moldoveneasca|Тočitura moldavian
+1360|Vărzări|Вэрзэре
+1361|Cozonac (moldavcha)|Козонак
+1362|Colaci|Колач
+1363|Compot de prune|Компот из слив
+1364|Shopska salati|Шопский салат
+1365|Banitsa|Баница
+1366|Tarator|Таратор
+1367|Kavarma|Каварма
+1368|Kebapche|Кебапче
+1369|Kyufte|Кюфте болгарские
+1370|Musaka (bolgarcha)|Мусака болгарская
+1371|Lyutenitsa|Лютеница
+1372|Sirene po shopski|Сирене по-шопски
+1373|Gyuvech|Гювеч
+1374|Bob chorba|Боб чорба
+1376|Mekitsa|Мекици
+1377|Ayran (bolgarcha)|Айрян
+1378|Ćevapi|Чевапчичи
+1379|Pljeskavica|Плескавица
+1380|Sarma (serbcha)|Сарма сербская
+1382|Gibanica|Гибаница
+1383|Ajvar|Айвар
+1384|Pasulj|Пасуль
+1386|Prebranac|Пребранац
+1387|Kajmak|Каймак
+1388|Proja|Проја
+1389|Vanilice|Ванилице
+1390|Krofne|Крофне
+1403|Burek|Бурек
+1469|Köttbullar|Шведские фрикадельки
+1514|Cepelinai|Цеппелины
+1515|Šaltibarščiai|Холодник литовский
+1516|Kugelis|Кугелис
+1517|Kibinai|Кибинай
+1562|Karbonara|Паста карбонара
+1563|Margarita pitsasi|Пицца Маргарита
+1564|Lazanya|Лазанья
+1565|Bolonyeze|Спагетти болоньезе
+1566|Rizotto qo'ziqorinli|Ризотто с грибами
+1567|Tiramisu|Тирамису
+1568|Minestrone|Минестроне
+1569|Penne arrabbiata|Пенне арраббьята
+1570|Kacho e pepe|Качо э пепе
+1571|Bruskettta|Брускетта
+1572|Kaprese|Капрезе
+1573|Ossobuko|Оссобуко
+1574|Gnokki|Ньокки
+1575|Fettuchini alfredo|Феттучини альфредо
+1576|Parmijana|Пармиджана
+1577|Kalsone|Кальцоне
+1578|Fokachcha|Фокачча
+1579|Arancini|Аранчини
+1580|Pesto makaron|Паста песто
+1581|Ravioli|Равиоли
+1582|Makaron pomidor sousida|Паста с томатным соусом
+1583|Saltimbokka|Сальтимбокка
+1584|Panna kotta|Панна-котта
+1585|Kannoli|Канноли
+1586|Italyan muzqaymog'i (gelato)|Джелато
+1587|Biscotti|Бискотти
+1588|Kapuchino|Капучино
+1589|Limonad italyancha (limonata)|Лимонад
+1590|Frittata|Фриттата
+1591|Makaron no'xat bilan (pasta e ceci)|Паста с нутом
+1592|Fransuzcha omlet|Французский омлет
+1593|Piyozli sho'rva|Луковый суп
+1594|Krep|Крепы
+1595|Kish loren|Киш лорен
+1596|Ratatuy|Рататуй
+1597|Kok o ven|Кок-о-вен
+1598|Bef burginon|Бёф бургиньон
+1599|Kroke mesye|Крок-месье
+1600|Fransuzcha tost|Французские тосты
+1601|Nisuaz salati|Салат Нисуаз
+1602|Buyabes|Буйабес
+1603|Gratan dofinua|Картофельный гратен
+1604|Kartoshkali sho'rva (vishisuaz)|Вишисуаз
+1605|Kassule|Кассуле
+1606|Kruassan|Круассан
+1607|Baget|Багет
+1608|Krem bryule|Крем-брюле
+1609|Shokoladli muss|Шоколадный мусс
+1610|Tart taten|Тарт Татен
+1611|Makaron (pishiriq)|Макарон
+1612|Eklerlar|Эклеры
+1613|Madlen|Мадлен
+1614|Profiteroli|Профитроли
+1615|Kafe o le|Кофе с молоком
+1616|Issiq shokolad|Горячий шоколад
+1617|Sitron presse|Ситрон прессе
+1618|Tovuq qaymoqli sousda|Курица в сливочном соусе
+1619|Sabzavotli sho'rva (pyure)|Овощной крем-суп
+1620|Fransuzcha go'sht (myaso po-frantsuzski)|Мясо по-французски
+1621|Pate jigar|Паштет из печени
+1622|Paelya|Паэлья
+1623|Gaspacho|Гаспачо
+1624|Ispancha tortilya|Тортилья испанская
+1625|Patatas bravas|Патас бравас
+1626|Krokketlar|Крокеты
+1627|Gambas al ajillo|Креветки в чесноке
+1628|Albondigas|Альбондигас
+1629|Pan kon tomate|Хлеб с томатом
+1630|Fabada|Фабада
+1631|Kosido|Косидо
+1632|Salmorexo|Сальморехо
+1633|Pisto|Писто
+1634|Empanada|Эмпанада
+1635|Arros negre|Чёрный рис
+1636|Ispancha tovuq sarimsoqli|Курица с чесноком
+1637|Huevos rotos|Уэвос ротос
+1638|Pulpo a la gallega|Осьминог по-галисийски
+1639|Tortilla ko'katli|Тортилья с зеленью
+1640|Churros|Чуррос
+1641|Krema katalana|Крема каталана
+1642|Flan|Флан
+1643|Torrixas|Торрихас
+1644|Santyago torti|Тарт Сантьяго
+1645|Polvoron|Польворон
+1646|Orchata|Орчата
+1647|Sangriya (alkogolsiz)|Безалкогольная сангрия
+1648|Kafe kon lese|Кафе кон лече
+1649|Pimientos de Padron|Перцы падрон
+1650|Ensalada mixta|Смешанный салат
+1651|Ispancha loviya sho'rva (potaje)|Потахе
+1652|Beshbarmoq|Бешбармак
+1653|Bo'g'irsoq (baursak)|Баурсаки
+1654|Kuyrdak|Куырдак
+1655|Qazi|Казы
+1656|Sorpa|Сорпа
+1657|Manti (qozoqcha)|Манты казахские
+1658|Samsa (qozoqcha)|Самса казахская
+1659|Kespe|Кеспе
+1660|Shalgam salati|Салат Шалгам
+1661|Qozoqcha palov|Казахский плов
+1662|Lag'mon (qozoqcha)|Лагман
+1663|Asip|Асып
+1664|Kurt|Курт
+1665|Shubat|Шубат
+1666|Qimiz|Кумыс
+1667|Qozoqcha choy|Чай по-казахски
+1668|Jent|Жент
+1669|Chak-chak (qozoqcha)|Чак-чак
+1670|Qo'y go'shtli kartoshka dimlamasi|Тушёная баранина с картошкой
+1671|Tushpara|Тушпара
+1672|Nauryz ko'je|Наурыз коже
+1673|Qozoqcha shashlik|Шашлык
+1674|Qozoqcha pishloq (irimshik)|Иримшик
+1675|Balish|Балиш
+1676|Kartoshka quymog'i (draniki)|Драники
+1677|Qozoqcha guruch bo'tqasi|Рисовая каша
+1678|Kurt bilan salat|Салат с куртом
+1679|Tovuq sho'rva (tauyk sorpa)|Куриный суп
+1680|Qozoqcha somsa kartoshkali|Самса с картошкой
+1681|Qozoqcha sut choy (ak shai)|Чай с молоком
+1682|Ashlyamfu|Ашлянфу
+1683|Beshbarmoq (qirg'izcha)|Бешбармак
+1684|Kuurdak|Куурдак
+1685|Chuchuk|Чучук
+1686|Boorsok|Боорсок
+1687|Gan-fan|Гюро лагман гань-фань
+1688|Oromo|Оромо
+1689|Qirg'izcha palov|Плов
+1690|Lag'mon (qirg'izcha)|Лагман
+1691|Shorpo|Шорпо
+1692|Manti (qirg'izcha)|Манты
+1693|Samsa (qirg'izcha)|Самса
+1694|Dymdama|Дымдама
+1695|Kesme|Кесме
+1696|Mampar|Мампар
+1697|Jarma|Жарма
+1698|Maksym|Максым
+1699|Qimiz (qirg'izcha)|Кымыз
+1700|Talqon|Талкан
+1701|Kattama|Каттама
+1702|Chuchvara (qirg'izcha)|Пельмени
+1703|Qirg'izcha non (tandir nan)|Тандыр нан
+1704|Kurut sho'rva|Курут шорпо
+1705|Gyuro lag'mon|Гюро лагман
+1706|Kartoshkali pirojki|Пирожки с картошкой
+1707|Ganfan (tovuqli)|Гань-фань с курицей
+1708|Shirguruch (qirg'izcha)|Сютлю аш
+1709|Choy sut bilan (ak chay)|Ак чай
+1710|Kuurma shorpo|Жареная шорпо
+1711|Qirg'izcha shashlik|Шашлык
+1712|Qurutob|Курутоб
+1713|Tojikcha osh|Таджикский плов (оши палав)
+1714|Sambusa|Самбуса
+1715|Shirchoy|Ширчой
+1716|Oshi burida|Оши бурида
+1717|Manti (tojikcha)|Манту
+1718|Shurbo|Шурбо
+1719|Kabob (tojikcha)|Кабоб
+1720|Fatir|Фатир
+1721|Qurutob go'shtli|Курутоб с мясом
+1722|Dimlama (tojikcha)|Димлама
+1723|Lag'mon (tojikcha)|Лагман
+1724|Mastoba|Мастоба
+1725|Kichiri|Кичири
+1726|Chakka|Чакка
+1727|Javzobob|Джавзобоб
+1728|Tuhum-pomidor|Яичница с помидорами
+1729|Shakarob|Шакароб
+1730|Halvoi tar|Халвайтар
+1731|Nishollo|Нишолло
+1732|Sumalak (tojikcha)|Сумалак
+1733|Kulcha|Кульча
+1734|Ugro|Угро
+1735|Kalla-pocha|Калла поча
+1736|Bichak|Бичак
+1737|Pilmeni (tojikcha)|Пельмени
+1738|Kompot (tojikcha)|Компот
+1739|Ayron (tojikcha dug')|Дуг
+1740|Tojikcha ko'k choy|Зеленый чай
+1741|Kabobi tobagi|Жаркое на сковороде
+1742|Ichlekli|Ичлекли
+1743|Turkmancha palov|Туркменский плов
+1744|Dograma|Дограма
+1745|Gutap|Гутап
+1746|Gutap go'shtli|Гутап с мясом
+1747|Unash|Унаш
+1748|Chorba|Чорба
+1749|Kebab (turkmancha)|Шашлык
+1750|Manti (turkmancha)|Манты
+1751|Somsa (turkmancha)|Самса
+1752|Pishme|Пишме
+1753|Chekdirme|Чекдирме
+1754|Ishlekli|Ишлекли
+1755|Ak tamdyr nan|Тамдыр чорек
+1756|Dovga|Довга
+1757|Kartoshkali chorba|Картофельный суп
+1758|Sabzavotli dimlama|Овощное рагу
+1759|Shurpa (qo'y)|Шурпа
+1760|Turkmancha lag'mon|Лагман
+1761|Chal|Чал
+1762|Turkmancha ko'k choy|Зеленый чай
+1763|Gyzyl choy sut bilan|Чай с молоком
+1764|Halva (turkmancha)|Халва
+1765|Kartoshka somsa|Самса с картошкой
+1766|Tovuq chorbasi|Куриный суп
+1767|Qovoq somsa (turkmancha)|Самса с тыквой
+1768|Turkmancha guruch bo'tqasi|Сютли аш
+1769|Qovurdoq|Говурма
+1770|Turkmancha do'lma|Долма
+1771|Ayron (turkmancha)|Айран
+1920|Koshari|Кошари
+1938|Pelmen|Пельмени
+1939|Blin|Блины
+1940|Sirniki|Сырники
+1941|Olivye salati|Оливье
+1942|Okroshka|Окрошка
+1943|Shchi|Щи
+1944|Solyanka|Солянка
+1945|Bef stroganov|Бефстроганов
+1946|Golubsy|Голубцы
+1947|Kotlet|Котлеты домашние
+1948|Kartoshka pyuresi|Картофельное пюре
+1949|Grechka go'sht bilan|Гречка с мясом
+1950|Manniy bo'tqa|Манная каша
+1951|Pirojki|Пирожки
+1952|Vinegret|Винегрет
+1953|Seld pod shuboy|Селёдка под шубой
+1954|Uxa|Уха
+1955|Kulebyaka|Кулебяка
+1956|Vareniki gilos bilan|Вареники с вишней
+1957|Medovik|Медовик
+1958|Napoleon|Торт Наполеон
+1959|Kissel|Кисель
+1960|Mors|Морс
+1961|Uy kvasi|Квас
+1962|Draniki (ruscha)|Драники
+1963|Makaron po-flotski|Макароны по-флотски
+1964|Tovuq lapsha sho'rva|Куриный суп с лапшой
+1965|Zapekanka|Творожная запеканка
+1966|Oladyi|Оладьи
+1967|Kotlet po-kiyevski|Котлета по-киевски
+1968|Borsh|Борщ украинский
+1969|Varenik kartoshkali|Вареники с картошкой
+1970|Varenik tvoroqli|Вареники с творогом
+1971|Galushki|Галушки
+1972|Deruny|Деруны
+1973|Holodets|Холодец
+1974|Kotlet po-kiyevski (Kiyev kotleti)|Котлета по-киевски
+1975|Kapustnyak|Капустняк
+1976|Grechaniki|Гречаники
+1977|Banush|Банош
+1978|Kruchenyky|Крученики
+1979|Uzvar|Узвар
+1980|Pampushki|Пампушки
+1981|Syrnyky (ukraincha)|Сырники
+1982|Kartoplyanyky|Картопляники
+1983|Zrazy|Зразы
+1984|Lavlagi salati|Салат из свёклы
+1985|Kulish|Кулиш
+1986|Nalisniki|Налистники
+1987|Kiyev torti|Киевский торт
+1988|Makovnik|Маковник
+1989|Pirogi olmali (sharlotka)|Шарлотка
+1990|Kompot olmali|Компот из яблок
+1991|Kisil|Кисель
+1992|Yashil borsh|Зелёный борщ
+1993|Galushki tvoroqli (linivi varenyky)|Ленивые вареники
+1994|Kotlet tovuqli|Куриные котлеты
+1995|Kartoshka smetanada|Картошка в сметане
+1996|Pechene jigar|Печёночные оладьи
+1997|Bograch|Бограч
+1998|Draniki|Драники
+1999|Machanka|Мачанка
+2000|Kolduny|Колдуны
+2001|Babka|Бабка картофельная
+2002|Kletski|Клёцки
+2003|Xolodnik|Холодник
+2004|Zrazy (belaruscha)|Зразы
+2005|Pyachisto|Печисто
+2006|Bulbyanka (kartoshka sho'rva)|Бульбянка
+2007|Kalduny (go'shtli kartoshka)|Колдуны
+2008|Verashchaka|Верещака
+2009|Blinchiki (belaruscha)|Блины
+2010|Kotlet (belaruscha)|Котлеты
+2011|Grechnevaya kasha|Гречневая каша
+2012|Nordon karam sho'rvasi|Кислые щи
+2013|Pirojki karamli|Пирожки с капустой
+2014|Tvorog bilan blin|Блины с творогом
+2015|Kissel klyukvali|Клюквенный кисель
+2016|Kvas (belaruscha)|Квас
+2017|Kompot (belaruscha)|Компот
+2018|Kartofelnye kotlety|Картофельные котлеты
+2019|Zelyonye shchi|Зелёные щи
+2020|Kartoshkali blin|Картофельные блины
+2021|Asalli issiq ichimlik|Медовый напиток
+2022|Qo'ziqorin sho'rva|Грибной суп
+2023|Lazanki|Лазанки
+2024|Olmali pirog (sharlotka)|Шарлотка
+2025|Sochnik|Сочни с творогом
+2026|Kotlet baliqli|Рыбные котлеты
+2027|Kalduny pechda|Колдуны в горшочках
+2028|Menemen|Менемен
+2029|Yasmiq sho'rva (mercimek)|Мерджимек чорбасы
+2030|Iskandar kabob|Искендер кебаб
+2031|Adana kabob|Адана кебаб
+2032|Doner (uyda)|Донер кебаб
+2033|Lahmajun|Лахмаджун
+2034|Pide|Пиде
+2035|Kofte|Кёфте
+2036|Imam bayildi|Имам баялды
+2037|Karniyarik|Карныярык
+2038|Manti (turkcha)|Турецкие манты
+2039|Sigara byoregi|Сигара бёрек
+2040|Byorek|Бёрек
+2041|Simit|Симит
+2042|Chorba ezogelin|Эзогелин чорба
+2043|Kuru fasulye|Куру фасулье
+2044|Pilav (turkcha)|Турецкий пилав
+2045|Choban salati|Чобан салатасы
+2046|Cacik|Джаджик
+2047|Paxlava|Пахлава
+2048|Kunefe|Кюнефе
+2049|Sutlach|Сютлач
+2050|Lokum|Рахат-лукум
+2051|Asure|Ашуре
+2052|Revani|Ревани
+2053|Turk choyi|Турецкий чай
+2054|Turk qahvasi|Турецкий кофе
+2055|Ayran (turkcha)|Айран
+2056|Gozleme|Гёзлеме
+2057|Tavuk shish|Тавук шиш
+2058|Xummus|Хумус
+2059|Falafel|Фалафель
+2060|Tovuq shaurma|Шаурма с курицей
+2061|Kabsa|Кабса
+2062|Mandi|Манди
+2063|Maqluba|Маклюба
+2064|Tabule|Табуле
+2065|Fattush|Фаттуш
+2066|Mutabbal (baba ganush)|Баба гануш
+2067|Shish tavuq|Шиш таук
+2068|Kibbe|Кеббе
+2069|Ful medames|Фуль медамес
+2070|Shakshuka|Шакшука
+2071|Koshari|Кушари
+2072|Molokhiya|Мулухия
+2073|Mansaf|Мансаф
+2074|Musakhan|Мусахан
+2075|Manakish|Манакиш
+2076|Fatayer|Фатайер
+2077|Ouzi|Узи
+2078|Lentil sho'rva (shorbat adas)|Шорбат адас
+2079|Kunafa|Кунафа
+2080|Basbusa|Басбуса
+2081|Luqaymat|Лукаймат
+2082|Maamul|Маамуль
+2083|Umm Ali|Умм Али
+2084|Arab qahvasi|Арабский кофе
+2085|Yalpizli choy|Мятный чай
+2086|Laban ayran|Лабан
+2087|Xurmo sharbati (jallab)|Джаллаб
+2088|Toshkent oshi|Ташкентский плов
+2089|Samarqand oshi|Самаркандский плов
+2090|Farg'ona oshi|Ферганский плов
+2091|Buxoro oshi|Бухарский плов
+2092|Xorazm oshi|Хорезмский плов
+2093|Kovurma palov (choyxona oshi)|Чайханский плов
+2094|Qovurma lag'mon|Ковурма лагман
+2095|Suyuq lag'mon|Лагман суп
+2096|Manti|Манты
+2097|Qovoqli manti|Манты с тыквой
+2098|Chuchvara|Чучвара
+2099|Chuchvara sho'rva|Чучвара суп
+2100|Tandir somsa|Самса узбекская
+2101|Qatlama somsa|Слоёная самса
+2102|Ko'k somsa|Самса с зеленью
+2103|Qovoq somsa|Самса с тыквой
+2104|Shashlik|Шашлык узбекский
+2105|Jigar kabob|Шашлык из печени
+2106|Lula kabob|Люля-кебаб
+2107|Norin|Нарын
+2108|Dimlama|Димлама
+2109|Qozon kabob|Казан-кабоб
+2110|Tandir go'sht|Тандыр гушт
+2111|Jiz|Жиз
+2112|Do'lma|Долма узбекская
+2113|Mastava|Мастава
+2114|Qaynatma sho'rva|Шурпа узбекская
+2115|Qovurma sho'rva|Жареная шурпа
+2116|Moshxo'rda|Машхурда
+2117|Moshkichiri|Машкичири
+2118|Xonim|Ханум
+2119|Tuxum barak|Тухум барак
+2120|Shivit oshi|Шивит оши
+2121|Halim|Халим
+2122|Shirguruch|Шир гуруч
+2123|Quymoq|Куймак
+2124|Qatlama|Катлама
+2125|Patir non|Патыр
+2126|Obi non|Оби нон
+2127|Achchiq-chuchuk|Салат Аччик-чучук
+2128|Toshkent salati|Салат Ташкент
+2129|Chalop|Чалоп
+2130|Ayron|Айран
+2131|Ko'k choy|Зеленый чай по-узбекски
+2132|Qora choy limon bilan|Черный чай с лимоном
+2133|Mevali kompot|Компот
+2134|Chak-chak|Чак-чак
+2135|Un halvasi|Халва из муки
+2136|Nisholda|Нишалда
+2137|Sumalak|Сумаляк
+2138|Parvarda|Парварда
+2139|Bug'irsoq|Баурсаки
+2140|Hasib|Хасып
+2141|Qazi|Казы
+2142|Kartoshkali chuchvara (pirojki)|Пирожки с картошкой
+2143|Gumma|Гумма
+2144|Ugra osh|Угра оши
+2145|Ko'za sho'rva|Кузя шурпа
+2146|Baliq qovurma|Жареная рыба по-узбекски
+2147|Bodring salat (qatiqli)|Салат из огурцов с катыком

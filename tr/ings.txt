@@ -1,0 +1,352 @@
+0	tovuq
+1	piyoz
+2	limon
+3	zaytun
+4	zanjabil
+5	zafaron
+6	go'sht
+7	o'rik
+8	dolchin
+9	asal
+10	bodom
+11	kuskus
+12	sabzi
+13	qovoqcha
+14	qovoq
+15	no'xat
+16	karam
+17	yasmiq
+18	pomidor
+19	ko'kat
+20	un
+21	lavash
+22	tuxum
+23	shakar
+24	qiyma
+25	zira
+26	baqlajon
+27	sarimsoq
+28	msemen
+29	manka
+30	sariyog'
+31	xamirturush
+32	qabartma
+33	loviya
+34	mayiz
+35	ras el hanout
+36	bodring
+37	kunjut
+38	vermishel
+39	choy
+40	yalpiz
+41	baliq
+42	yashil bug'doy
+43	lapsha
+44	sholg'om
+45	no'xat uni
+46	bolgar qalampir
+47	guruch
+48	xurmo
+49	harissa
+50	non
+51	sabzavot
+52	pishloq
+53	kartoshka
+54	arpa uni
+55	arpa yormasi
+56	ichak
+57	makaron
+58	yer yong'oq
+59	yer yong'oq moyi
+60	jo'xori uni
+61	bamya
+62	qatiq
+63	karkade
+64	jo'xori
+65	sut
+66	yer yong'oq pastasi
+67	teff uni
+68	berbere
+69	rozmarin
+70	mitmita
+71	zarchava
+72	injera
+73	qahva doni
+74	hil
+75	achchiq qalampir
+76	banan
+77	xamir
+78	kraxmal
+79	makkajo'xori uni
+80	tuz
+81	makkajo'xori
+82	laym
+83	kashnich
+84	yog'
+85	kokos suti
+86	ko'k no'xat
+87	ismaloq
+88	ovqatbop banan
+89	chapati
+90	yer yong'oq sousi
+91	chinnigul
+92	kassava bargi
+93	kassava uni
+94	bug'doy
+95	palma moyi
+96	tomat pasta
+97	egusi urug'i
+98	yam
+99	ziravor
+100	ananas
+101	apelsin sharbati
+102	jigar
+103	kassava
+104	spagetti
+105	xantal
+106	qahva
+107	murch
+108	attieke
+109	palma mevasi
+110	tariq uni
+111	moringa bargi
+112	tariq
+113	achchiq barg
+114	krevetka
+115	eru bargi
+116	kokoyam
+117	palma pastasi
+118	atanga mevasi
+119	odika
+120	kolbasa
+121	jute bargi
+122	qisqichbaqa
+123	guruch uni
+124	shirin kartoshka bargi
+125	tuya suti
+126	dengiz chig'anoqlari
+127	papayya
+128	karri
+129	sirka
+130	kashnich urug'i
+131	o'rik murabbosi
+132	qaymoq
+133	rooibos
+134	orxideya ildizi
+135	yong'oq
+136	kokos
+137	ko'k piyoz
+138	agar jelesi
+139	vanil
+140	muskat
+141	sakkizoyoq
+142	pechene
+143	shokolad
+144	zarang siropi
+145	soya sousi
+146	qovoq urug'i
+147	kurka
+148	recado
+149	tortilla
+150	smetana
+151	avokado
+152	dengiz chig'anog'i
+153	oyoq
+154	apelsin
+155	sgushenka
+156	salat
+157	vetchina
+158	qalampirmunchoq
+159	akki
+160	qo'ziqorin
+161	shirin kartoshka
+162	guava
+163	non mevasi
+164	ildizmevalar
+165	kakao
+166	bulon
+167	asai
+168	granola
+169	gazli suv
+170	guarana
+171	petrushka
+172	oregano
+173	dulce de leche
+174	soda
+175	mate
+176	mayonez
+177	yurak
+178	binafsha makkajo'xori
+179	kinoa
+180	makkajo'xori kraxmali
+181	vafli
+182	panela
+183	rezavor
+184	jele
+185	binafsha makkajo'xori uni
+186	sosiska
+187	pomidor sousi
+188	biskvit
+189	beze
+190	shaftoli
+191	kassareep
+192	tayer ildizi
+193	suli
+194	vegemite
+195	rangli sepma
+196	kivi
+197	muzqaymoq
+198	makkajo'xori yormasi
+199	tayer bargi
+200	sago kraxmali
+201	tarvuz
+202	pulaka
+203	pandan
+204	pista
+205	mosh
+206	qurt
+207	qora sedana
+208	sut kukuni
+209	xantal urug'i
+210	puri
+211	tamarind
+212	roti
+213	jaggery
+214	xantal moyi
+215	karam bargi
+216	bambuk novdasi
+217	turp
+218	grechka lapsha
+219	nok
+220	tofu
+221	guruch lapshasi
+222	soya o'simtasi
+223	limon o'ti
+224	galangal
+225	yashil karri pastasi
+226	rayhon
+227	qizil karri pastasi
+228	bambuk
+229	brokkoli
+230	panang pastasi
+231	karri pastasi
+232	mango
+233	suyak
+234	anis
+235	guruch qog'ozi
+236	salat bargi
+237	baliq sousi
+238	kroeung pastasi
+239	choy bargi
+240	sambal
+241	laksa pastasi
+242	palma shakari
+243	kalmar
+244	tempe
+245	keluak
+246	dafna bargi
+247	muz
+248	meva
+249	nordon sous
+250	quruq meva
+251	kashtan
+252	dumba
+253	uzum bargi
+254	alcha pastasi
+255	murabbo
+256	rayhon urug'i
+257	alcha
+258	tkemali
+259	anor
+260	tarxun
+261	uzum sharbati
+262	olxo'ri
+263	mol oyog'i
+264	bulgur
+265	paprika
+266	gilos
+267	achchiq sous
+268	ketchup
+269	o'rdak
+270	kunjut pastasi
+271	hoysin sousi
+272	bambuk bargi
+273	qiyom
+274	loviya pastasi
+275	tapioka
+276	guruch tayoqchalari
+277	achchiq qalampir pastasi
+278	kimchi
+279	shisha lapsha
+280	nori
+281	soya pastasi
+282	dengiz karami
+283	solod
+284	arpa
+285	baliq pishirig'i
+286	miso
+287	udon lapsha
+288	soba lapsha
+289	vasabi
+290	soya dukkagi
+291	matcha
+292	tvorog
+293	gulkaram
+294	yasmiq uni
+295	olma
+296	olma sharbati
+297	lavlagi
+298	ukrop
+299	makkajo'xori bargi
+300	chips
+301	tovuq qanoti
+302	maskarpone
+303	buyrak
+304	qulupnay
+305	midiya
+306	zaytun moyi
+307	selderey
+308	endiviya
+309	olma pyuresi
+310	ismaloq bargi
+311	go'sht bulon
+312	mak
+313	achitqi
+314	qorin
+315	grechka uni
+316	javdar uni
+317	urug'lar
+318	qora murch
+319	marsipan
+320	kama uni
+321	jelatin
+322	yong'oq uni
+323	yer bodomi
+324	ot go'shti
+325	bie suti
+326	talqon
+327	kurt
+328	bug'doy uni
+329	kurut
+330	behi
+331	suzma
+332	qo'y kallasi
+333	oyoqlar
+334	anor siropi
+335	zirk
+336	anor sharbati
+337	rediska
+338	sumax
+339	kadayif
+340	zatar
+341	atirgul suvi
+342	xurmo siropi
+343	matsa uni
+344	hulba
+345	qahva po'stlog'i
+346	molokhiya
+347	grechka
+348	shovul
+349	shakar sharbati
+350	xurmo qiyomi
+351	bedana tuxumi

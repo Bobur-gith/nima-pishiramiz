@@ -1,0 +1,2148 @@
+0	Tajin tovuq limon bilan	Chicken tagine recipe	Marokash
+1	Qo'zi tajini o'rik bilan	Lamb tagine with apricots	Marokash
+2	Kuskus yetti sabzavotli	Moroccan couscous recipe	Marokash
+3	Harira	Harira recipe	Marokash
+4	Pastilla	Pastilla recipe	Marokash
+5	Kefta tajini	Kefta tagine recipe	Marokash
+6	Zaalouk	Zaalouk recipe	Marokash
+7	Rfissa	Rfissa recipe	Marokash
+8	Msemen	Msemen recipe	Marokash
+9	Baghrir	Baghrir recipe	Marokash
+10	Bissara	Bissara recipe	Marokash
+11	Mrouzia	Mrouzia recipe	Marokash
+12	Marokash salati	Moroccan salad recipe	Marokash
+13	Chebakia	Chebakia recipe	Marokash
+14	Ghriba	Ghriba recipe	Marokash
+15	Seffa	Seffa recipe	Marokash
+16	Yalpizli choy (marokashcha)	Moroccan mint tea	Marokash
+17	Sardina kofta	Moroccan sardine balls	Marokash
+18	Kuskus (jazoircha)	Algerian couscous	Jazoir
+19	Chakhchoukha	Chakhchoukha recipe	Jazoir
+20	Chorba frik	Chorba frik recipe	Jazoir
+21	Rechta	Rechta recipe	Jazoir
+22	Garantita	Garantita recipe	Jazoir
+23	Mhadjeb	Mhadjeb recipe	Jazoir
+24	Dolma (jazoircha)	Algerian dolma	Jazoir
+25	Makroud	Makroud recipe	Jazoir
+26	Kalb el louz	Qalb el louz recipe	Jazoir
+27	Shakshuka (tunischa)	Tunisian shakshuka	Tunis
+28	Brik	Brik recipe	Tunis
+29	Lablabi	Lablabi recipe	Tunis
+30	Kuskus baliqli	Tunisian fish couscous	Tunis
+31	Tajin tunis	Tunisian tajine recipe	Tunis
+32	Mechouia salati	Salata mechouia recipe	Tunis
+33	Kafteji	Kafteji recipe	Tunis
+34	Makroudh (tunis)	Tunisian makroudh	Tunis
+35	Bambalouni	Bambalouni recipe	Tunis
+36	Bazeen	Bazeen recipe	Liviya
+37	Sharba libiya	Sharba libiya recipe	Liviya
+38	Usban	Usban recipe	Liviya
+39	Mbakbaka	Mbakbaka recipe	Liviya
+40	Asida (liviyacha)	Libyan asida	Liviya
+41	Liviya choyi	Libyan tea	Liviya
+42	Ful (sudancha)	Sudanese ful	Sudan
+43	Kisra	Kisra recipe	Sudan
+44	Mullah	Mullah stew recipe	Sudan
+45	Gourrassa	Gourrassa recipe	Sudan
+46	Kajaik	Kajaik recipe	Sudan
+47	Karkade (sudancha)	Sudanese karkade	Sudan
+48	Basbousa (sudancha)	Sudanese basbousa	Sudan
+49	Kisra (j. sudan)	South Sudanese kisra	Janubiy Sudan
+50	Asida (j. sudan)	South Sudanese asida	Janubiy Sudan
+51	Kuindi	Kuindi recipe	Janubiy Sudan
+52	Wala-wala	Wala wala recipe	Janubiy Sudan
+53	Go'shtli bamya dimlamasi	South Sudanese okra stew	Janubiy Sudan
+54	Injera	Injera recipe	Efiopiya
+55	Doro wat	Doro wat recipe	Efiopiya
+56	Tibs	Tibs recipe	Efiopiya
+57	Shiro	Shiro wat recipe	Efiopiya
+58	Misir wat	Misir wat recipe	Efiopiya
+59	Kitfo	Kitfo recipe	Efiopiya
+60	Gomen	Gomen recipe	Efiopiya
+61	Atkilt wat	Atkilt wat recipe	Efiopiya
+62	Firfir	Firfir recipe	Efiopiya
+63	Genfo	Genfo recipe	Efiopiya
+64	Efiopiya qahva marosimi	Ethiopian coffee ceremony	Efiopiya
+65	Ayib	Ayib recipe	Efiopiya
+66	Zigni	Zigni recipe	Eritreya
+67	Tsebhi dorho	Tsebhi dorho recipe	Eritreya
+68	Shiro (eritreyacha)	Eritrean shiro	Eritreya
+69	Kicha fit-fit	Kicha fit fit recipe	Eritreya
+70	Ful (eritreyacha)	Eritrean ful	Eritreya
+71	Taita	Taita recipe	Eritreya
+72	Skoudehkaris	Skoudehkaris recipe	Jibuti
+73	Fah-fah	Fah fah soup recipe	Jibuti
+74	Lahoh	Lahoh recipe	Jibuti
+75	Banan quymoqlari	Djiboutian banana fritters	Jibuti
+76	Jibuti choyi	Djiboutian spiced tea	Jibuti
+77	Bariis iskukaris	Bariis iskukaris recipe	Somali
+78	Canjeero	Canjeero recipe	Somali
+79	Suqaar	Suqaar recipe	Somali
+80	Sambusa (somali)	Somali sambusa	Somali
+81	Halwo	Halwo recipe	Somali
+82	Somali choyi (shaah)	Somali shaah	Somali
+83	Muufo	Muufo recipe	Somali
+84	Ugali	Ugali recipe	Keniya
+85	Nyama choma	Nyama choma recipe	Keniya
+86	Sukuma wiki	Sukuma wiki recipe	Keniya
+87	Githeri	Githeri recipe	Keniya
+88	Kachumbari	Kachumbari recipe	Keniya
+89	Chapati (keniyacha)	Kenyan chapati	Keniya
+90	Pilau (keniyacha)	Kenyan pilau	Keniya
+91	Mandazi	Mandazi recipe	Keniya
+92	Mukimo	Mukimo recipe	Keniya
+93	Keniya choyi	Kenyan chai	Keniya
+94	Matoke	Matoke recipe	Uganda
+95	Rolex	Ugandan Rolex recipe	Uganda
+96	Luwombo	Luwombo recipe	Uganda
+97	Posho va loviya	Posho and beans recipe	Uganda
+98	Yer yong'oq sousi	Ugandan groundnut sauce	Uganda
+99	Katogo	Katogo recipe	Uganda
+100	Ugali (tanzaniyacha)	Tanzanian ugali	Tanzaniya
+101	Pilau (zanzibar)	Zanzibar pilau recipe	Tanzaniya
+102	Mishkaki	Mishkaki recipe	Tanzaniya
+103	Chipsi mayai	Chipsi mayai recipe	Tanzaniya
+104	Ndizi nyama	Ndizi nyama recipe	Tanzaniya
+105	Zanzibar pitsasi	Zanzibar pizza recipe	Tanzaniya
+106	Mandazi (tanzaniyacha)	Tanzanian mandazi	Tanzaniya
+107	Isombe	Isombe recipe	Ruanda
+108	Brochettes	Rwandan brochettes recipe	Ruanda
+109	Ibihaza	Ibihaza recipe	Ruanda
+110	Akabenz (mol go'shti bilan)	Rwandan grilled meat	Ruanda
+111	Ubugali	Ubugali recipe	Ruanda
+112	Igisafuliya	Igisafuliya recipe	Ruanda
+113	Boko boko	Boko boko recipe	Burundi
+114	Ibiharage	Ibiharage recipe	Burundi
+115	Mukeke baliq	Mukeke fish recipe	Burundi
+116	Ubugali (burundi)	Burundian ubugali	Burundi
+117	Brochettes (burundi)	Burundian brochettes	Burundi
+118	Jollof guruch	Jollof rice recipe	Nigeriya
+119	Egusi sho'rva	Egusi soup recipe	Nigeriya
+120	Suya	Suya recipe	Nigeriya
+121	Pounded yam (fufu)	Pounded yam recipe	Nigeriya
+122	Efo riro	Efo riro recipe	Nigeriya
+123	Moi moi	Moi moi recipe	Nigeriya
+124	Akara	Akara recipe	Nigeriya
+125	Achchiq sho'rva (pepper soup)	Nigerian pepper soup recipe	Nigeriya
+126	Ofada stew	Ofada stew recipe	Nigeriya
+127	Bamya sho'rva	Okra soup recipe	Nigeriya
+128	Puff-puff	Puff puff recipe	Nigeriya
+129	Chin chin	Chin chin recipe	Nigeriya
+130	Dodo	Fried plantain recipe	Nigeriya
+131	Zobo	Zobo drink recipe	Nigeriya
+132	Chapman	Chapman drink	Nigeriya
+133	Qovurilgan guruch (nigeriyacha)	Nigerian fried rice	Nigeriya
+134	Jollof (ganacha)	Ghana jollof recipe	Gana
+135	Fufu va yer yong'oq sho'rvasi	Fufu with groundnut soup	Gana
+136	Waakye	Waakye recipe	Gana
+137	Kelewele	Kelewele recipe	Gana
+138	Banku va tilapiya	Banku and tilapia recipe	Gana
+139	Red red	Red red recipe	Gana
+140	Kenkey	Kenkey recipe	Gana
+141	Yengil sho'rva (light soup)	Ghana light soup recipe	Gana
+142	Bofrot	Bofrot recipe	Gana
+143	Sobolo	Sobolo drink	Gana
+144	Thieboudienne	Thieboudienne recipe	Senegal
+145	Yassa tovuq	Chicken yassa recipe	Senegal
+146	Mafe	Mafe recipe	Senegal
+147	Thiakry	Thiakry recipe	Senegal
+148	Pastels	Senegalese pastels recipe	Senegal
+149	Bissap	Bissap recipe	Senegal
+150	Café Touba	Café Touba recipe	Senegal
+151	Soupou kandja	Soupou kandja recipe	Senegal
+152	Attiéké	Attieke recipe	Fil suyagi qirg'og'i
+153	Aloco	Aloco recipe	Fil suyagi qirg'og'i
+154	Kedjenou	Kedjenou recipe	Fil suyagi qirg'og'i
+155	Garba	Garba recipe	Fil suyagi qirg'og'i
+156	Foutou	Foutou recipe	Fil suyagi qirg'og'i
+157	Sauce graine	Sauce graine recipe	Fil suyagi qirg'og'i
+158	Gnamakoudji	Gnamakoudji ginger juice	Fil suyagi qirg'og'i
+159	Tigadèguèna	Tigadeguena recipe	Mali
+160	Tô	Tô recipe	Mali
+161	Jollof (malicha, zamè)	Malian jollof	Mali
+162	Fakoye	Fakoye recipe	Mali
+163	Dégué	Degue recipe	Mali
+164	Zanjabil sharbati (jinjinbere)	Malian ginger juice	Mali
+165	Riz gras	Riz gras recipe	Burkina-Faso
+166	Tô (burkina)	Burkina tô	Burkina-Faso
+167	Poulet bicyclette	Poulet bicyclette recipe	Burkina-Faso
+168	Babenda	Babenda recipe	Burkina-Faso
+169	Bissap (burkina)	Burkina bissap	Burkina-Faso
+170	Djerma dimlamasi	Djerma stew recipe	Niger
+171	Kilishi	Kilishi recipe	Niger
+172	Dambou	Dambou recipe	Niger
+173	Fura	Fura recipe	Niger
+174	Tuwo	Tuwo recipe	Niger
+175	Ndolé	Ndole recipe	Kamerun
+176	Poulet DG	Poulet DG recipe	Kamerun
+177	Eru	Eru recipe	Kamerun
+178	Koki	Koki recipe	Kamerun
+179	Achu	Achu recipe	Kamerun
+180	Puff-puff (kamerun)	Cameroon puff puff	Kamerun
+181	Boule	Boule recipe	Chad
+182	Daraba	Daraba recipe	Chad
+183	Kissar	Kissar recipe	Chad
+184	Chad go'shti sousi	Chadian meat stew	Chad
+185	Karkanji	Karkanji drink	Chad
+186	Gozo	Gozo recipe	Markaziy Afrika Respublikasi
+187	Kanda	Kanda recipe	Markaziy Afrika Respublikasi
+188	Ngunza	Ngunza recipe	Markaziy Afrika Respublikasi
+189	Yer yong'oqli tovuq (MAR)	Central African peanut chicken	Markaziy Afrika Respublikasi
+190	Moambe tovuq	Moambe chicken recipe	Kongo DR
+191	Pondu	Pondu recipe	Kongo DR
+192	Fufu (kongo)	Congolese fufu	Kongo DR
+193	Liboke	Liboke recipe	Kongo DR
+194	Makemba	Fried plantains Congo	Kongo DR
+195	Chikwanga	Chikwanga recipe	Kongo DR
+196	Saka-saka	Saka saka recipe	Kongo Respublikasi
+197	Poulet moambe (kongo)	Poulet moambe	Kongo Respublikasi
+198	Liboké ya mbisi	Liboke ya mbisi	Kongo Respublikasi
+199	Chikwangue (kongo)	Congo chikwangue	Kongo Respublikasi
+200	Poulet nyembwe	Poulet nyembwe recipe	Gabon
+201	Atanga	Atanga recipe	Gabon
+202	Gabon baliq sousi	Gabonese fish stew	Gabon
+203	Odika sousi	Odika sauce recipe	Gabon
+204	Succotash (ekv. gvineya)	Equatorial Guinea succotash	Ekvatorial Gvineya
+205	Pepesup	Pepesup recipe	Ekvatorial Gvineya
+206	Tovuq yer yong'oq sousida	Chicken in peanut sauce	Ekvatorial Gvineya
+207	Banan qovurma	Fried plantains	Ekvatorial Gvineya
+208	Calulu	Calulu recipe	San-Tome va Prinsipi
+209	Feijão (san-tome)	Sao Tome beans	San-Tome va Prinsipi
+210	Banana pão	Banana bread Sao Tome	San-Tome va Prinsipi
+211	Grilda baliq (san-tome)	Grilled fish Sao Tome	San-Tome va Prinsipi
+212	Fufu (togocha)	Togolese fufu	Togo
+213	Akumé	Akume recipe	Togo
+214	Gboma dessi	Gboma dessi recipe	Togo
+215	Koklo meme	Koklo meme recipe	Togo
+216	Ademe	Ademe soup recipe	Togo
+217	Amiwo	Amiwo recipe	Benin
+218	Kuli-kuli	Kuli kuli recipe	Benin
+219	Pâte rouge	Pate rouge recipe	Benin
+220	Ago glain	Ago glain recipe	Benin
+221	Wagasi	Wagasi cheese recipe	Benin
+222	Domoda	Domoda recipe	Gambiya
+223	Benachin	Benachin recipe	Gambiya
+224	Superkanja	Superkanja recipe	Gambiya
+225	Chere	Chere recipe	Gambiya
+226	Poulet yassa (gvineya)	Guinean yassa	Gvineya
+227	Fou fou (gvineya)	Guinean fufu	Gvineya
+228	Kansiyé	Kansiye recipe	Gvineya
+229	Riz sauce feuille	Riz sauce feuille recipe	Gvineya
+230	Jollof (bisau)	Guinea-Bissau jollof	Gvineya-Bisau
+231	Caldo de mancarra	Caldo de mancarra recipe	Gvineya-Bisau
+232	Kaldu baliq	Bissau fish caldo	Gvineya-Bisau
+233	Siga	Siga recipe	Gvineya-Bisau
+234	Kassava bargi dimlamasi	Cassava leaf stew recipe	Syerra-Leone
+235	Yer yong'oq dimlamasi	Sierra Leone groundnut stew	Syerra-Leone
+236	Jollof (s. leone)	Sierra Leone jollof	Syerra-Leone
+237	Achchiq baliq sho'rva	Sierra Leone pepper soup	Syerra-Leone
+238	Kanya	Kanya recipe	Syerra-Leone
+239	Palma sho'rvasi (palm butter)	Palm butter soup recipe	Liberiya
+240	Jollof (liberiya)	Liberian jollof	Liberiya
+241	Kartoshka barglari dimlamasi	Potato greens recipe	Liberiya
+242	Liberiya guruch noni	Liberian rice bread	Liberiya
+243	Kala	Kala recipe	Liberiya
+244	Thieboudienne (mavritaniya)	Mauritanian thieboudienne	Mavritaniya
+245	Méchoui	Mechoui recipe	Mavritaniya
+246	Kuskus (mavritaniya)	Mauritanian couscous	Mavritaniya
+247	Mavritaniya choyi	Mauritanian tea	Mavritaniya
+248	Tuya suti	Camel milk drink	Mavritaniya
+249	Cachupa	Cachupa recipe	Kabo-Verde
+250	Pastel com diabo dentro	Pastel com diabo dentro recipe	Kabo-Verde
+251	Buzio	Buzio stew recipe	Kabo-Verde
+252	Doce de papaia	Papaya sweet recipe	Kabo-Verde
+253	Bobotie	Bobotie recipe	Janubiy Afrika
+254	Bunny chow	Bunny chow recipe	Janubiy Afrika
+255	Braai (boerewors)	Boerewors braai recipe	Janubiy Afrika
+256	Pap en sous	Pap and chakalaka	Janubiy Afrika
+257	Chakalaka	Chakalaka recipe	Janubiy Afrika
+258	Potjiekos	Potjiekos recipe	Janubiy Afrika
+259	Biltong	Biltong recipe	Janubiy Afrika
+260	Sosaties	Sosaties recipe	Janubiy Afrika
+261	Vetkoek	Vetkoek recipe	Janubiy Afrika
+262	Melktert	Melktert recipe	Janubiy Afrika
+263	Koeksisters	Koeksisters recipe	Janubiy Afrika
+264	Malva pudding	Malva pudding recipe	Janubiy Afrika
+265	Rusks	South African rusks recipe	Janubiy Afrika
+266	Rooibos choyi	Rooibos tea	Janubiy Afrika
+267	Kapana	Kapana recipe	Namibiya
+268	Oshifima	Oshifima recipe	Namibiya
+269	Potjiekos (namibiya)	Namibian potjie	Namibiya
+270	Biltong (namibiya)	Namibian biltong	Namibiya
+271	Vetkoek (namibiya)	Namibian vetkoek	Namibiya
+272	Seswaa	Seswaa recipe	Botsvana
+273	Bogobe	Bogobe recipe	Botsvana
+274	Morogo	Morogo recipe	Botsvana
+275	Magwinya	Magwinya recipe	Botsvana
+276	Dikgobe	Dikgobe recipe	Botsvana
+277	Sadza	Sadza recipe	Zimbabve
+278	Muriwo une dovi	Muriwo une dovi recipe	Zimbabve
+279	Nyama (zimbabvecha)	Zimbabwe beef stew	Zimbabve
+280	Mapopo murabbosi	Papaya jam	Zimbabve
+281	Mazhanje (maheu)	Mahewu drink	Zimbabve
+282	Nshima	Nshima recipe	Zambiya
+283	Ifisashi	Ifisashi recipe	Zambiya
+284	Kapenta	Kapenta recipe	Zambiya
+285	Chikanda	Chikanda recipe	Zambiya
+286	Munkoyo	Munkoyo drink	Zambiya
+287	Nsima	Nsima recipe	Malavi
+288	Chambo	Chambo fish recipe	Malavi
+289	Kondowole	Kondowole recipe	Malavi
+290	Mandasi (malavi)	Malawian mandasi	Malavi
+291	Frango à zambeziana	Frango zambeziana recipe	Mozambik
+292	Matapa	Matapa recipe	Mozambik
+293	Piri-piri krevetka	Peri peri prawns recipe	Mozambik
+294	Xima	Xima recipe	Mozambik
+295	Bolo polana	Bolo polana recipe	Mozambik
+296	Muamba de galinha	Muamba de galinha recipe	Angola
+297	Funji	Funji recipe	Angola
+298	Calulu (angola)	Angolan calulu	Angola
+299	Mufete	Mufete recipe	Angola
+300	Cocada amarela	Cocada amarela recipe	Angola
+301	Papa	Lesotho papa recipe	Lesoto
+302	Moroho	Moroho recipe	Lesoto
+303	Likhobe	Likhobe recipe	Lesoto
+304	Bohobe (bug'da pishgan non)	Basotho steamed bread	Lesoto
+305	Sishwala	Sishwala recipe	Esvatini
+306	Emasi	Emasi recipe	Esvatini
+307	Sitfubi	Sitfubi recipe	Esvatini
+308	Umncweba	Umncweba recipe	Esvatini
+309	Romazava	Romazava recipe	Madagaskar
+310	Ravitoto	Ravitoto recipe	Madagaskar
+311	Henakisoa sy voanjobory	Malagasy beef with peas	Madagaskar
+312	Koba	Koba recipe	Madagaskar
+313	Mofo gasy	Mofo gasy recipe	Madagaskar
+314	Lasary	Lasary recipe	Madagaskar
+315	Dholl puri	Dholl puri recipe	Mavrikiy
+316	Mine frite	Mine frite recipe	Mavrikiy
+317	Rougaille	Rougaille recipe	Mavrikiy
+318	Gateaux piments	Gateaux piments recipe	Mavrikiy
+319	Alouda	Alouda recipe	Mavrikiy
+320	Langouste à la vanille	Lobster with vanilla recipe	Komor orollari
+321	Mataba	Mataba recipe	Komor orollari
+322	Pilao (komor)	Comorian pilao	Komor orollari
+323	Ntsambu	Ntsambu recipe	Komor orollari
+324	Ladob	Ladob recipe	Seyshel orollari
+325	Kari koko	Octopus curry recipe	Seyshel orollari
+326	Grilda baliq (seyshel)	Seychelles grilled fish	Seyshel orollari
+327	Satini	Satini recipe	Seyshel orollari
+328	Poutine	Poutine recipe	Kanada
+329	Tourtière	Tourtière recipe	Kanada
+330	Sariyog'li tartalar	Butter tarts recipe	Kanada
+331	Nanaimo bars	Nanaimo bars recipe	Kanada
+332	No'xat sho'rva (Kvebek)	Quebec pea soup recipe	Kanada
+333	Montreal bagel	Montreal bagel recipe	Kanada
+334	Montreal smoked meat sendvich	Montreal smoked meat sandwich	Kanada
+335	Bannock	Bannock recipe	Kanada
+336	Zarang siropli quymoqlar	Pancakes with maple syrup	Kanada
+337	Beavertails	Beavertails pastry recipe	Kanada
+338	Pouding chômeur	Pouding chomeur recipe	Kanada
+339	Kanadacha losos grilda	Cedar plank salmon recipe	Kanada
+340	Pepián	Pepian recipe	Gvatemala
+341	Kak'ik	Kak'ik recipe	Gvatemala
+342	Tamales colorados	Tamales colorados recipe	Gvatemala
+343	Chiles rellenos	Chiles rellenos Guatemala	Gvatemala
+344	Rellenitos	Rellenitos recipe	Gvatemala
+345	Atol de elote	Atol de elote recipe	Gvatemala
+346	Guruch va loviya (beliz)	Belizean rice and beans	Beliz
+347	Dimlangan tovuq (beliz)	Belizean stew chicken	Beliz
+348	Hudut	Hudut recipe	Beliz
+349	Fry jack (qovurma non)	Fry jacks recipe	Beliz
+350	Panades	Panades recipe	Beliz
+351	Baleada	Baleada recipe	Gonduras
+352	Plato típico	Plato tipico Honduras	Gonduras
+353	Sopa de caracol	Sopa de caracol recipe	Gonduras
+354	Tajadas	Tajadas recipe	Gonduras
+355	Pastelitos	Honduran pastelitos	Gonduras
+356	Pupusa	Pupusa recipe	Salvador
+357	Curtido	Curtido recipe	Salvador
+358	Yuca frita	Yuca frita recipe	Salvador
+359	Sopa de pata	Sopa de pata recipe	Salvador
+360	Quesadilla salvadoreña	Salvadoran quesadilla cake	Salvador
+361	Gallo pinto	Gallo pinto recipe	Nikaragua
+362	Vigorón	Vigoron recipe	Nikaragua
+363	Nacatamal	Nacatamal recipe	Nikaragua
+364	Indio viejo	Indio viejo recipe	Nikaragua
+365	Tres leches (nikaragua)	Nicaraguan tres leches	Nikaragua
+366	Gallo pinto (kostarika)	Costa Rican gallo pinto	Kosta-Rika
+367	Casado	Casado recipe	Kosta-Rika
+368	Olla de carne	Olla de carne recipe	Kosta-Rika
+369	Arroz con pollo	Arroz con pollo recipe	Kosta-Rika
+370	Agua de sapo	Agua de sapo recipe	Kosta-Rika
+371	Sancocho panameño	Sancocho recipe	Panama
+372	Arroz con pollo (panama)	Panamanian arroz con pollo	Panama
+373	Patacones	Patacones recipe	Panama
+374	Carimañolas	Carimañolas recipe	Panama
+375	Ceviche panameño	Panamanian ceviche	Panama
+376	Ropa vieja	Ropa vieja recipe	Kuba
+377	Moros y cristianos	Moros y cristianos recipe	Kuba
+378	Kuba sendvichi	Cuban sandwich recipe	Kuba
+379	Picadillo	Picadillo recipe	Kuba
+380	Tostones (kuba)	Cuban tostones	Kuba
+381	Yuca con mojo	Yuca con mojo recipe	Kuba
+382	Kuba qahvasi	Cuban coffee recipe	Kuba
+383	Flan de coco	Flan de coco recipe	Kuba
+384	Jerk tovuq	Jerk chicken recipe	Yamayka
+385	Akki va tuzlangan baliq	Ackee and saltfish recipe	Yamayka
+386	Guruch va loviya (yamayka)	Jamaican rice and peas	Yamayka
+387	Echki go'shti karri	Curry goat recipe	Yamayka
+388	Yamayka piroggi (patty)	Jamaican patty recipe	Yamayka
+389	Festival	Festival dumplings recipe	Yamayka
+390	Oxtail	Jamaican oxtail recipe	Yamayka
+391	Sorrel ichimligi	Jamaican sorrel drink	Yamayka
+392	Griot	Griot recipe	Gaiti
+393	Diri ak djon djon	Diri djon djon recipe	Gaiti
+394	Soup joumou	Soup joumou recipe	Gaiti
+395	Pikliz	Pikliz recipe	Gaiti
+396	Bannann peze	Bannann peze recipe	Gaiti
+397	La bandera	La bandera dominicana	Dominikan Respublikasi
+398	Mangú	Mangu recipe	Dominikan Respublikasi
+399	Sancocho dominicano	Dominican sancocho	Dominikan Respublikasi
+400	Habichuelas con dulce	Habichuelas con dulce recipe	Dominikan Respublikasi
+401	Morir soñando	Morir soñando recipe	Dominikan Respublikasi
+402	Chig'anoq quymoqlari	Conch fritters recipe	Bagama orollari
+403	Qovurilgan chig'anoq	Cracked conch recipe	Bagama orollari
+404	Guruch va no'xat (bagama)	Bahamian peas and rice	Bagama orollari
+405	Guava duff	Guava duff recipe	Bagama orollari
+406	Cou-cou va uchar baliq	Cou cou and flying fish recipe	Barbados
+407	Pudding and souse	Pudding and souse recipe	Barbados
+408	Baliq kotletlari (bajan)	Bajan fish cakes recipe	Barbados
+409	Makaron piroggi (bajan)	Macaroni pie recipe	Barbados
+410	Doubles	Doubles recipe	Trinidad va Tobago
+411	Roti (trinidad)	Trinidad roti recipe	Trinidad va Tobago
+412	Pelau	Pelau recipe	Trinidad va Tobago
+413	Callaloo	Callaloo recipe	Trinidad va Tobago
+414	Bake and shark (baliq bilan)	Bake and shark recipe	Trinidad va Tobago
+415	Oil down	Oil down recipe	Grenada
+416	Muskatli muzqaymoq	Nutmeg ice cream recipe	Grenada
+417	Callaloo soup (grenada)	Grenadian callaloo soup	Grenada
+418	Lambi	Lambi stew recipe	Grenada
+419	Yashil banan va tuzlangan baliq	Green fig and saltfish recipe	Sent-Lyusiya
+420	Bouyon	Bouyon recipe	Sent-Lyusiya
+421	Accra	Accra recipe	Sent-Lyusiya
+422	Kakao choyi	Cocoa tea recipe	Sent-Lyusiya
+423	Non mevasi va baliq	Breadfruit and jackfish recipe	Sent-Vinsent va Grenadin
+424	Callaloo (vinsent)	Vincentian callaloo	Sent-Vinsent va Grenadin
+425	Buljol	Buljol recipe	Sent-Vinsent va Grenadin
+426	Fungie va pepperpot	Fungie and pepperpot recipe	Antigua va Barbuda
+427	Ducana	Ducana recipe	Antigua va Barbuda
+428	Tuzlangan baliq (antigua)	Antigua saltfish	Antigua va Barbuda
+429	Callaloo (dominika)	Dominica callaloo	Dominika
+430	Bakes	Dominica bakes recipe	Dominika
+431	Titiri accra	Titiri accra recipe	Dominika
+432	Dimlangan tuzlangan baliq	Stewed saltfish recipe	Sent-Kits va Nevis
+433	Echki sho'rvasi	Goat water recipe	Sent-Kits va Nevis
+434	Kokosli chuchvara	Coconut dumplings recipe	Sent-Kits va Nevis
+435	Feijoada	Фейжоада рецепт	Braziliya
+436	Pão de queijo	Pão de queijo recipe	Braziliya
+437	Moqueca	Moqueca recipe	Braziliya
+438	Coxinha	Coxinha recipe	Braziliya
+439	Picanha	Picanha recipe	Braziliya
+440	Brigadeiro	Бригадейро рецепт	Braziliya
+441	Açaí bowl	Acai bowl recipe	Braziliya
+442	Farofa	Farofa recipe	Braziliya
+443	Bobó de camarão	Bobo de camarao recipe	Braziliya
+444	Acarajé	Acaraje recipe	Braziliya
+445	Pastel	Pastel brasileiro recipe	Braziliya
+446	Arroz e feijão	Arroz e feijão recipe	Braziliya
+447	Escondidinho	Escondidinho recipe	Braziliya
+448	Vatapá	Vatapa recipe	Braziliya
+449	Quindim	Quindim recipe	Braziliya
+450	Pudim	Pudim de leite recipe	Braziliya
+451	Caipirinha (alkogolsiz)	Virgin caipirinha recipe	Braziliya
+452	Cafezinho	Cafezinho recipe	Braziliya
+453	Guaraná sharbati	Guarana juice recipe	Braziliya
+454	Galinhada	Galinhada recipe	Braziliya
+455	Asado	Asado argentino recipe	Argentina
+456	Chimichurri	Chimichurri recipe	Argentina
+457	Empanadas argentinas	Argentine empanadas recipe	Argentina
+458	Milanesa	Milanesa recipe	Argentina
+459	Locro	Locro recipe	Argentina
+460	Provoleta	Provoleta recipe	Argentina
+461	Choripán	Choripan recipe	Argentina
+462	Alfajores	Alfajores recipe	Argentina
+463	Dulce de leche	Dulce de leche recipe	Argentina
+464	Matambre arrollado	Matambre recipe	Argentina
+465	Humita	Humita recipe	Argentina
+466	Mate	Yerba mate	Argentina
+467	Medialunas	Medialunas recipe	Argentina
+468	Ceviche	Севиче рецепт	Peru
+469	Lomo saltado	Lomo saltado recipe	Peru
+470	Ají de gallina	Aji de gallina recipe	Peru
+471	Causa limeña	Causa limena recipe	Peru
+472	Anticuchos	Anticuchos recipe	Peru
+473	Arroz chaufa	Arroz chaufa recipe	Peru
+474	Papa a la huancaína	Papa a la huancaina recipe	Peru
+475	Pollo a la brasa	Pollo a la brasa recipe	Peru
+476	Rocoto relleno	Rocoto relleno recipe	Peru
+477	Ají de pollo	Peruvian chicken soup	Peru
+478	Tacu tacu	Tacu tacu recipe	Peru
+479	Suspiro limeño	Suspiro limeno recipe	Peru
+480	Picarones	Picarones recipe	Peru
+481	Chicha morada	Chicha morada recipe	Peru
+482	Inca Kola uslubidagi limonad	Lemon verbena soda	Peru
+483	Kinoa sho'rva	Quinoa soup recipe	Peru
+484	Bandeja paisa	Bandeja paisa recipe	Kolumbiya
+485	Arepa	Arepa recipe	Kolumbiya
+486	Ajiaco	Ajiaco recipe	Kolumbiya
+487	Sancocho colombiano	Colombian sancocho	Kolumbiya
+488	Empanadas colombianas	Colombian empanadas	Kolumbiya
+489	Arroz con coco	Arroz con coco recipe	Kolumbiya
+490	Patacones (kolumbiya)	Colombian patacones	Kolumbiya
+491	Buñuelos	Bunuelos recipe	Kolumbiya
+492	Obleas	Obleas recipe	Kolumbiya
+493	Kolumbiya qahvasi (tinto)	Colombian tinto coffee	Kolumbiya
+494	Aguapanela	Aguapanela recipe	Kolumbiya
+495	Changua	Changua recipe	Kolumbiya
+496	Arepa reina pepiada	Reina pepiada recipe	Venesuela
+497	Pabellón criollo	Pabellon criollo recipe	Venesuela
+498	Hallaca	Hallaca recipe	Venesuela
+499	Cachapa	Cachapa recipe	Venesuela
+500	Tequeños	Tequenos recipe	Venesuela
+501	Asado negro	Asado negro recipe	Venesuela
+502	Quesillo	Quesillo recipe	Venesuela
+503	Chicha venezolana	Chicha venezolana recipe	Venesuela
+504	Encebollado	Encebollado recipe	Ekvador
+505	Ceviche ecuatoriano	Ecuadorian shrimp ceviche	Ekvador
+506	Llapingachos	Llapingachos recipe	Ekvador
+507	Locro de papa	Locro de papa recipe	Ekvador
+508	Seco de pollo	Seco de pollo recipe	Ekvador
+509	Bolón de verde	Bolon de verde recipe	Ekvador
+510	Colada morada	Colada morada recipe	Ekvador
+511	Salteñas	Saltenas recipe	Boliviya
+512	Silpancho	Silpancho recipe	Boliviya
+513	Sopa de maní	Sopa de mani recipe	Boliviya
+514	Pique macho	Pique macho recipe	Boliviya
+515	Majadito	Majadito recipe	Boliviya
+516	Api morado	Api morado recipe	Boliviya
+517	Pastel de choclo	Pastel de choclo recipe	Chili
+518	Empanadas de pino	Empanadas de pino recipe	Chili
+519	Cazuela	Cazuela recipe	Chili
+520	Completo	Completo recipe	Chili
+521	Porotos granados	Porotos granados recipe	Chili
+522	Sopaipillas	Sopaipillas recipe	Chili
+523	Mote con huesillo	Mote con huesillo recipe	Chili
+524	Chivito	Chivito recipe	Urugvay
+525	Asado uruguayo	Uruguayan asado	Urugvay
+526	Milanesa napolitana	Milanesa napolitana recipe	Urugvay
+527	Torta frita	Torta frita recipe	Urugvay
+528	Chajá	Chaja cake recipe	Urugvay
+529	Mate (urugvay)	Uruguayan mate	Urugvay
+530	Sopa paraguaya	Sopa paraguaya recipe	Paragvay
+531	Chipa	Chipa recipe	Paragvay
+532	Mbejú	Mbeju recipe	Paragvay
+533	Vori vori	Vori vori recipe	Paragvay
+534	Tereré	Terere recipe	Paragvay
+535	Pepperpot	Guyanese pepperpot recipe	Gayana
+536	Cook-up rice	Cook up rice recipe	Gayana
+537	Metemgee	Metemgee recipe	Gayana
+538	Roti (gayana)	Guyanese roti	Gayana
+539	Pom	Pom Surinamese recipe	Surinam
+540	Moksi alesi	Moksi alesi recipe	Surinam
+541	Roti (surinam)	Surinamese roti	Surinam
+542	Pastei	Pastei recipe	Surinam
+543	Go'shtli pirog (meat pie)	Australian meat pie recipe	Avstraliya
+544	Pavlova	Павлова рецепт	Avstraliya
+545	Lamingtons	Lamingtons recipe	Avstraliya
+546	Anzak pechenyesi	Anzac biscuits recipe	Avstraliya
+547	Barbekyu (snags)	Aussie barbecue sausages	Avstraliya
+548	Vegemite tost	Vegemite toast	Avstraliya
+549	Barramundi	Grilled barramundi recipe	Avstraliya
+550	Damper	Damper recipe	Avstraliya
+551	Rangli non (fairy bread)	Fairy bread recipe	Avstraliya
+552	Flat white	Flat white recipe	Avstraliya
+553	Hangi	Hangi recipe	Yangi Zelandiya
+554	Pavlova (NZ)	NZ pavlova	Yangi Zelandiya
+555	Qiyma-pishloqli pirog	Mince and cheese pie recipe	Yangi Zelandiya
+556	Mayda baliq quymoqlari	Whitebait fritters recipe	Yangi Zelandiya
+557	Shirin kartoshka chipsi	Kumara chips recipe	Yangi Zelandiya
+558	Qovurilgan qo'zi (NZ)	NZ roast lamb	Yangi Zelandiya
+559	Hokey pokey muzqaymog'i	Hokey pokey recipe	Yangi Zelandiya
+560	Afghan pechenyesi	Afghan biscuits recipe	Yangi Zelandiya
+561	Kokoda	Kokoda recipe	Fiji
+562	Lovo	Lovo recipe	Fiji
+563	Rourou	Rourou recipe	Fiji
+564	Fiji karri	Fijian curry recipe	Fiji
+565	Vakalolo	Vakalolo recipe	Fiji
+566	Mumu	Mumu recipe	Papua – Yangi Gvineya
+567	Sago	Sago pancakes recipe	Papua – Yangi Gvineya
+568	Kaukau	Kaukau recipe	Papua – Yangi Gvineya
+569	Kokos sousida tovuq	PNG chicken in coconut	Papua – Yangi Gvineya
+570	Oka	Oka recipe	Samoa
+571	Palusami	Palusami recipe	Samoa
+572	Sapasui	Sapasui recipe	Samoa
+573	Koko alaisa	Koko alaisa recipe	Samoa
+574	Ota 'ika	Ota ika recipe	Tonga
+575	Lu pulu	Lu pulu recipe	Tonga
+576	'Otai	Otai drink recipe	Tonga
+577	Faikakai	Faikakai recipe	Tonga
+578	Lap lap	Lap lap recipe	Vanuatu
+579	Tuluk	Tuluk recipe	Vanuatu
+580	Simboro	Simboro recipe	Vanuatu
+581	Poi	Solomon poi recipe	Solomon orollari
+582	Ulu	Breadfruit Solomon	Solomon orollari
+583	Kokosli baliq (solomon)	Solomon fish in coconut	Solomon orollari
+584	Palusami (kiribati)	Kiribati palusami	Kiribati
+585	Ika mata (kiribati)	Kiribati raw fish	Kiribati
+586	Te bua toro	Kiribati sweet pudding	Kiribati
+587	Pulaka	Pulaka recipe	Tuvalu
+588	Tuvalu baliq kokosda	Tuvalu fish in coconut	Tuvalu
+589	Fekei	Fekei recipe	Tuvalu
+590	Kokosli baliq (nauru)	Nauru coconut fish	Nauru
+591	Kokosga belangan baliq	Nauru coconut crusted fish	Nauru
+592	Pandanus sharbati	Pandanus drink	Nauru
+593	Taro va kokos	Palau taro coconut	Palau
+594	Kokosli krab	Palau coconut crab dish	Palau
+595	Baliq sho'rva (palau)	Palau fish soup	Palau
+596	Jukjuk	Jukjuk recipe	Marshall orollari
+597	Bwiro	Bwiro recipe	Marshall orollari
+598	Marshall baliq kokosda	Marshallese fish in coconut	Marshall orollari
+599	Kokos sousida taro	Micronesian taro in coconut	Mikroneziya
+600	Sashimi (pohnpei)	Pohnpei sashimi	Mikroneziya
+601	Non mevasi kokosda	Breadfruit in coconut milk	Mikroneziya
+602	Qabuli palov	Кабули плов рецепт	Afg'oniston
+603	Mantu (afg'oncha)	Afghan mantu recipe	Afg'oniston
+604	Ashak	Aushak recipe	Afg'oniston
+605	Bolani	Bolani recipe	Afg'oniston
+606	Qorma (afg'oncha)	Afghan qorma recipe	Afg'oniston
+607	Chapli kabob	Chapli kebab recipe	Afg'oniston
+608	Sheer khurma	Sheer khurma recipe	Afg'oniston
+609	Shorwa (afg'oncha)	Afghan shorwa recipe	Afg'oniston
+610	Kichiri qurut	Kichri quroot recipe	Afg'oniston
+611	Firni	Firni recipe	Afg'oniston
+612	Naan-e afghani	Afghan bread recipe	Afg'oniston
+613	Borani banjan	Borani banjan recipe	Afg'oniston
+614	Jalebi (afg'oncha)	Afghan jalebi	Afg'oniston
+615	Afg'on yashil choyi (kahwah)	Afghan green tea	Afg'oniston
+616	Biryani (sindhi)	Sindhi biryani recipe	Pokiston
+617	Nihari	Nihari recipe	Pokiston
+618	Karahi tovuq	Chicken karahi recipe	Pokiston
+619	Haleem (pokistoncha)	Pakistani haleem	Pokiston
+620	Seekh kabob	Seekh kebab recipe	Pokiston
+621	Chapli kabob (Peshovar)	Peshawari chapli kebab	Pokiston
+622	Paya	Paya recipe	Pokiston
+623	Daal chawal	Daal chawal recipe	Pokiston
+624	Aloo paratha (pokistoncha)	Aloo paratha recipe	Pokiston
+625	Saag	Saag recipe	Pokiston
+626	Pakora (pokistoncha)	Pakistani pakora	Pokiston
+627	Gulab jamun (pokistoncha)	Gulab jamun	Pokiston
+628	Kheer (pokistoncha)	Pakistani kheer	Pokiston
+629	Doodh patti	Doodh patti recipe	Pokiston
+630	Lassi (pokistoncha)	Pakistani lassi	Pokiston
+631	Chana chaat	Chana chaat recipe	Pokiston
+632	Kacchi biryani	Kacchi biryani recipe	Bangladesh
+633	Shorshe ilish	Shorshe ilish recipe	Bangladesh
+634	Bhuna khichuri	Bhuna khichuri recipe	Bangladesh
+635	Panta bhat	Panta bhat recipe	Bangladesh
+636	Beef bhuna	Beef bhuna recipe	Bangladesh
+637	Fuchka	Fuchka recipe	Bangladesh
+638	Morog polao	Morog polao recipe	Bangladesh
+639	Mishti doi	Mishti doi recipe	Bangladesh
+640	Pitha	Pitha recipe	Bangladesh
+641	Rasmalai	Rasmalai recipe	Bangladesh
+642	Bangladesh choyi	Bangladeshi milk tea	Bangladesh
+643	Dal (bengalcha)	Bengali dal recipe	Bangladesh
+644	Rice and curry	Sri Lankan rice and curry	Shri-Lanka
+645	Kottu roti	Kottu roti recipe	Shri-Lanka
+646	Hoppers (appa)	Hoppers recipe	Shri-Lanka
+647	String hoppers	String hoppers recipe	Shri-Lanka
+648	Pol sambol	Pol sambol recipe	Shri-Lanka
+649	Lamprais	Lamprais recipe	Shri-Lanka
+650	Parippu	Parippu recipe	Shri-Lanka
+651	Watalappan	Watalappan recipe	Shri-Lanka
+652	Kiribath	Kiribath recipe	Shri-Lanka
+653	Ceylon choyi	Ceylon tea	Shri-Lanka
+654	Dal bhat	Dal bhat recipe	Nepal
+655	Momo	Momo recipe	Nepal
+656	Thukpa	Thukpa recipe	Nepal
+657	Sel roti	Sel roti recipe	Nepal
+658	Choila	Choila recipe	Nepal
+659	Gundruk sho'rva	Gundruk soup recipe	Nepal
+660	Aloo tama	Aloo tama recipe	Nepal
+661	Yomari	Yomari recipe	Nepal
+662	Juju dhau	Juju dhau recipe	Nepal
+663	Nepal choyi	Nepali milk tea	Nepal
+664	Ema datshi	Ema datshi recipe	Butan
+665	Kewa datshi	Kewa datshi recipe	Butan
+666	Shamu datshi	Shamu datshi recipe	Butan
+667	Phaksha paa	Phaksha paa recipe	Butan
+668	Jasha maru	Jasha maru recipe	Butan
+669	Momo (butancha)	Bhutanese momo	Butan
+670	Suja (sariyog'li choy)	Suja butter tea	Butan
+671	Garudhiya	Garudhiya recipe	Maldiv orollari
+672	Mas huni	Mas huni recipe	Maldiv orollari
+673	Roshi	Roshi recipe	Maldiv orollari
+674	Mas riha	Mas riha recipe	Maldiv orollari
+675	Gulha	Gulha recipe	Maldiv orollari
+676	Bis keemiya	Bis keemiya recipe	Maldiv orollari
+677	Bondibai	Bondibai recipe	Maldiv orollari
+678	Buuz	Бузы рецепт	Mo'g'uliston
+679	Khuushuur	Хушуур рецепт	Mo'g'uliston
+680	Tsuivan	Цуйван рецепт	Mo'g'uliston
+681	Khorkhog	Хорхог рецепт	Mo'g'uliston
+682	Guriltai shul	Гурилтай шул рецепт	Mo'g'uliston
+683	Boortsog	Боорцог рецепт	Mo'g'uliston
+684	Bansh	Банш рецепт	Mo'g'uliston
+685	Suutei tsai	Сүүтэй цай рецепт	Mo'g'uliston
+686	Aaruul	Ааруул	Mo'g'uliston
+687	Budaatai khuurga	Будаатай хуурга	Mo'g'uliston
+688	Pyongyang naengmyeon	Pyongyang naengmyeon recipe	Shimoliy Koreya
+689	Kimchi (shimoliy)	North Korean kimchi	Shimoliy Koreya
+690	Injogogi bap	Injogogi bap recipe	Shimoliy Koreya
+691	Onban	Onban recipe	Shimoliy Koreya
+692	Mandu (shimoliy)	North Korean mandu	Shimoliy Koreya
+693	Songpyeon	Songpyeon recipe	Shimoliy Koreya
+694	Pad thai	Пад тай рецепт	Tailand
+695	Tom yum	Том ям рецепт	Tailand
+696	Tom kha gai	Tom kha gai recipe	Tailand
+697	Yashil karri	Green curry recipe	Tailand
+698	Qizil karri	Red curry recipe	Tailand
+699	Massaman karri	Massaman curry recipe	Tailand
+700	Som tam	Сом там рецепт	Tailand
+701	Pad krapow	Pad krapow recipe	Tailand
+702	Khao pad	Khao pad recipe	Tailand
+703	Pad see ew	Pad see ew recipe	Tailand
+704	Larb	Larb recipe	Tailand
+705	Satay	Satay recipe	Tailand
+706	Khao man gai	Khao man gai recipe	Tailand
+707	Khao soi	Khao soi recipe	Tailand
+708	Gai yang	Gai yang recipe	Tailand
+709	Panang karri	Panang curry recipe	Tailand
+710	Tod mun pla	Tod mun pla recipe	Tailand
+711	Mango yopishqoq guruch	Mango sticky rice recipe	Tailand
+712	Thai muzli choy	Thai iced tea recipe	Tailand
+713	Tub tim krob	Tub tim krob recipe	Tailand
+714	Kuay teow sho'rva	Thai noodle soup recipe	Tailand
+715	Moo ping (mol go'shti bilan)	Thai grilled skewers	Tailand
+716	Pho bo	Фо бо рецепт	Vyetnam
+717	Banh mi	Бань ми рецепт	Vyetnam
+718	Goi cuon	Goi cuon recipe	Vyetnam
+719	Bun cha	Bun cha recipe	Vyetnam
+720	Com tam	Com tam recipe	Vyetnam
+721	Bun bo Hue	Bun bo Hue recipe	Vyetnam
+722	Cha gio	Cha gio recipe	Vyetnam
+723	Ca kho to	Ca kho to recipe	Vyetnam
+724	Banh xeo	Banh xeo recipe	Vyetnam
+725	Canh chua	Canh chua recipe	Vyetnam
+726	Bo luc lac	Bo luc lac recipe	Vyetnam
+727	Vyetnam qahvasi	Vietnamese coffee recipe	Vyetnam
+728	Che ba mau	Che ba mau recipe	Vyetnam
+729	Xoi	Xoi recipe	Vyetnam
+730	Ga nuong	Vietnamese grilled chicken	Vyetnam
+731	Mi Quang	Mi Quang recipe	Vyetnam
+732	Larb (laoscha)	Lao larb recipe	Laos
+733	Tam mak hoong	Lao papaya salad	Laos
+734	Khao niaw	Lao sticky rice	Laos
+735	Or lam	Or lam recipe	Laos
+736	Khao piak sen	Khao piak sen recipe	Laos
+737	Ping kai	Ping kai recipe	Laos
+738	Sai oua	Sai oua recipe	Laos
+739	Khao jee	Khao jee recipe	Laos
+740	Fish amok	Fish amok recipe	Kambodja
+741	Lok lak	Lok lak recipe	Kambodja
+742	Bai sach	Bai sach recipe	Kambodja
+743	Kuy teav	Kuy teav recipe	Kambodja
+744	Samlor korko	Samlor korko recipe	Kambodja
+745	Nom banh chok	Nom banh chok recipe	Kambodja
+746	Num ansom	Num ansom recipe	Kambodja
+747	Kambodja qahvasi	Cambodian iced coffee	Kambodja
+748	Mohinga	Mohinga recipe	Myanma
+749	Lahpet thoke	Lahpet thoke recipe	Myanma
+750	Shan noodles	Shan noodles recipe	Myanma
+751	Ohn no khao swe	Ohn no khao swe recipe	Myanma
+752	Burmacha tovuq karri	Burmese chicken curry	Myanma
+753	Mont lin ma yar	Mont lin ma yar recipe	Myanma
+754	Shwe yin aye	Shwe yin aye recipe	Myanma
+755	Burma choyi (laphet yay)	Burmese milk tea	Myanma
+756	Nasi lemak	Nasi lemak recipe	Malayziya
+757	Rendang	Rendang recipe	Malayziya
+758	Char kway teow	Char kway teow recipe	Malayziya
+759	Laksa	Laksa recipe	Malayziya
+760	Roti canai	Roti canai recipe	Malayziya
+761	Satay (malaycha)	Malaysian satay	Malayziya
+762	Nasi goreng (malaycha)	Malaysian nasi goreng	Malayziya
+763	Mee goreng	Mee goreng recipe	Malayziya
+764	Ayam masak merah	Ayam masak merah recipe	Malayziya
+765	Cendol	Cendol recipe	Malayziya
+766	Teh tarik	Teh tarik recipe	Malayziya
+767	Kuih	Kuih lapis recipe	Malayziya
+768	Hainan tovuq-guruch	Hainanese chicken rice recipe	Singapur
+769	Chili crab	Chili crab recipe	Singapur
+770	Laksa (singapurcha)	Singapore laksa	Singapur
+771	Kaya tost	Kaya toast recipe	Singapur
+772	Bak kut teh (mol go'shti)	Bak kut teh recipe	Singapur
+773	Hokkien mee	Hokkien mee recipe	Singapur
+774	Satay bee hoon	Satay bee hoon recipe	Singapur
+775	Kopi	Kopi recipe	Singapur
+776	Nasi goreng	Наси горенг рецепт	Indoneziya
+777	Rendang (minangkabau)	Indonesian rendang	Indoneziya
+778	Satay (indonezcha)	Sate ayam recipe	Indoneziya
+779	Gado-gado	Gado gado recipe	Indoneziya
+780	Soto ayam	Soto ayam recipe	Indoneziya
+781	Mie goreng	Mie goreng recipe	Indoneziya
+782	Bakso	Bakso recipe	Indoneziya
+783	Ayam goreng	Ayam goreng recipe	Indoneziya
+784	Nasi uduk	Nasi uduk recipe	Indoneziya
+785	Tempe goreng	Tempe goreng recipe	Indoneziya
+786	Rawon	Rawon recipe	Indoneziya
+787	Martabak manis	Martabak manis recipe	Indoneziya
+788	Klepon	Klepon recipe	Indoneziya
+789	Es cendol	Es cendol recipe	Indoneziya
+790	Sambal	Sambal recipe	Indoneziya
+791	Pempek	Pempek recipe	Indoneziya
+792	Adobo	Adobo recipe	Filippin
+793	Sinigang	Sinigang recipe	Filippin
+794	Lumpia	Lumpia recipe	Filippin
+795	Pancit	Pancit recipe	Filippin
+796	Kare-kare	Kare-kare recipe	Filippin
+797	Tinola	Tinola recipe	Filippin
+798	Arroz caldo	Arroz caldo recipe	Filippin
+799	Kaldereta	Kaldereta recipe	Filippin
+800	Bistek tagalog	Bistek recipe	Filippin
+801	Silog (tapsilog)	Tapsilog recipe	Filippin
+802	Halo-halo	Halo-halo recipe	Filippin
+803	Leche flan	Leche flan recipe	Filippin
+804	Bibingka	Bibingka recipe	Filippin
+805	Turon	Turon recipe	Filippin
+806	Ambuyat	Ambuyat recipe	Bruney
+807	Nasi katok	Nasi katok recipe	Bruney
+808	Kelupis	Kelupis recipe	Bruney
+809	Beef rendang (bruney)	Brunei rendang	Bruney
+810	Kuih mor	Kuih mor recipe	Bruney
+811	Ikan sabuko	Ikan sabuko recipe	Sharqiy Timor
+812	Batar da'an	Batar daan recipe	Sharqiy Timor
+813	Feijoada (timor)	Timorese feijoada	Sharqiy Timor
+814	Tukir	Tukir recipe	Sharqiy Timor
+815	Budu	Budu sauce recipe	Sharqiy Timor
+816	Dushbara	Дюшбара	Ozarbayjon
+817	Qutab ko'katli	Кутабы с зеленью	Ozarbayjon
+818	Qutab go'shtli	Кутабы с мясом	Ozarbayjon
+819	Plov (shah plov)	Шах плов	Ozarbayjon
+820	Piti	Пити	Ozarbayjon
+821	Lyulya kabob	Люля-кебаб	Ozarbayjon
+822	Dolma (uzum bargi)	Долма	Ozarbayjon
+823	Dovga	Довга	Ozarbayjon
+824	Saj ichi	Садж ичи	Ozarbayjon
+825	Kyuftya bozbash	Кюфта бозбаш	Ozarbayjon
+826	Kebab tike	Тикя кебаб	Ozarbayjon
+827	Lavangi	Лявянги	Ozarbayjon
+828	Kuku	Кюкю	Ozarbayjon
+829	Chyhyrtma	Чыгыртма	Ozarbayjon
+830	Pakhlava (Boku)	Пахлава бакинская	Ozarbayjon
+831	Shakarbura	Шекербура	Ozarbayjon
+832	Qogal	Кята / Гогал	Ozarbayjon
+833	Ovdukh	Овдух	Ozarbayjon
+834	Lyavangi baliq	Рыбное лявянги	Ozarbayjon
+835	Ash-sabzavot plov	Овощной плов	Ozarbayjon
+836	Ozarbayjon choyi	Азербайджанский чай	Ozarbayjon
+837	Sherbet	Шербет	Ozarbayjon
+838	Ayran (ozarbayjoncha)	Айран	Ozarbayjon
+839	Badimjan dolmasi	Баклажаны долма	Ozarbayjon
+840	Gutab qovoqli	Кутабы с тыквой	Ozarbayjon
+841	Toyug chyhyrtma	Чыгыртма из курицы	Ozarbayjon
+842	Kyata	Кята	Ozarbayjon
+843	Govurma	Говурма	Ozarbayjon
+844	Merci sho'rva	Мерджимек	Ozarbayjon
+845	Sabzavot salati (choban)	Пастуший салат	Ozarbayjon
+846	Xachapuri (ajar)	Хачапури по-аджарски	Gruziya
+847	Xachapuri (imeretin)	Хачапури по-имеретински	Gruziya
+848	Xinkali	Хинкали	Gruziya
+849	Chaxoxbili	Чахохбили	Gruziya
+850	Xarcho	Харчо	Gruziya
+851	Satsivi	Сациви	Gruziya
+852	Mtsvadi	Мцвади	Gruziya
+853	Lobio	Лобио	Gruziya
+854	Pxali	Пхали	Gruziya
+855	Badrijani nigvzit	Баклажаны с орехами	Gruziya
+856	Ojaxuri	Оджахури	Gruziya
+857	Chakapuli	Чакапули	Gruziya
+858	Chkmeruli	Чкмерули	Gruziya
+859	Kuchmachi	Кучмачи	Gruziya
+860	Elarji	Эларджи	Gruziya
+861	Gomi	Гоми	Gruziya
+862	Achma	Ачма	Gruziya
+863	Mchadi	Мчади	Gruziya
+864	Kubdari	Кубдари	Gruziya
+865	Lobiani	Лобиани	Gruziya
+866	Churchxela	Чурчхела	Gruziya
+867	Pelamushi	Пеламуши	Gruziya
+868	Gozinaki	Гозинаки	Gruziya
+869	Tkemali sousi	Ткемали	Gruziya
+870	Ajapsandali	Аджапсандали	Gruziya
+871	Shkmeruli (tovuq sarimsoq sousda)	Шкмерули	Gruziya
+872	Chixirtma	Чихиртма	Gruziya
+873	Tarxun limonadi	Тархун	Gruziya
+874	Gruzincha sabzavot salati	Грузинский салат	Gruziya
+875	Kharcho tovuqli	Харчо из курицы	Gruziya
+876	Tolma (uzum bargi)	Толма	Armaniston
+877	Karam tolmasi	Капустная толма	Armaniston
+878	Xorovats	Хоровац	Armaniston
+879	Xash	Хаш	Armaniston
+880	Lavash	Лаваш	Armaniston
+881	Ghapama	Хапама	Armaniston
+882	Ishli kyufta	Ишли кюфта	Armaniston
+883	Spas	Спас	Armaniston
+884	Kyufta	Кюфта	Armaniston
+885	Jengyalov xats	Жингял хац	Armaniston
+886	Lahmajo	Лахмаджо	Armaniston
+887	Ajapsandal (armancha)	Аджапсандал	Armaniston
+888	Armancha plov	Армянский плов	Armaniston
+889	Bastyrma	Бастурма	Armaniston
+890	Sujuk	Суджук	Armaniston
+891	Gata	Гата	Armaniston
+892	Pakhlava (armancha)	Пахлава	Armaniston
+893	Anushapur	Анушапур	Armaniston
+894	Tan	Тан	Armaniston
+895	Armancha qahva	Армянский кофе	Armaniston
+896	Matsun	Мацун	Armaniston
+897	Armancha salat (sabzavotli)	Овощной салат	Armaniston
+898	Ttu lavash	Тту лаваш	Armaniston
+899	Kufta Echmiadzin	Кюфта эчмиадзинская	Armaniston
+900	Tjvjik	Тжвжик	Armaniston
+901	Kololik	Кололак	Armaniston
+902	Harisa	Арисса	Armaniston
+903	Ishxan baliq	Форель Ишхан	Armaniston
+904	Armancha gilos kompoti	Компот из вишни	Armaniston
+905	Zhingalov xac pishloqli	Лаваш с сыром	Armaniston
+906	Qovurilgan guruch	Жареный рис с яйцом	Xitoy
+907	Kung pao tovuq	Курица гунбао	Xitoy
+908	Pomidorli tuxum	Яйца с помидорами	Xitoy
+909	Jiaozi	Цзяоцзы	Xitoy
+910	Mapo tofu	Мапо тофу	Xitoy
+911	Nordon-shirin tovuq	Курица в кисло-сладком соусе	Xitoy
+912	Chow mein	Чоу мейн	Xitoy
+913	Pekin o'rdagi (uyda)	Утка по-пекински	Xitoy
+914	Vonton sho'rva	Суп вонтон	Xitoy
+915	Baozi	Баоцзы	Xitoy
+916	Achchiq-nordon sho'rva	Кисло-острый суп	Xitoy
+917	Dan dan lapsha	Лапша дань-дань	Xitoy
+918	Char siu	Чар сиу	Xitoy
+919	Spring roll	Спринг-роллы	Xitoy
+920	Sabzavotli qovurma	Овощи вок	Xitoy
+921	Mol go'shti brokkoli bilan	Говядина с брокколи	Xitoy
+922	Guobaorou	Гобаожоу	Xitoy
+923	Xitoycha lag'mon (lamian)	Ламянь	Xitoy
+924	Zongzi	Цзунцзы	Xitoy
+925	Jianbing	Цзяньбин	Xitoy
+926	Kongee	Конджи	Xitoy
+927	Xitoycha tuxum sho'rva	Яичный суп	Xitoy
+928	Tovuq yong'oq bilan	Курица с кешью	Xitoy
+929	Mantou	Маньтоу	Xitoy
+930	Tang yuan	Танъюань	Xitoy
+931	Oy pishiriqlari	Лунные пряники	Xitoy
+932	Ko'k choy (xitoycha)	Китайский зелёный чай	Xitoy
+933	Sut choy (bubble tea)	Бабл ти	Xitoy
+934	Erxuan bodring salati	Салат из огурцов по-китайски	Xitoy
+935	Xitoycha baqlajon	Баклажаны по-китайски	Xitoy
+936	Kimchi	Кимчи	Koreya
+937	Pibimpap	Пибимпап	Koreya
+938	Bulgogi	Пулькоги	Koreya
+939	Morkovcha (koreyscha sabzi)	Морковь по-корейски	Koreya
+940	Kuksi	Кукси	Koreya
+941	Tteokbokki	Токпокки	Koreya
+942	Kimchi jjigae	Кимчи чиге	Koreya
+943	Japchae	Чапчхэ	Koreya
+944	Kimbap	Кимпап	Koreya
+945	Koreyscha qovurilgan tovuq	Корейская курица	Koreya
+946	Samgyeopsal	Самгёпсаль	Koreya
+947	Doenjang jjigae	Твенжан чиге	Koreya
+948	Pajeon	Пхаджон	Koreya
+949	Bibim guksu	Пибим куксу	Koreya
+950	Galbi	Кальби	Koreya
+951	Kongnamul salat	Кондяпча / салат из ростков сои	Koreya
+952	Miyeokguk	Миёкгук	Koreya
+953	Hoe (baliq xe)	Хе из рыбы	Koreya
+954	Kuksu sovuq (naengmyeon)	Нэнмён	Koreya
+955	Samgyetang	Самгетан	Koreya
+956	Hotteok	Хотток	Koreya
+957	Bingsu	Пинсу	Koreya
+958	Sikhye	Сикхе	Koreya
+959	Koreyscha baqlajon	Баклажаны по-корейски	Koreya
+960	Koreyscha karam (chimchi tez)	Капуста по-корейски	Koreya
+961	Tofu jorim	Тубу чорим	Koreya
+962	Kimchi bokkeumbap	Кимчи покымпап	Koreya
+963	Gyeranjjim	Кереджим	Koreya
+964	Koreyscha choy (bori cha)	Ячменный чай	Koreya
+965	Odeng	Оденг	Koreya
+966	Ramen	Рамен	Yaponiya
+967	Sushi (maki)	Суши роллы	Yaponiya
+968	Onigiri	Онигири	Yaponiya
+969	Teriyaki tovuq	Курица терияки	Yaponiya
+970	Tempura	Темпура	Yaponiya
+971	Miso sho'rva	Мисо суп	Yaponiya
+972	Udon	Удон	Yaponiya
+973	Yakitori	Якитори	Yaponiya
+974	Tonkatsu	Тонкацу	Yaponiya
+975	Katsu karri	Кацу карри	Yaponiya
+976	Okonomiyaki	Окономияки	Yaponiya
+977	Gyoza	Гёдза	Yaponiya
+978	Oyakodon	Оякодон	Yaponiya
+979	Gyudon	Гюдон	Yaponiya
+980	Soba	Соба	Yaponiya
+981	Tamagoyaki	Тамагояки	Yaponiya
+982	Chahan	Тяхан	Yaponiya
+983	Nikujaga	Никудзяга	Yaponiya
+984	Sashimi	Сашими	Yaponiya
+985	Takoyaki	Такояки	Yaponiya
+986	Yaponcha karri	Японское карри	Yaponiya
+987	Edamame	Эдамаме	Yaponiya
+988	Karaage	Караагэ	Yaponiya
+989	Mochi	Моти	Yaponiya
+990	Dorayaki	Дораяки	Yaponiya
+991	Matcha choy	Матча	Yaponiya
+992	Matcha latte	Матча латте	Yaponiya
+993	Unagi don	Унаги дон	Yaponiya
+994	Yaponcha salat (sunomono)	Суномоно	Yaponiya
+995	Shabu-shabu	Сябу-сябу	Yaponiya
+996	Batter chiken	Баттер чикен	Hindiston
+997	Dal	Дал	Hindiston
+998	Biryani	Бирьяни	Hindiston
+999	Paneer tikka masala	Панир тикка масала	Hindiston
+1000	Chana masala	Чана масала	Hindiston
+1001	Naan	Наан	Hindiston
+1002	Samosa	Самоса	Hindiston
+1003	Tandoori tovuq	Тандури чикен	Hindiston
+1004	Aloo gobi	Алу гоби	Hindiston
+1005	Palak paneer	Палак панир	Hindiston
+1006	Rogan josh	Роган джош	Hindiston
+1007	Tovuq tikka masala	Чикен тикка масала	Hindiston
+1008	Dosa	Доса	Hindiston
+1009	Idli	Идли	Hindiston
+1010	Pulav (hindcha)	Пулао	Hindiston
+1011	Chapati	Чапати	Hindiston
+1012	Raita	Райта	Hindiston
+1013	Pakora	Пакора	Hindiston
+1014	Korma	Корма	Hindiston
+1015	Vindaloo	Виндалу	Hindiston
+1016	Sabzavot karri	Овощное карри	Hindiston
+1017	Kichdi	Кичри	Hindiston
+1018	Gulab jamun	Гулаб джамун	Hindiston
+1019	Kheer	Кхир	Hindiston
+1020	Jalebi	Джалеби	Hindiston
+1021	Halva gajar	Гаджар халва	Hindiston
+1022	Masala choy	Масала чай	Hindiston
+1023	Mango lassi	Манго ласси	Hindiston
+1024	Lassi tuzli	Солёный ласси	Hindiston
+1025	Aloo paratha	Алу паратха	Hindiston
+1026	Shnitsel	Шницель	Germaniya
+1027	Olmali shtrudel	Штрудель	Germaniya
+1028	Kartoshka salati (nemischa)	Немецкий картофельный салат	Germaniya
+1029	Sosiska karam bilan	Сосиски с капустой	Germaniya
+1030	Sauerbraten	Зауэрбратен	Germaniya
+1031	Kartoshka knedli	Картофельные кнедли	Germaniya
+1032	Shpetsle	Шпецле	Germaniya
+1033	Kyonigsberg klops	Кёнигсбергские клопсы	Germaniya
+1034	Kartoshka quymoqlari (Kartoffelpuffer)	Картофельные оладьи	Germaniya
+1035	Kartoshka sho'rva (Kartoffelsuppe)	Картофельный суп	Germaniya
+1036	Ruladen	Рулады	Germaniya
+1037	Krautsalat	Капустный салат	Germaniya
+1038	Pretzel	Брецель	Germaniya
+1039	Bratvurst kartoshka bilan	Братвурст	Germaniya
+1040	Eintopf	Айнтопф	Germaniya
+1041	Nemischa no'xat sho'rva (Erbsensuppe)	Гороховый суп	Germaniya
+1042	Qora o'rmon torti	Шварцвальдский торт	Germaniya
+1043	Kezekuxen	Чизкейк немецкий	Germaniya
+1044	Apfelkuxen	Яблочный пирог	Germaniya
+1045	Shtrayzelkuxen	Штрейзельный пирог	Germaniya
+1046	Lebkuxen	Лебкухен	Germaniya
+1047	Berliner	Берлинер	Germaniya
+1048	Kaiserschmarrn	Кайзершмаррн	Germaniya
+1049	Apfelschorle	Яблочный шорле	Germaniya
+1050	Issiq olma ichimligi	Горячий яблочный пунш	Germaniya
+1051	Sut quymoq (Pfannkuchen)	Немецкие блины	Germaniya
+1052	Tovuq fritasse	Куриное фрикасе	Germaniya
+1053	Lavlagi salati (Rote Bete)	Салат из свёклы	Germaniya
+1054	Bratkartoffeln	Жареная картошка по-немецки	Germaniya
+1055	Goulash sho'rva (Gulaschsuppe)	Гуляш-суп	Germaniya
+1056	Grek salati	Греческий салат	Gretsiya
+1057	Musaka	Мусака	Gretsiya
+1058	Suvlaki	Сувлаки	Gretsiya
+1059	Gyros	Гирос	Gretsiya
+1060	Tsatsiki	Дзадзики	Gretsiya
+1061	Spanakopita	Спанакопита	Gretsiya
+1062	Pastitsio	Пастицио	Gretsiya
+1063	Dolmades	Долмадес	Gretsiya
+1064	Avgolemono	Авголемоно	Gretsiya
+1065	Fasolada	Фасолада	Gretsiya
+1066	Keftedes	Кефтедес	Gretsiya
+1067	Gemista	Гемиста	Gretsiya
+1068	Stifado	Стифадо	Gretsiya
+1069	Grek kartoshkasi	Картофель по-гречески	Gretsiya
+1070	Tiropita	Тиропита	Gretsiya
+1071	Horiatiki pita	Пита с начинкой	Gretsiya
+1072	Grek baliq (plaki)	Рыба плаки	Gretsiya
+1073	Revithia	Ревития	Gretsiya
+1074	Horta	Хорта	Gretsiya
+1075	Kalamari	Кальмары	Gretsiya
+1076	Grek qatig'i asal bilan	Греческий йогурт с мёдом	Gretsiya
+1077	Paxlava (grekcha)	Баклава	Gretsiya
+1078	Lukumades	Лукумадес	Gretsiya
+1079	Galaktoburiko	Галактобуреко	Gretsiya
+1080	Kurabiedes	Курабьедес	Gretsiya
+1081	Frappe	Фраппе	Gretsiya
+1082	Grekcha qahva	Греческий кофе	Gretsiya
+1083	Bulgur pilavi	Пилав из булгура	Gretsiya
+1084	Saganaki	Саганаки	Gretsiya
+1085	Grek yasmiq sho'rva (fakes)	Факес	Gretsiya
+1086	Tako	Тако	Meksika
+1087	Burrito	Буррито	Meksika
+1088	Kesadilya	Кесадилья	Meksika
+1089	Gvakamole	Гуакамоле	Meksika
+1090	Enchiladas	Энчилада	Meksika
+1091	Chili kon karne	Чили кон карне	Meksika
+1092	Fajitas	Фахитас	Meksika
+1093	Pozole	Позоле	Meksika
+1094	Pico de gallo	Пико де гальо	Meksika
+1095	Uevos rancheros	Уэвос ранчерос	Meksika
+1096	Tamales	Тамалес	Meksika
+1097	Nachos	Начос	Meksika
+1098	Meksikacha guruch	Мексиканский рис	Meksika
+1099	Tortilla sho'rva	Суп тортилья	Meksika
+1100	Chilaquiles	Чилакилес	Meksika
+1101	Tostadas	Тостадас	Meksika
+1102	Elote	Элоте	Meksika
+1103	Karnitas	Карнитас	Meksika
+1104	Meksikacha loviya (frijoles)	Фрихолес	Meksika
+1105	Kesadilya qo'ziqorinli	Кесадилья с грибами	Meksika
+1106	Sopa de fideo	Сопа де фидео	Meksika
+1107	Churros (meksikacha)	Чуррос	Meksika
+1108	Tres leches	Трес лечес	Meksika
+1109	Arroz kon leche	Аррос кон лече	Meksika
+1110	Flan (meksikacha)	Флан	Meksika
+1111	Orchata (meksikacha)	Орчата	Meksika
+1112	Agua fresca	Агуа фреска	Meksika
+1113	Meksikacha issiq shokolad	Мексиканский горячий шоколад	Meksika
+1114	Albondigas sho'rva	Суп альбондигас	Meksika
+1115	Kalabasitas	Калабаситас	Meksika
+1116	Uy burgeri	Бургер	AQSh
+1117	Pankeyk	Панкейки	AQSh
+1118	Makaron pishloq bilan (mac and cheese)	Макароны с сыром	AQSh
+1119	Qovurilgan tovuq	Жареная курица	AQSh
+1120	BBQ qovurg'a	Рёбрышки барбекю	AQSh
+1121	Hot dog	Хот-дог	AQSh
+1122	Sezar salati	Салат Цезарь	AQSh
+1123	Kolslou	Коул слоу	AQSh
+1124	Klem chauder	Клэм чаудер	AQSh
+1125	Kartoshka fri	Картофель фри	AQSh
+1126	Mitlof	Митлоф	AQSh
+1127	Tovuq qanotlari (buffalo)	Крылышки баффало	AQSh
+1128	Klab sendvich	Клаб-сэндвич	AQSh
+1129	Omlet (amerikancha)	Американский омлет	AQSh
+1130	Chili (amerikancha)	Чили	AQSh
+1131	Pulled chicken	Рваная курица	AQSh
+1132	Kukurza noni (cornbread)	Кукурузный хлеб	AQSh
+1133	Brauni	Брауни	AQSh
+1134	Chizkeyk (Nyu-York)	Чизкейк Нью-Йорк	AQSh
+1135	Olma piroggi	Яблочный пирог	AQSh
+1136	Shokoladli pechenye	Шоколадное печенье	AQSh
+1137	Donat	Пончики	AQSh
+1138	Banan noni	Банановый хлеб	AQSh
+1139	Kekslar (maffin)	Маффины	AQSh
+1140	Uy limonadi	Лимонад	AQSh
+1141	Milkshake	Молочный коктейль	AQSh
+1142	Muzli choy	Холодный чай	AQSh
+1143	Smuzi	Смузи	AQSh
+1144	Vafli	Вафли	AQSh
+1145	Kartoshka pyure tovuq sousida	Картофельное пюре с подливой	AQSh
+1146	Fish and chips	Fish and chips recipe	Buyuk Britaniya
+1147	Ingliz nonushtasi	Full English breakfast recipe	Buyuk Britaniya
+1148	Shepherd's pie	Shepherd's pie recipe	Buyuk Britaniya
+1149	Kottej pirog	Cottage pie recipe	Buyuk Britaniya
+1150	Yorkshir pudingi	Yorkshire pudding recipe	Buyuk Britaniya
+1151	Yakshanba qovurmasi	Sunday roast beef recipe	Buyuk Britaniya
+1152	Beef Wellington	Beef Wellington recipe	Buyuk Britaniya
+1153	Bangers and mash	Bangers and mash recipe	Buyuk Britaniya
+1154	Cornish pasty	Cornish pasty recipe	Buyuk Britaniya
+1155	Toad in the hole	Toad in the hole recipe	Buyuk Britaniya
+1156	Kotlet pirog (steak and kidney pie)	Steak and kidney pie recipe	Buyuk Britaniya
+1157	Kedjeri	Kedgeree recipe	Buyuk Britaniya
+1158	Sotlandcha bulyon (Scotch broth)	Scotch broth recipe	Buyuk Britaniya
+1159	Haggis	Haggis recipe	Buyuk Britaniya
+1160	Welsh rarebit	Welsh rarebit recipe	Buyuk Britaniya
+1161	Tovuq tikka masala (britancha)	Chicken tikka masala recipe	Buyuk Britaniya
+1162	No'xat pyuresi (mushy peas)	Mushy peas recipe	Buyuk Britaniya
+1163	Krumpet	Crumpets recipe	Buyuk Britaniya
+1164	Skon	Scones recipe	Buyuk Britaniya
+1165	Sticky toffee pudding	Sticky toffee pudding recipe	Buyuk Britaniya
+1166	Viktoriya keksi	Victoria sponge recipe	Buyuk Britaniya
+1167	Trayfl	Trifle recipe	Buyuk Britaniya
+1168	Kruble (crumble)	Apple crumble recipe	Buyuk Britaniya
+1169	Bread and butter pudding	Bread and butter pudding recipe	Buyuk Britaniya
+1170	Eton mess	Eton mess recipe	Buyuk Britaniya
+1171	Flapjack	Flapjack recipe	Buyuk Britaniya
+1172	Shortbread	Shortbread recipe	Buyuk Britaniya
+1173	Ingliz choyi sut bilan	English breakfast tea with milk	Buyuk Britaniya
+1174	Pimm's (alkogolsiz limonad)	Fruit lemonade cup	Buyuk Britaniya
+1175	Pirog piyoz-pishloqli	Cheese and onion pie recipe	Buyuk Britaniya
+1176	Irland dimlamasi (Irish stew)	Irish stew recipe	Irlandiya
+1177	Kolkannon	Colcannon recipe	Irlandiya
+1178	Boksti	Boxty recipe	Irlandiya
+1179	Soda non	Irish soda bread recipe	Irlandiya
+1180	Champ	Champ recipe	Irlandiya
+1181	Irland nonushtasi	Full Irish breakfast recipe	Irlandiya
+1182	Koddl	Dublin coddle recipe	Irlandiya
+1183	Irland baliq sho'rvasi	Irish seafood chowder recipe	Irlandiya
+1184	Barmbrak	Barmbrack recipe	Irlandiya
+1185	Kartoshka noni (fadge)	Potato farls recipe	Irlandiya
+1186	Bekon va karam	Bacon and cabbage recipe	Irlandiya
+1187	Irland qahvasi (alkogolsiz)	Irish coffee without alcohol	Irlandiya
+1188	Bakalyau a bras	Bacalhau à Brás recipe	Portugaliya
+1189	Qaymoqli treska	Bacalhau com natas recipe	Portugaliya
+1190	Kaldu verdi	Caldo verde recipe	Portugaliya
+1191	Pasteis de nata	Pastel de nata recipe	Portugaliya
+1192	Fransezinya	Francesinha recipe	Portugaliya
+1193	Bifana	Bifana recipe	Portugaliya
+1194	Arros de marisku	Arroz de marisco recipe	Portugaliya
+1195	Feijoada portugalcha	Feijoada à transmontana recipe	Portugaliya
+1196	Karne de porku alentejana (mol go'shti bilan)	Carne à alentejana recipe	Portugaliya
+1197	Sardina grilda	Grilled sardines Portuguese recipe	Portugaliya
+1198	Frango piri-piri	Piri piri chicken recipe	Portugaliya
+1199	Kozidu a portugeza	Cozido à portuguesa recipe	Portugaliya
+1200	Polvo a lagareiro	Polvo à lagareiro recipe	Portugaliya
+1201	Sopa de pedra	Sopa da pedra recipe	Portugaliya
+1202	Arros de pato	Arroz de pato recipe	Portugaliya
+1203	Prego	Prego sandwich recipe	Portugaliya
+1204	Bolu de bolasha (pirojnoe)	Bolo de bolacha recipe	Portugaliya
+1205	Arros dosi	Arroz doce recipe	Portugaliya
+1206	Bolinyus de bakalyau	Pastéis de bacalhau recipe	Portugaliya
+1207	Malasadas	Malasadas recipe	Portugaliya
+1208	Galan (galão)	Galão coffee recipe	Portugaliya
+1209	Stamppot	Stamppot recipe	Niderlandiya
+1210	Hutspot	Hutspot recipe	Niderlandiya
+1211	Erwtensoep	Erwtensoep recipe	Niderlandiya
+1212	Bitterballen	Bitterballen recipe	Niderlandiya
+1213	Kroket	Dutch kroket recipe	Niderlandiya
+1214	Poffertjes	Poffertjes recipe	Niderlandiya
+1215	Pannenkoeken	Dutch pancakes recipe	Niderlandiya
+1216	Stroopwafel	Stroopwafel recipe	Niderlandiya
+1217	Haring (tuzlangan seld)	Hollandse nieuwe haring	Niderlandiya
+1218	Kibbeling	Kibbeling recipe	Niderlandiya
+1219	Appeltaart	Dutch apple pie recipe	Niderlandiya
+1220	Oliebollen	Oliebollen recipe	Niderlandiya
+1221	Hagelslag non	Hagelslag sandwich	Niderlandiya
+1222	Snert sabzavotli	Snert recipe	Niderlandiya
+1223	Gouda pishloqli tost (tosti)	Dutch tosti recipe	Niderlandiya
+1224	Moules-frites (midiya kartoshka bilan)	Moules frites recipe	Belgiya
+1225	Belgiya kartoshka frisi	Belgian fries recipe	Belgiya
+1226	Karbonad flamand	Carbonade flamande recipe	Belgiya
+1227	Vaterzooi	Waterzooi recipe	Belgiya
+1228	Belgiya vaflisi	Belgian waffles recipe	Belgiya
+1229	Lyej vaflisi	Liège waffle recipe	Belgiya
+1230	Stoemp	Stoemp recipe	Belgiya
+1231	Belgiya endiviyasi (gratin)	Chicons au gratin recipe	Belgiya
+1232	Speculoos pechenye	Speculoos recipe	Belgiya
+1233	Boulets liégeois	Boulets à la liégeoise recipe	Belgiya
+1234	Belgiya issiq shokoladi	Belgian hot chocolate	Belgiya
+1235	Tomat-krevet	Tomate crevettes recipe	Belgiya
+1236	Judd mat gaardebounen	Judd mat Gaardebounen recipe	Lyuksemburg
+1237	Gromperekichelcher	Gromperekichelcher recipe	Lyuksemburg
+1238	Bouneschlupp	Bouneschlupp recipe	Lyuksemburg
+1239	Kniddelen	Kniddelen recipe	Lyuksemburg
+1240	Friture de la Moselle	Friture de la Moselle recipe	Lyuksemburg
+1241	Quetschentaart	Quetschentaart recipe	Lyuksemburg
+1242	Rieslingspaschtéit (pirog)	Rieslingspaschteit recipe	Lyuksemburg
+1243	Feierstengszalot	Feierstengszalot recipe	Lyuksemburg
+1244	Bretzel (lyuksemburgcha)	Luxembourg pretzel	Lyuksemburg
+1245	Kachkéis	Kachkeis recipe	Lyuksemburg
+1246	Pishloq fondyusi	Swiss cheese fondue recipe	Shveytsariya
+1247	Raklet	Raclette recipe	Shveytsariya
+1248	Ryosti	Rösti recipe	Shveytsariya
+1249	Zurich geschnetzeltes	Zürcher Geschnetzeltes recipe	Shveytsariya
+1250	Älplermagronen	Älplermagronen recipe	Shveytsariya
+1251	Birxer myusli	Bircher muesli recipe	Shveytsariya
+1252	Bündner gerstensuppe	Bündner Gerstensuppe recipe	Shveytsariya
+1253	Zopf noni	Zopf bread recipe	Shveytsariya
+1254	Basler mehlsuppe	Basler Mehlsuppe recipe	Shveytsariya
+1255	Shokoladli fondyu	Chocolate fondue recipe	Shveytsariya
+1256	Engadin yong'oq piroggi	Engadiner Nusstorte recipe	Shveytsariya
+1257	Kartoshkali gratin (gratin de pommes)	Swiss potato gratin	Shveytsariya
+1258	Kappuns	Capuns recipe	Shveytsariya
+1259	Ovomaltine ichimligi	Ovomaltine drink	Shveytsariya
+1260	Vena shnitseli	Wiener Schnitzel recipe	Avstriya
+1261	Tafelshpits	Tafelspitz recipe	Avstriya
+1262	Gulash (Vena)	Wiener Saftgulasch recipe	Avstriya
+1263	Kaiserschmarrn	Kaiserschmarrn recipe	Avstriya
+1264	Apfelstrudel	Apfelstrudel recipe	Avstriya
+1265	Sacher torti	Sachertorte recipe	Avstriya
+1266	Knödel (non knedli)	Semmelknödel recipe	Avstriya
+1267	Kartoshka salati (Vena)	Wiener Kartoffelsalat recipe	Avstriya
+1268	Frittatensuppe	Frittatensuppe recipe	Avstriya
+1269	Germknödel	Germknödel recipe	Avstriya
+1270	Linzer torti	Linzer torte recipe	Avstriya
+1271	Marillenknödel	Marillenknödel recipe	Avstriya
+1272	Käsespätzle	Käsespätzle recipe	Avstriya
+1273	Backhendl	Backhendl recipe	Avstriya
+1274	Leberkäse	Leberkäse recipe	Avstriya
+1275	Topfenstrudel	Topfenstrudel recipe	Avstriya
+1276	Melange qahvasi	Wiener Melange	Avstriya
+1277	Almdudler limonadi	Herbal lemonade recipe	Avstriya
+1278	Pierogi	Вареники пероги рецепт	Polsha
+1279	Bigos	Бигос рецепт	Polsha
+1280	Zhurek	Журек рецепт	Polsha
+1281	Gołąbki	Голубцы польские	Polsha
+1282	Rosół	Rosół recipe	Polsha
+1283	Kotlet schabowy	Kotlet schabowy recipe	Polsha
+1284	Placki ziemniaczane	Placki ziemniaczane recipe	Polsha
+1285	Barszcz czerwony	Barszcz recipe	Polsha
+1286	Kielbasa piyoz bilan	Kielbasa with onions	Polsha
+1287	Zapiekanka	Zapiekanka recipe	Polsha
+1288	Gulasz (polsha)	Polish goulash recipe	Polsha
+1289	Krokiety	Krokiety recipe	Polsha
+1290	Pączki	Pączki recipe	Polsha
+1291	Sernik	Sernik recipe	Polsha
+1292	Makowiec	Makowiec recipe	Polsha
+1293	Kompot (polsha)	Kompot recipe	Polsha
+1294	Pierogi ruskie	Pierogi ruskie recipe	Polsha
+1295	Kopytka	Kopytka recipe	Polsha
+1296	Gołąbki bez zawijania (dangasa golubtsi)	Lazy cabbage rolls recipe	Polsha
+1297	Fasolka po bretońsku	Fasolka po bretońsku recipe	Polsha
+1298	Svíčková	Svíčková recipe	Chexiya
+1299	Knedlíky	Czech bread dumplings recipe	Chexiya
+1300	Guláš (chexcha)	Czech goulash recipe	Chexiya
+1301	Vepřo knedlo zelo (mol go'shti bilan)	Roast with dumplings and cabbage	Chexiya
+1302	Smažený sýr	Smažený sýr recipe	Chexiya
+1303	Kulajda	Kulajda recipe	Chexiya
+1304	Česnečka	Česnečka recipe	Chexiya
+1305	Bramboráky	Bramboráky recipe	Chexiya
+1306	Ovocné knedlíky	Ovocné knedlíky recipe	Chexiya
+1307	Trdelník	Trdelník recipe	Chexiya
+1308	Koláče	Koláče recipe	Chexiya
+1309	Bramboračka	Bramboračka recipe	Chexiya
+1310	Utopenci	Utopenci recipe	Chexiya
+1311	Buchty	Buchty recipe	Chexiya
+1312	Bryndzové halušky	Bryndzové halušky recipe	Slovakiya
+1313	Kapustnica	Kapustnica recipe	Slovakiya
+1314	Strapačky	Strapačky recipe	Slovakiya
+1315	Lokše	Lokše recipe	Slovakiya
+1316	Zemiakové placky	Slovak potato pancakes	Slovakiya
+1317	Parené buchty	Parené buchty recipe	Slovakiya
+1318	Fazuľová polievka	Bean soup Slovak	Slovakiya
+1319	Šúľance	Šúľance recipe	Slovakiya
+1320	Segedínsky guláš	Segedin goulash recipe	Slovakiya
+1321	Ťahaný štrúdľa	Slovak strudel	Slovakiya
+1322	Gulyás	Гуляш венгерский	Vengriya
+1323	Paprikás csirke	Chicken paprikash recipe	Vengriya
+1324	Pörkölt	Pörkölt recipe	Vengriya
+1325	Lángos	Lángos recipe	Vengriya
+1326	Halászlé	Halászlé recipe	Vengriya
+1327	Töltött káposzta	Töltött káposzta recipe	Vengriya
+1328	Lecsó	Lecsó recipe	Vengriya
+1329	Főzelék	Főzelék recipe	Vengriya
+1330	Túrós csusza	Túrós csusza recipe	Vengriya
+1331	Nokedli	Nokedli recipe	Vengriya
+1332	Dobos torti	Dobos torte recipe	Vengriya
+1333	Kürtőskalács	Kürtőskalács recipe	Vengriya
+1334	Somlói galuska	Somlói galuska recipe	Vengriya
+1335	Palacsinta	Palacsinta recipe	Vengriya
+1336	Hideg meggyleves	Cold cherry soup recipe	Vengriya
+1337	Rakott krumpli	Rakott krumpli recipe	Vengriya
+1338	Sarmale	Сармале рецепт	Ruminiya
+1339	Mămăligă	Мамалыга рецепт	Ruminiya
+1340	Mici	Mici recipe	Ruminiya
+1341	Ciorbă de burtă	Ciorbă de burtă recipe	Ruminiya
+1342	Ciorbă de perișoare	Ciorbă de perișoare recipe	Ruminiya
+1343	Tochitură	Tochitură recipe	Ruminiya
+1344	Zacuscă	Zacuscă recipe	Ruminiya
+1345	Salată de vinete	Salata de vinete recipe	Ruminiya
+1346	Papanași	Papanași recipe	Ruminiya
+1347	Cozonac	Cozonac recipe	Ruminiya
+1348	Plăcintă cu brânză	Plăcintă recipe	Ruminiya
+1349	Varză călită	Varză călită recipe	Ruminiya
+1350	Fasole cu cârnați	Fasole cu cârnați recipe	Ruminiya
+1351	Ciorbă de legume	Romanian vegetable soup	Ruminiya
+1352	Mamaliga (moldavcha)	Мамалыга молдавская	Moldova
+1353	Plachinda	Плачинды рецепт	Moldova
+1354	Zeama	Зама рецепт	Moldova
+1355	Sarmale (moldavcha)	Голубцы молдавские	Moldova
+1356	Mititei	Мититеи рецепт	Moldova
+1357	Răcitură	Холодец молдавский	Moldova
+1358	Ghiveci	Гивеч рецепт	Moldova
+1359	Tochitura moldoveneasca	Тočitura moldavian	Moldova
+1360	Vărzări	Вэрзэре рецепт	Moldova
+1361	Cozonac (moldavcha)	Козонак рецепт	Moldova
+1362	Colaci	Колач рецепт	Moldova
+1363	Compot de prune	Компот из слив	Moldova
+1364	Shopska salati	Шопский салат	Bolgariya
+1365	Banitsa	Баница рецепт	Bolgariya
+1366	Tarator	Таратор рецепт	Bolgariya
+1367	Kavarma	Каварма рецепт	Bolgariya
+1368	Kebapche	Кебапче рецепт	Bolgariya
+1369	Kyufte	Кюфте болгарские	Bolgariya
+1370	Musaka (bolgarcha)	Мусака болгарская	Bolgariya
+1371	Lyutenitsa	Лютеница рецепт	Bolgariya
+1372	Sirene po shopski	Сирене по-шопски	Bolgariya
+1373	Gyuvech	Гювеч рецепт	Bolgariya
+1374	Bob chorba	Боб чорба рецепт	Bolgariya
+1375	Kiselo mlyako (bolgar qatig'i)	Bulgarian yogurt recipe	Bolgariya
+1376	Mekitsa	Мекици рецепт	Bolgariya
+1377	Ayran (bolgarcha)	Айрян	Bolgariya
+1378	Ćevapi	Чевапчичи рецепт	Serbiya
+1379	Pljeskavica	Плескавица рецепт	Serbiya
+1380	Sarma (serbcha)	Сарма сербская	Serbiya
+1381	Karađorđeva šnicla	Karađorđeva šnicla recipe	Serbiya
+1382	Gibanica	Гибаница рецепт	Serbiya
+1383	Ajvar	Айвар рецепт	Serbiya
+1384	Pasulj	Пасуль рецепт	Serbiya
+1385	Punjene paprike	Punjene paprike recipe	Serbiya
+1386	Prebranac	Пребранац рецепт	Serbiya
+1387	Kajmak	Каймак рецепт	Serbiya
+1388	Proja	Проја рецепт	Serbiya
+1389	Vanilice	Ванилице рецепт	Serbiya
+1390	Krofne	Крофне рецепт	Serbiya
+1391	Peka	Peka recipe	Xorvatiya
+1392	Črni rižot	Black risotto recipe	Xorvatiya
+1393	Štrukli	Štrukli recipe	Xorvatiya
+1394	Pašticada	Pašticada recipe	Xorvatiya
+1395	Brudet	Brodetto recipe	Xorvatiya
+1396	Sarma (xorvatcha)	Croatian sarma	Xorvatiya
+1397	Fritule	Fritule recipe	Xorvatiya
+1398	Rožata	Rožata recipe	Xorvatiya
+1399	Ćevapi (xorvatcha)	Croatian ćevapi	Xorvatiya
+1400	Manistra na pome	Manistra na pome recipe	Xorvatiya
+1401	Fuži istrian	Fuži recipe	Xorvatiya
+1402	Ćevapi (bosniyacha)	Bosnian ćevapi recipe	Bosniya va Gertsegovina
+1403	Burek	Бурек рецепт	Bosniya va Gertsegovina
+1404	Begova čorba	Begova čorba recipe	Bosniya va Gertsegovina
+1405	Bosanski lonac	Bosanski lonac recipe	Bosniya va Gertsegovina
+1406	Klepe	Klepe recipe	Bosniya va Gertsegovina
+1407	Dolma (bosniyacha)	Bosnian dolma	Bosniya va Gertsegovina
+1408	Pita krompiruša	Krompiruša recipe	Bosniya va Gertsegovina
+1409	Tufahija	Tufahija recipe	Bosniya va Gertsegovina
+1410	Hurmašica	Hurmašica recipe	Bosniya va Gertsegovina
+1411	Bosniya qahvasi	Bosnian coffee	Bosniya va Gertsegovina
+1412	Potica	Potica recipe	Sloveniya
+1413	Kranjska klobasa	Kranjska klobasa	Sloveniya
+1414	Jota	Jota recipe	Sloveniya
+1415	Idrijski žlikrofi	Žlikrofi recipe	Sloveniya
+1416	Prekmurska gibanica	Prekmurska gibanica recipe	Sloveniya
+1417	Štruklji	Štruklji recipe	Sloveniya
+1418	Ričet	Ričet recipe	Sloveniya
+1419	Žganci	Žganci recipe	Sloveniya
+1420	Kremšnita	Kremšnita recipe	Sloveniya
+1421	Ajdovi krapi	Ajdovi krapi recipe	Sloveniya
+1422	Njeguški pršut va pishloq	Montenegrin cured meat platter	Chernogoriya
+1423	Kačamak	Kačamak recipe	Chernogoriya
+1424	Crnogorska čorba	Montenegrin soup	Chernogoriya
+1425	Brav u mlijeku	Lamb in milk recipe	Chernogoriya
+1426	Riblja čorba	Riblja čorba recipe	Chernogoriya
+1427	Japraci	Japraci recipe	Chernogoriya
+1428	Priganice	Priganice recipe	Chernogoriya
+1429	Cicvara	Cicvara recipe	Chernogoriya
+1430	Tavče gravče	Tavče gravče recipe	Shimoliy Makedoniya
+1431	Ajvar (makedoncha)	Macedonian ajvar	Shimoliy Makedoniya
+1432	Pastrmajlija	Pastrmajlija recipe	Shimoliy Makedoniya
+1433	Polneti piperki	Polneti piperki recipe	Shimoliy Makedoniya
+1434	Šopska (makedoncha)	Macedonian shopska salad	Shimoliy Makedoniya
+1435	Burek (makedoncha)	Macedonian burek	Shimoliy Makedoniya
+1436	Selsko meso	Selsko meso recipe	Shimoliy Makedoniya
+1437	Kompir mandža	Kompir mandža recipe	Shimoliy Makedoniya
+1438	Ohrid alabalig'i	Ohrid trout recipe	Shimoliy Makedoniya
+1439	Tavë kosi	Tavë kosi recipe	Albaniya
+1440	Byrek	Albanian byrek recipe	Albaniya
+1441	Fërgesë	Fërgesë recipe	Albaniya
+1442	Qofte	Qofte recipe	Albaniya
+1443	Flija	Flija recipe	Albaniya
+1444	Speca me gjize	Peppers stuffed with cheese	Albaniya
+1445	Pispili	Pispili recipe	Albaniya
+1446	Trilece	Trileçe recipe	Albaniya
+1447	Bakllava (alban)	Albanian baklava	Albaniya
+1448	Dhallë	Dhallë drink	Albaniya
+1449	Smørrebrød	Smørrebrød recipe	Daniya
+1450	Frikadeller	Frikadeller recipe	Daniya
+1451	Stegt flæsk	Stegt flæsk recipe	Daniya
+1452	Æbleskiver	Æbleskiver recipe	Daniya
+1453	Flæskesteg	Flæskesteg recipe	Daniya
+1454	Risalamande	Risalamande recipe	Daniya
+1455	Rugbrød	Rugbrød recipe	Daniya
+1456	Wienerbrød	Danish pastry recipe	Daniya
+1457	Hot dog (daniyacha)	Danish hot dog	Daniya
+1458	Koldskål	Koldskål recipe	Daniya
+1459	Fårikål	Fårikål recipe	Norvegiya
+1460	Kjøttkaker	Kjøttkaker recipe	Norvegiya
+1461	Fiskesuppe	Norwegian fish soup recipe	Norvegiya
+1462	Graylaks (gravlaks)	Gravlaks recipe	Norvegiya
+1463	Lapskaus	Lapskaus recipe	Norvegiya
+1464	Fiskeboller	Fiskeboller recipe	Norvegiya
+1465	Lefse	Lefse recipe	Norvegiya
+1466	Vafler (norvegcha)	Norwegian waffles recipe	Norvegiya
+1467	Krumkake	Krumkake recipe	Norvegiya
+1468	Riskrem	Riskrem recipe	Norvegiya
+1469	Köttbullar	Шведские фрикадельки	Shvetsiya
+1470	Janssons frestelse	Janssons frestelse recipe	Shvetsiya
+1471	Kanelbullar	Kanelbullar recipe	Shvetsiya
+1472	Ärtsoppa	Ärtsoppa recipe	Shvetsiya
+1473	Gravad lax	Gravad lax recipe	Shvetsiya
+1474	Raggmunk	Raggmunk recipe	Shvetsiya
+1475	Pyttipanna	Pyttipanna recipe	Shvetsiya
+1476	Prinsesstårta	Prinsesstårta recipe	Shvetsiya
+1477	Kladdkaka	Kladdkaka recipe	Shvetsiya
+1478	Semla	Semla recipe	Shvetsiya
+1479	Pannkakor	Swedish pancakes	Shvetsiya
+1480	Karjalanpiirakka	Karelian pasty recipe	Finlyandiya
+1481	Lohikeitto	Lohikeitto recipe	Finlyandiya
+1482	Poronkäristys	Poronkäristys recipe	Finlyandiya
+1483	Kalakukko	Kalakukko recipe	Finlyandiya
+1484	Lihapullat	Finnish meatballs	Finlyandiya
+1485	Karjalanpaisti	Karelian hot pot recipe	Finlyandiya
+1486	Korvapuusti	Korvapuusti recipe	Finlyandiya
+1487	Mustikkapiirakka	Mustikkapiirakka recipe	Finlyandiya
+1488	Leipäjuusto	Leipäjuusto recipe	Finlyandiya
+1489	Mämmi	Mämmi recipe	Finlyandiya
+1490	Kjötsúpa	Kjötsúpa recipe	Islandiya
+1491	Plokkfiskur	Plokkfiskur recipe	Islandiya
+1492	Skyr	Skyr recipe	Islandiya
+1493	Pylsur (islandcha hot dog)	Icelandic hot dog	Islandiya
+1494	Hangikjöt	Hangikjöt recipe	Islandiya
+1495	Kleinur	Kleinur recipe	Islandiya
+1496	Rúgbrauð	Rúgbrauð recipe	Islandiya
+1497	Islandcha baliq grilda	Icelandic grilled cod	Islandiya
+1498	Verivorst (go'shtli)	Estonian sausage with sauerkraut	Estoniya
+1499	Mulgikapsad	Mulgikapsad recipe	Estoniya
+1500	Kama	Kama recipe	Estoniya
+1501	Sült	Sült recipe	Estoniya
+1502	Rosolje	Rosolje recipe	Estoniya
+1503	Kiluvõileib	Sprat sandwich recipe	Estoniya
+1504	Kringel	Kringel recipe	Estoniya
+1505	Leivasupp	Leivasupp recipe	Estoniya
+1506	Pelēkie zirņi	Grey peas with bacon recipe	Latviya
+1507	Rupjmaizes kārtojums	Rye bread dessert recipe	Latviya
+1508	Sklandrausis	Sklandrausis recipe	Latviya
+1509	Pīrādziņi	Pīrāgi recipe	Latviya
+1510	Aukstā zupa	Latvian cold beet soup	Latviya
+1511	Karbonāde	Latvian karbonade	Latviya
+1512	Biezpiena sieriņš	Curd snack recipe	Latviya
+1513	Kartupeļu pankūkas	Latvian potato pancakes	Latviya
+1514	Cepelinai	Цеппелины рецепт	Litva
+1515	Šaltibarščiai	Холодник литовский	Litva
+1516	Kugelis	Кугелис рецепт	Litva
+1517	Kibinai	Кибинай рецепт	Litva
+1518	Vėdarai	Vėdarai recipe	Litva
+1519	Bulviniai blynai	Potato pancakes Lithuanian	Litva
+1520	Šakotis	Šakotis recipe	Litva
+1521	Skruzdėlynas	Skruzdėlynas recipe	Litva
+1522	Balandėliai	Balandėliai recipe	Litva
+1523	Pastizzi	Pastizzi recipe	Malta
+1524	Ftira	Ftira recipe	Malta
+1525	Timpana	Timpana recipe	Malta
+1526	Lampuki pie	Lampuki pie recipe	Malta
+1527	Bigilla	Bigilla recipe	Malta
+1528	Kapunata	Kapunata recipe	Malta
+1529	Imqaret	Imqaret recipe	Malta
+1530	Kinnie (alkogolsiz)	Citrus herbal soda	Malta
+1531	Halloumi grilda	Grilled halloumi recipe	Kipr
+1532	Souvla	Souvla recipe	Kipr
+1533	Sheftalia	Sheftalia recipe	Kipr
+1534	Kleftiko	Kleftiko recipe	Kipr
+1535	Koupepia	Koupepia recipe	Kipr
+1536	Afelia	Afelia recipe	Kipr
+1537	Loukoumades (kipr)	Cypriot loukoumades	Kipr
+1538	Kolokotes	Kolokotes recipe	Kipr
+1539	Escudella	Escudella recipe	Andorra
+1540	Trinxat	Trinxat recipe	Andorra
+1541	Canelons	Canelons recipe	Andorra
+1542	Crema catalana (andorra)	Crema catalana recipe	Andorra
+1543	Coca d'Andorra	Coca recipe	Andorra
+1544	Barbagiuan	Barbagiuan recipe	Monako
+1545	Socca	Socca recipe	Monako
+1546	Stocafi	Stocafi recipe	Monako
+1547	Pan bagnat	Pan bagnat recipe	Monako
+1548	Fougasse monégasque	Fougasse recipe	Monako
+1549	Torta Tre Monti	Torta Tre Monti recipe	San-Marino
+1550	Piadina	Piadina recipe	San-Marino
+1551	Cappelletti in brodo	Cappelletti in brodo recipe	San-Marino
+1552	Nidi di rondine	Nidi di rondine recipe	San-Marino
+1553	Bustrengo	Bustrengo recipe	San-Marino
+1554	Käsknöpfle	Käsknöpfle recipe	Lixtenshteyn
+1555	Ribel	Ribel recipe	Lixtenshteyn
+1556	Hafalaab	Hafalaab recipe	Lixtenshteyn
+1557	Törkarebl	Törkarebl recipe	Lixtenshteyn
+1558	Spaghetti all'amatriciana	Amatriciana recipe	Vatikan
+1559	Saltimbocca alla romana	Saltimbocca recipe	Vatikan
+1560	Supplì	Supplì recipe	Vatikan
+1561	Maritozzi	Maritozzi recipe	Vatikan
+1562	Karbonara	Паста карбонара	Italiya
+1563	Margarita pitsasi	Пицца Маргарита	Italiya
+1564	Lazanya	Лазанья	Italiya
+1565	Bolonyeze	Спагетти болоньезе	Italiya
+1566	Rizotto qo'ziqorinli	Ризотто с грибами	Italiya
+1567	Tiramisu	Тирамису	Italiya
+1568	Minestrone	Минестроне	Italiya
+1569	Penne arrabbiata	Пенне арраббьята	Italiya
+1570	Kacho e pepe	Качо э пепе	Italiya
+1571	Bruskettta	Брускетта	Italiya
+1572	Kaprese	Капрезе	Italiya
+1573	Ossobuko	Оссобуко	Italiya
+1574	Gnokki	Ньокки	Italiya
+1575	Fettuchini alfredo	Феттучини альфредо	Italiya
+1576	Parmijana	Пармиджана	Italiya
+1577	Kalsone	Кальцоне	Italiya
+1578	Fokachcha	Фокачча	Italiya
+1579	Arancini	Аранчини	Italiya
+1580	Pesto makaron	Паста песто	Italiya
+1581	Ravioli	Равиоли	Italiya
+1582	Makaron pomidor sousida	Паста с томатным соусом	Italiya
+1583	Saltimbokka	Сальтимбокка	Italiya
+1584	Panna kotta	Панна-котта	Italiya
+1585	Kannoli	Канноли	Italiya
+1586	Italyan muzqaymog'i (gelato)	Джелато	Italiya
+1587	Biscotti	Бискотти	Italiya
+1588	Kapuchino	Капучино	Italiya
+1589	Limonad italyancha (limonata)	Лимонад	Italiya
+1590	Frittata	Фриттата	Italiya
+1591	Makaron no'xat bilan (pasta e ceci)	Паста с нутом	Italiya
+1592	Fransuzcha omlet	Французский омлет	Fransiya
+1593	Piyozli sho'rva	Луковый суп	Fransiya
+1594	Krep	Крепы	Fransiya
+1595	Kish loren	Киш лорен	Fransiya
+1596	Ratatuy	Рататуй	Fransiya
+1597	Kok o ven	Кок-о-вен	Fransiya
+1598	Bef burginon	Бёф бургиньон	Fransiya
+1599	Kroke mesye	Крок-месье	Fransiya
+1600	Fransuzcha tost	Французские тосты	Fransiya
+1601	Nisuaz salati	Салат Нисуаз	Fransiya
+1602	Buyabes	Буйабес	Fransiya
+1603	Gratan dofinua	Картофельный гратен	Fransiya
+1604	Kartoshkali sho'rva (vishisuaz)	Вишисуаз	Fransiya
+1605	Kassule	Кассуле	Fransiya
+1606	Kruassan	Круассан	Fransiya
+1607	Baget	Багет	Fransiya
+1608	Krem bryule	Крем-брюле	Fransiya
+1609	Shokoladli muss	Шоколадный мусс	Fransiya
+1610	Tart taten	Тарт Татен	Fransiya
+1611	Makaron (pishiriq)	Макарон	Fransiya
+1612	Eklerlar	Эклеры	Fransiya
+1613	Madlen	Мадлен	Fransiya
+1614	Profiteroli	Профитроли	Fransiya
+1615	Kafe o le	Кофе с молоком	Fransiya
+1616	Issiq shokolad	Горячий шоколад	Fransiya
+1617	Sitron presse	Ситрон прессе	Fransiya
+1618	Tovuq qaymoqli sousda	Курица в сливочном соусе	Fransiya
+1619	Sabzavotli sho'rva (pyure)	Овощной крем-суп	Fransiya
+1620	Fransuzcha go'sht (myaso po-frantsuzski)	Мясо по-французски	Fransiya
+1621	Pate jigar	Паштет из печени	Fransiya
+1622	Paelya	Паэлья	Ispaniya
+1623	Gaspacho	Гаспачо	Ispaniya
+1624	Ispancha tortilya	Тортилья испанская	Ispaniya
+1625	Patatas bravas	Патас бравас	Ispaniya
+1626	Krokketlar	Крокеты	Ispaniya
+1627	Gambas al ajillo	Креветки в чесноке	Ispaniya
+1628	Albondigas	Альбондигас	Ispaniya
+1629	Pan kon tomate	Хлеб с томатом	Ispaniya
+1630	Fabada	Фабада	Ispaniya
+1631	Kosido	Косидо	Ispaniya
+1632	Salmorexo	Сальморехо	Ispaniya
+1633	Pisto	Писто	Ispaniya
+1634	Empanada	Эмпанада	Ispaniya
+1635	Arros negre	Чёрный рис	Ispaniya
+1636	Ispancha tovuq sarimsoqli	Курица с чесноком	Ispaniya
+1637	Huevos rotos	Уэвос ротос	Ispaniya
+1638	Pulpo a la gallega	Осьминог по-галисийски	Ispaniya
+1639	Tortilla ko'katli	Тортилья с зеленью	Ispaniya
+1640	Churros	Чуррос	Ispaniya
+1641	Krema katalana	Крема каталана	Ispaniya
+1642	Flan	Флан	Ispaniya
+1643	Torrixas	Торрихас	Ispaniya
+1644	Santyago torti	Тарт Сантьяго	Ispaniya
+1645	Polvoron	Польворон	Ispaniya
+1646	Orchata	Орчата	Ispaniya
+1647	Sangriya (alkogolsiz)	Безалкогольная сангрия	Ispaniya
+1648	Kafe kon lese	Кафе кон лече	Ispaniya
+1649	Pimientos de Padron	Перцы падрон	Ispaniya
+1650	Ensalada mixta	Смешанный салат	Ispaniya
+1651	Ispancha loviya sho'rva (potaje)	Потахе	Ispaniya
+1652	Beshbarmoq	Бешбармак	Qozog'iston
+1653	Bo'g'irsoq (baursak)	Баурсаки	Qozog'iston
+1654	Kuyrdak	Куырдак	Qozog'iston
+1655	Qazi	Казы	Qozog'iston
+1656	Sorpa	Сорпа	Qozog'iston
+1657	Manti (qozoqcha)	Манты казахские	Qozog'iston
+1658	Samsa (qozoqcha)	Самса казахская	Qozog'iston
+1659	Kespe	Кеспе	Qozog'iston
+1660	Shalgam salati	Салат Шалгам	Qozog'iston
+1661	Qozoqcha palov	Казахский плов	Qozog'iston
+1662	Lag'mon (qozoqcha)	Лагман	Qozog'iston
+1663	Asip	Асып	Qozog'iston
+1664	Kurt	Курт	Qozog'iston
+1665	Shubat	Шубат	Qozog'iston
+1666	Qimiz	Кумыс	Qozog'iston
+1667	Qozoqcha choy	Чай по-казахски	Qozog'iston
+1668	Jent	Жент	Qozog'iston
+1669	Chak-chak (qozoqcha)	Чак-чак	Qozog'iston
+1670	Qo'y go'shtli kartoshka dimlamasi	Тушёная баранина с картошкой	Qozog'iston
+1671	Tushpara	Тушпара	Qozog'iston
+1672	Nauryz ko'je	Наурыз коже	Qozog'iston
+1673	Qozoqcha shashlik	Шашлык	Qozog'iston
+1674	Qozoqcha pishloq (irimshik)	Иримшик	Qozog'iston
+1675	Balish	Балиш	Qozog'iston
+1676	Kartoshka quymog'i (draniki)	Драники	Qozog'iston
+1677	Qozoqcha guruch bo'tqasi	Рисовая каша	Qozog'iston
+1678	Kurt bilan salat	Салат с куртом	Qozog'iston
+1679	Tovuq sho'rva (tauyk sorpa)	Куриный суп	Qozog'iston
+1680	Qozoqcha somsa kartoshkali	Самса с картошкой	Qozog'iston
+1681	Qozoqcha sut choy (ak shai)	Чай с молоком	Qozog'iston
+1682	Ashlyamfu	Ашлянфу	Qirg'iziston
+1683	Beshbarmoq (qirg'izcha)	Бешбармак	Qirg'iziston
+1684	Kuurdak	Куурдак	Qirg'iziston
+1685	Chuchuk	Чучук	Qirg'iziston
+1686	Boorsok	Боорсок	Qirg'iziston
+1687	Gan-fan	Гюро лагман гань-фань	Qirg'iziston
+1688	Oromo	Оромо	Qirg'iziston
+1689	Qirg'izcha palov	Плов	Qirg'iziston
+1690	Lag'mon (qirg'izcha)	Лагман	Qirg'iziston
+1691	Shorpo	Шорпо	Qirg'iziston
+1692	Manti (qirg'izcha)	Манты	Qirg'iziston
+1693	Samsa (qirg'izcha)	Самса	Qirg'iziston
+1694	Dymdama	Дымдама	Qirg'iziston
+1695	Kesme	Кесме	Qirg'iziston
+1696	Mampar	Мампар	Qirg'iziston
+1697	Jarma	Жарма	Qirg'iziston
+1698	Maksym	Максым	Qirg'iziston
+1699	Qimiz (qirg'izcha)	Кымыз	Qirg'iziston
+1700	Talqon	Талкан	Qirg'iziston
+1701	Kattama	Каттама	Qirg'iziston
+1702	Chuchvara (qirg'izcha)	Пельмени	Qirg'iziston
+1703	Qirg'izcha non (tandir nan)	Тандыр нан	Qirg'iziston
+1704	Kurut sho'rva	Курут шорпо	Qirg'iziston
+1705	Gyuro lag'mon	Гюро лагман	Qirg'iziston
+1706	Kartoshkali pirojki	Пирожки с картошкой	Qirg'iziston
+1707	Ganfan (tovuqli)	Гань-фань с курицей	Qirg'iziston
+1708	Shirguruch (qirg'izcha)	Сютлю аш	Qirg'iziston
+1709	Choy sut bilan (ak chay)	Ак чай	Qirg'iziston
+1710	Kuurma shorpo	Жареная шорпо	Qirg'iziston
+1711	Qirg'izcha shashlik	Шашлык	Qirg'iziston
+1712	Qurutob	Курутоб	Tojikiston
+1713	Tojikcha osh	Таджикский плов (оши палав)	Tojikiston
+1714	Sambusa	Самбуса	Tojikiston
+1715	Shirchoy	Ширчой	Tojikiston
+1716	Oshi burida	Оши бурида	Tojikiston
+1717	Manti (tojikcha)	Манту	Tojikiston
+1718	Shurbo	Шурбо	Tojikiston
+1719	Kabob (tojikcha)	Кабоб	Tojikiston
+1720	Fatir	Фатир	Tojikiston
+1721	Qurutob go'shtli	Курутоб с мясом	Tojikiston
+1722	Dimlama (tojikcha)	Димлама	Tojikiston
+1723	Lag'mon (tojikcha)	Лагман	Tojikiston
+1724	Mastoba	Мастоба	Tojikiston
+1725	Kichiri	Кичири	Tojikiston
+1726	Chakka	Чакка	Tojikiston
+1727	Javzobob	Джавзобоб	Tojikiston
+1728	Tuhum-pomidor	Яичница с помидорами	Tojikiston
+1729	Shakarob	Шакароб	Tojikiston
+1730	Halvoi tar	Халвайтар	Tojikiston
+1731	Nishollo	Нишолло	Tojikiston
+1732	Sumalak (tojikcha)	Сумалак	Tojikiston
+1733	Kulcha	Кульча	Tojikiston
+1734	Ugro	Угро	Tojikiston
+1735	Kalla-pocha	Калла поча	Tojikiston
+1736	Bichak	Бичак	Tojikiston
+1737	Pilmeni (tojikcha)	Пельмени	Tojikiston
+1738	Kompot (tojikcha)	Компот	Tojikiston
+1739	Ayron (tojikcha dug')	Дуг	Tojikiston
+1740	Tojikcha ko'k choy	Зеленый чай	Tojikiston
+1741	Kabobi tobagi	Жаркое на сковороде	Tojikiston
+1742	Ichlekli	Ичлекли	Turkmaniston
+1743	Turkmancha palov	Туркменский плов	Turkmaniston
+1744	Dograma	Дограма	Turkmaniston
+1745	Gutap	Гутап	Turkmaniston
+1746	Gutap go'shtli	Гутап с мясом	Turkmaniston
+1747	Unash	Унаш	Turkmaniston
+1748	Chorba	Чорба	Turkmaniston
+1749	Kebab (turkmancha)	Шашлык	Turkmaniston
+1750	Manti (turkmancha)	Манты	Turkmaniston
+1751	Somsa (turkmancha)	Самса	Turkmaniston
+1752	Pishme	Пишме	Turkmaniston
+1753	Chekdirme	Чекдирме	Turkmaniston
+1754	Ishlekli	Ишлекли	Turkmaniston
+1755	Ak tamdyr nan	Тамдыр чорек	Turkmaniston
+1756	Dovga	Довга	Turkmaniston
+1757	Kartoshkali chorba	Картофельный суп	Turkmaniston
+1758	Sabzavotli dimlama	Овощное рагу	Turkmaniston
+1759	Shurpa (qo'y)	Шурпа	Turkmaniston
+1760	Turkmancha lag'mon	Лагман	Turkmaniston
+1761	Chal	Чал	Turkmaniston
+1762	Turkmancha ko'k choy	Зеленый чай	Turkmaniston
+1763	Gyzyl choy sut bilan	Чай с молоком	Turkmaniston
+1764	Halva (turkmancha)	Халва	Turkmaniston
+1765	Kartoshka somsa	Самса с картошкой	Turkmaniston
+1766	Tovuq chorbasi	Куриный суп	Turkmaniston
+1767	Qovoq somsa (turkmancha)	Самса с тыквой	Turkmaniston
+1768	Turkmancha guruch bo'tqasi	Сютли аш	Turkmaniston
+1769	Qovurdoq	Говурма	Turkmaniston
+1770	Turkmancha do'lma	Долма	Turkmaniston
+1771	Ayron (turkmancha)	Айран	Turkmaniston
+1772	Chelow kabob	Chelow kabab recipe	Eron
+1773	Joojeh kabob	Joojeh kabab recipe	Eron
+1774	Ghormeh sabzi	Ghormeh sabzi recipe	Eron
+1775	Fesenjan	Fesenjan recipe	Eron
+1776	Tahdig	Tahdig recipe	Eron
+1777	Ash reshteh	Ash reshteh recipe	Eron
+1778	Gheymeh	Gheymeh recipe	Eron
+1779	Kashk-e bademjan	Kashk e bademjan recipe	Eron
+1780	Mirza ghasemi	Mirza ghasemi recipe	Eron
+1781	Zereshk polo	Zereshk polo recipe	Eron
+1782	Baghali polo	Baghali polo recipe	Eron
+1783	Abgoosht (dizi)	Abgoosht recipe	Eron
+1784	Kuku sabzi	Kuku sabzi recipe	Eron
+1785	Tahchin	Tahchin recipe	Eron
+1786	Sholeh zard	Sholeh zard recipe	Eron
+1787	Faloodeh	Faloodeh recipe	Eron
+1788	Bastani	Bastani sonnati recipe	Eron
+1789	Nan-e barbari	Barbari bread recipe	Eron
+1790	Sabzi khordan	Sabzi khordan	Eron
+1791	Doogh	Doogh recipe	Eron
+1792	Fors choyi	Persian tea	Eron
+1793	Khoresh bademjan	Khoresh bademjan recipe	Eron
+1794	Dolmeh	Dolmeh recipe	Eron
+1795	Ash-e anar	Ash-e anar recipe	Eron
+1796	Kotlet (eroncha)	Persian kotlet recipe	Eron
+1797	Halim (eroncha)	Persian haleem	Eron
+1798	Gaz	Gaz Persian nougat	Eron
+1799	Sohan	Sohan recipe	Eron
+1800	Shirazi salati	Shirazi salad recipe	Eron
+1801	Bademjan zeytun	Torshi zeytun	Eron
+1802	Masgouf	Masgouf recipe	Iroq
+1803	Dolma (iroqcha)	Iraqi dolma recipe	Iroq
+1804	Quzi	Quzi recipe	Iroq
+1805	Tashreeb	Tashreeb recipe	Iroq
+1806	Kubba (iroqcha)	Kubba recipe	Iroq
+1807	Tepsi baytinjan	Tepsi baytinjan recipe	Iroq
+1808	Kahi	Kahi recipe	Iroq
+1809	Margat bamia	Bamia recipe	Iroq
+1810	Iroqcha samun	Samoon bread recipe	Iroq
+1811	Klecha	Klecha recipe	Iroq
+1812	Iroq choyi	Iraqi tea	Iroq
+1813	Mumbar	Mumbar recipe	Iroq
+1814	Kibbeh nayyeh (pishirilgan kibbeh)	Kibbeh recipe	Suriya
+1815	Fattoush (suriyacha)	Fattoush recipe	Suriya
+1816	Muhammara	Muhammara recipe	Suriya
+1817	Shish barak	Shish barak recipe	Suriya
+1818	Kabsa (suriyacha)	Syrian kabsa	Suriya
+1819	Yalanji	Yalanji recipe	Suriya
+1820	Fatteh	Fatteh recipe	Suriya
+1821	Maqluba (suriyacha)	Syrian maqluba	Suriya
+1822	Shakriyeh	Shakriyeh recipe	Suriya
+1823	Halawet el jibn	Halawet el jibn recipe	Suriya
+1824	Ma'amoul (suriyacha)	Maamoul recipe	Suriya
+1825	Kunafa nabulsiya (suriyacha)	Syrian kunafa	Suriya
+1826	Tabbouleh	Tabbouleh recipe	Livan
+1827	Hummus (livancha)	Lebanese hummus	Livan
+1828	Kibbeh (livancha)	Lebanese kibbeh	Livan
+1829	Manakish zaatar	Manakish recipe	Livan
+1830	Shish tawook (livancha)	Shish taouk recipe	Livan
+1831	Baba ganoush	Baba ganoush recipe	Livan
+1832	Kafta	Kafta recipe	Livan
+1833	Fatayer sabanekh	Fatayer recipe	Livan
+1834	Mujaddara	Mujaddara recipe	Livan
+1835	Toum	Toum garlic sauce	Livan
+1836	Kibbeh bil sanieh	Kibbeh bil sanieh recipe	Livan
+1837	Sfiha	Sfiha recipe	Livan
+1838	Riz bi haleeb	Riz bi haleeb recipe	Livan
+1839	Mouhalabieh	Mouhalabieh recipe	Livan
+1840	Jallab (livancha)	Jallab recipe	Livan
+1841	Mansaf	Mansaf recipe	Iordaniya
+1842	Maqluba (iordancha)	Jordanian maqluba	Iordaniya
+1843	Zarb	Zarb recipe	Iordaniya
+1844	Galayet bandora	Galayet bandora recipe	Iordaniya
+1845	Musakhan (iordancha)	Jordanian musakhan	Iordaniya
+1846	Falafel (iordancha)	Jordanian falafel	Iordaniya
+1847	Knafeh (iordancha)	Jordanian knafeh	Iordaniya
+1848	Shorbat freekeh	Freekeh soup recipe	Iordaniya
+1849	Kofta bil tahini	Kofta with tahini recipe	Iordaniya
+1850	Arab qahvasi (iordancha)	Jordanian coffee	Iordaniya
+1851	Shakshuka (isroilcha)	Shakshuka recipe	Isroil
+1852	Sabich	Sabich recipe	Isroil
+1853	Falafel pitada	Falafel pita recipe	Isroil
+1854	Isroil salati	Israeli salad recipe	Isroil
+1855	Challah	Challah recipe	Isroil
+1856	Jachnun	Jachnun recipe	Isroil
+1857	Matzo ball sho'rva	Matzo ball soup recipe	Isroil
+1858	Bourekas	Bourekas recipe	Isroil
+1859	Rugelach	Rugelach recipe	Isroil
+1860	Sufganiyot	Sufganiyah recipe	Isroil
+1861	Latkes	Latkes recipe	Isroil
+1862	Shnitsel tovuqli (isroilcha)	Israeli schnitzel	Isroil
+1863	Musakhan	Musakhan recipe	Falastin
+1864	Maqluba	Maqluba recipe	Falastin
+1865	Knafeh nabulsieh	Knafeh nabulsieh recipe	Falastin
+1866	Mujaddara (falastincha)	Palestinian mujaddara	Falastin
+1867	Msakhan rolls	Musakhan rolls recipe	Falastin
+1868	Fatteh (falastincha)	Palestinian fatteh	Falastin
+1869	Qidreh	Qidreh recipe	Falastin
+1870	Za'atar non	Zaatar bread recipe	Falastin
+1871	Ka'ak al-Quds	Ka'ak recipe	Falastin
+1872	Ma'amoul (falastincha)	Palestinian maamoul	Falastin
+1873	Kabsa (saudiyacha)	Saudi kabsa recipe	Saudiya Arabistoni
+1874	Mandi (saudiyacha)	Saudi mandi	Saudiya Arabistoni
+1875	Jareesh	Jareesh recipe	Saudiya Arabistoni
+1876	Mutabbaq	Mutabbaq recipe	Saudiya Arabistoni
+1877	Saleeg	Saleeg recipe	Saudiya Arabistoni
+1878	Harees	Harees recipe	Saudiya Arabistoni
+1879	Margoog	Margoog recipe	Saudiya Arabistoni
+1880	Kleija	Kleija recipe	Saudiya Arabistoni
+1881	Saudiya qahvasi (qahwa)	Saudi coffee	Saudiya Arabistoni
+1882	Laban (saudiyacha)	Laban drink	Saudiya Arabistoni
+1883	Machboos	Machboos recipe	BAA
+1884	Harees (amirlik)	Emirati harees	BAA
+1885	Luqaimat	Luqaimat recipe	BAA
+1886	Balaleet	Balaleet recipe	BAA
+1887	Thareed	Thareed recipe	BAA
+1888	Chebab	Chebab recipe	BAA
+1889	Madrooba	Madrooba recipe	BAA
+1890	Karak choy	Karak chai recipe	BAA
+1891	Machboos (qatarcha)	Qatari machboos	Qatar
+1892	Madrouba	Madrouba recipe	Qatar
+1893	Saloona	Saloona recipe	Qatar
+1894	Balaleet (qatarcha)	Qatari balaleet	Qatar
+1895	Umm Ali (qatarcha)	Umm Ali recipe	Qatar
+1896	Machboos ala dajaj	Kuwaiti machboos	Quvayt
+1897	Mutabbaq samak	Mutabbaq samak recipe	Quvayt
+1898	Gabout	Gabout recipe	Quvayt
+1899	Murabyan	Murabyan recipe	Quvayt
+1900	Gers ogaily	Gers ogaily recipe	Quvayt
+1901	Machboos (bahraynda)	Bahraini machboos	Bahrayn
+1902	Muhammar	Muhammar recipe	Bahrayn
+1903	Halwa bahraini	Bahraini halwa recipe	Bahrayn
+1904	Samboosa (bahrayn)	Bahraini samboosa	Bahrayn
+1905	Khanfaroosh	Khanfaroosh recipe	Bahrayn
+1906	Shuwa	Shuwa recipe	Ummon
+1907	Majboos (ummoncha)	Omani majboos	Ummon
+1908	Mashuai	Mashuai recipe	Ummon
+1909	Omani halwa	Omani halwa recipe	Ummon
+1910	Harees (ummoncha)	Omani harees	Ummon
+1911	Kahwa (ummoncha)	Omani kahwa	Ummon
+1912	Saltah	Saltah recipe	Yaman
+1913	Fahsa	Fahsa recipe	Yaman
+1914	Mandi (yamancha)	Yemeni mandi	Yaman
+1915	Bint al-sahn	Bint al sahn recipe	Yaman
+1916	Shafut	Shafut recipe	Yaman
+1917	Zurbian	Zurbian recipe	Yaman
+1918	Aseeda	Aseeda recipe	Yaman
+1919	Yaman qahvasi (qishr)	Qishr recipe	Yaman
+1920	Koshari	Кошари рецепт	Misr
+1921	Ful medames	Ful medames recipe	Misr
+1922	Ta'ameya	Ta'ameya recipe	Misr
+1923	Molokhia	Molokhia recipe	Misr
+1924	Mahshi	Mahshi recipe	Misr
+1925	Fattah (misrcha)	Egyptian fattah	Misr
+1926	Hawawshi	Hawawshi recipe	Misr
+1927	Feteer meshaltet	Feteer meshaltet recipe	Misr
+1928	Om Ali	Om Ali recipe	Misr
+1929	Basbousa (misrcha)	Basbousa recipe	Misr
+1930	Konafa (misrcha)	Egyptian konafa	Misr
+1931	Roz bel laban	Roz bel laban recipe	Misr
+1932	Hibiscus (karkade)	Karkade recipe	Misr
+1933	Sahlab	Sahlab recipe	Misr
+1934	Yasmiq sho'rva (misrcha)	Egyptian lentil soup recipe	Misr
+1935	Kofta (misrcha)	Egyptian kofta	Misr
+1936	Bamia (misrcha)	Egyptian bamia	Misr
+1937	Eish baladi	Eish baladi recipe	Misr
+1938	Pelmen	Пельмени	Rossiya
+1939	Blin	Блины	Rossiya
+1940	Sirniki	Сырники	Rossiya
+1941	Olivye salati	Оливье	Rossiya
+1942	Okroshka	Окрошка	Rossiya
+1943	Shchi	Щи	Rossiya
+1944	Solyanka	Солянка	Rossiya
+1945	Bef stroganov	Бефстроганов	Rossiya
+1946	Golubsy	Голубцы	Rossiya
+1947	Kotlet	Котлеты домашние	Rossiya
+1948	Kartoshka pyuresi	Картофельное пюре	Rossiya
+1949	Grechka go'sht bilan	Гречка с мясом	Rossiya
+1950	Manniy bo'tqa	Манная каша	Rossiya
+1951	Pirojki	Пирожки	Rossiya
+1952	Vinegret	Винегрет	Rossiya
+1953	Seld pod shuboy	Селёдка под шубой	Rossiya
+1954	Uxa	Уха	Rossiya
+1955	Kulebyaka	Кулебяка	Rossiya
+1956	Vareniki gilos bilan	Вареники с вишней	Rossiya
+1957	Medovik	Медовик	Rossiya
+1958	Napoleon	Торт Наполеон	Rossiya
+1959	Kissel	Кисель	Rossiya
+1960	Mors	Морс	Rossiya
+1961	Uy kvasi	Квас	Rossiya
+1962	Draniki (ruscha)	Драники	Rossiya
+1963	Makaron po-flotski	Макароны по-флотски	Rossiya
+1964	Tovuq lapsha sho'rva	Куриный суп с лапшой	Rossiya
+1965	Zapekanka	Творожная запеканка	Rossiya
+1966	Oladyi	Оладьи	Rossiya
+1967	Kotlet po-kiyevski	Котлета по-киевски	Rossiya
+1968	Borsh	Борщ украинский	Ukraina
+1969	Varenik kartoshkali	Вареники с картошкой	Ukraina
+1970	Varenik tvoroqli	Вареники с творогом	Ukraina
+1971	Galushki	Галушки	Ukraina
+1972	Deruny	Деруны	Ukraina
+1973	Holodets	Холодец	Ukraina
+1974	Kotlet po-kiyevski (Kiyev kotleti)	Котлета по-киевски	Ukraina
+1975	Kapustnyak	Капустняк	Ukraina
+1976	Grechaniki	Гречаники	Ukraina
+1977	Banush	Банош	Ukraina
+1978	Kruchenyky	Крученики	Ukraina
+1979	Uzvar	Узвар	Ukraina
+1980	Pampushki	Пампушки	Ukraina
+1981	Syrnyky (ukraincha)	Сырники	Ukraina
+1982	Kartoplyanyky	Картопляники	Ukraina
+1983	Zrazy	Зразы	Ukraina
+1984	Lavlagi salati	Салат из свёклы	Ukraina
+1985	Kulish	Кулиш	Ukraina
+1986	Nalisniki	Налистники	Ukraina
+1987	Kiyev torti	Киевский торт	Ukraina
+1988	Makovnik	Маковник	Ukraina
+1989	Pirogi olmali (sharlotka)	Шарлотка	Ukraina
+1990	Kompot olmali	Компот из яблок	Ukraina
+1991	Kisil	Кисель	Ukraina
+1992	Yashil borsh	Зелёный борщ	Ukraina
+1993	Galushki tvoroqli (linivi varenyky)	Ленивые вареники	Ukraina
+1994	Kotlet tovuqli	Куриные котлеты	Ukraina
+1995	Kartoshka smetanada	Картошка в сметане	Ukraina
+1996	Pechene jigar	Печёночные оладьи	Ukraina
+1997	Bograch	Бограч	Ukraina
+1998	Draniki	Драники	Belarus
+1999	Machanka	Мачанка	Belarus
+2000	Kolduny	Колдуны	Belarus
+2001	Babka	Бабка картофельная	Belarus
+2002	Kletski	Клёцки	Belarus
+2003	Xolodnik	Холодник	Belarus
+2004	Zrazy (belaruscha)	Зразы	Belarus
+2005	Pyachisto	Печисто	Belarus
+2006	Bulbyanka (kartoshka sho'rva)	Бульбянка	Belarus
+2007	Kalduny (go'shtli kartoshka)	Колдуны	Belarus
+2008	Verashchaka	Верещака	Belarus
+2009	Blinchiki (belaruscha)	Блины	Belarus
+2010	Kotlet (belaruscha)	Котлеты	Belarus
+2011	Grechnevaya kasha	Гречневая каша	Belarus
+2012	Nordon karam sho'rvasi	Кислые щи	Belarus
+2013	Pirojki karamli	Пирожки с капустой	Belarus
+2014	Tvorog bilan blin	Блины с творогом	Belarus
+2015	Kissel klyukvali	Клюквенный кисель	Belarus
+2016	Kvas (belaruscha)	Квас	Belarus
+2017	Kompot (belaruscha)	Компот	Belarus
+2018	Kartofelnye kotlety	Картофельные котлеты	Belarus
+2019	Zelyonye shchi	Зелёные щи	Belarus
+2020	Kartoshkali blin	Картофельные блины	Belarus
+2021	Asalli issiq ichimlik	Медовый напиток	Belarus
+2022	Qo'ziqorin sho'rva	Грибной суп	Belarus
+2023	Lazanki	Лазанки	Belarus
+2024	Olmali pirog (sharlotka)	Шарлотка	Belarus
+2025	Sochnik	Сочни с творогом	Belarus
+2026	Kotlet baliqli	Рыбные котлеты	Belarus
+2027	Kalduny pechda	Колдуны в горшочках	Belarus
+2028	Menemen	Менемен	Turkiya
+2029	Yasmiq sho'rva (mercimek)	Мерджимек чорбасы	Turkiya
+2030	Iskandar kabob	Искендер кебаб	Turkiya
+2031	Adana kabob	Адана кебаб	Turkiya
+2032	Doner (uyda)	Донер кебаб	Turkiya
+2033	Lahmajun	Лахмаджун	Turkiya
+2034	Pide	Пиде	Turkiya
+2035	Kofte	Кёфте	Turkiya
+2036	Imam bayildi	Имам баялды	Turkiya
+2037	Karniyarik	Карныярык	Turkiya
+2038	Manti (turkcha)	Турецкие манты	Turkiya
+2039	Sigara byoregi	Сигара бёрек	Turkiya
+2040	Byorek	Бёрек	Turkiya
+2041	Simit	Симит	Turkiya
+2042	Chorba ezogelin	Эзогелин чорба	Turkiya
+2043	Kuru fasulye	Куру фасулье	Turkiya
+2044	Pilav (turkcha)	Турецкий пилав	Turkiya
+2045	Choban salati	Чобан салатасы	Turkiya
+2046	Cacik	Джаджик	Turkiya
+2047	Paxlava	Пахлава	Turkiya
+2048	Kunefe	Кюнефе	Turkiya
+2049	Sutlach	Сютлач	Turkiya
+2050	Lokum	Рахат-лукум	Turkiya
+2051	Asure	Ашуре	Turkiya
+2052	Revani	Ревани	Turkiya
+2053	Turk choyi	Турецкий чай	Turkiya
+2054	Turk qahvasi	Турецкий кофе	Turkiya
+2055	Ayran (turkcha)	Айран	Turkiya
+2056	Gozleme	Гёзлеме	Turkiya
+2057	Tavuk shish	Тавук шиш	Turkiya
+2058	Xummus	Хумус	Arab davlatlari
+2059	Falafel	Фалафель	Arab davlatlari
+2060	Tovuq shaurma	Шаурма с курицей	Arab davlatlari
+2061	Kabsa	Кабса	Arab davlatlari
+2062	Mandi	Манди	Arab davlatlari
+2063	Maqluba	Маклюба	Arab davlatlari
+2064	Tabule	Табуле	Arab davlatlari
+2065	Fattush	Фаттуш	Arab davlatlari
+2066	Mutabbal (baba ganush)	Баба гануш	Arab davlatlari
+2067	Shish tavuq	Шиш таук	Arab davlatlari
+2068	Kibbe	Кеббе	Arab davlatlari
+2069	Ful medames	Фуль медамес	Arab davlatlari
+2070	Shakshuka	Шакшука	Arab davlatlari
+2071	Koshari	Кушари	Arab davlatlari
+2072	Molokhiya	Мулухия	Arab davlatlari
+2073	Mansaf	Мансаф	Arab davlatlari
+2074	Musakhan	Мусахан	Arab davlatlari
+2075	Manakish	Манакиш	Arab davlatlari
+2076	Fatayer	Фатайер	Arab davlatlari
+2077	Ouzi	Узи	Arab davlatlari
+2078	Lentil sho'rva (shorbat adas)	Шорбат адас	Arab davlatlari
+2079	Kunafa	Кунафа	Arab davlatlari
+2080	Basbusa	Басбуса	Arab davlatlari
+2081	Luqaymat	Лукаймат	Arab davlatlari
+2082	Maamul	Маамуль	Arab davlatlari
+2083	Umm Ali	Умм Али	Arab davlatlari
+2084	Arab qahvasi	Арабский кофе	Arab davlatlari
+2085	Yalpizli choy	Мятный чай	Arab davlatlari
+2086	Laban ayran	Лабан	Arab davlatlari
+2087	Xurmo sharbati (jallab)	Джаллаб	Arab davlatlari
+2088	Toshkent oshi	Ташкентский плов	O'zbekiston
+2089	Samarqand oshi	Самаркандский плов	O'zbekiston
+2090	Farg'ona oshi	Ферганский плов	O'zbekiston
+2091	Buxoro oshi	Бухарский плов	O'zbekiston
+2092	Xorazm oshi	Хорезмский плов	O'zbekiston
+2093	Kovurma palov (choyxona oshi)	Чайханский плов	O'zbekiston
+2094	Qovurma lag'mon	Ковурма лагман	O'zbekiston
+2095	Suyuq lag'mon	Лагман суп	O'zbekiston
+2096	Manti	Манты	O'zbekiston
+2097	Qovoqli manti	Манты с тыквой	O'zbekiston
+2098	Chuchvara	Чучвара	O'zbekiston
+2099	Chuchvara sho'rva	Чучвара суп	O'zbekiston
+2100	Tandir somsa	Самса узбекская	O'zbekiston
+2101	Qatlama somsa	Слоёная самса	O'zbekiston
+2102	Ko'k somsa	Самса с зеленью	O'zbekiston
+2103	Qovoq somsa	Самса с тыквой	O'zbekiston
+2104	Shashlik	Шашлык узбекский	O'zbekiston
+2105	Jigar kabob	Шашлык из печени	O'zbekiston
+2106	Lula kabob	Люля-кебаб	O'zbekiston
+2107	Norin	Нарын	O'zbekiston
+2108	Dimlama	Димлама	O'zbekiston
+2109	Qozon kabob	Казан-кабоб	O'zbekiston
+2110	Tandir go'sht	Тандыр гушт	O'zbekiston
+2111	Jiz	Жиз	O'zbekiston
+2112	Do'lma	Долма узбекская	O'zbekiston
+2113	Mastava	Мастава	O'zbekiston
+2114	Qaynatma sho'rva	Шурпа узбекская	O'zbekiston
+2115	Qovurma sho'rva	Жареная шурпа	O'zbekiston
+2116	Moshxo'rda	Машхурда	O'zbekiston
+2117	Moshkichiri	Машкичири	O'zbekiston
+2118	Xonim	Ханум	O'zbekiston
+2119	Tuxum barak	Тухум барак	O'zbekiston
+2120	Shivit oshi	Шивит оши	O'zbekiston
+2121	Halim	Халим	O'zbekiston
+2122	Shirguruch	Шир гуруч	O'zbekiston
+2123	Quymoq	Куймак	O'zbekiston
+2124	Qatlama	Катлама	O'zbekiston
+2125	Patir non	Патыр	O'zbekiston
+2126	Obi non	Оби нон	O'zbekiston
+2127	Achchiq-chuchuk	Салат Аччик-чучук	O'zbekiston
+2128	Toshkent salati	Салат Ташкент	O'zbekiston
+2129	Chalop	Чалоп	O'zbekiston
+2130	Ayron	Айран	O'zbekiston
+2131	Ko'k choy	Зеленый чай по-узбекски	O'zbekiston
+2132	Qora choy limon bilan	Черный чай с лимоном	O'zbekiston
+2133	Mevali kompot	Компот	O'zbekiston
+2134	Chak-chak	Чак-чак	O'zbekiston
+2135	Un halvasi	Халва из муки	O'zbekiston
+2136	Nisholda	Нишалда	O'zbekiston
+2137	Sumalak	Сумаляк	O'zbekiston
+2138	Parvarda	Парварда	O'zbekiston
+2139	Bug'irsoq	Баурсаки	O'zbekiston
+2140	Hasib	Хасып	O'zbekiston
+2141	Qazi	Казы	O'zbekiston
+2142	Kartoshkali chuchvara (pirojki)	Пирожки с картошкой	O'zbekiston
+2143	Gumma	Гумма	O'zbekiston
+2144	Ugra osh	Угра оши	O'zbekiston
+2145	Ko'za sho'rva	Кузя шурпа	O'zbekiston
+2146	Baliq qovurma	Жареная рыба по-узбекски	O'zbekiston
+2147	Bodring salat (qatiqli)	Салат из огурцов с катыком	O'zbekiston

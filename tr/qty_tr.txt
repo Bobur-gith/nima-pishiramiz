@@ -1,0 +1,185 @@
+3 xil	3 сорта	3 kinds
+achitilgan	ферментированные	fermented
+achitilgan quruq	квашеные сушёные	fermented, dried
+anchous	анчоусы	anchovies
+aralash	ассорти	mixed
+arborio	арборио	arborio
+baget	багет	baguette
+baladi	балади	baladi
+baton	батон	loaf
+binafsha	фиолетовая	purple
+bob	бобы	fava
+bob, quruq	бобы, сухие	fava, dried
+bob, xom	бобы, сырые	fava, raw
+bodom	миндальная	almond
+boerewors	бурворс	boerewors
+brinza	брынза	feta
+bug'u yoki mol, yupqa	оленина или говядина, тонко	reindeer or beef, thin
+bulochka	булочки	buns
+butun	целый	whole
+buyvol yoki mol	буйвол или говядина	buffalo or beef
+buzoq	телятина	veal
+buzoq son	телячья голяшка	veal shank
+chambo	чамбо	chambo
+chernika	черника	blueberries
+dudlangan	копчёный	smoked
+dudlangan mol go'shti	копчёная говядина	smoked beef
+dudlangan qo'zi	копчёная баранина	smoked lamb
+dum	хвост	tail
+echki	козлятина	goat
+echki yoki mol	козлятина или говядина	goat or beef
+eriydigan	растворимый	instant
+ezilgan	пюре	mashed
+filesi	филе	fillet
+filo	фило	filo
+forel	форель	trout
+ftira	фтира	ftira
+gruyer	грюйер	gruyère
+guruch	рисовая	rice
+halloumi	халуми	halloumi
+har xil	разная	assorted
+ilish	илиш	hilsa
+ilonbaliq yoki losos	угорь или лосось	eel or salmon
+ingichka	тонкая	thin
+ivitilgan, xom	замоченный, сырой	soaked, raw
+jameed	джамид	jameed
+javdar	ржаной	rye
+juda yangi	очень свежая	very fresh
+kale	кейл	kale
+kannelloni	каннеллони	cannelloni
+karp	карп	carp
+kashk	кашк	kashk
+kassava	маниоки	cassava
+kassava kuskusi	кускус из маниоки	cassava couscous
+katta	большие	large
+kaymak	каймак	kaymak
+kefir	кефир	kefir
+keng	широкая	wide
+kicha	кича	kicha
+kichik	маленькие	small
+kichik yashil	маленькие зелёные	small green
+kilka	килька	sprats
+ko'k	зелёная	green
+ko'k yorma	зелёный колотый	green split
+konservalangan	консервированное	canned
+krem-pishloq	или сливочный сыр	or cream cheese
+kukun	порошок	powder
+kulrang	серый	grey
+kurka	индейка	turkey
+lahoh	лахох	lahoh
+lazanya	лазанья	lasagna
+lazanya listi	листы лазаньи	lasagna sheets
+lepinja	лепиня	lepinja
+losos	лосось	salmon
+malsouka	мальсука	malsouka
+marinadlangan	маринованный	pickled
+mayda	мелкая	small
+mayda quritilgan	мелкая сушёная	small dried
+maydalangan	молотые	ground
+mayin	мелкий	fine
+mol	говядина	beef
+mol filesi	говяжья вырезка	beef tenderloin
+morosh	морошка	cloudberries
+mozzarella	моцарелла	mozzarella
+muzlatilgan	замороженное	frozen
+nabulsi	набулси	nabulsi
+o'rik	абрикосовый	apricot
+och qovurilgan	светлой обжарки	light roast
+olxo'ri	сливовый	plum
+oq	белая	white
+oq ko'zli	чёрноглазая	black-eyed
+oqsili	белки	whites
+oyoq	ножка	leg
+oyoq, suyak bilan	ножки, с костями	trotters, bone-in
+paneer	панир	paneer
+panko	панко	panko
+parmezan	пармезан	parmesan
+pekin	пекинская	napa
+petrushka, kashnich, ko'k piyoz	петрушка, кинза, зелёный лук	parsley, cilantro, spring onion
+picanha	пиканья	picanha
+pishgan	варёный	cooked
+pishgan, sovuq	варёный, холодный	cooked, cold
+pishirilgan	запечённый	baked
+pita	пита	pita
+porey	порей	leek
+provolone	проволоне	provolone
+pyure	пюре	purée
+qarsildoq	хрустящий	crispy
+qatlama	слоёное	puff
+qatlama xamir	слоёное тесто	puff pastry
+qattiq	твёрдый	hard
+qaynatilgan	варёное	boiled
+qirilgan	тёртый	grated
+qiyma	фарш	mince
+qizil	красный	red
+qo'y	баранина	lamb
+qo'zi	ягнёнок	lamb
+qo'zi oyog'i	баранья нога	leg of lamb
+qo'zi yoki buzoq	ягнёнок или телятина	lamb or veal
+qora	чёрная	black
+qora, quruq	чёрные, сушёные	black, dried
+qotgan	чёрствый	stale
+qovurg'a	рёбрышки	ribs
+qovurilgan	обжаренный	toasted
+qovurilgan tariq	обжаренное просо	toasted millet
+quritilgan	сушёный	dried
+quritilgan treska	сушёная треска	dried cod
+quritilgan yoki qaynatilgan	вяленое или варёное	dried or boiled
+quruq	сушёный	dried
+quyuq	густой	thick
+raklet	раклет	raclette
+sardina	сардины	sardines
+sarig'i	желтки	yolks
+sariq	жёлтый	yellow
+seld	сельдь	herring
+seld, tuzlangan	сельдь солёная	salted herring
+selim	селим	selim pepper
+sepiladigan	посыпка	sprinkles
+shirin	сладкий	sweet
+shisha	стеклянная	glass
+singan	дроблёный	broken
+solod	солодовый	malted
+somun	сомун	somun
+sushi	для суши	sushi
+suyakli	на кости	bone-in
+taboon	табун	taboon
+tariq	просо	millet
+tilapiya	тилапия	tilapia
+to'liq	цельнозерновая	wholemeal
+tomat sousida	в томатном соусе	in tomato sauce
+tovuq	курица	chicken
+treska	треска	cod
+tunets	тунец	tuna
+tuzlangan	солёный	salted
+tvorog donachalari	сырные зёрна	cheese curds
+un	мука	flour
+undirilgan	пророщенная	sprouted
+uvoq	панировка	crumbs
+uzun	длинная	long
+yangi	свежий	fresh
+yangi, mayin qiyma	свежий, мелкий фарш	fresh, finely minced
+yarmi tuzlangan	половина квашеная	half sauerkraut
+yashil	зелёный	green
+yirik	крупный	coarse
+yog'siz	обезжиренное	skimmed
+yoki bulgur	или булгур	or bulgur
+yoki buzoq	или телятина	or veal
+yoki midiya	или мидии	or mussels
+yoki yufka	или юфка	or yufka
+yopishqoq	клейкий	glutinous
+yorma	колотый	split
+yufka	юфка	yufka
+yumshoq	мягкий	soft
+yupqa	тонко нарезанное	thinly sliced
+yupqa tilim	тонкие ломтики	thin slices
+bir	один	one
+espresso	эспрессо	espresso
+kashnich	кинза	cilantro
+kashnich petrushka	кинза, петрушка	cilantro, parsley
+ozgina	немного	a little
+paket	пакетик	bag
+petrushka	петрушка	parsley
+po'stlog'i	цедра	zest
+qatlam	слоёв	layers
+tilim	ломтика	slices
+ukrop	укроп	dill
