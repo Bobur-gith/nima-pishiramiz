@@ -189,7 +189,7 @@ footer{color:var(--muted);font-size:12px;padding-bottom:calc(36px + env(safe-are
 .steps li{display:flex;gap:12px;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;transition:opacity .2s}
 .steps li.done{opacity:.5}
 .steps li.done .tx{text-decoration:line-through}
-.n{width:32px;height:32px;flex:none;border:0;border-radius:10px;background:var(--saffron-soft);color:var(--saffron-ink);font-family:var(--f-d);font-weight:800;display:grid;place-items:center}
+.steps .n{width:32px;height:32px;flex:none;border:0;border-radius:10px;background:var(--saffron-soft);color:var(--saffron-ink);font-family:var(--f-d);font-weight:800;display:grid;place-items:center}
 .done .n{background:var(--herb);color:var(--herb-ink)}
 .tx{flex:1;min-width:0;padding-top:4px}
 .tm{display:inline-flex;align-items:center;gap:6px;margin-top:8px;height:32px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg);font-size:13px;font-weight:700;font-variant-numeric:tabular-nums}

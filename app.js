@@ -6,6 +6,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>String(s).toLowerCase().replace(/[ʻʼ‘’`´]/g,"'").replace(/ё/g,"е").replace(/\s+/g," ").trim();
 const store={get(k,d){try{const v=localStorage.getItem("np:"+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem("np:"+k,JSON.stringify(v))}catch(e){}}};
 const T=window.I18N||{C:{},I:{},W:{},S:{},N:{}};
+{const X=DB.x||{};for(const k of ["C","I","S","N"])T[k]=Object.assign({},T[k]||{},X[k]||{})}
 
 /* ---------- language ---------- */
 const LANGS=["uz","ru","en"];
@@ -13,11 +14,11 @@ let lang=store.get("lang",null);
 if(!LANGS.includes(lang)){const nl=(navigator.language||"uz").slice(0,2);lang=nl==="ru"?"ru":nl==="en"?"en":"uz"}
 const LI=()=>lang==="ru"?0:1;
 const UI={
- uz:{title:"Nima pishiramiz?",stat:(a,b)=>`${a} ta taom · ${b} davlat`,
+ uz:{title:"Nima pishiramiz?",stat:(a,b,c)=>`${a} ta taom · ${b} davlat`+(c?` · ${c} avtonomiya`:""),
   q1:"Qaysi davlat taomini yemoqchisiz?",q2:"Qaysi vaqt uchun taom kerak?",q3:"Quyuq taommi yoki suyuq?",q4:"Uyingizda nimalar bor?",
   world:"Butun dunyo",anyMeal:"Istalgan",anyType:"Farqi yo'q",quyuq:"Quyuq",suyuq:"Suyuq",
   meals:{nonushta:"Nonushta",tushlik:"Tushlik",kechki:"Kechki ovqat",shirinlik:"Shirinlik",ichimlik:"Ichimlik"},
-  regions:{"MDH":"MDH","Yevropa":"Yevropa","Osiyo":"Osiyo","Yaqin Sharq":"Yaqin Sharq","Afrika":"Afrika","Amerika":"Amerika","Okeaniya":"Okeaniya"},
+  regions:{"MDH":"MDH","Avtonomiyalar":"Avtonomiyalar","Yevropa":"Yevropa","Osiyo":"Osiyo","Yaqin Sharq":"Yaqin Sharq","Afrika":"Afrika","Amerika":"Amerika","Okeaniya":"Okeaniya"},
   allOf:r=>`Butun ${r}`,search:"Davlatni qidiring…",dishes:n=>`${n} ta taom`,
   ph:"masalan: tuxum, kartoshka, piyoz",add:"Qo'shish",clear:"Tozalash",remove:"olib tashlash",
   note:"Tuz, suv, yog' va murch doim bor deb hisoblanadi.",
@@ -31,11 +32,11 @@ const UI={
   filters:"Filtrlar",change:"O'zgartirish",
   foot:"Suratlar avtomatik ravishda Wikipedia va Wikimedia Commons'dan (erkin litsenziya) olinadi. «Tayyorlanish videosi» tugmasi YouTube'da shu taom retseptlarini ochadi.",
   min:"daq",hr:"soat",day:"kun",yt:" retsepti",desc:"Uyda bor masalliqlarni yozing — 195 davlatdan 2100 dan ortiq taomdan qaysi birini pishirish mumkinligini ko'ring."},
- ru:{title:"Что приготовить?",stat:(a,b)=>`${a} блюд · ${b} стран`,
+ ru:{title:"Что приготовить?",stat:(a,b,c)=>`${a} блюд · ${b} стран`+(c?` · ${c} автономий`:""),
   q1:"Блюдо какой страны хотите?",q2:"На какое время нужно блюдо?",q3:"Густое блюдо или жидкое?",q4:"Что у вас есть дома?",
   world:"Весь мир",anyMeal:"Любое",anyType:"Неважно",quyuq:"Густое",suyuq:"Жидкое",
   meals:{nonushta:"Завтрак",tushlik:"Обед",kechki:"Ужин",shirinlik:"Десерт",ichimlik:"Напиток"},
-  regions:{"MDH":"СНГ","Yevropa":"Европа","Osiyo":"Азия","Yaqin Sharq":"Ближний Восток","Afrika":"Африка","Amerika":"Америка","Okeaniya":"Океания"},
+  regions:{"MDH":"СНГ","Avtonomiyalar":"Автономии","Yevropa":"Европа","Osiyo":"Азия","Yaqin Sharq":"Ближний Восток","Afrika":"Африка","Amerika":"Америка","Okeaniya":"Океания"},
   allOf:r=>`Вся ${r}`,search:"Найти страну…",dishes:n=>`${n} блюд`,
   ph:"например: яйца, картошка, лук",add:"Добавить",clear:"Очистить",remove:"убрать",
   note:"Соль, вода, масло и перец считаются всегда в наличии.",
@@ -49,11 +50,11 @@ const UI={
   filters:"Фильтры",change:"Изменить",
   foot:"Фото подгружаются автоматически из Википедии и Wikimedia Commons (свободные лицензии). Кнопка «Видео рецепта» открывает рецепты этого блюда на YouTube.",
   min:"мин",hr:"ч",day:"дн",yt:" рецепт",desc:"Напишите, какие продукты есть дома, — и узнайте, какие из 2100+ блюд 195 стран можно приготовить."},
- en:{title:"What to cook?",stat:(a,b)=>`${a} dishes · ${b} countries`,
+ en:{title:"What to cook?",stat:(a,b,c)=>`${a} dishes · ${b} countries`+(c?` · ${c} autonomies`:""),
   q1:"Which country's food do you want?",q2:"What meal is it for?",q3:"Thick dish or soupy?",q4:"What do you have at home?",
   world:"Whole world",anyMeal:"Any",anyType:"Either",quyuq:"Thick",suyuq:"Soupy",
   meals:{nonushta:"Breakfast",tushlik:"Lunch",kechki:"Dinner",shirinlik:"Dessert",ichimlik:"Drink"},
-  regions:{"MDH":"CIS","Yevropa":"Europe","Osiyo":"Asia","Yaqin Sharq":"Middle East","Afrika":"Africa","Amerika":"Americas","Okeaniya":"Oceania"},
+  regions:{"MDH":"CIS","Avtonomiyalar":"Autonomies","Yevropa":"Europe","Osiyo":"Asia","Yaqin Sharq":"Middle East","Afrika":"Africa","Amerika":"Americas","Okeaniya":"Oceania"},
   allOf:r=>`All of ${r}`,search:"Search country…",dishes:n=>`${n} dishes`,
   ph:"e.g. eggs, potatoes, onion",add:"Add",clear:"Clear",remove:"remove",
   note:"Salt, water, oil and pepper are assumed to be at hand.",
@@ -76,7 +77,7 @@ const trW=w=>lang==="uz"?w:((T.W[w]||[])[LI()]||w);
 const UNIT={ta:["шт.",["pc","pcs"]],dona:["шт.",["pc","pcs"]],g:["г","g"],kg:["кг","kg"],ml:["мл","ml"],l:["л","l"],sm:["см","cm"],m:["м","m"],
  "osh qoshiq":["ст. л.","tbsp"],"choy qoshiq":["ч. л.","tsp"],stakan:["стак.",["cup","cups"]],"bo'lak":["кус.",["piece","pieces"]],varaq:["лист.",["sheet","sheets"]],
  bosh:["гол.",["head","heads"]],dasta:["пуч.",["bunch","bunches"]],tilim:["ломт.",["slice","slices"]],tayoqcha:["палоч.",["stick","sticks"]],banka:["банк.",["can","cans"]],
- barg:["лист",["leaf","leaves"]],paket:["пакет",["packet","packets"]],baton:["батон",["loaf","loaves"]],qatlam:["пласт",["sheet","sheets"]],espresso:["эспрессо","espresso"],
+ barg:["лист",["leaf","leaves"]],shox:["вет.",["sprig","sprigs"]],poya:["стеб.",["stalk","stalks"]],paket:["пакет",["packet","packets"]],baton:["батон",["loaf","loaves"]],qatlam:["пласт",["sheet","sheets"]],espresso:["эспрессо","espresso"],
  "porsiya espresso":["порц. эспрессо","shot espresso"],"bir dasta":["1 пучок","1 bunch"],"dasta ukrop":["пучок укропа","bunch of dill"],chimdim:["щепотка","pinch"],
  "bir oz":["немного","a little"],ozgina:["немного","a little"],"sepish uchun":["для посыпки","for sprinkling"],dasturxonga:["для подачи","to serve"],"ta'bga":["по вкусу","to taste"],
  "po'stlog'i":["цедра","zest"],quruq:["сухой","dry"],kashnich:["кинза","coriander"],petrushka:["петрушка","parsley"],"kashnich, petrushka":["кинза, петрушка","coriander, parsley"]};
@@ -92,7 +93,7 @@ const slug=s=>norm(s).replace(/'/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$
 const MEALMAP={n:"nonushta",t:"tushlik",k:"kechki",s:"shirinlik",i:"ichimlik"};
 const ALL=[];const used=new Set();
 const OLDREG={"O'zbekiston":"MDH","Qozog'iston":"MDH","Qirg'iziston":"MDH","Tojikiston":"MDH","Turkmaniston":"MDH","Rossiya":"MDH","Ukraina":"MDH","Belarus":"MDH","Ozarbayjon":"MDH","Gruziya":"MDH","Armaniston":"MDH","Moldova":"MDH","Turkiya":"Yaqin Sharq","Arab davlatlari":"Yaqin Sharq","Xitoy":"Osiyo","Koreya":"Osiyo","Yaponiya":"Osiyo","Hindiston":"Osiyo","Italiya":"Yevropa","Fransiya":"Yevropa","Ispaniya":"Yevropa","Germaniya":"Yevropa","Gretsiya":"Yevropa","Meksika":"Amerika","AQSh":"Amerika"};
-const REGIONS=["MDH","Yevropa","Osiyo","Yaqin Sharq","Afrika","Amerika","Okeaniya"];
+const REGIONS=["MDH","Avtonomiyalar","Yevropa","Osiyo","Yaqin Sharq","Afrika","Amerika","Okeaniya"];
 const REGION={};DB.list.forEach(([c,,,r])=>REGION[c]=OLDREG[c]||r||"Osiyo");
 DB.list.sort((a,b)=>REGIONS.indexOf(REGION[a[0]])-REGIONS.indexOf(REGION[b[0]]));
 for(const [country,flag,list] of DB.list){
@@ -134,42 +135,11 @@ const PAL={quyuq:["#f0a53a","#c4572b"],suyuq:["#3a9a77","#1f5f6b"],shirin:["#e07
 const kind=d=>d.meals.includes("ichimlik")?"ichim":d.meals.includes("shirinlik")?"shirin":d.type;
 function tile(d){const p=PAL[kind(d)];return `<div class="tile" style="--c1:${p[0]};--c2:${p[1]}"><span class="fl">${d.flag}</span><b>${esc(dn(d))}</b><i>${t()[d.type]} · ${fmtTime(d.time)}</i></div>`}
 
-/* ---------- photos: every dish gets its own pictures ---------- */
-const BAD=/\.svg|map|flag|logo|icon|coat_of|locator|diagram|emblem|signature|portrait|stamp|seal_of|banknote|coin|\.gif|\.tif/i;
-const GENERIC=/cuisine|culture|food of|dishes|breakfast$|^en:(bread|tea|coffee|soup|salad|stew|cake|porridge)$/i;
-const GROUP={};ALL.forEach(d=>{if(d.wiki&&!GENERIC.test(d.wiki))(GROUP[d.wiki]=GROUP[d.wiki]||[]).push(d.id)});
-let claims=store.get("claims4",{});let saveT;
-const saveClaims=()=>{clearTimeout(saveT);saveT=setTimeout(()=>store.set("claims4",claims),400)};
-const memo={},mlMemo={};let active=0;const queue=[];
-function pump(){while(active<4&&queue.length){const j=queue.shift();active++;j().finally(()=>{active--;pump()})}}
-const abs=s=>s.startsWith("//")?"https:"+s:s;
-function mediaList(wiki){if(mlMemo[wiki])return mlMemo[wiki];
-  const [lg,title]=wiki.includes(":")?wiki.split(/:(.+)/):["en",wiki];
-  return mlMemo[wiki]=fetch(`https://${lg}.wikipedia.org/api/rest_v1/page/media-list/${encodeURIComponent(title.replace(/ /g,"_"))}`)
-    .then(r=>r.ok?r.json():{items:[]}).then(j=>(j.items||[]).filter(it=>it.type==="image"&&!BAD.test(it.title||"")).map(it=>{const s=(it.srcset||[]).slice(-1)[0];return s&&s.src?abs(s.src):null}).filter(Boolean)).catch(()=>[])}
-function commons(q){return fetch("https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrnamespace=6&gsrlimit=20&gsrsearch="+encodeURIComponent(q+" filetype:bitmap")+"&prop=imageinfo&iiprop=url|mime&iiurlwidth=800")
-  .then(r=>r.ok?r.json():{}).then(j=>Object.values((j.query||{}).pages||{}).sort((a,b)=>(a.index||0)-(b.index||0)).filter(p=>!BAD.test(p.title)).map(p=>(p.imageinfo||[])[0]).filter(ii=>ii&&/jpe?g|png|webp/.test(ii.mime)&&ii.thumburl).map(ii=>ii.thumburl)).catch(()=>[])}
-const free=(u,id)=>!claims[u]||claims[u]===id;
-function photosFor(d){
-  if(memo[d.id])return memo[d.id];
-  const ck="ph4:"+d.id,c=store.get(ck,null);
-  if(c&&c.every(u=>free(u,d.id))){c.forEach(u=>claims[u]=d.id);return memo[d.id]=Promise.resolve(c)}
-  return memo[d.id]=new Promise(res=>{queue.push(async()=>{let cand=[],rest=[];
-    try{
-      const g=d.wiki&&GROUP[d.wiki];
-      if(g){const items=await mediaList(d.wiki);const k=g.indexOf(d.id);
-        if(k<3){cand.push(...items.slice(k*3,k*3+3));rest=items.slice(0,k*3).concat(items.slice(k*3+3))}else rest=items}
-      if(cand.filter(u=>free(u,d.id)).length<3){
-        const nm=(d.nen||d.q.replace(/\s*(recipe|рецепт)$/i,"")).replace(/\s*\(.*\)$/,"");
-        cand.push(...await commons(nm+" food"));
-        if(cand.filter(u=>free(u,d.id)).length<3&&d.wiki){const tt=d.wiki.split(/:(.+)/)[1]||d.wiki;if(norm(tt)!==norm(nm))cand.push(...await commons(tt))}
-      }
-      cand.push(...rest);
-    }catch(e){}
-    const out=[];for(const u of cand){if(out.length>=3)break;if(!out.includes(u)&&free(u,d.id))out.push(u)}
-    out.forEach(u=>claims[u]=d.id);saveClaims();
-    if(out.length)store.set(ck,out);res(out)});pump()});
-}
+/* ---------- photos: checked in advance (tools/photos.mjs), each photo belongs to one dish only ---------- */
+const PH=window.PH||{};
+const fileUrl=(f,w)=>"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(f)+"?width="+(w||640);
+const memo={};
+function photosFor(d){if(memo[d.id])return memo[d.id];const l=(PH[d.country+"|"+d.name]||[]).map(f=>fileUrl(f));return memo[d.id]=Promise.resolve(l)}
 const io=("IntersectionObserver" in window)?new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);fillCover(e.target)})},{rootMargin:"300px"}):null;
 function fillCover(el){const d=BYID.get(el.dataset.cid);if(!d)return;
   photosFor(d).then(ph=>{if(!el.isConnected)return;const ld=el.querySelector(".ld");if(!ph.length){if(ld)ld.outerHTML=tile(d);return}
@@ -180,7 +150,7 @@ function renderStatic(){const u=t();
   document.documentElement.lang=lang;document.title=u.title;
   const md=document.querySelector('meta[name="description"]');md&&md.setAttribute("content",u.desc);
   $("#h1").textContent=u.title;
-  $("#stat").textContent=u.stat(ALL.length,COUNTRIES.filter(c=>c!=="Arab davlatlari").length);
+  $("#stat").textContent=u.stat(ALL.length,COUNTRIES.filter(c=>c!=="Arab davlatlari"&&REGION[c]!=="Avtonomiyalar").length,COUNTRIES.filter(c=>REGION[c]==="Avtonomiyalar").length);
   $("#q1").textContent=u.q1;$("#q2").textContent=u.q2;$("#q3").textContent=u.q3;$("#q4").textContent=u.q4;
   $("#q").placeholder=u.ph;$("#q").setAttribute("aria-label",u.q4);$("#add").textContent=u.add;$("#clr").textContent=u.clear;$("#note").textContent=u.note;
   $("#foot").textContent=u.foot;$("#pkTitle").textContent=u.q1;$("#pkSearch").placeholder=u.search;$("#pkClose").setAttribute("aria-label",u.close);
@@ -283,7 +253,7 @@ function openDish(id,keep){
   if(y)$("#sheet .sc").scrollTop=y;
   photosFor(d).then(ph=>{if(openId!==id)return;const tr=$("#track");if(!tr)return;
     if(!ph.length){tr.innerHTML=`<div class="slide">${tile(d)}</div>`;return}
-    tr.innerHTML=ph.map(s=>`<div class="slide"><img src="${s}" alt="${esc(dn(d))}"></div>`).join("");
+    tr.innerHTML=ph.map(s=>`<div class="slide"><img src="${s.replace("width=640","width=1000")}" alt="${esc(dn(d))}"></div>`).join("");
     $("#credit").textContent=u.photos;
     if(ph.length>1){$("#dots").innerHTML=ph.map((_,i)=>`<button data-dot="${i}" aria-label="${u.photoN(i+1)}" aria-current="${i===0}"></button>`).join("");
       tr.addEventListener("scroll",()=>{const i=Math.round(tr.scrollLeft/tr.clientWidth);document.querySelectorAll("#dots button").forEach((b,j)=>b.setAttribute("aria-current",i===j))},{passive:true})}

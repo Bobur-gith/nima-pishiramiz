@@ -1,8 +1,4 @@
 // Google orqali kirish + admin ruxsati (Firebase Auth + Firestore)
-import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import {getAuth,GoogleAuthProvider,signInWithPopup,signInWithRedirect,getRedirectResult,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import {getFirestore,doc,getDoc,setDoc,updateDoc,onSnapshot,collection,serverTimestamp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-
 const ADMIN="bob220396@gmail.com";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -76,6 +72,10 @@ const cfg=window.FIREBASE_CONFIG;
 if(!cfg||!cfg.apiKey){/* kirish hali sozlanmagan — ilova ochiq ishlaydi */document.body.classList.remove("locked");$("#gate").hidden=true;window.startApp&&window.startApp()}
 else{
   lock();
+  let fb;
+  try{fb=await Promise.all([import("https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"),import("https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"),import("https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js")])}
+  catch(e){errMsg=g().err;renderGate("out");throw e}
+  const [{initializeApp},{getAuth,GoogleAuthProvider,signInWithPopup,signInWithRedirect,getRedirectResult,onAuthStateChanged,signOut},{getFirestore,doc,getDoc,setDoc,updateDoc,onSnapshot,collection,serverTimestamp}]=fb;
   renderGate("wait");
   const app=initializeApp(cfg),auth=getAuth(app),db=getFirestore(app);
   const provider=new GoogleAuthProvider();provider.setCustomParameters({prompt:"select_account"});

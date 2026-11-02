@@ -6,7 +6,8 @@ import fs from 'node:fs';
 const UA = 'NimaPishiramizBot/1.0 (https://github.com/Bobur-gith/nima-pishiramiz)';
 const dishes = JSON.parse(fs.readFileSync('tools/dishes.json', 'utf8'));
 const log = [];
-const say = (...a) => { const s = a.join(' '); console.log(s); log.push(s); };
+fs.writeFileSync('tools/photo-log.txt', '');
+const say = (...a) => { const s = new Date().toISOString().slice(11, 19) + ' ' + a.join(' '); console.log(s); log.push(s); fs.appendFileSync('tools/photo-log.txt', s + '\n'); };
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function api(host, params) {
@@ -112,7 +113,7 @@ for (const [wiki, idx] of Object.entries(groups)) {
 }
 
 const cand = new Array(dishes.length);
-await pool(dishes.map((d, i) => i), 6, async i => {
+await pool(dishes.map((d, i) => i), 8, async i => {
   const d = dishes[i]; const out = { lead: [], name: [], cat: [] };
   const info = d.wiki ? articleInfo(d.wiki) : null;
   const specific = info && !info.generic;
@@ -121,7 +122,10 @@ await pool(dishes.map((d, i) => i), 6, async i => {
     if (info.w) out.lead.push(...info.w.p18);
   }
   const names = [...new Set([d.en, specific ? info.title : '', d.name, d.ru].map(clean).filter(x => x && norm(x).length >= 4))];
-  for (const n of names) out.name.push(...await search(n));
+  for (const [ni, n] of names.entries()) {
+    if (ni >= 2 && out.lead.length + out.name.filter(goodFile).length >= 4) break;
+    out.name.push(...await search(n));
+  }
   if (specific && info.w && info.w.p373) {
     const toks = new Set([...tokens(info.title), ...tokens(d.en), ...tokens(d.name), ...tokens(info.w.label)]);
     const files = await category(info.w.p373);
@@ -162,4 +166,4 @@ fs.writeFileSync('data/photos.js', 'window.PH=' + JSON.stringify(PH) + ';\n');
 const none = dishes.filter(d => !PH[d.k]), few = dishes.filter(d => PH[d.k] && PH[d.k].length < 3);
 say('with photos', Object.keys(PH).length, 'none', none.length, 'fewer than 3', few.length);
 fs.writeFileSync('tools/photo-report.json', JSON.stringify({ none: none.map(d => [d.c, d.name, d.en]), few: few.map(d => [d.c, d.name, d.en, PH[d.k].length]) }, null, 1));
-fs.writeFileSync('tools/photo-log.txt', log.join('\n'));
+
