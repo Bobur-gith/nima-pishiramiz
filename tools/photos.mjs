@@ -49,13 +49,17 @@ async function pool(items, n, fn) {
 const chunks = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 
 // things that are not a photo of food
-const BAD = /\b(map|flag|logo|icon|coat of arms|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|packag|advert|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|chicken farm|people|man|woman|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|restorant|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|tank|aircraft|ship)\b|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
+const BAD = /\b(map|flag|logo|icon|coat of arms|coa|heraldry|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|restorant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|people|man|men|woman|women|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|bus|truck|tank|aircraft|ship|centre|center|bestanddeelnr)\b|packag|advert|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
+// categories that mean the picture is about something else (a person, a town, a bus …)
+const BADCAT = /\b(people|men|women|portraits?|politicians?|members of|births|deaths|vehicles?|buses|trucks|cars|aircraft|ships|buildings|streets|villages|towns|cities|churches|mosques|heraldry|coats of arms|maps|logos|military|army|sports?|football|musicians?|actors?|landscapes|transport|railway|stations?)\b/i;
 const OKMIME = /image\/(jpeg|png|webp)/;
 const clean = s => String(s || '').replace(/\s*\(.*?\)\s*/g, ' ').replace(/[«»"“”]/g, '').replace(/\s+/g, ' ').trim();
 const norm = s => clean(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[ʻʼ‘’`´']/g, '');
-const STOP = new Set(['with', 'and', 'the', 'soup', 'salad', 'sauce', 'stew', 'cake', 'bread', 'tea', 'rice', 'meat', 'fish', 'chicken', 'beef', 'lamb', 'pork', 'fried', 'baked', 'grilled', 'style', 'recipe', 'food', 'dish', 'traditional', 'national', 'sweet', 'hot', 'cold', 'green', 'red', 'white', 'black', 'cuisine', 'drink', 'juice', 'pie', 'roll', 'rolls', 'dumplings']);
 const words = s => norm(s).split(/[^a-z0-9а-я]+/).filter(t => t.length >= 4);
-const tokens = s => words(s).filter(t => !STOP.has(t));
+const MINOR = new Set(['with', 'and', 'the', 'style', 'recipe', 'food', 'dish', 'cuisine', 'traditional', 'national', 'homemade', 'classic', 'simple', 'home', 'local', 'typical', 'version', 'from', 'bilan', 'uslubida', 'cold', 'green', 'white', 'black']);
+const tokens = s => words(s).filter(t => !MINOR.has(t));
+// words that really change what is on the plate: an ingredient, a way of cooking, a kind of dish
+const KIND = ['soup', 'stew', 'salad', 'cake', 'bread', 'flatbread', 'pie', 'roll', 'dumpling', 'curry', 'porridge', 'pudding', 'sauce', 'cookie', 'biscuit', 'fritter', 'kebab', 'cutlet', 'chips', 'juice', 'tea', 'pancake', 'sandwich', 'casserole', 'omelette', 'jam', 'compote', 'chowder', 'broth', 'noodle', 'meatball', 'skewer', 'fried', 'boiled', 'baked', 'grilled', 'stuffed', 'smoked', 'dried', 'roasted', 'roast', 'raw', 'steamed', 'spicy', 'seafood', 'milk', 'cream'];
 const ING = new Set(ingWords.flat().flatMap(words));
 const nameOf = f => f.replace(/_/g, ' ').replace(/\.[a-z]+$/i, '');
 const hasAny = (f, set) => words(nameOf(f)).some(t => set.has(t));
@@ -124,11 +128,14 @@ const NONFOOD = /\b(family name|surname|given name|village|town|city|river|lake|
 const FOODML = /gericht|speise|getränk|gebäck|suppe|\bplat\b|boisson|soupe|pâtisserie|platillo|\bplato\b|comida|bebida|\bsopa\b|postre|piatto|bevanda|\bdolce\b|zuppa|\bprato\b|\bdoce\b|danie|\bzupa\b|napój|ciasto|yemek|içecek|çorba|tatlı|ekmek/i;
 const FOODCLS = new Set(['Q746549', 'Q2095', 'Q19861951', 'Q40050', 'Q41415', 'Q7802', 'Q9266', 'Q182940', 'Q178024']);
 const isFoodItem = w => !!w && !w.taxon && !w.p31.some(x => NOTDISH.has(x)) && !w.desc.some(x => NONFOOD.test(x)) && (w.p31.some(x => FOODCLS.has(x)) || w.desc.some(x => FOOD.test(x) || FOODML.test(x)));
+// a name matched exactly is "sure" only if it says as much as the English name ("Карри" does not say "Timorese chicken curry")
+const content = s => words(clean(s)).filter(t => !MINOR.has(t)).length;
+const specific = (d, via) => via === 'en' || (via === 'ru' && content(d.ru) >= content(d.en));
 const item = new Array(dishes.length).fill(null); // {qid, title, lead, exact, need}
 const needWD = [];
 dishes.forEach((d, i) => {
   const info = d.wiki ? articleInfo(d.wiki) : null;
-  if (info && !info.generic) item[i] = { qid: info.qid, title: info.title, lead: info.lead };
+  if (info && !info.generic) item[i] = { qid: info.qid, title: info.title, alt: d.wiki.split(':').pop(), lead: info.lead };
   else needWD.push(i);
 });
 const wdFound = {};
@@ -145,7 +152,7 @@ await loadItems([...new Set(Object.values(wdFound).map(x => x.id))]);
 for (const [i, { id, via }] of Object.entries(wdFound)) {
   const w = wd[id];
   if (!w || w.taxon || w.p31.some(x => NOTDISH.has(x))) continue;
-  item[i] = { qid: id, title: w.label || dishes[i].en, lead: null, sure: via !== 'name' };
+  item[i] = { qid: id, title: w.label || dishes[i].en, lead: null, sure: specific(dishes[i], via) };
 }
 say('dishes without own article', needWD.length, 'matched on Wikidata', Object.keys(wdFound).length);
 
@@ -182,7 +189,7 @@ const local = {}; // dish index -> [{lg, title, qid, lead, via}]
   for (const [i, hits] of Object.entries(local)) {
     const h = hits.find(x => isFoodItem(wd[x.qid]));
     if (!h) continue;
-    item[i] = { qid: h.qid, title: h.title, lead: h.lead, sure: h.via !== 'name' }; n++;
+    item[i] = { qid: h.qid, title: h.title, lead: h.lead, sure: specific(dishes[i], h.via) }; n++;
   }
   say('looked up in other Wikipedias', rest.length, 'found', n);
 }
@@ -191,7 +198,6 @@ const local = {}; // dish index -> [{lg, title, qid, lead, via}]
 // "exact": the dish IS the article/item (Ayran (Bulgarian) -> Ayran) -> article photos are fine.
 // variant: the dish name has words the article title lacks (Fried lagman -> Lagman, Pancakes with maple syrup -> Maple syrup)
 //          -> only photos whose file name contains one of those words.
-const MINOR = new Set(['with', 'and', 'the', 'style', 'recipe', 'food', 'dish', 'traditional', 'national', 'homemade', 'classic', 'simple', 'home', 'local', 'typical', 'version', 'from', 'bilan', 'uslubida']);
 const NAT_IRREG = ['german', 'somali', 'french', 'dutch', 'swiss', 'welsh', 'scottish', 'scots', 'irish', 'english', 'british', 'greek', 'turkish', 'filipino', 'filipina', 'thai', 'khmer', 'lao', 'malay', 'maori', 'polynesian', 'melanesian', 'arab', 'arabic', 'arabian', 'persian', 'kurdish', 'tatar', 'bashkir', 'chechen', 'ossetian', 'crimean', 'gagauz', 'uyghur', 'uighur', 'tibetan', 'yakut', 'buryat', 'chuvash', 'karelian', 'cypriot', 'czech', 'slovak', 'danish', 'swedish', 'norwegian', 'finnish', 'icelandic', 'spanish', 'portuguese', 'polish', 'burmese', 'myanma', 'creole', 'caribbean', 'african', 'asian', 'european', 'balkan', 'caucasian', 'levantine', 'bedouin', 'swahili', 'zanzibari', 'dagestani', 'kabardian', 'balkar', 'mari', 'dagestan', 'kazan', 'american', 'bengali', 'punjabi', 'kashmiri', 'emirati', 'saudi', 'kiwi', 'aussie', 'catalan', 'basque', 'sicilian', 'neapolitan', 'roman', 'viennese', 'bavarian', 'flemish', 'walloon', 'luxembourgish', 'monegasque', 'sammarinese', 'liechtenstein', 'andorran', 'vatican', 'karakalpak', 'nakhchivan', 'adjarian', 'adjaran', 'yakutian', 'xinjiang', 'zanzibar'].map(norm);
 const placeToks = new Set();
 for (const n of JSON.parse(fs.readFileSync('tools/places.json', 'utf8'))) for (const t of words(n)) { placeToks.add(t); const st = t.replace(/(istan|stan)$/, ''); if (st.length >= 4) placeToks.add(st); }
@@ -204,20 +210,27 @@ const natPlace = (t, p) => t === p || (t.startsWith(p) && t.length - p.length <=
 const natCache = {};
 const isNat = (t, uz) => (uz && /.{4}cha$/.test(t)) || NAT_IRREG.includes(t) || (natCache[t] ??= [...placeToks].some(p => natPlace(t, p)));
 const distinct = (s, title, uz) => words(s).filter(t => !MINOR.has(t) && !isNat(t, uz) && !title.some(x => same(t, x)));
+const isKind = t => ING.has(t) || [...ING].some(x => same(t, x)) || KIND.some(x => same(t, x));
 dishes.forEach((d, i) => {
   const it = item[i]; if (!it) return;
-  if (it.sure) { it.exact = true; it.need = null; return; }
-  const title = words(it.title);
-  const extra = distinct(d.en || d.name, title, !d.en);
-  // a one-word name that is just another spelling of the article (Mafe = Maafe, Sahlab = Salep) is the same dish
+  const title = [...new Set([...words(it.title), ...words(it.alt || '')])];
   const own = words(d.en || d.name).filter(t => !MINOR.has(t) && !isNat(t, !d.en));
-  it.exact = extra.length === 0 || (own.length === 1 && extra.length === 1 && title.length <= 2);
+  // the article is exactly this dish (Kazakh manti -> Manti): its whole category / depicts set may be used
+  it.canon = own.length > 0 && own.every(t => title.some(x => same(t, x))) && title.filter(t => !MINOR.has(t) && !isNat(t)).every(t => own.some(x => same(t, x)));
+  if (it.sure) { it.exact = true; it.need = null; return; }
+  const extra = distinct(d.en || d.name, title, !d.en);
+  // only words that change what is on the plate make it a different dish (Fried lagman, Potato samsa, Chicken curry);
+  // a town or a local name does not (Fergana plov is still plov), nor does a one-word other spelling (Mafe = Maafe)
+  const kind = extra.filter(isKind);
+  it.exact = kind.length === 0 || (own.length === 1 && extra.length === 1 && title.length <= 2);
+  if (it.exact) { it.need = null; return; }
   // uz/ru words count only if they are ingredients (tovuq, курица …) and not just the title in another language (karam = sauerkraut)
   const eq = ingWords.filter(tr => words(tr[2]).some(t => title.some(x => same(t, x)))).flat().flatMap(words);
   const ingOnly = ts => ts.filter(t => [...ING].some(x => same(t, x)) && !eq.some(x => same(t, x)));
-  it.need = it.exact ? null : [...new Set([...extra, ...ingOnly(distinct(d.name, title, true)), ...ingOnly(distinct(d.ru, title))])];
+  // each group must be matched completely (Zimbabwe beef stew -> "beef" AND "stew"); groups are alternatives (en | uz | ru)
+  it.need = [kind, ingOnly(distinct(d.name, title, true)), ingOnly(distinct(d.ru, title))].filter(g => g.length);
 });
-const hasNeed = (f, need) => words(nameOf(f)).some(t => need.some(q => same(t, q)));
+const hasNeed = (f, need) => { const ws = words(nameOf(f)); return need.some(g => g.every(q => ws.some(t => same(t, q)))); };
 
 // ---------- 5. candidate photos ----------
 const fileInfo = {}; // "Name.jpg" -> {w,h,mime,cats}
@@ -228,10 +241,9 @@ function addInfo(p) {
   if (p.categories) o.cats = (o.cats || []).concat(p.categories.map(c => c.title.replace(/^Category:/, '')));
 }
 const goodFile = n => { const f = fileInfo[n]; return f && f.w && OKMIME.test(f.mime) && f.w >= 400 && f.h >= 280 && f.w / f.h < 3 && f.h / f.w < 2.2 && !BAD.test(n); };
-// a file found by name must also sit in a food category (or in a category named exactly like the dish):
-// this drops people, towns, machines … that merely share the dish's name
-const FOODCAT = /food|cuisine|dish|soup|stew|bread|pastr|dessert|cake|cookie|biscuit|salad|dumpling|drink|beverage|porridge|\bpies?\b|confection|snack|sausage|chees|sauce|noodle|pancake|\btea\b|coffee|beer|wine|pudding|sweets|kebab|meat|fish|seafood|rice|curry|sandwich|breakfast|lunch|dinner|meal|cooking|cookery|recipe|baked|fried|grill|plov|pilaf|gastronom|culinar|еда|блюд|кухн|суп|хлеб|выпеч|напит|десерт|кулинар|пищ/i;
-const foodFile = (n, names) => { const c = (fileInfo[n] || {}).cats || []; return c.some(x => FOODCAT.test(x)) || c.some(x => names.has(norm(x))); };
+// a file found by name must also sit in a food category and in none about people, towns, vehicles …
+const FOODCAT = /\b(foods?|cuisines?|dish(es)?|soups?|stews?|breads?|pastr(y|ies)|desserts?|cakes?|cookies?|biscuits?|salads?|dumplings?|drinks?|beverages?|porridges?|pies?|confection(ery|s)?|snacks?|sausages?|chees(e|es)|sauces?|noodles?|pancakes?|tea|coffee|beers?|wines?|puddings?|sweets|kebabs?|meat|fish|seafood|rice|curr(y|ies)|sandwich(es)?|breakfasts?|lunch(es)?|dinners?|meals?|cooking|cookery|recipes?|baked|fried|grilled|plov|pilaf|palov|gastronomy|culinary)\b|еда|блюд|кухн|суп|хлеб|выпеч|напит|десерт|кулинар|пищ/i;
+const foodFile = (n, ownCat) => { const c = (fileInfo[n] || {}).cats || []; return !c.some(x => BADCAT.test(x)) && (c.some(x => FOODCAT.test(x)) || (!!ownCat && c.includes(ownCat))); };
 const fileList = j => { const pages = ((j.query || {}).pages || []).sort((a, b) => (a.index || 0) - (b.index || 0)); pages.forEach(addInfo); return pages.map(p => p.title.replace(/^File:/, '').replace(/_/g, ' ')); };
 
 const cache = {};
@@ -247,22 +259,25 @@ let done = 0;
 await pool(dishes.map((d, i) => i), 6, async i => {
   const d = dishes[i]; const it = item[i]; const w = it && it.qid ? wd[it.qid] : null;
   const out = { lead: [], dep: [], name: [], art: [], cat: [], full: [] };
-  const phrases = [d.en, d.name, d.ru].map(x => norm(x)).filter(x => x.length >= 4);
-  const phraseIn = s => { const n = norm(s); return phrases.some(p => n.includes(p)); };
-  const names = new Set([d.en, d.name, d.ru, it ? it.title : '', w ? w.label : ''].filter(Boolean).map(norm));
-  const ownToks = new Set([...tokens(d.en), ...tokens(d.name), ...tokens(d.ru), ...(it && it.exact ? [...tokens(it.title), ...tokens(w ? w.label : '')] : [])].filter(t => !isNat(t, true)));
+  const phrases = [d.en, d.name, d.ru].map(x => norm(x).replace(/[^a-z0-9а-я]+/g, ' ').trim()).filter(x => x.length >= 4);
+  const phraseIn = s => { const n = ' ' + norm(s).replace(/[^a-z0-9а-я]+/g, ' ') + ' '; return phrases.some(p => n.includes(' ' + p + ' ')); };
+  const ownCat = w && w.p373 ? w.p373.replace(/_/g, ' ') : null;
+  const ownToks = new Set([...tokens(d.en), ...tokens(d.name), ...tokens(d.ru), ...(it && it.canon ? [...tokens(it.title), ...tokens(it.alt || ''), ...tokens(w ? w.label : '')] : [])].filter(t => !isNat(t, true)));
   const fits = f => it && it.need ? hasNeed(f, it.need) : words(nameOf(f)).some(t => [...ownToks].some(q => same(t, q)));
   if (it) {
     const lead = [it.lead && it.lead.replace(/_/g, ' '), ...(w ? w.p18.map(f => f.replace(/_/g, ' ')) : [])].filter(Boolean);
     out.lead = it.exact ? lead : lead.filter(f => hasNeed(f, it.need));
     if (it.qid) out.dep = (await depicts(it.qid)).filter(fits);
   }
-  const searchNames = [...new Set([d.en, it && it.exact ? it.title : '', d.name, d.ru].map(clean).filter(x => x && norm(x).length >= 4))];
+  // the article title only when it is this dish and not a "(disambiguated)" word; uz/ru names only when they say as much as the English one
+  const titles = it && it.exact ? [it.title, it.alt].filter(t => t && !/\(/.test(t)) : [];
+  const enN = content(d.en);
+  const searchNames = [...new Set([d.en, ...titles, content(d.name) >= enN ? d.name : '', content(d.ru) >= enN ? d.ru : ''].map(clean).filter(x => x && norm(x).length >= 4))];
   for (const [ni, n] of searchNames.entries()) {
     if (ni >= 2 && out.lead.length + out.dep.filter(goodFile).length + out.name.filter(goodFile).length >= 4) break;
-    out.name.push(...(await search(n)).filter(f => foodFile(f, names) && (!it || !it.need || hasNeed(f, it.need))));
+    out.name.push(...(await search(n)).filter(f => foodFile(f, ownCat) && (!it || !it.need || hasNeed(f, it.need))));
   }
-  if (w && w.p373) out.cat = (await category(w.p373)).filter(fits);
+  if (ownCat) out.cat = (await category(w.p373)).filter(f => (it.canon && !it.need) || fits(f));
   // pictures inside the dish's Wikipedia article (for a cuisine article: only files named after this very dish)
   if (d.wiki) {
     const key = d.wiki.includes(':') ? d.wiki : 'en:' + d.wiki; const a = art[key];
@@ -273,7 +288,7 @@ await pool(dishes.map((d, i) => i), 6, async i => {
   // last resort: Commons full-text search, keeping only files filed in a category named after the dish
   const have = out.lead.length + out.art.length + [...out.dep, ...out.name, ...out.cat].filter(goodFile).length;
   if (have < 3) for (const n of [d.en, d.ru].map(clean).filter(x => x && norm(x).length >= 5)) {
-    out.full.push(...(await fulltext(n)).filter(f => foodFile(f, names) && ((fileInfo[f] || {}).cats || []).some(c => phraseIn(c)) && (!it || !it.need || hasNeed(f, it.need))));
+    out.full.push(...(await fulltext(n)).filter(f => foodFile(f, ownCat) && ((fileInfo[f] || {}).cats || []).some(c => phraseIn(c)) && (!it || !it.need || hasNeed(f, it.need))));
     if (out.full.filter(goodFile).length + have >= 3) break;
   }
   cand[i] = out;
@@ -291,7 +306,7 @@ await pool(chunks(unknown, 50), 2, async names => {
 const used = new Set(); const PH = {};
 const nCand = c => c.dep.length + c.name.length + c.art.length + c.cat.length + c.full.length;
 // variants first (they can only use photos that name them: "Fried lagman …"), then dishes with an article image, then the rest
-const rank = i => item[i] && item[i].need ? 0 : cand[i].lead.length ? 1 : 2;
+const rank = i => item[i] && item[i].need ? 0 : item[i] && item[i].canon ? 1 : cand[i].lead.length ? 2 : 3;
 const order = dishes.map((d, i) => i).sort((a, b) => rank(a) - rank(b) || nCand(cand[a]) - nCand(cand[b]));
 for (const i of order) {
   const c = cand[i]; const pick = [];
@@ -304,7 +319,7 @@ for (const i of order) {
   if (pick.length) PH[dishes[i].k] = pick;
 }
 
-fs.writeFileSync('tools/photo-why.json', JSON.stringify(Object.fromEntries(dishes.map((d, i) => [d.k, item[i] ? [item[i].title, item[i].need ? item[i].need.join(' ') : '='] : null]))));
+fs.writeFileSync('tools/photo-why.json', JSON.stringify(Object.fromEntries(dishes.map((d, i) => [d.k, item[i] ? [item[i].title, item[i].need ? item[i].need.map(g => g.join('+')).join(' | ') : '='] : null]))));
 fs.writeFileSync('data/photos.js', 'window.PH=' + JSON.stringify(PH) + ';\n');
 const none = dishes.filter(d => !PH[d.k]), few = dishes.filter(d => PH[d.k] && PH[d.k].length < 3);
 say('with photos', Object.keys(PH).length, 'none', none.length, 'fewer than 3', few.length, 'rate-limited', limited, 'failed requests', failed);
