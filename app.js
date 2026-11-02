@@ -254,9 +254,10 @@ function openDish(id,keep){
   photosFor(d).then(ph=>{if(openId!==id)return;const tr=$("#track");if(!tr)return;
     if(!ph.length){tr.innerHTML=`<div class="slide">${tile(d)}</div>`;return}
     tr.innerHTML=ph.map(s=>`<div class="slide"><img src="${s.replace("width=640","width=1000")}" alt="${esc(dn(d))}"></div>`).join("");
-    $("#credit").textContent=u.photos;
+    const files=PH[d.country+"|"+d.name]||[],cr=$("#credit");
+    const credit=i=>{if(files[i])cr.innerHTML=`<a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(files[i].replace(/ /g,"_"))}" target="_blank" rel="noopener">${u.photos}</a>`};credit(0);
     if(ph.length>1){$("#dots").innerHTML=ph.map((_,i)=>`<button data-dot="${i}" aria-label="${u.photoN(i+1)}" aria-current="${i===0}"></button>`).join("");
-      tr.addEventListener("scroll",()=>{const i=Math.round(tr.scrollLeft/tr.clientWidth);document.querySelectorAll("#dots button").forEach((b,j)=>b.setAttribute("aria-current",i===j))},{passive:true})}
+      tr.addEventListener("scroll",()=>{const i=Math.round(tr.scrollLeft/tr.clientWidth);credit(i);document.querySelectorAll("#dots button").forEach((b,j)=>b.setAttribute("aria-current",i===j))},{passive:true})}
     tr.querySelectorAll("img").forEach(im=>im.onerror=()=>{const s=im.parentNode;s.remove();if(!tr.children.length)tr.innerHTML=`<div class="slide">${tile(d)}</div>`});
   });
   if(keep)return;
