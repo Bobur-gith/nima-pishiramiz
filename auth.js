@@ -73,9 +73,9 @@ function closeAdmin(){$("#aov").classList.remove("on");$("#admin").classList.rem
 
 /* ---------- firebase ---------- */
 const cfg=window.FIREBASE_CONFIG;
-lock();
-if(!cfg||!cfg.apiKey){renderGate("setup")}
+if(!cfg||!cfg.apiKey){/* kirish hali sozlanmagan — ilova ochiq ishlaydi */document.body.classList.remove("locked");$("#gate").hidden=true;window.startApp&&window.startApp()}
 else{
+  lock();
   renderGate("wait");
   const app=initializeApp(cfg),auth=getAuth(app),db=getFirestore(app);
   const provider=new GoogleAuthProvider();provider.setCustomParameters({prompt:"select_account"});
