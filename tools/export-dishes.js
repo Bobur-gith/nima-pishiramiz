@@ -15,4 +15,10 @@ for (const [c, , list] of DB.list) for (const r of list) {
   out.push({ k, c, name: r[0], ru: nm[0] || '', en: nm[1] || '', q: r[1], wiki: r[5] || '' });
 }
 fs.writeFileSync('tools/dishes.json', JSON.stringify(out));
-console.log('dishes', out.length);
+// ingredient words (uz/ru/en) — the photo builder uses them to tell "potato samsa" from plain samsa
+const I = { ...(window.I18N.I || {}), ...DB.x.I };
+const words = new Set();
+for (const [uz, v] of Object.entries(I)) for (const w of [uz, ...(v || [])]) if (w) words.add(w);
+words.add('potato'); words.add('liver'); words.add('pumpkin'); words.add('cheese'); words.add('mushroom');
+fs.writeFileSync('tools/ingwords.json', JSON.stringify([...words]));
+console.log('dishes', out.length, 'ingredient words', words.size);

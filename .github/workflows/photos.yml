@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['tools/dishes.json', 'tools/photos.mjs']
+    paths: ['tools/dishes.json', 'tools/photos.mjs', 'tools/ingwords.json']
 permissions:
   contents: write
 concurrency:
