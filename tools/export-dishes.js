@@ -17,8 +17,10 @@ for (const [c, , list] of DB.list) for (const r of list) {
 fs.writeFileSync('tools/dishes.json', JSON.stringify(out));
 // ingredient words (uz/ru/en) — the photo builder uses them to tell "potato samsa" from plain samsa
 const I = { ...(window.I18N.I || {}), ...DB.x.I };
-const words = new Set();
-for (const [uz, v] of Object.entries(I)) for (const w of [uz, ...(v || [])]) if (w) words.add(w);
-words.add('potato'); words.add('liver'); words.add('pumpkin'); words.add('cheese'); words.add('mushroom');
-fs.writeFileSync('tools/ingwords.json', JSON.stringify([...words]));
-console.log('dishes', out.length, 'ingredient words', words.size);
+const words = Object.entries(I).map(([uz, v]) => [uz, (v || [])[0] || '', (v || [])[1] || '']);
+for (const w of ['potato', 'liver', 'pumpkin', 'cheese', 'mushroom']) words.push(['', '', w]);
+fs.writeFileSync('tools/ingwords.json', JSON.stringify(words));
+// country / region names (ru, en) — so "Kazakh" or "Timorese" in a dish name is not taken as what makes the dish different
+const C = { ...(window.I18N.C || {}), ...DB.x.C };
+fs.writeFileSync('tools/places.json', JSON.stringify([...new Set(Object.values(C).flat().filter(Boolean))]));
+console.log('dishes', out.length, 'ingredients', words.length);

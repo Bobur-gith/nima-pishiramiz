@@ -49,14 +49,14 @@ async function pool(items, n, fn) {
 const chunks = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 
 // things that are not a photo of food
-const BAD = /\b(map|flag|logo|icon|coat of arms|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|packag|advert|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|chicken farm|people|man|woman|girl|boy|family|festival|parade|museum|statue|recipe card)\b|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
+const BAD = /\b(map|flag|logo|icon|coat of arms|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|packag|advert|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|chicken farm|people|man|woman|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|restorant|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|tank|aircraft|ship)\b|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
 const OKMIME = /image\/(jpeg|png|webp)/;
 const clean = s => String(s || '').replace(/\s*\(.*?\)\s*/g, ' ').replace(/[«»"“”]/g, '').replace(/\s+/g, ' ').trim();
 const norm = s => clean(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[ʻʼ‘’`´']/g, '');
 const STOP = new Set(['with', 'and', 'the', 'soup', 'salad', 'sauce', 'stew', 'cake', 'bread', 'tea', 'rice', 'meat', 'fish', 'chicken', 'beef', 'lamb', 'pork', 'fried', 'baked', 'grilled', 'style', 'recipe', 'food', 'dish', 'traditional', 'national', 'sweet', 'hot', 'cold', 'green', 'red', 'white', 'black', 'cuisine', 'drink', 'juice', 'pie', 'roll', 'rolls', 'dumplings']);
 const words = s => norm(s).split(/[^a-z0-9а-я]+/).filter(t => t.length >= 4);
 const tokens = s => words(s).filter(t => !STOP.has(t));
-const ING = new Set(ingWords.flatMap(words));
+const ING = new Set(ingWords.flat().flatMap(words));
 const nameOf = f => f.replace(/_/g, ' ').replace(/\.[a-z]+$/i, '');
 const hasAny = (f, set) => words(nameOf(f)).some(t => set.has(t));
 
@@ -106,22 +106,11 @@ function articleInfo(wiki) {
 // ---------- 3. dishes without their own article: find their Wikidata item by exact name ----------
 const FOOD = /\b(dish|dishes|food|soup|stew|bread|flatbread|pastry|pastries|dessert|cake|cookies?|biscuits?|salad|dumplings?|drink|beverage|porridge|pie|confection|confectionery|snack|sausage|cheese|sauce|condiment|noodles?|pancakes?|tea|coffee|liquor|liqueur|beer|wine|cocktail|pudding|sweets?|candy|kebab|meatballs?|fritters?|casserole|jam|curry|buns?|sandwich|delicacy|appetizer|porridge|pilaf|stuffed)\b|блюд|напит|суп|выпеч|пирог|хлеб|десерт|сладост|каша|салат|колбас|сыр|соус|лепёш|лепеш|пельмен|кушань|лакомств|пирож|похл/i;
 const NONFOOD = /\b(cuisine|family name|surname|given name|village|town|city|river|lake|mountain|film|album|song|band|company|species|genus|person|people|ethnic|language|district|region|province|journal|magazine|restaurant)\b|кухня|фамилия|село|деревня|город|река|фильм|альбом|песня|компания|вид |род /i;
-const owner = {};
-{
-  const groups = {};
-  dishes.forEach((d, i) => { if (d.wiki) (groups[d.wiki] = groups[d.wiki] || []).push(i); });
-  for (const [wiki, idx] of Object.entries(groups)) {
-    const a = art[wiki.includes(':') ? wiki : 'en:' + wiki]; const t = norm(a ? a.title : wiki.split(':').pop());
-    let best = idx[0], bs = -1;
-    for (const i of idx) { const d = dishes[i]; const s = [d.en, d.name, d.ru, d.q].map(norm).some(x => x === t) ? 2 : [d.en, d.name].map(norm).some(x => x.includes(t) || t.includes(x)) ? 1 : 0; if (s > bs) { bs = s; best = i; } }
-    owner[wiki] = best;
-  }
-}
-const item = new Array(dishes.length).fill(null); // {qid, title, owner, qual:Set|null}
+const item = new Array(dishes.length).fill(null); // {qid, title, lead, exact, need}
 const needWD = [];
 dishes.forEach((d, i) => {
   const info = d.wiki ? articleInfo(d.wiki) : null;
-  if (info && !info.generic) item[i] = { qid: info.qid, title: info.title, lead: info.lead, owner: owner[d.wiki] === i };
+  if (info && !info.generic) item[i] = { qid: info.qid, title: info.title, lead: info.lead };
   else needWD.push(i);
 });
 const wdFound = {};
@@ -138,28 +127,60 @@ await loadItems([...new Set(Object.values(wdFound))]);
 for (const [i, id] of Object.entries(wdFound)) {
   const w = wd[id];
   if (!w || w.taxon || w.p31.some(x => NOTDISH.has(x))) continue;
-  item[i] = { qid: id, title: w.label || dishes[i].en, lead: null, owner: true };
+  item[i] = { qid: id, title: w.label || dishes[i].en, lead: null };
 }
 say('dishes without own article', needWD.length, 'matched on Wikidata', Object.keys(wdFound).length);
 
-// variant of a broader article? -> the words that make it different (potato, pumpkin, liver …)
+// ---------- 4. what exactly must a photo show? ----------
+// "exact": the dish IS the article/item (Ayran (Bulgarian) -> Ayran) -> article photos are fine.
+// variant: the dish name has words the article title lacks (Fried lagman -> Lagman, Pancakes with maple syrup -> Maple syrup)
+//          -> only photos whose file name contains one of those words.
+const MINOR = new Set(['with', 'and', 'the', 'style', 'recipe', 'food', 'dish', 'traditional', 'national', 'homemade', 'classic', 'simple', 'home', 'local', 'typical', 'version', 'from', 'bilan', 'uslubida']);
+const NAT_IRREG = ['german', 'somali', 'french', 'dutch', 'swiss', 'welsh', 'scottish', 'scots', 'irish', 'english', 'british', 'greek', 'turkish', 'filipino', 'filipina', 'thai', 'khmer', 'lao', 'malay', 'maori', 'polynesian', 'melanesian', 'arab', 'arabic', 'arabian', 'persian', 'kurdish', 'tatar', 'bashkir', 'chechen', 'ossetian', 'crimean', 'gagauz', 'uyghur', 'uighur', 'tibetan', 'yakut', 'buryat', 'chuvash', 'karelian', 'cypriot', 'czech', 'slovak', 'danish', 'swedish', 'norwegian', 'finnish', 'icelandic', 'spanish', 'portuguese', 'polish', 'burmese', 'myanma', 'creole', 'caribbean', 'african', 'asian', 'european', 'balkan', 'caucasian', 'levantine', 'bedouin', 'swahili', 'zanzibari', 'dagestani', 'kabardian', 'balkar', 'mari', 'dagestan', 'kazan', 'american', 'bengali', 'punjabi', 'kashmiri', 'emirati', 'saudi', 'kiwi', 'aussie', 'catalan', 'basque', 'sicilian', 'neapolitan', 'roman', 'viennese', 'bavarian', 'flemish', 'walloon', 'luxembourgish', 'monegasque', 'sammarinese', 'liechtenstein', 'andorran', 'vatican', 'karakalpak', 'nakhchivan', 'adjarian', 'adjaran', 'yakutian', 'xinjiang', 'zanzibar'].map(norm);
+const placeToks = new Set();
+for (const n of JSON.parse(fs.readFileSync('tools/places.json', 'utf8'))) for (const t of words(n)) { placeToks.add(t); const st = t.replace(/(istan|stan)$/, ''); if (st.length >= 4) placeToks.add(st); }
+const cpl = (a, b) => { let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++; return i; };
+const lev = (a, b) => { if (Math.abs(a.length - b.length) > 2) return 9; const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j; for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; };
+const same = (a, b) => a === b || cpl(a, b) >= Math.max(4, Math.min(a.length, b.length) - 2) || (Math.min(a.length, b.length) >= 5 && lev(a, b) <= 1);
+// a country / people word? (Kazakh, Timorese, Chinese …) — careful not to swallow chili (Chile) or samosa (Samoa)
+const natPlace = (t, p) => t === p || (t.startsWith(p) && t.length - p.length <= 4) || (cpl(t, p) >= Math.max(4, p.length - 2) && t.length >= p.length && /(an|ian|ean|ese|ish|ic|er|ine|in|ite|ot)$/.test(t));
+const natCache = {};
+const isNat = (t, uz) => (uz && /.{4}cha$/.test(t)) || NAT_IRREG.includes(t) || (natCache[t] ??= [...placeToks].some(p => natPlace(t, p)));
+const distinct = (s, title, uz) => words(s).filter(t => !MINOR.has(t) && !isNat(t, uz) && !title.some(x => same(t, x)));
 dishes.forEach((d, i) => {
-  const it = item[i]; if (!it || it.owner) return;
-  const t = new Set(words(it.title));
-  const q = [...new Set([...words(d.en), ...words(d.name)])].filter(x => ING.has(x) && !t.has(x));
-  it.qual = q.length ? new Set(q) : null;
+  const it = item[i]; if (!it) return;
+  const title = words(it.title);
+  const extra = distinct(d.en || d.name, title, !d.en);
+  // a one-word name that is just another spelling of the article (Mafe = Maafe, Sahlab = Salep) is the same dish
+  const own = words(d.en || d.name).filter(t => !MINOR.has(t) && !isNat(t, !d.en));
+  it.exact = extra.length === 0 || (own.length === 1 && extra.length === 1 && title.length <= 2);
+  // uz/ru words count only if they are ingredients (tovuq, курица …) and not just the title in another language (karam = sauerkraut)
+  const eq = ingWords.filter(tr => words(tr[2]).some(t => title.some(x => same(t, x)))).flat().flatMap(words);
+  const ingOnly = ts => ts.filter(t => [...ING].some(x => same(t, x)) && !eq.some(x => same(t, x)));
+  it.need = it.exact ? null : [...new Set([...extra, ...ingOnly(distinct(d.name, title, true)), ...ingOnly(distinct(d.ru, title))])];
 });
+const hasNeed = (f, need) => words(nameOf(f)).some(t => need.some(q => same(t, q)));
 
-// ---------- 4. candidate photos ----------
-const fileInfo = {}; // "Name.jpg" -> {w,h,mime}
-function addInfo(p) { const ii = (p.imageinfo || [])[0]; if (ii) fileInfo[p.title.replace(/^File:/, '').replace(/_/g, ' ')] = { w: ii.width, h: ii.height, mime: ii.mime }; }
-const goodFile = n => { const f = fileInfo[n]; return f && OKMIME.test(f.mime) && f.w >= 400 && f.h >= 280 && f.w / f.h < 3 && f.h / f.w < 2.2 && !BAD.test(n); };
+// ---------- 5. candidate photos ----------
+const fileInfo = {}; // "Name.jpg" -> {w,h,mime,cats}
+function addInfo(p) {
+  const ii = (p.imageinfo || [])[0]; const k = p.title.replace(/^File:/, '').replace(/_/g, ' ');
+  const o = fileInfo[k] || (fileInfo[k] = {});
+  if (ii) Object.assign(o, { w: ii.width, h: ii.height, mime: ii.mime });
+  if (p.categories) o.cats = (o.cats || []).concat(p.categories.map(c => c.title.replace(/^Category:/, '')));
+}
+const goodFile = n => { const f = fileInfo[n]; return f && f.w && OKMIME.test(f.mime) && f.w >= 400 && f.h >= 280 && f.w / f.h < 3 && f.h / f.w < 2.2 && !BAD.test(n); };
+// a file found by name must also sit in a food category (or in a category named exactly like the dish):
+// this drops people, towns, machines … that merely share the dish's name
+const FOODCAT = /food|cuisine|dish|soup|stew|bread|pastr|dessert|cake|cookie|biscuit|salad|dumpling|drink|beverage|porridge|\bpies?\b|confection|snack|sausage|chees|sauce|noodle|pancake|\btea\b|coffee|beer|wine|pudding|sweets|kebab|meat|fish|seafood|rice|curry|sandwich|breakfast|lunch|dinner|meal|cooking|cookery|recipe|baked|fried|grill|plov|pilaf|gastronom|culinar|еда|блюд|кухн|суп|хлеб|выпеч|напит|десерт|кулинар|пищ/i;
+const foodFile = (n, names) => { const c = (fileInfo[n] || {}).cats || []; return c.some(x => FOODCAT.test(x)) || c.some(x => names.has(norm(x))); };
 const fileList = j => { const pages = ((j.query || {}).pages || []).sort((a, b) => (a.index || 0) - (b.index || 0)); pages.forEach(addInfo); return pages.map(p => p.title.replace(/^File:/, '').replace(/_/g, ' ')); };
 
 const cache = {};
 const once = (k, f) => cache[k] || (cache[k] = f());
-const search = name => { const key = norm(name); if (key.length < 4) return Promise.resolve([]); return once('s:' + key, async () => fileList(await api('commons.wikimedia.org', { action: 'query', generator: 'search', gsrsearch: `intitle:"${clean(name)}" filetype:bitmap`, gsrnamespace: '6', gsrlimit: '20', prop: 'imageinfo', iiprop: 'size|mime' }))); };
-const depicts = qid => once('d:' + qid, async () => fileList(await api('commons.wikimedia.org', { action: 'query', generator: 'search', gsrsearch: `haswbstatement:P180=${qid} filetype:bitmap`, gsrnamespace: '6', gsrlimit: '20', prop: 'imageinfo', iiprop: 'size|mime' })));
+const CATS = { clshow: '!hidden', cllimit: 'max' };
+const search = name => { const key = norm(name); if (key.length < 4) return Promise.resolve([]); return once('s:' + key, async () => fileList(await api('commons.wikimedia.org', { action: 'query', generator: 'search', gsrsearch: `intitle:"${clean(name)}" filetype:bitmap`, gsrnamespace: '6', gsrlimit: '20', prop: 'imageinfo|categories', iiprop: 'size|mime', ...CATS }))); };
+const depicts = qid => once('d:' + qid, async () => fileList(await api('commons.wikimedia.org', { action: 'query', generator: 'search', gsrsearch: `haswbstatement:P180=${qid} filetype:bitmap`, gsrnamespace: '6', gsrlimit: '30', prop: 'imageinfo', iiprop: 'size|mime' })));
 const category = cat => once('c:' + cat, async () => fileList(await api('commons.wikimedia.org', { action: 'query', generator: 'categorymembers', gcmtitle: 'Category:' + cat, gcmtype: 'file', gcmlimit: '100', prop: 'imageinfo', iiprop: 'size|mime' })));
 
 const cand = new Array(dishes.length);
@@ -167,39 +188,37 @@ let done = 0;
 await pool(dishes.map((d, i) => i), 6, async i => {
   const d = dishes[i]; const it = item[i]; const w = it && it.qid ? wd[it.qid] : null;
   const out = { lead: [], dep: [], name: [], cat: [] };
-  if (it && it.owner) {
-    if (it.lead) out.lead.push(it.lead.replace(/_/g, ' '));
-    if (w) out.lead.push(...w.p18.map(f => f.replace(/_/g, ' ')));
+  const names = new Set([d.en, d.name, d.ru, it ? it.title : '', w ? w.label : ''].filter(Boolean).map(norm));
+  const ownToks = new Set([...tokens(d.en), ...tokens(d.name), ...tokens(d.ru), ...(it && it.exact ? [...tokens(it.title), ...tokens(w ? w.label : '')] : [])].filter(t => !isNat(t, true)));
+  const fits = f => it && it.need ? hasNeed(f, it.need) : words(nameOf(f)).some(t => [...ownToks].some(q => same(t, q)));
+  if (it) {
+    const lead = [it.lead && it.lead.replace(/_/g, ' '), ...(w ? w.p18.map(f => f.replace(/_/g, ' ')) : [])].filter(Boolean);
+    out.lead = it.exact ? lead : lead.filter(f => hasNeed(f, it.need));
+    if (it.qid) out.dep = (await depicts(it.qid)).filter(fits);
   }
-  if (it && it.qid) {
-    const f = await depicts(it.qid);
-    out.dep = it.qual ? f.filter(x => hasAny(x, it.qual)) : f;
-  }
-  const useTitle = it && (it.owner || !it.qual);
-  const names = [...new Set([d.en, useTitle ? it.title : '', d.name, d.ru].map(clean).filter(x => x && norm(x).length >= 4))];
-  for (const [ni, n] of names.entries()) {
+  const searchNames = [...new Set([d.en, it && it.exact ? it.title : '', d.name, d.ru].map(clean).filter(x => x && norm(x).length >= 4))];
+  for (const [ni, n] of searchNames.entries()) {
     if (ni >= 2 && out.lead.length + out.dep.filter(goodFile).length + out.name.filter(goodFile).length >= 4) break;
-    out.name.push(...await search(n));
+    out.name.push(...(await search(n)).filter(f => foodFile(f, names) && (!it || !it.need || hasNeed(f, it.need))));
   }
-  if (it && w && w.p373) {
-    const own = it.qual || new Set([...tokens(d.en), ...tokens(d.name), ...(it.owner || !it.qual ? [...tokens(it.title), ...tokens(w.label)] : [])]);
-    out.cat = (await category(w.p373)).filter(f => hasAny(f, own));
-  }
+  if (w && w.p373) out.cat = (await category(w.p373)).filter(fits);
   cand[i] = out;
   if (++done % 250 === 0) say('candidates', done, 'rate-limited', limited, 'failed', failed);
 });
 
-// ---------- 5. check lead/P18 files on Commons (size, mime) ----------
+// ---------- 6. check lead/P18 files on Commons (size, mime) ----------
 const unknown = [...new Set(cand.flatMap(c => c.lead).filter(n => !fileInfo[n]))];
 await pool(chunks(unknown, 50), 2, async names => {
   const j = await api('commons.wikimedia.org', { action: 'query', titles: names.map(n => 'File:' + n).join('|'), prop: 'imageinfo', iiprop: 'size|mime' });
   for (const p of (j.query || {}).pages || []) if (!p.missing) addInfo(p);
 });
 
-// ---------- 6. assign, never reusing a photo ----------
+// ---------- 7. assign, never reusing a photo ----------
 const used = new Set(); const PH = {};
 const nCand = c => c.dep.length + c.name.length + c.cat.length;
-const order = dishes.map((d, i) => i).sort((a, b) => (cand[a].lead.length ? 0 : 1) - (cand[b].lead.length ? 0 : 1) || nCand(cand[a]) - nCand(cand[b]));
+// variants first (they can only use photos that name them: "Fried lagman …"), then dishes with an article image, then the rest
+const rank = i => item[i] && item[i].need ? 0 : cand[i].lead.length ? 1 : 2;
+const order = dishes.map((d, i) => i).sort((a, b) => rank(a) - rank(b) || nCand(cand[a]) - nCand(cand[b]));
 for (const i of order) {
   const c = cand[i]; const pick = [];
   for (const k of [...c.lead, ...c.dep, ...c.name, ...c.cat]) {
@@ -211,6 +230,7 @@ for (const i of order) {
   if (pick.length) PH[dishes[i].k] = pick;
 }
 
+fs.writeFileSync('tools/photo-why.json', JSON.stringify(Object.fromEntries(dishes.map((d, i) => [d.k, item[i] ? [item[i].title, item[i].need ? item[i].need.join(' ') : '='] : null]))));
 fs.writeFileSync('data/photos.js', 'window.PH=' + JSON.stringify(PH) + ';\n');
 const none = dishes.filter(d => !PH[d.k]), few = dishes.filter(d => PH[d.k] && PH[d.k].length < 3);
 say('with photos', Object.keys(PH).length, 'none', none.length, 'fewer than 3', few.length, 'rate-limited', limited, 'failed requests', failed);

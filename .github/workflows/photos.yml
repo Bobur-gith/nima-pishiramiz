@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['tools/dishes.json', 'tools/photos.mjs', 'tools/ingwords.json']
+    paths: ['tools/dishes.json', 'tools/photos.mjs', 'tools/ingwords.json', 'tools/places.json']
 permissions:
   contents: write
 concurrency:
@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "photo-bot"
           git config user.email "photo-bot@users.noreply.github.com"
-          git add -f data/photos.js tools/photo-report.json tools/photo-log.txt || true
+          git add -f data/photos.js tools/photo-report.json tools/photo-log.txt tools/photo-why.json || true
           git commit -m "Suratlar yangilandi" || exit 0
           git pull --rebase origin main
           git push origin HEAD:main
