@@ -6,19 +6,19 @@ const getLang=()=>{try{const v=JSON.parse(localStorage.getItem("np:lang"));if(["
 const setLang=l=>{try{localStorage.setItem("np:lang",JSON.stringify(l))}catch(e){}};
 
 const G={
- uz:{title:"Nima pishiramiz?",tag:"195 davlatdan 2148 ta taom — uyingizdagi masalliqlar bilan.",google:"Google orqali kirish",
+ uz:{title:"Nima pishiramiz?",tag:"195 davlat va 19 avtonomiyadan 2900 dan ortiq taom — uyingizdagi masalliqlar bilan.",google:"Google orqali kirish",
   wait:"Yuklanmoqda…",pendT:"So'rovingiz yuborildi",pend:"Admin ruxsat berishi bilan ilova shu yerda o'zi ochiladi.",
   blockT:"Kirishga ruxsat berilmagan",block:"Admin bu akkauntga ruxsat bermadi.",other:"Boshqa akkaunt bilan kirish",out:"Chiqish",
   setupT:"Kirish tizimi sozlanmoqda",setup:"Tez orada ilova ochiladi.",err:"Kirishda xatolik. Qaytadan urinib ko'ring.",
   admin:"Admin panel",pending:"Kutayotganlar",approved:"Ruxsat berilgan",blocked:"Bloklangan",approve:"Ruxsat berish",revoke:"Bekor qilish",blockB:"Bloklash",
   empty:"Bu yerda hech kim yo'q",you:"siz",close:"Yopish",privacy:"Faqat ismingiz, emailingiz va rasmingiz saqlanadi."},
- ru:{title:"Что приготовить?",tag:"2148 блюд из 195 стран — из того, что есть у вас дома.",google:"Войти через Google",
+ ru:{title:"Что приготовить?",tag:"Более 2900 блюд из 195 стран и 19 автономий — из того, что есть у вас дома.",google:"Войти через Google",
   wait:"Загрузка…",pendT:"Заявка отправлена",pend:"Как только администратор даст доступ, приложение откроется здесь само.",
   blockT:"Доступ не разрешён",block:"Администратор не дал доступ этому аккаунту.",other:"Войти с другого аккаунта",out:"Выйти",
   setupT:"Вход настраивается",setup:"Приложение скоро откроется.",err:"Ошибка входа. Попробуйте ещё раз.",
   admin:"Админ-панель",pending:"Ожидают",approved:"С доступом",blocked:"Заблокированы",approve:"Дать доступ",revoke:"Отозвать",blockB:"Заблокировать",
   empty:"Здесь никого нет",you:"вы",close:"Закрыть",privacy:"Сохраняются только имя, email и фото."},
- en:{title:"What to cook?",tag:"2,148 dishes from 195 countries — with what you have at home.",google:"Sign in with Google",
+ en:{title:"What to cook?",tag:"2,900+ dishes from 195 countries and 19 autonomies — with what you have at home.",google:"Sign in with Google",
   wait:"Loading…",pendT:"Request sent",pend:"As soon as the admin approves you, the app will open right here.",
   blockT:"Access not granted",block:"The admin hasn't allowed this account.",other:"Use another account",out:"Sign out",
   setupT:"Sign-in is being set up",setup:"The app will open soon.",err:"Sign-in failed. Please try again.",

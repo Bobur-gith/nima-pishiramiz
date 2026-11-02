@@ -31,7 +31,7 @@ const UI={
   close:"Yopish",photos:"Suratlar: Wikimedia Commons",stepDone:n=>`${n}-qadam bajarildi`,photoN:n=>`${n}-surat`,
   filters:"Filtrlar",change:"O'zgartirish",
   foot:"Suratlar avtomatik ravishda Wikipedia va Wikimedia Commons'dan (erkin litsenziya) olinadi. «Tayyorlanish videosi» tugmasi YouTube'da shu taom retseptlarini ochadi.",
-  min:"daq",hr:"soat",day:"kun",yt:" retsepti",desc:"Uyda bor masalliqlarni yozing — 195 davlatdan 2100 dan ortiq taomdan qaysi birini pishirish mumkinligini ko'ring."},
+  min:"daq",hr:"soat",day:"kun",yt:" retsepti",desc:"Uyda bor masalliqlarni yozing — 195 davlat va 19 avtonomiyadan 2900 dan ortiq taomdan qaysi birini pishirish mumkinligini ko'ring."},
  ru:{title:"Что приготовить?",stat:(a,b,c)=>`${a} блюд · ${b} стран`+(c?` · ${c} автономий`:""),
   q1:"Блюдо какой страны хотите?",q2:"На какое время нужно блюдо?",q3:"Густое блюдо или жидкое?",q4:"Что у вас есть дома?",
   world:"Весь мир",anyMeal:"Любое",anyType:"Неважно",quyuq:"Густое",suyuq:"Жидкое",
@@ -49,7 +49,7 @@ const UI={
   close:"Закрыть",photos:"Фото: Wikimedia Commons",stepDone:n=>`Шаг ${n} выполнен`,photoN:n=>`Фото ${n}`,
   filters:"Фильтры",change:"Изменить",
   foot:"Фото подгружаются автоматически из Википедии и Wikimedia Commons (свободные лицензии). Кнопка «Видео рецепта» открывает рецепты этого блюда на YouTube.",
-  min:"мин",hr:"ч",day:"дн",yt:" рецепт",desc:"Напишите, какие продукты есть дома, — и узнайте, какие из 2100+ блюд 195 стран можно приготовить."},
+  min:"мин",hr:"ч",day:"дн",yt:" рецепт",desc:"Напишите, какие продукты есть дома, — и узнайте, какие из 2900+ блюд 195 стран и 19 автономий можно приготовить."},
  en:{title:"What to cook?",stat:(a,b,c)=>`${a} dishes · ${b} countries`+(c?` · ${c} autonomies`:""),
   q1:"Which country's food do you want?",q2:"What meal is it for?",q3:"Thick dish or soupy?",q4:"What do you have at home?",
   world:"Whole world",anyMeal:"Any",anyType:"Either",quyuq:"Thick",suyuq:"Soupy",
@@ -67,7 +67,7 @@ const UI={
   close:"Close",photos:"Photos: Wikimedia Commons",stepDone:n=>`Step ${n} done`,photoN:n=>`Photo ${n}`,
   filters:"Filters",change:"Change",
   foot:"Photos load automatically from Wikipedia and Wikimedia Commons (free licences). The “Video recipe” button opens recipes for the dish on YouTube.",
-  min:"min",hr:"h",day:"d",yt:" recipe",desc:"Type what you have at home and see which of 2,100+ dishes from 195 countries you can cook."}
+  min:"min",hr:"h",day:"d",yt:" recipe",desc:"Type what you have at home and see which of 2,900+ dishes from 195 countries and 19 autonomies you can cook."}
 };
 const t=()=>UI[lang];
 const trC=c=>lang==="uz"?c:((T.C[c]||[])[LI()]||c);
