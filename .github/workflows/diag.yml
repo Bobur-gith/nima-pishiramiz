@@ -7,25 +7,16 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium
-      - name: curl tests
-        run: |
-          mkdir -p out
-          F="Toshkent_toʻy_palovi.jpg"
-          for w in 320 330 480 500 640 960 1000; do
-            echo "== width $w" >> out/curl.txt
-            curl -s -o /dev/null -L -w "%{http_code} %{url_effective} %{content_type}\n" -A "Mozilla/5.0 (X11; Linux x86_64) Chrome/120" -H "Referer: https://bobur-gith.github.io/" "https://commons.wikimedia.org/wiki/Special:FilePath/$(python3 -c "import urllib.parse;print(urllib.parse.quote('$F'))")?width=$w" >> out/curl.txt
-          done
-          curl -s -L -A "Mozilla/5.0 Chrome/120" "https://commons.wikimedia.org/wiki/Special:FilePath/Plov.jpg?width=640" -D out/headers640.txt -o out/body640.bin; head -c 400 out/body640.bin > out/body640.head; file out/body640.bin >> out/curl.txt
+      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium webkit firefox
       - name: browser test
-        run: node tools/diag.js
+        run: mkdir -p out && node tools/diag.js
       - name: save
         if: always()
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git add -f out; git commit -m "diag natija" || true; git push
+          git add -f out; git commit -m "diag natija 2" || true; git push
