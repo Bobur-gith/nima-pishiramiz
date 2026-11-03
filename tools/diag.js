@@ -1,35 +1,26 @@
-const pw=require('playwright');const fs=require('fs');const OUT=process.env.OUT;
-const V={
- base:{},
- eager:{init:`Object.defineProperty(HTMLImageElement.prototype,'loading',{configurable:true,get(){return 'eager'},set(v){}})`},
- nosrcset:{init:`for(const k of ['srcset','sizes'])Object.defineProperty(HTMLImageElement.prototype,k,{configurable:true,get(){return ''},set(v){}})`},
- eager_nosrcset:{init:`Object.defineProperty(HTMLImageElement.prototype,'loading',{configurable:true,get(){return 'eager'},set(v){}});for(const k of ['srcset','sizes'])Object.defineProperty(HTMLImageElement.prototype,k,{configurable:true,get(){return ''},set(v){}})`},
- nobackdrop:{css:`*,*::before,*::after{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}`},
- noanim:{css:`*,*::before,*::after{animation:none!important;transition:none!important}`},
- nofixed:{css:`.hdr,#tabbar,#fab,#ftip{position:static!important}`},
-};
-(async()=>{const res={};const b=await pw.webkit.launch();res.version=b.version();
-for(const route of ["#/retseptlar","#/"]){
- for(const [vn,v] of Object.entries(V)){
-  if(route==="#/"&&!["base","eager","nobackdrop"].includes(vn))continue;
-  const ctx=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true});
-  if(v.init)await ctx.addInitScript(v.init);
-  const p=await ctx.newPage();const log={req:0,resp:{},failed:[],console:[],errors:[]};
-  p.on('request',r=>{if(/wikimedia/.test(r.url()))log.req++});
-  p.on('response',r=>{if(/wikimedia/.test(r.url())){const k=r.status();log.resp[k]=(log.resp[k]||0)+1}});
-  p.on('requestfailed',r=>{if(log.failed.length<5)log.failed.push([r.url().slice(0,120),r.failure()&&r.failure().errorText])});
-  p.on('console',m=>{if(log.console.length<10&&m.type()!=="log")log.console.push(m.type()+": "+m.text().slice(0,200))});
-  p.on('pageerror',e=>log.errors.push(String(e).slice(0,300)));
-  try{await p.goto("https://bobur-gith.github.io/nima-pishiramiz/preview/"+route,{waitUntil:'load',timeout:30000})}catch(e){log.errors.push("goto "+e)}
-  if(v.css)await p.addStyleTag({content:v.css});
-  await p.waitForTimeout(9000);
-  const r=await Promise.race([new Promise(z=>setTimeout(()=>z({evalTimeout:true}),15000)),p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];
-    return {covers:document.querySelectorAll('.cover').length,seen:document.querySelectorAll('.cover[data-seen]').length,coversIn:document.querySelectorAll('.cover.in').length,tiles:document.querySelectorAll('.cover .tile').length,
-     imgs:im.length,loaded:im.filter(i=>i.complete&&i.naturalWidth>0).length,
-     detail:im.slice(0,3).map(i=>({cur:(i.currentSrc||'').slice(-60),src:i.src.slice(-40),complete:i.complete,nw:i.naturalWidth,loading:i.getAttribute('loading'),op:getComputedStyle(i).opacity,h:Math.round(i.getBoundingClientRect().height),top:Math.round(i.getBoundingClientRect().top)})),
-     bodyH:document.body.scrollHeight,bg:getComputedStyle(document.body).backgroundColor,ua:navigator.userAgent}})]);
-  res[route+"|"+vn]={...r,...log};
-  try{await p.screenshot({path:`${OUT}/${route.replace(/[#/]/g,'')||'home'}-${vn}.png`,timeout:15000})}catch(e){res[route+"|"+vn].shot=String(e).slice(0,120)}
-  fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));
-  await ctx.close().catch(()=>{})}}
-await b.close();fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));console.log(JSON.stringify(res,null,1))})();
+const pw=require('playwright');const fs=require('fs');const OUT=process.env.OUT;const res={};const save=()=>fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));
+const NB=`*,*::before,*::after{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}`;
+const CASES=[
+ ["preview-base","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{}],
+ ["preview-nobackdrop","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{css:NB}],
+ ["preview-home","https://bobur-gith.github.io/nima-pishiramiz/preview/#/",{}],
+ ["live","https://bobur-gith.github.io/nima-pishiramiz/",{}],
+ ["preview-mobile2x","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{mobile:true}],
+];
+(async()=>{for(const eng of (process.env.ENGINES||"webkit").split(",")){const b=await pw[eng].launch();res[eng+"_version"]=b.version();save();
+for(const [name,url,o] of CASES){const t0=Date.now();const key=eng+"|"+name;res[key]={};
+ const ctx=await b.newContext(o.mobile?{viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:eng!=="firefox",hasTouch:true}:{viewport:{width:390,height:844}});
+ const p=await ctx.newPage();const L={req:0,resp:{},failed:[],errors:[]};
+ p.on('request',r=>{if(/wikimedia/.test(r.url()))L.req++});
+ p.on('response',r=>{if(/wikimedia/.test(r.url())){const k=r.status();L.resp[k]=(L.resp[k]||0)+1}});
+ p.on('requestfailed',r=>{if(L.failed.length<4)L.failed.push([r.url().slice(-70),r.failure()&&r.failure().errorText])});
+ p.on('pageerror',e=>L.errors.push(String(e).slice(0,200)));
+ try{await p.goto(url,{waitUntil:'domcontentloaded',timeout:30000})}catch(e){L.errors.push("goto "+String(e).slice(0,100))}
+ if(o.css)await p.addStyleTag({content:o.css}).catch(()=>{});
+ const series=[];
+ for(let i=0;i<10;i++){await p.waitForTimeout(2000);
+  const r=await Promise.race([new Promise(z=>setTimeout(()=>z(null),8000)),p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];return [document.querySelectorAll('.cover').length,im.length,im.filter(i=>i.complete&&i.naturalWidth>0).length,document.querySelectorAll('.cover.in').length,document.querySelectorAll('.cover .tile').length]})]);
+  series.push(r);res[key]={ms:Date.now()-t0,series,...L};save();if(r&&r[1]>0&&r[2]===r[1])break}
+ await p.screenshot({path:`${OUT}/${eng}-${name}.png`,timeout:12000}).catch(e=>res[key].shot=String(e).slice(0,80));
+ res[key].ms=Date.now()-t0;save();await ctx.close().catch(()=>{})}
+await b.close()}console.log(JSON.stringify(res))})();
