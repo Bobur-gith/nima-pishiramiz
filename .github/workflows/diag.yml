@@ -12,12 +12,12 @@ jobs:
       fail-fast: false
       max-parallel: 2
       matrix:
-        pw: ["1.48.2", "latest"]
+        pw: ["latest", "1.48.2"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps webkit chromium
+      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps webkit
       - name: browser test
         timeout-minutes: 18
         run: mkdir -p out/${{ matrix.pw }} && OUT=out/${{ matrix.pw }} ENGINES=webkit,chromium timeout 900 node tools/diag.js || true
