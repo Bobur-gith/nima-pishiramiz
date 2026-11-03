@@ -49,7 +49,7 @@ async function pool(items, n, fn) {
 const chunks = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 
 // things that are not a photo of food
-const BAD = /\b(map|flag|logo|icon|coat of arms|coa|heraldry|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|restorant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|people|man|men|woman|women|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|bus|truck|tank|aircraft|ship|centre|center|bestanddeelnr|vendors?|selling|sellers?|box|tin|blik)\b|packag|advert|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
+const BAD = /\b(map|flag|logo|icon|coat of arms|coa|heraldry|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|restorant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|people|man|men|woman|women|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|bus|truck|tank|aircraft|ship|centre|center|bestanddeelnr|vendors?|selling|sellers?|box|tin|blik|still life|painting|sculpture|nypl|engraving|illustration|drawing|cliff|motor show|hotel|packers|mrd)\b|packag|advert|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
 // categories that mean the picture is about something else (a person, a town, a bus …)
 const BADCAT = /\b(people|men|women|portraits?|politicians?|members of|births|deaths|vehicles?|buses|trucks|cars|aircraft|ships|buildings|streets|villages|towns|cities|churches|mosques|heraldry|coats of arms|maps|logos|military|army|sports?|football|musicians?|actors?|landscapes|transport|railway|stations?)\b/i;
 const OKMIME = /image\/(jpeg|png|webp)/;
@@ -266,11 +266,11 @@ await pool(dishes.map((d, i) => i), 6, async i => {
   const fits = f => it && it.need ? hasNeed(f, it.need) : words(nameOf(f)).some(t => [...ownToks].some(q => same(t, q)));
   if (it) {
     const lead = [it.lead && it.lead.replace(/_/g, ' '), ...(w ? w.p18.map(f => f.replace(/_/g, ' ')) : [])].filter(Boolean);
-    out.lead = it.exact ? lead : lead.filter(f => hasNeed(f, it.need));
+    out.lead = it.exact ? (it.canon || it.sure ? lead : lead.filter(fits)) : lead.filter(f => hasNeed(f, it.need));
     if (it.qid) out.dep = (await depicts(it.qid)).filter(fits);
   }
   // the article title only when it is this dish and not a "(disambiguated)" word; uz/ru names only when they say as much as the English one
-  const titles = it && it.exact ? [it.title, it.alt].filter(t => t && !/\(/.test(t)) : [];
+  const titles = it && it.exact && (it.canon || it.sure) ? [it.title, it.alt].filter(t => t && !/\(/.test(t)) : [];
   const enN = content(d.en);
   const searchNames = [...new Set([d.en, ...titles, content(d.name) >= enN ? d.name : '', content(d.ru) >= enN ? d.ru : ''].map(clean).filter(x => x && norm(x).length >= 4))];
   for (const [ni, n] of searchNames.entries()) {
@@ -303,7 +303,8 @@ await pool(chunks(unknown, 50), 2, async names => {
 });
 
 // ---------- 7. assign, never reusing a photo ----------
-const used = new Set(); const PH = {};
+const BLOCK = new Set(fs.existsSync('tools/photo-block.json') ? JSON.parse(fs.readFileSync('tools/photo-block.json', 'utf8')) : []);
+const used = new Set(BLOCK); const PH = {};
 const nCand = c => c.dep.length + c.name.length + c.art.length + c.cat.length + c.full.length;
 // variants first (they can only use photos that name them: "Fried lagman …"), then dishes with an article image, then the rest
 const rank = i => item[i] && item[i].need ? 0 : item[i] && item[i].canon ? 1 : cand[i].lead.length ? 2 : 3;
@@ -319,7 +320,7 @@ for (const i of order) {
   if (pick.length) PH[dishes[i].k] = pick;
 }
 
-fs.writeFileSync('tools/photo-why.json', JSON.stringify(Object.fromEntries(dishes.map((d, i) => [d.k, item[i] ? [item[i].title, item[i].need ? item[i].need.map(g => g.join('+')).join(' | ') : '='] : null]))));
+fs.writeFileSync('tools/photo-why.json', JSON.stringify(Object.fromEntries(dishes.map((d, i) => [d.k, item[i] ? [item[i].title, item[i].need ? item[i].need.map(g => g.join('+')).join(' | ') : '=', item[i].canon || item[i].sure ? 1 : 0] : null]))));
 fs.writeFileSync('data/photos.js', 'window.PH=' + JSON.stringify(PH) + ';\n');
 const none = dishes.filter(d => !PH[d.k]), few = dishes.filter(d => PH[d.k] && PH[d.k].length < 3);
 say('with photos', Object.keys(PH).length, 'none', none.length, 'fewer than 3', few.length, 'rate-limited', limited, 'failed requests', failed);

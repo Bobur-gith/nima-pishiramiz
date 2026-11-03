@@ -3695,6 +3695,12 @@
  "few": [
   [
    "O'zbekiston",
+   "Toshkent oshi",
+   "Tashkent plov",
+   1
+  ],
+  [
+   "O'zbekiston",
    "Jigar kabob",
    "Liver kebab",
    2
@@ -3835,6 +3841,12 @@
    "Tojikiston",
    "Tuhum-pomidor",
    "Eggs with tomatoes",
+   2
+  ],
+  [
+   "Turkmaniston",
+   "Turkmancha palov",
+   "Turkmen plov",
    2
   ],
   [
@@ -4090,6 +4102,12 @@
    1
   ],
   [
+   "Koreya",
+   "Hoe (baliq xe)",
+   "Fish hoe",
+   2
+  ],
+  [
    "Hindiston",
    "Lassi tuzli",
    "Salted lassi",
@@ -4118,6 +4136,18 @@
    "Grek qatig'i asal bilan",
    "Greek yogurt with honey",
    1
+  ],
+  [
+   "AQSh",
+   "Pankeyk",
+   "Pancakes",
+   2
+  ],
+  [
+   "AQSh",
+   "Vafli",
+   "Waffles",
+   2
   ],
   [
    "Buyuk Britaniya",
@@ -4219,6 +4249,12 @@
    "Shveytsariya",
    "Kartoshkali gratin (gratin de pommes)",
    "Swiss potato gratin",
+   2
+  ],
+  [
+   "Avstriya",
+   "Vena shnitseli",
+   "Wiener Schnitzel",
    2
   ],
   [
@@ -4810,6 +4846,12 @@
    2
   ],
   [
+   "Shri-Lanka",
+   "Ceylon choyi",
+   "Ceylon tea",
+   2
+  ],
+  [
    "Nepal",
    "Gundruk sho'rva",
    "Gundruk soup",
@@ -4856,6 +4898,12 @@
    "Guriltai shul",
    "Guriltai shul",
    1
+  ],
+  [
+   "Mo'g'uliston",
+   "Suutei tsai",
+   "Suutei tsai (milk tea)",
+   2
   ],
   [
    "Mo'g'uliston",
@@ -4936,6 +4984,12 @@
    2
   ],
   [
+   "Malayziya",
+   "Teh tarik",
+   "Teh tarik",
+   2
+  ],
+  [
    "Singapur",
    "Satay bee hoon",
    "Satay bee hoon",
@@ -4952,6 +5006,12 @@
    "Nasi katok",
    "Nasi katok",
    1
+  ],
+  [
+   "Bruney",
+   "Soto (bruney)",
+   "Soto (Brunei)",
+   2
   ],
   [
    "Bruney",
@@ -5260,6 +5320,12 @@
    1
   ],
   [
+   "Syerra-Leone",
+   "Zanjabil pivosi (s. leone)",
+   "Ginger beer (Sierra Leone)",
+   2
+  ],
+  [
    "Liberiya",
    "Palma sho'rvasi (palm butter)",
    "Palm butter soup",
@@ -5294,6 +5360,12 @@
    "Caldo de peixe",
    "Caldo de peixe",
    1
+  ],
+  [
+   "Janubiy Afrika",
+   "Koeksisters",
+   "Koeksisters",
+   2
   ],
   [
    "Namibiya",
@@ -5348,6 +5420,12 @@
    "Muboora",
    "Muboora",
    1
+  ],
+  [
+   "Zambiya",
+   "Nshima",
+   "Nshima",
+   2
   ],
   [
    "Zambiya",
@@ -5471,6 +5549,12 @@
   ],
   [
    "Beliz",
+   "Guruch va loviya (beliz)",
+   "Belizean rice and beans",
+   2
+  ],
+  [
+   "Beliz",
    "Fry jack (qovurma non)",
    "Fry jacks",
    2
@@ -5534,6 +5618,12 @@
    "Kuba qahvasi",
    "Cuban coffee",
    1
+  ],
+  [
+   "Yamayka",
+   "Sorrel ichimligi",
+   "Jamaican sorrel drink",
+   2
   ],
   [
    "Gaiti",
@@ -5746,6 +5836,12 @@
    2
   ],
   [
+   "Yangi Zelandiya",
+   "Afghan pechenyesi",
+   "Afghan biscuits",
+   2
+  ],
+  [
    "Papua – Yangi Gvineya",
    "Mumu",
    "Mumu",
@@ -5918,6 +6014,12 @@
    "Turax",
    "Turakh",
    1
+  ],
+  [
+   "Chuvashiya",
+   "Chakat",
+   "Chakat cheese",
+   2
   ],
   [
    "Kareliya",
