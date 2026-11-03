@@ -7,22 +7,17 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
-    strategy:
-      fail-fast: false
-      max-parallel: 2
-      matrix:
-        pw: ["latest", "1.48.2"]
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps webkit
-      - name: browser test
-        timeout-minutes: 18
-        run: mkdir -p out/${{ matrix.pw }} && OUT=out/${{ matrix.pw }} ENGINES=webkit,chromium timeout 900 node tools/diag.js || true
+      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium
+      - name: capture
+        timeout-minutes: 15
+        run: mkdir -p out/shots && timeout 800 node tools/capture.js || true
       - name: save
         if: always()
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git add -f out; git commit -m "diag natija ${{ matrix.pw }}" || true; for i in 1 2 3; do git pull -q --rebase origin diag && git push && break; sleep 5; done
+          git add -f out; git commit -m "ekran suratlari" || true; for i in 1 2 3; do git pull -q --rebase origin diag && git push && break; sleep 5; done
