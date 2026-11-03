@@ -1,0 +1,196 @@
+{
+ "webkit": "18.0",
+ "webkit|mob|live": {
+  "css": "v=9",
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 7,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-home": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-recipes": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 4,
+  "inViewWithPhoto": 4,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-uz": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 4,
+  "inViewWithPhoto": 4,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-pantry": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-menu": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|desk|live": {
+  "css": "v=9",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-home": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 6,
+  "inViewWithPhoto": 6,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-recipes": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-uz": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-pantry": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-menu": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium": "130.0.6723.31",
+ "chromium|mob|live": {
+  "css": "v=9",
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 7,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-home": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-recipes": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 8,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-uz": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 8,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-pantry": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-menu": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|desk|live": {
+  "css": "v=9",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-home": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 6,
+  "inViewWithPhoto": 6,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-recipes": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-uz": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-pantry": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-menu": {
+  "css": "v=12",
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ }
+}
