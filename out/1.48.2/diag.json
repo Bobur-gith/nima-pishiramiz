@@ -1,0 +1,91 @@
+{
+ "version": "18.0",
+ "#/retseptlar|base": {
+  "covers": 48,
+  "seen": 48,
+  "coversIn": 0,
+  "tiles": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "detail": [],
+  "bodyH": 6435,
+  "bg": "rgb(11, 42, 31)",
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
+  "req": 0,
+  "resp": {},
+  "failed": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/"
+  ],
+  "errors": []
+ },
+ "#/retseptlar|eager": {
+  "covers": 48,
+  "seen": 48,
+  "coversIn": 0,
+  "tiles": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "detail": [],
+  "bodyH": 6435,
+  "bg": "rgb(11, 42, 31)",
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
+  "req": 0,
+  "resp": {},
+  "failed": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/",
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/"
+  ],
+  "errors": []
+ },
+ "#/retseptlar|nosrcset": {
+  "covers": 48,
+  "seen": 48,
+  "coversIn": 0,
+  "tiles": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "detail": [],
+  "bodyH": 6435,
+  "bg": "rgb(11, 42, 31)",
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
+  "req": 0,
+  "resp": {},
+  "failed": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/",
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/"
+  ],
+  "errors": []
+ },
+ "#/retseptlar|eager_nosrcset": {
+  "covers": 48,
+  "seen": 48,
+  "coversIn": 0,
+  "tiles": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "detail": [],
+  "bodyH": 6435,
+  "bg": "rgb(11, 42, 31)",
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15",
+  "req": 0,
+  "resp": {},
+  "failed": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/",
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/"
+  ],
+  "errors": []
+ }
+}
