@@ -1,0 +1,82 @@
+HTTP/2 302 
+date: Tue, 03 Nov 2026 18:24:03 GMT
+server: mw-web.codfw.main-56598f7df4-wk2xr
+x-content-type-options: nosniff
+accept-ch: 
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+location: https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Plov.jpg&width=640
+content-length: 0
+content-type: text/html; charset=UTF-8
+age: 0
+x-cache: cp4043 miss, cp4043 pass
+x-cache-status: pass
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+set-cookie: WMF-Last-Access=03-Nov-2026;Path=/;HttpOnly;secure;Expires=Sat, 05 Dec 2026 12:00:00 GMT
+x-client-ip: 134.33.67.119
+cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-transform
+vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+set-cookie: GeoIP=US:AZ:Phoenix:33.45:-112.07:v4; Path=/; secure; Domain=.wikimedia.org
+set-cookie: NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+set-cookie: WMF-Uniq=WxEiwX3DoJkYgRqrRR4unQQNAAAAAFvdrsD4pLYppGeeZvUor4KJSsxJjpF9ek0w;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Wed, 03 Nov 2027 00:00:00 GMT
+x-request-id: 46f7c358-f9a7-4f71-bf2a-948396db99d1
+x-analytics: 
+server-timing: cache;desc="pass", host;desc="cp4043",co_id;desc="3561071892"
+
+HTTP/2 301 
+date: Tue, 03 Nov 2026 18:24:03 GMT
+server: mw-web.codfw.main-56598f7df4-crk2z
+x-content-type-options: nosniff
+accept-ch: 
+last-modified: Tue, 03 Nov 2026 18:24:03 GMT
+location: https://upload.wikimedia.org/wikipedia/commons/e/e3/Plov.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled
+content-length: 0
+content-type: text/html; charset=UTF-8
+age: 0
+x-cache: cp4043 miss, cp4043 miss
+x-cache-status: miss
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+set-cookie: WMF-Last-Access=03-Nov-2026;Path=/;HttpOnly;secure;Expires=Sat, 05 Dec 2026 12:00:00 GMT
+x-client-ip: 134.33.67.119
+cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-transform
+vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+set-cookie: GeoIP=US:AZ:Phoenix:33.45:-112.07:v4; Path=/; secure; Domain=.wikimedia.org
+set-cookie: NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+set-cookie: WMF-Uniq=fX3mDveqVQkUD4JD4Dez5gQNAAAAAFvdEB3cFHX2Jk5lokMrsE5FZadT5pmxC16w;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Wed, 03 Nov 2027 00:00:00 GMT
+x-request-id: a6b49918-c6a9-440e-915a-f418df3c0b10
+x-analytics: 
+server-timing: cache;desc="miss", host;desc="cp4043",co_id;desc="3164100451"
+
+HTTP/2 200 
+content-type: image/jpeg
+x-object-meta-sha1base36: aut79xrzpts3h3xnexfi38fzh09ei5d
+etag: 09ba4900102343e77372c7fd26eec7bc
+last-modified: Thu, 09 Oct 2014 04:03:39 GMT
+content-length: 84742
+date: Tue, 03 Nov 2026 18:24:03 GMT
+x-ratelimit-limit: 600000, 600000;w=60
+x-ratelimit-remaining: 599258
+x-ratelimit-reset: 57
+server: envoy
+age: 0
+accept-ranges: bytes
+x-cache: cp4050 miss, cp4050 miss
+x-cache-status: miss
+server-timing: cache;desc="miss", host;desc="cp4050"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+x-client-ip: 134.33.67.119
+x-content-type-options: nosniff
+reporting-endpoints: csp_endpoint="https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json"
+content-security-policy-report-only: default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint
+access-control-allow-origin: *
+access-control-expose-headers: Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache
+timing-allow-origin: *
+set-cookie: WMF-Uniq=YGqyY9Od1cDBH3St1LX2AAQNAAAAAFvdtDDK11kjo2XIjNsn7whiAYBysGA7MQn3;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Wed, 03 Nov 2027 00:00:00 GMT
+x-request-id: 65fa26fa-3291-4c0f-9a8f-fbe5467f3e85
+x-analytics: 
+
