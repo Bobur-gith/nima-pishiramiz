@@ -188,14 +188,21 @@ const filesOf=d=>PH[d.country+"|"+d.name]||[];
 const hasPh=d=>filesOf(d).length>0;
 function photosFor(d){if(memo[d.id])return memo[d.id];const l=filesOf(d).map(f=>fileUrl(f));return memo[d.id]=Promise.resolve(l)}
 const io=("IntersectionObserver" in window)?new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);fillCover(e.target)})},{rootMargin:"400px"}):null;
-function fillCover(el){const d=BYID.get(el.dataset.cid);if(!d)return;
+function fillCover(el){if(el.dataset.filled)return;el.dataset.filled=1;const d=BYID.get(el.dataset.cid);if(!d)return;
   const f=filesOf(d)[0];const ld=el.querySelector(".ld");
   if(!f){if(ld)ld.outerHTML=tile(d);return}
-  const img=new Image();img.alt=dn(d);img.decoding="async";img.loading="lazy";
+  // IO allaqachon kech yuklaydi; brauzerning loading="lazy"si Safari'da rasmni umuman yuklamay qolishi mumkin
+  const img=new Image();img.alt=dn(d);img.decoding="async";
+  const done=()=>{ld&&ld.remove();el.classList.add("in")};
+  img.onload=done;img.onerror=()=>{img.remove();el.classList.remove("in");ld&&(ld.outerHTML=tile(d))};
   img.sizes=el.dataset.sizes||"(max-width:560px) 50vw, (max-width:1100px) 33vw, 280px";
   img.srcset=[320,480,640,960].map(w=>`${fileUrl(f,w)} ${w}w`).join(", ");img.src=fileUrl(f,640);
-  img.onload=()=>{ld&&ld.remove();el.classList.add("in")};img.onerror=()=>{img.remove();ld&&(ld.outerHTML=tile(d))};el.prepend(img)}
-function observeCovers(root){(root||document).querySelectorAll(".cover[data-cid]:not([data-seen])").forEach(el=>{el.dataset.seen=1;io?io.observe(el):fillCover(el)})}
+  el.prepend(img);if(img.complete&&img.naturalWidth)done()}
+// IntersectionObserver ishlamay qolsa (ba'zi Safari/WebView'larda) — ko'rinib turgan kartochkalarni qo'lda to'ldirish
+function sweepCovers(){const H=innerHeight+400,W=innerWidth+400;document.querySelectorAll(".cover[data-seen]:not([data-filled])").forEach(el=>{const r=el.getBoundingClientRect();if(r.bottom>-400&&r.top<H&&r.right>-400&&r.left<W&&(r.width||r.height)){io&&io.unobserve(el);fillCover(el)}})}
+let sweepT=0;const sweepSoon=()=>{clearTimeout(sweepT);sweepT=setTimeout(sweepCovers,1200)};
+addEventListener("scroll",sweepSoon,{passive:true,capture:true});addEventListener("resize",sweepSoon);
+function observeCovers(root){(root||document).querySelectorAll(".cover[data-cid]:not([data-seen])").forEach(el=>{el.dataset.seen=1;io?io.observe(el):fillCover(el)});sweepSoon()}
 
 /* ---------- icons ---------- */
 const I=(p,cls)=>`<svg class="ic${cls?" "+cls:""}" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
