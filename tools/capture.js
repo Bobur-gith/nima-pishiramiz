@@ -4,7 +4,7 @@ const BASE="https://bobur-gith.github.io/nima-pishiramiz/preview/?b="+Date.now()
 const OUT="out/shots";const meta={};const log=[];
 (async()=>{const b=await chromium.launch();
 const ctx=await b.newContext({viewport:{width:360,height:640},deviceScaleFactor:3,isMobile:true,hasTouch:true,locale:"uz-UZ"});
-await ctx.addInitScript(()=>{try{localStorage.setItem("np:lang",JSON.stringify("uz"))}catch(e){}});
+await ctx.addInitScript(()=>{try{localStorage.setItem("np:lang",JSON.stringify("uz"));localStorage.setItem("np:tipSeen","1")}catch(e){};document.addEventListener("DOMContentLoaded",()=>{const st=document.createElement("style");st.textContent="#ftip{display:none!important}";document.head.appendChild(st)})});
 const p=await ctx.newPage();p.on('pageerror',e=>log.push("err "+String(e).slice(0,200)));
 const box=async sel=>{try{const r=await p.locator(sel).first().boundingBox();return r?{x:Math.round((r.x+r.width/2)*3),y:Math.round((r.y+r.height/2)*3)}:null}catch(e){return null}};
 const waitImgs=async(ms=9000)=>{const t0=Date.now();while(Date.now()-t0<ms){const ok=await p.evaluate(()=>{const im=[...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.width>20&&/wikimedia/.test(i.currentSrc||i.src)});return im.every(i=>i.complete)}).catch(()=>true);if(ok)break;await p.waitForTimeout(400)}await p.waitForTimeout(700)};
@@ -14,7 +14,6 @@ try{
  await p.goto(BASE+"#/",{waitUntil:"domcontentloaded",timeout:45000});await p.waitForTimeout(2500);await waitImgs();
  await shot("home");
  await p.evaluate(()=>document.querySelector("#tToday").scrollIntoView({block:"start"}));await p.evaluate(()=>scrollBy(0,-70));await p.waitForTimeout(600);await waitImgs();await shot("home-today");
- await p.evaluate(()=>document.querySelector("#tUz").scrollIntoView({block:"start"}));await p.evaluate(()=>scrollBy(0,-70));await p.waitForTimeout(600);await waitImgs();await shot("home-uz");
  // Uyda nimalar bor?
  await go("#/uyda");await p.evaluate(()=>scrollTo(0,0));await p.waitForTimeout(800);
  await shot("pantry",await box('[data-pg="dairy"]'));
