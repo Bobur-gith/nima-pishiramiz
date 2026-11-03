@@ -1,0 +1,52 @@
+{
+ "version": "18.0",
+ "base": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nobalance": {
+  "t": 12,
+  "filled": 8,
+  "imgs": 6,
+  "loaded": 6,
+  "req": 18
+ },
+ "textadjust": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nofonts": {
+  "t": 1,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nogrid": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nohas": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "both": {
+  "t": 12,
+  "filled": 8,
+  "imgs": 6,
+  "loaded": 6,
+  "req": 18
+ }
+}
