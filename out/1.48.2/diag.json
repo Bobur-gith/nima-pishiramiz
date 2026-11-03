@@ -1,0 +1,59 @@
+{
+ "version": "18.0",
+ "base": {
+  "t": 0,
+  "imgs": 0
+ },
+ "all": {
+  "t": 12,
+  "imgs": 6
+ },
+ "allws": {
+  "t": 12,
+  "imgs": 6
+ },
+ "chip": {
+  "t": 12,
+  "imgs": 6
+ },
+ "pick": {
+  "t": 0,
+  "imgs": 0
+ },
+ "tog": {
+  "t": 0,
+  "imgs": 0
+ },
+ "seg": {
+  "t": 0,
+  "imgs": 0
+ },
+ "nav": {
+  "t": 0,
+  "imgs": 0
+ },
+ "tb": {
+  "t": 0,
+  "imgs": 0
+ },
+ "stx": {
+  "t": 0,
+  "imgs": 0
+ },
+ "nohdr": {
+  "t": 0,
+  "imgs": 0
+ },
+ "notab": {
+  "t": 0,
+  "imgs": 0
+ },
+ "nofab": {
+  "t": 0,
+  "imgs": 0
+ },
+ "nofilters": {
+  "t": 12,
+  "imgs": 7
+ }
+}
