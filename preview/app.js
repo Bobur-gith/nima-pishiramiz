@@ -199,7 +199,7 @@ function fillCover(el){if(el.dataset.filled)return;el.dataset.filled=1;const d=B
   img.srcset=[320,480,640,960].map(w=>`${fileUrl(f,w)} ${w}w`).join(", ");img.src=fileUrl(f,640);
   el.prepend(img);if(img.complete&&img.naturalWidth)done()}
 // IntersectionObserver ishlamay qolsa (ba'zi Safari/WebView'larda) — ko'rinib turgan kartochkalarni qo'lda to'ldirish
-function sweepCovers(){const H=innerHeight+400,W=innerWidth+400;document.querySelectorAll(".cover[data-seen]:not([data-filled])").forEach(el=>{const r=el.getBoundingClientRect();if(r.bottom>-400&&r.top<H&&r.right>-400&&r.left<W&&(r.width||r.height)){io&&io.unobserve(el);fillCover(el)}})}
+function sweepCovers(){const H=(innerHeight||document.documentElement.clientHeight||900)+400,W=(innerWidth||document.documentElement.clientWidth||500)+400;document.querySelectorAll(".cover[data-seen]:not([data-filled])").forEach(el=>{const r=el.getBoundingClientRect();if(r.bottom>-400&&r.top<H&&r.right>-400&&r.left<W&&(r.width||r.height)){io&&io.unobserve(el);fillCover(el)}})}
 let sweepT=0;const sweepSoon=()=>{clearTimeout(sweepT);sweepT=setTimeout(sweepCovers,1200)};
 addEventListener("scroll",sweepSoon,{passive:true,capture:true});addEventListener("resize",sweepSoon);
 function observeCovers(root){(root||document).querySelectorAll(".cover[data-cid]:not([data-seen])").forEach(el=>{el.dataset.seen=1;io?io.observe(el):fillCover(el)});sweepSoon()}
