@@ -20,15 +20,16 @@ for(const route of ["#/retseptlar","#/"]){
   p.on('requestfailed',r=>{if(log.failed.length<5)log.failed.push([r.url().slice(0,120),r.failure()&&r.failure().errorText])});
   p.on('console',m=>{if(log.console.length<10&&m.type()!=="log")log.console.push(m.type()+": "+m.text().slice(0,200))});
   p.on('pageerror',e=>log.errors.push(String(e).slice(0,300)));
-  try{await p.goto("https://bobur-gith.github.io/nima-pishiramiz/preview/"+route,{waitUntil:'load',timeout:60000})}catch(e){log.errors.push("goto "+e)}
+  try{await p.goto("https://bobur-gith.github.io/nima-pishiramiz/preview/"+route,{waitUntil:'load',timeout:30000})}catch(e){log.errors.push("goto "+e)}
   if(v.css)await p.addStyleTag({content:v.css});
   await p.waitForTimeout(9000);
-  const r=await p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];
+  const r=await Promise.race([new Promise(z=>setTimeout(()=>z({evalTimeout:true}),15000)),p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];
     return {covers:document.querySelectorAll('.cover').length,seen:document.querySelectorAll('.cover[data-seen]').length,coversIn:document.querySelectorAll('.cover.in').length,tiles:document.querySelectorAll('.cover .tile').length,
      imgs:im.length,loaded:im.filter(i=>i.complete&&i.naturalWidth>0).length,
      detail:im.slice(0,3).map(i=>({cur:(i.currentSrc||'').slice(-60),src:i.src.slice(-40),complete:i.complete,nw:i.naturalWidth,loading:i.getAttribute('loading'),op:getComputedStyle(i).opacity,h:Math.round(i.getBoundingClientRect().height),top:Math.round(i.getBoundingClientRect().top)})),
-     bodyH:document.body.scrollHeight,bg:getComputedStyle(document.body).backgroundColor,ua:navigator.userAgent}});
+     bodyH:document.body.scrollHeight,bg:getComputedStyle(document.body).backgroundColor,ua:navigator.userAgent}})]);
   res[route+"|"+vn]={...r,...log};
-  await p.screenshot({path:`${OUT}/${route.replace(/[#/]/g,'')||'home'}-${vn}.png`});
-  await ctx.close()}}
+  try{await p.screenshot({path:`${OUT}/${route.replace(/[#/]/g,'')||'home'}-${vn}.png`,timeout:15000})}catch(e){res[route+"|"+vn].shot=String(e).slice(0,120)}
+  fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));
+  await ctx.close().catch(()=>{})}}
 await b.close();fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));console.log(JSON.stringify(res,null,1))})();

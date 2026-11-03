@@ -7,10 +7,10 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 30
     strategy:
       fail-fast: false
-      max-parallel: 1
+      max-parallel: 2
       matrix:
         pw: ["1.48.2", "latest"]
     steps:
@@ -19,9 +19,10 @@ jobs:
         with: { node-version: 20 }
       - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps webkit
       - name: browser test
+        timeout-minutes: 18
         run: mkdir -p out/${{ matrix.pw }} && OUT=out/${{ matrix.pw }} node tools/diag.js
       - name: save
         if: always()
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git pull -q --rebase origin diag || true; git add -f out; git commit -m "diag natija ${{ matrix.pw }}" || true; git push
+          git add -f out; git commit -m "diag natija ${{ matrix.pw }}" || true; for i in 1 2 3; do git pull -q --rebase origin diag && git push && break; sleep 5; done
