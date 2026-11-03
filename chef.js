@@ -123,13 +123,13 @@ function keyRe(k){const e=rx(k);
 const KRE=KEYS.map(([k,c])=>[k,c,keyRe(k)]);
 const NEG=/(?:^|\s)(yo'q|yoq|emas|нет|без|no|not|without|don't|dont)(?=$|\s)/;
 function findIngs(text){
-  const has=[],without=[];
+  const has=[],without=[],words=[];
   const clauses=N(text).split(/[.;!?\n,]|\s(?:lekin|ammo|но|but)\s/);
   for(let cl of clauses){cl=" "+cl+" ";const neg=NEG.test(cl);
     for(const [k,c,re] of KRE){const m=cl.match(re);if(!m)continue;
-      const w=m[1];cl=cl.replace(m[1]," ".repeat(m[1].length));
+      const w=m[1];words.push(w.trim());cl=cl.replace(m[1]," ".repeat(m[1].length));
       if(neg||/siz$/.test(w)&&!/siz$/.test(k))without.push(c);else has.push(c)}}
-  return {has:[...new Set(has)],without:[...new Set(without)]}}
+  return {has:[...new Set(has)],without:[...new Set(without)],words}}
 // countries: stems of uz/ru/en names + common adjectives
 const IRR={"O'zbekiston":["uzbek","узбек"],"Rossiya":["rus","русск","russian"],"Fransiya":["french","француз","fransuz"],"Germaniya":["nemis","немецк"],"Xitoy":["chinese","китайск"],"Yaponiya":["японск"],"Turkiya":["turk","турецк","turkish"],
  "Buyuk Britaniya":["ingliz","англий","english","british"],"AQSh":["amerika","american","американ","usa","сша"],"Arab davlatlari":["arab","араб"],"Ispaniya":["spanish","испанск"],"Gretsiya":["grek","greek","греческ"],
@@ -196,7 +196,7 @@ function analyze(text){const t=N(text);const ing=findIngs(text);let dk;
   if(VEG.test(t))a.without=[...new Set([...a.without,...MEATS])];
   // a dish name that is also an ingredient ("choy") counts as a dish only when asked for a recipe
   if(a.dishes.length&&a.ings.length&&!a.recipe){a.dishes=a.dishes.filter(id=>{const d=NP.BYID.get(id);return !a.ings.includes(NP.canon(d.name))})}
-  const ingRe=[...a.ings,...a.without].map(c=>new RegExp("^"+rx(N(c).slice(0,Math.max(3,N(c).length-1)))));
+  const ingRe=[...a.ings,...a.without,...ing.words.filter(w=>!(ing.kind||[]).includes(N(w)))].map(c=>new RegExp("^"+rx(N(c).slice(0,Math.max(3,N(c).length-1)))));
   const cRe=CK.filter(([,c])=>a.countries.includes(c)).map(([k])=>new RegExp("^"+rx(k)));
   a.kinds=a.dishes.length?[]:[...new Set([...(ing.kind||[]),...findKinds(text,[...ingRe,...cRe,...MEALRE.map(x=>x[1]),SOUP,THICK,QUICK,VEG,RECIPE,SUGGEST,GREET,THANKS,...REGRE.map(x=>x[1])])])];
   // "somsa", "manti", "shashlik" alone: show the whole family (Uzbek ones first), not one dish that happens to be called just that

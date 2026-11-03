@@ -5,50 +5,141 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Nima pishiramiz?</title>
 <meta name="description" content="AI oshpazdan so'rang — 195 davlat va 19 avtonomiyadan 2900 dan ortiq taom retsepti, suratlari va tayyorlash usullari.">
-<meta name="theme-color" content="#f6f1e7">
+<meta name="theme-color" content="#0b2a1f">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B2%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Onest:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=8">
+<link rel="preconnect" href="https://commons.wikimedia.org">
+<link rel="preconnect" href="https://upload.wikimedia.org">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Onest:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=9">
 </head>
 <body class="locked">
 <div class="gate" id="gate"><div class="gcard"><div class="gspin"></div></div></div>
 
-<div class="wrap">
-  <header class="top">
-    <div class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#2b1d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18"/><path d="M5 11v5a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5"/><path d="M2 11h2M20 11h2"/><path d="M9 7c0-1 1-1.5 1-2.5M13 7c0-1 1-1.5 1-2.5"/></svg></div>
-    <div class="tt"><h1 id="h1">Nima pishiramiz?</h1><p id="stat"></p></div>
-    <div class="lang" id="lang" role="group" aria-label="Til / Язык / Language">
-      <button data-lang="uz" aria-pressed="true">UZ</button><button data-lang="ru" aria-pressed="false">RU</button><button data-lang="en" aria-pressed="false">EN</button>
+<header class="hdr" id="hdr">
+  <div class="hin wrap">
+    <a class="brand" href="#/" aria-label="Nima pishiramiz?">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 18.5c-3.3-.4-5.5-3-5-6.2.5-2.8 3.3-4.7 6.1-4.2C11.3 5.6 13.6 4 16 4s4.7 1.6 5.9 4.1c2.8-.5 5.6 1.4 6.1 4.2.5 3.2-1.7 5.8-5 6.2V24H9z"/><path d="M9 24h14v2.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 9 26.5z"/><path d="M13 18.5v3M16 17.5v4M19 18.5v3"/></svg></span>
+      <span class="bname" id="bname">Nima<br>pishiramiz?</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Menu"></nav>
+    <div class="hact">
+      <div class="lang" id="lang" role="group" aria-label="Til / Язык / Language">
+        <button data-lang="uz" aria-pressed="true">UZ</button><button data-lang="ru" aria-pressed="false">RU</button><button data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="ib" href="#/saqlangan" id="hSaved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><i id="favN" hidden></i></a>
+      <div class="acct" id="acct" hidden></div>
     </div>
-    <div class="acct" id="acct" hidden></div>
-  </header>
+  </div>
+</header>
 
-  <section class="hero" id="hero" aria-labelledby="heroT">
-    <div class="hchef" id="hchef" aria-hidden="true"></div>
-    <div class="hbody">
-      <p class="hbub" id="heroT"></p>
-      <form class="ask" id="askForm" autocomplete="off">
-        <input id="askIn" type="text" enterkeyhint="send">
-        <button class="askgo" id="askGo" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span id="askGoT"></span></button>
-      </form>
-      <div class="hsug" id="hSug"></div>
+<main id="app">
+  <!-- ============ HOME ============ -->
+  <section class="view" id="vHome" data-view="home">
+    <section class="hero">
+      <div class="wrap hgrid">
+        <div class="htxt">
+          <span class="eyebrow" id="hEye"></span>
+          <h1 class="htitle" id="hTitle"></h1>
+          <p class="hsub" id="hSub"></p>
+          <form class="search" id="sForm" role="search" autocomplete="off">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="sIn" type="search" enterkeyhint="search">
+            <button type="submit" id="sGo" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+            <div class="sdrop" id="sDrop" hidden></div>
+          </form>
+          <div class="qa" id="qa"></div>
+        </div>
+        <div class="hart" aria-hidden="true">
+          <div class="plate" id="heroImg"></div>
+          <div class="laurel"><b id="hCount">2 900+</b><span id="hCountL"></span></div>
+          <span class="leaf l1"></span><span class="leaf l2"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="sec"><div class="sh"><h2 id="tCats"></h2></div><div class="cats" id="cats"></div></section>
+
+      <section class="sec chefsec">
+        <div class="hchef" id="hchef" aria-hidden="true"></div>
+        <div class="hbody">
+          <h2 id="tChef"></h2>
+          <p class="hbub" id="heroT"></p>
+          <form class="ask" id="askForm" autocomplete="off">
+            <input id="askIn" type="text" enterkeyhint="send">
+            <button class="askgo" id="askGo" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span id="askGoT"></span></button>
+          </form>
+          <div class="hsug" id="hSug"></div>
+        </div>
+      </section>
+
+      <section class="sec"><div class="sh"><h2 id="tToday"></h2><a class="all" href="#/retseptlar" id="aToday"></a></div><div class="row" id="rToday"></div></section>
+      <section class="sec"><div class="sh"><h2 id="tUz"></h2><a class="all" href="#/retseptlar?c=O'zbekiston" id="aUz"></a></div><div class="row" id="rUz"></div></section>
+      <section class="sec"><div class="sh"><h2 id="tWorld"></h2><button class="all" type="button" id="aWorld"></button></div><div class="chips rtabs" id="wTabs"></div><div class="clist" id="wList"></div></section>
+      <section class="sec"><div class="sh"><h2 id="tQuick"></h2><a class="all" href="#/retseptlar?t=30" id="aQuick"></a></div><div class="row" id="rQuick"></div></section>
+      <section class="sec promos" id="promos"></section>
     </div>
   </section>
-</div>
 
-<main class="results wrap">
-  <h2 class="catT" id="catT"></h2>
-  <div class="browse">
-    <button class="pick" id="pickC" type="button" aria-haspopup="dialog"></button>
-    <input class="nq" id="nameQ" type="search" autocomplete="off">
-  </div>
-  <div class="rhead"><h3 id="rt"></h3><span id="rc"></span></div>
-  <div class="grid" id="grid"></div>
-  <button class="more" id="more" hidden></button>
+  <!-- ============ RECIPES ============ -->
+  <section class="view wrap" id="vRecipes" data-view="recipes" hidden>
+    <div class="vhead"><h1 id="rTitle"></h1><p id="rSub"></p></div>
+    <div class="filters">
+      <div class="fl1">
+        <label class="nqw"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input class="nq" id="nameQ" type="search" autocomplete="off"></label>
+        <button class="pick" id="pickC" type="button" aria-haspopup="dialog"></button>
+      </div>
+      <div class="chips" id="fMeal"></div>
+      <div class="fl2"><div class="tog" id="fType"></div><div class="chips" id="fTime"></div></div>
+    </div>
+    <div class="rhead"><h3 id="rt"></h3><span id="rc"></span><button class="reset" id="fReset" type="button" hidden></button></div>
+    <div class="grid" id="grid"></div>
+    <button class="more" id="more" hidden></button>
+  </section>
+
+  <!-- ============ PANTRY: Uyda nimalar bor? ============ -->
+  <section class="view wrap" id="vPantry" data-view="pantry" hidden>
+    <div class="vhead"><h1 id="pTitle"></h1><p id="pSub"></p></div>
+    <div class="pbox">
+      <div class="field"><input id="pIn" type="text" autocomplete="off" enterkeyhint="done"><button class="add" id="pAdd" type="button"></button><div class="sug" id="pSug" hidden></div></div>
+      <div class="mine" id="pMine"></div>
+      <p class="note" id="pNote"></p>
+    </div>
+    <div class="chips gtabs" id="pTabs"></div>
+    <div class="igrid" id="pIngs"></div>
+    <div class="pres" id="pRes">
+      <div class="seg" id="pSeg"></div>
+      <div class="rhead"><h3 id="prt"></h3><span id="prc"></span></div>
+      <div class="grid" id="pGrid"></div>
+      <button class="more" id="pMore" hidden></button>
+    </div>
+  </section>
+
+  <!-- ============ WEEKLY MENU ============ -->
+  <section class="view wrap" id="vMenu" data-view="menu" hidden>
+    <div class="vhead"><h1 id="mTitle"></h1><p id="mSub"></p></div>
+    <div class="mbar"><button class="ib2" id="mPrev" type="button" aria-label="‹">‹</button><b id="mWeek"></b><button class="ib2" id="mNext" type="button" aria-label="›">›</button><button class="btn gold" id="mNew" type="button"></button></div>
+    <div class="days" id="mDays"></div>
+    <section class="shop"><div class="sh"><h2 id="mShopT"></h2><span id="mShopN"></span></div><p class="note" id="mShopNote"></p><ul class="shopl" id="mShop"></ul></section>
+  </section>
+
+  <!-- ============ SAVED ============ -->
+  <section class="view wrap" id="vSaved" data-view="saved" hidden>
+    <div class="vhead"><h1 id="fTitle"></h1><p id="fSub"></p></div>
+    <div class="grid" id="fGrid"></div>
+  </section>
+
+  <!-- ============ PREMIUM ============ -->
+  <section class="view wrap" id="vPremium" data-view="premium" hidden>
+    <div class="prem" id="prem"></div>
+  </section>
 </main>
-<footer class="wrap" id="foot"></footer>
+
+<footer class="ftr" id="foot"></footer>
+
+<nav class="tabbar" id="tabbar" aria-label="Menu"></nav>
 
 <div class="ov" id="ov" hidden></div>
 <article class="sheet" id="sheet" hidden role="dialog" aria-modal="true"></article>
@@ -122,9 +213,9 @@
 <script src="data/x-eu.js"></script>
 <script src="data/i18n.js?v=6"></script>
 <script src="data/photos.js?v=7"></script>
-<script src="app.js?v=8"></script>
+<script src="app.js?v=9"></script>
 <script src="ai-config.js?v=8"></script>
-<script src="chef.js?v=8"></script>
+<script src="chef.js?v=9"></script>
 <script src="firebase-config.js?v=6"></script>
 <script type="module" src="auth.js?v=6"></script>
 </body>
