@@ -1,0 +1,389 @@
+{
+ "version": "18.0",
+ "recipes-m2x": {
+  "snaps": [
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 0,
+     "inter": 0
+    },
+    "t": 0,
+    "seen": 48,
+    "filled": 0,
+    "imgs": 0,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   }
+  ],
+  "req": 0,
+  "errors": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/"
+  ],
+  "manual": "timeout",
+  "raf": "raf ok",
+  "afterScroll": {
+   "io": {
+    "created": 1,
+    "observed": 48,
+    "cb": 0,
+    "inter": 0
+   },
+   "filled": 0,
+   "imgs": 0
+  },
+  "req2": 3
+ },
+ "recipes-desk": {
+  "snaps": [
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 5,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 10,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 15,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 20,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 25,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   },
+   {
+    "io": {
+     "created": 1,
+     "observed": 48,
+     "cb": 1,
+     "inter": 8
+    },
+    "t": 30,
+    "seen": 48,
+    "filled": 8,
+    "imgs": 6,
+    "r0": [
+     524,
+     17,
+     172,
+     129
+    ],
+    "ih": 844,
+    "ch": 844,
+    "sy": 0,
+    "vv": [
+     390,
+     844,
+     1
+    ],
+    "vis": "visible",
+    "raf": 0
+   }
+  ],
+  "req": 18,
+  "errors": [],
+  "console": [
+   "info: Successfully preconnected to https://fonts.googleapis.com/",
+   "info: Successfully preconnected to https://fonts.gstatic.com/",
+   "info: Successfully preconnected to https://upload.wikimedia.org/",
+   "info: Successfully preconnected to https://commons.wikimedia.org/"
+  ],
+  "manual": "load 330",
+  "raf": "raf ok",
+  "afterScroll": {
+   "io": {
+    "created": 1,
+    "observed": 48,
+    "cb": 2,
+    "inter": 10
+   },
+   "filled": 10,
+   "imgs": 7
+  },
+  "req2": 24
+ }
+}
