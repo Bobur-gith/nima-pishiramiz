@@ -29,9 +29,9 @@ const UI={
   more:n=>`Yana ko'rsatish (${n})`,video:"Tayyorlanish videosi",ings:"Masalliqlar",have:(a,b)=>`${a}/${b} bor`,opt:"ixtiyoriy",
   cook:"Tayyorlash",steps:n=>`${n} qadam`,allOk:"✓ Hammasi bor — pishiravering!",timer:m=>`${m} daqiqa taymer`,ready:"Tayyor!",timeUp:"⏰ Vaqt tugadi!",
   close:"Yopish",photos:"Suratlar: Wikimedia Commons",stepDone:n=>`${n}-qadam bajarildi`,photoN:n=>`${n}-surat`,
-  filters:"Filtrlar",change:"O'zgartirish",
+  filters:"Filtrlar",change:"O'zgartirish",cat:"Taomlar katalogi",nameQ:"Taom nomini qidiring…",
   foot:"Suratlar avtomatik ravishda Wikipedia va Wikimedia Commons'dan (erkin litsenziya) olinadi. «Tayyorlanish videosi» tugmasi YouTube'da shu taom retseptlarini ochadi.",
-  min:"daq",hr:"soat",day:"kun",yt:" retsepti",desc:"Uyda bor masalliqlarni yozing — 195 davlat va 19 avtonomiyadan 2900 dan ortiq taomdan qaysi birini pishirish mumkinligini ko'ring."},
+  min:"daq",hr:"soat",day:"kun",yt:" retsepti",desc:"AI oshpazdan so'rang — 195 davlat va 19 avtonomiyadan 2900 dan ortiq taom retsepti, suratlari va tayyorlash usullari."},
  ru:{title:"Что приготовить?",stat:(a,b,c)=>`${a} блюд · ${b} стран`+(c?` · ${c} автономий`:""),
   q1:"Блюдо какой страны хотите?",q2:"На какое время нужно блюдо?",q3:"Густое блюдо или жидкое?",q4:"Что у вас есть дома?",
   world:"Весь мир",anyMeal:"Любое",anyType:"Неважно",quyuq:"Густое",suyuq:"Жидкое",
@@ -47,9 +47,9 @@ const UI={
   more:n=>`Показать ещё (${n})`,video:"Видео рецепта",ings:"Ингредиенты",have:(a,b)=>`есть ${a}/${b}`,opt:"по желанию",
   cook:"Приготовление",steps:n=>`${n} шагов`,allOk:"✓ Всё есть — готовьте!",timer:m=>`таймер ${m} мин`,ready:"Готово!",timeUp:"⏰ Время вышло!",
   close:"Закрыть",photos:"Фото: Wikimedia Commons",stepDone:n=>`Шаг ${n} выполнен`,photoN:n=>`Фото ${n}`,
-  filters:"Фильтры",change:"Изменить",
+  filters:"Фильтры",change:"Изменить",cat:"Каталог блюд",nameQ:"Найти блюдо по названию…",
   foot:"Фото подгружаются автоматически из Википедии и Wikimedia Commons (свободные лицензии). Кнопка «Видео рецепта» открывает рецепты этого блюда на YouTube.",
-  min:"мин",hr:"ч",day:"дн",yt:" рецепт",desc:"Напишите, какие продукты есть дома, — и узнайте, какие из 2900+ блюд 195 стран и 19 автономий можно приготовить."},
+  min:"мин",hr:"ч",day:"дн",yt:" рецепт",desc:"Спросите AI-повара — 2900+ рецептов блюд 195 стран и 19 автономий с фото и пошаговым приготовлением."},
  en:{title:"What to cook?",stat:(a,b,c)=>`${a} dishes · ${b} countries`+(c?` · ${c} autonomies`:""),
   q1:"Which country's food do you want?",q2:"What meal is it for?",q3:"Thick dish or soupy?",q4:"What do you have at home?",
   world:"Whole world",anyMeal:"Any",anyType:"Either",quyuq:"Thick",suyuq:"Soupy",
@@ -65,9 +65,9 @@ const UI={
   more:n=>`Show more (${n})`,video:"Video recipe",ings:"Ingredients",have:(a,b)=>`${a}/${b} at hand`,opt:"optional",
   cook:"Method",steps:n=>`${n} steps`,allOk:"✓ You have everything — start cooking!",timer:m=>`${m} min timer`,ready:"Done!",timeUp:"⏰ Time's up!",
   close:"Close",photos:"Photos: Wikimedia Commons",stepDone:n=>`Step ${n} done`,photoN:n=>`Photo ${n}`,
-  filters:"Filters",change:"Change",
+  filters:"Filters",change:"Change",cat:"Dish catalogue",nameQ:"Search dishes by name…",
   foot:"Photos load automatically from Wikipedia and Wikimedia Commons (free licences). The “Video recipe” button opens recipes for the dish on YouTube.",
-  min:"min",hr:"h",day:"d",yt:" recipe",desc:"Type what you have at home and see which of 2,900+ dishes from 195 countries and 19 autonomies you can cook."}
+  min:"min",hr:"h",day:"d",yt:" recipe",desc:"Ask the AI chef — 2,900+ recipes from 195 countries and 19 autonomies, with photos and step-by-step methods."}
 };
 const t=()=>UI[lang];
 const trC=c=>lang==="uz"?c:((T.C[c]||[])[LI()]||c);
@@ -125,7 +125,7 @@ const VOCAB=[...new Set([...ALL.flatMap(d=>d.ing.map(i=>canon(i[0]))).filter(x=>
 
 /* ---------- state ---------- */
 let pantry=store.get("pantry",[]);
-let fR=store.get("fR",""),fC=store.get("fC",""),fM=store.get("fM",""),fT=store.get("fT",""),seg="auto",limit=48;
+let fR=store.get("fR",""),fC=store.get("fC",""),nameQ="",limit=48;
 if(fC&&!isCountry(fC))fC="";if(fR&&!REGIONS.includes(fR))fR="";
 
 function has(name){const c=canon(name);return pantry.includes(c)||(ALSO[c]||[]).some(a=>pantry.includes(a))}
@@ -151,8 +151,7 @@ function renderStatic(){const u=t();
   const md=document.querySelector('meta[name="description"]');md&&md.setAttribute("content",u.desc);
   $("#h1").textContent=u.title;
   $("#stat").textContent=u.stat(ALL.length,COUNTRIES.filter(c=>c!=="Arab davlatlari"&&REGION[c]!=="Avtonomiyalar").length,COUNTRIES.filter(c=>REGION[c]==="Avtonomiyalar").length);
-  $("#q1").textContent=u.q1;$("#q2").textContent=u.q2;$("#q3").textContent=u.q3;$("#q4").textContent=u.q4;
-  $("#q").placeholder=u.ph;$("#q").setAttribute("aria-label",u.q4);$("#add").textContent=u.add;$("#clr").textContent=u.clear;$("#note").textContent=u.note;
+  $("#catT").textContent=u.cat;$("#nameQ").placeholder=u.nameQ;$("#nameQ").setAttribute("aria-label",u.nameQ);
   $("#foot").textContent=u.foot;$("#pkTitle").textContent=u.q1;$("#pkSearch").placeholder=u.search;$("#pkClose").setAttribute("aria-label",u.close);
   document.querySelectorAll("#lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===lang));
 }
@@ -162,13 +161,7 @@ function countryLabel(){const u=t();if(fC)return `<span class="fx">${FLAG[fC]}</
 function renderFilters(){const u=t();
   const n=ALL.filter(d=>(!fR||REGION[d.country]===fR)&&(!fC||d.country===fC)).length;
   $("#pickC").innerHTML=`${countryLabel()}<small>${u.dishes(n)}</small><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
-  $("#fM").innerHTML=[["",u.anyMeal],...MEALS.map(m=>[m,u.meals[m]])].map(([v,l])=>`<button class="chip" data-m="${v}" aria-pressed="${fM===v}"><span aria-hidden="true">${MEAL_IC[v]}</span>${esc(l)}</button>`).join("");
-  $("#fT").innerHTML=[["",u.anyType,"⚖️"],["quyuq",u.quyuq,"🍛"],["suyuq",u.suyuq,"🍜"]].map(([v,l,ic])=>`<button data-t="${v}" aria-pressed="${fT===v}"><span aria-hidden="true">${ic}</span>${esc(l)}</button>`).join("");
-  renderMini();
 }
-function renderMini(){const u=t();const parts=[fC?`${FLAG[fC]} ${esc(trC(fC))}`:fR?`🧭 ${esc(u.regions[fR])}`:`🌍 ${esc(u.world)}`];
-  if(fM)parts.push(`${MEAL_IC[fM]} ${esc(u.meals[fM])}`);if(fT)parts.push(esc(u[fT]));if(pantry.length)parts.push(`🧺 ${pantry.length}`);
-  $("#mini").innerHTML=`<span class="mp">${parts.map(p=>`<span>${p}</span>`).join("")}</span><b>${esc(u.change)}</b>`}
 
 /* country picker */
 let pkR="";
@@ -185,45 +178,26 @@ function openPicker(){pkR=fC?REGION[fC]:fR;$("#pkSearch").value="";renderPicker(
   const sel=$("#pkList [aria-pressed=true]");sel&&sel.scrollIntoView({block:"center"})}
 function closePicker(){$("#pov").classList.remove("on");$("#picker").classList.remove("on");if(!openId)document.body.style.overflow="";setTimeout(()=>{if(!$("#picker").classList.contains("on")){$("#pov").hidden=true;$("#picker").hidden=true}},300)}
 
-/* ---------- pantry ---------- */
-const QUICK=["tuxum","kartoshka","piyoz","sabzi","pomidor","go'sht","tovuq","qiyma","guruch","un","sut","qatiq","non","pishloq","lapsha","shakar","bodring","karam"];
-function renderPantry(){const u=t();
-  $("#mine").innerHTML=pantry.map(p=>`<span class="tag">${esc(trI(p))}<button data-rm="${esc(p)}" aria-label="${esc(trI(p))} — ${u.remove}">×</button></span>`).join("");
-  $("#quick").innerHTML=QUICK.filter(q=>!pantry.includes(q)).map(q=>`<button class="q" data-qa="${esc(q)}">+ ${esc(trI(q))}</button>`).join("");
-  $("#clr").hidden=!pantry.length;renderMini();
-}
-function addItems(raw){const items=raw.split(/[,;\n]+/).map(s=>s.trim()).filter(Boolean).map(canon);let n=0;items.forEach(i=>{if(!pantry.includes(i)){pantry.push(i);n++}});if(n){store.set("pantry",pantry);seg="auto";limit=48;renderPantry();renderResults()}}
-let sugL=[],sugI=0;
-function renderSug(){const q=norm($("#q").value.split(/[,;]/).pop());const box=$("#sug");if(!q){box.hidden=true;return}
-  const lab=v=>norm(trI(v));
-  const viaAlias=[...ALIAS.entries()].filter(([a])=>a.startsWith(q)).map(([,c])=>c);
-  sugL=[...new Set([...VOCAB.filter(v=>lab(v).startsWith(q)||v.startsWith(q)),...viaAlias,...VOCAB.filter(v=>lab(v).includes(q))])].filter(v=>!pantry.includes(v)).slice(0,6);
-  if(!sugL.length){box.hidden=true;return}sugI=Math.min(sugI,sugL.length-1);
-  box.innerHTML=sugL.map((s,i)=>`<button data-sg="${esc(s)}" aria-selected="${i===sugI}">${esc(trI(s))}</button>`).join("");box.hidden=false}
-function submit(){const v=$("#q").value;if(!v.trim())return;if(!/[,;]/.test(v)&&sugL.length&&!$("#sug").hidden&&!VOCAB.includes(canon(v)))addItems(sugL[sugI]);else addItems(v);$("#q").value="";$("#sug").hidden=true}
+/* ---------- pantry: filled by the AI chef from what the user says they have ---------- */
+function setPantry(list){pantry=[...new Set((list||[]).map(canon))];store.set("pantry",pantry);if(openId)openDish(openId,true)}
 
 /* ---------- results ---------- */
-function renderResults(){const u=t();
-  let list=ALL.filter(d=>(!fR||REGION[d.country]===fR)&&(!fC||d.country===fC)&&(!fM||d.meals.includes(fM))&&(!fT||d.type===fT)).map(d=>({d,m:match(d)}));
-  const P=pantry.length>0;
-  if(P)list.sort((a,b)=>a.m.miss.length-b.m.miss.length||(b.m.have/(b.m.need||1))-(a.m.have/(a.m.need||1))||a.d.time-b.d.time);
-  const now=list.filter(x=>!x.m.miss.length),near=list.filter(x=>x.m.miss.length>0&&x.m.miss.length<=2);
-  let s=seg;if(s==="auto")s=!P?"all":now.length?"now":near.length?"near":"all";
-  const sg=$("#seg");sg.hidden=!P;
-  if(P)sg.innerHTML=[["now",u.now,now.length],["near",u.near,near.length],["all",u.all,null]].map(([k,l,n])=>`<button data-sg2="${k}" aria-pressed="${s===k}">${esc(l)}${n!=null?` <small>${n}</small>`:""}</button>`).join("");
-  const shown=s==="now"?now:s==="near"?near:list;
-  $("#rt").textContent=!P?(fC?`${FLAG[fC]} ${u.tOf(trC(fC))}`:fR?u.tOf(u.regions[fR]):u.tDef):s==="now"?u.tNow:s==="near"?u.tNear:u.tAll;
-  $("#rc").textContent=u.cnt(shown.length);
+function renderResults(){const u=t();const q=norm(nameQ);
+  const list=ALL.filter(d=>(!fR||REGION[d.country]===fR)&&(!fC||d.country===fC)&&(!q||[d.name,d.nru,d.nen,trC(d.country)].some(x=>x&&norm(x).includes(q))));
+  $("#rt").textContent=fC?`${FLAG[fC]} ${u.tOf(trC(fC))}`:fR?u.tOf(u.regions[fR]):u.tDef;
+  $("#rc").textContent=u.cnt(list.length);
   const g=$("#grid");
-  if(!shown.length){g.innerHTML=`<div class="empty"><b>${esc(u.none)}</b>${esc(s==="now"?u.noneNow:u.noneF)}</div>`;$("#more").hidden=true;return}
-  g.innerHTML=shown.slice(0,limit).map(({d,m})=>{
-    const line=!P?`<div class="ml n">${u.ingN(m.need)}</div>`:!m.miss.length?`<div class="ml ok">${u.allHave}</div>`:`<div class="ml">${u.lack}: ${esc(m.miss.slice(0,3).join(", "))}${m.miss.length>3?` +${m.miss.length-3}`:""}</div>`;
-    return `<button class="card" data-open="${d.id}"><div class="cover" data-cid="${d.id}"><div class="ld"></div>${P?`<span class="badge ${m.miss.length?"":"ok"}">${m.have}/${m.need}</span>`:""}<span class="cflag" aria-hidden="true">${d.flag}</span></div>
-      <div class="cb"><h3>${esc(dn(d))}</h3><div class="cm">${esc(trC(d.country))} · ${fmtTime(d.time)}</div>${line}</div></button>`}).join("");
+  if(!list.length){g.innerHTML=`<div class="empty"><b>${esc(u.none)}</b>${esc(u.noneF)}</div>`;$("#more").hidden=true;return}
+  g.innerHTML=list.slice(0,limit).map(d=>cardHTML(d)).join("");
   g.querySelectorAll(".cover").forEach(el=>io?io.observe(el):fillCover(el));
-  const mb=$("#more");mb.hidden=shown.length<=limit;mb.textContent=u.more(shown.length-limit);
+  const mb=$("#more");mb.hidden=list.length<=limit;mb.textContent=u.more(list.length-limit);
 }
-function renderAll(){renderStatic();renderFilters();renderPantry();renderResults();if(openId)openDish(openId,true)}
+function cardHTML(d){const u=t();const m=match(d);const P=pantry.length>0;
+  const line=!P?`<div class="ml n">${u.ingN(m.need)}</div>`:!m.miss.length?`<div class="ml ok">${u.allHave}</div>`:`<div class="ml">${u.lack}: ${esc(m.miss.slice(0,3).join(", "))}${m.miss.length>3?` +${m.miss.length-3}`:""}</div>`;
+  return `<button class="card" data-open="${d.id}"><div class="cover" data-cid="${d.id}"><div class="ld"></div>${P?`<span class="badge ${m.miss.length?"":"ok"}">${m.have}/${m.need}</span>`:""}<span class="cflag" aria-hidden="true">${d.flag}</span></div>
+    <div class="cb"><h3>${esc(dn(d))}</h3><div class="cm">${esc(trC(d.country))} · ${fmtTime(d.time)}</div>${line}</div></button>`}
+function observeCovers(root){root.querySelectorAll(".cover").forEach(el=>io?io.observe(el):fillCover(el))}
+function renderAll(){renderStatic();renderFilters();renderResults();if(openId)openDish(openId,true)}
 
 /* ---------- detail ---------- */
 let openId=null;const timers={};
@@ -274,14 +248,11 @@ function toggleTm(k,min){if(timers[k]){clearInterval(timers[k].iv);delete timers
 let tt;function toast(m){const el=$("#toast");el.textContent=m;el.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>el.classList.remove("on"),2200)}
 
 /* ---------- events ---------- */
-const resetList=()=>{seg="auto";limit=48};
-$("#q").addEventListener("input",()=>{sugI=0;const v=$("#q").value;if(/[,;]\s*$/.test(v)){addItems(v);$("#q").value="";$("#sug").hidden=true;return}renderSug()});
-$("#q").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();submit()}else if(e.key==="ArrowDown"&&sugL.length){e.preventDefault();sugI=(sugI+1)%sugL.length;renderSug()}else if(e.key==="ArrowUp"&&sugL.length){e.preventDefault();sugI=(sugI-1+sugL.length)%sugL.length;renderSug()}else if(e.key==="Escape")$("#sug").hidden=true});
-$("#add").addEventListener("click",submit);
+const resetList=()=>{limit=48};
+let nqT;$("#nameQ").addEventListener("input",()=>{clearTimeout(nqT);nqT=setTimeout(()=>{nameQ=$("#nameQ").value;resetList();renderResults()},150)});
 $("#pkSearch").addEventListener("input",renderPicker);
 $("#more").addEventListener("click",()=>{limit+=48;renderResults()});
 document.addEventListener("click",e=>{
-  if(!e.target.closest(".field"))$("#sug").hidden=true;
   if(e.target.id==="ov"){closeDish();return}
   if(e.target.id==="pov"){closePicker();return}
   const b=e.target.closest("button");if(!b)return;const d=b.dataset;
@@ -290,27 +261,22 @@ document.addEventListener("click",e=>{
   else if(b.id==="pkClose")closePicker();
   else if(d.pr!==undefined){pkR=d.pr;$("#pkSearch").value="";renderPicker();$("#pkList").scrollTop=0}
   else if(d.pc!==undefined){if(d.pc){fC=d.pc;fR=""}else{fC="";fR=d.prr||""}store.set("fC",fC);store.set("fR",fR);resetList();closePicker();renderFilters();renderResults()}
-  else if(d.m!==undefined){fM=d.m;store.set("fM",fM);resetList();renderFilters();renderResults()}
-  else if(d.t!==undefined){fT=d.t;store.set("fT",fT);resetList();renderFilters();renderResults()}
-  else if(b.id==="mini")$("#qs").scrollIntoView({behavior:"smooth",block:"start"});
-  else if(d.qa)addItems(d.qa);
-  else if(d.rm){pantry=pantry.filter(x=>x!==d.rm);store.set("pantry",pantry);resetList();renderPantry();renderResults()}
-  else if(d.sg){addItems(d.sg);$("#q").value="";$("#sug").hidden=true;$("#q").focus()}
-  else if(d.sg2){seg=d.sg2;limit=48;renderResults()}
   else if(d.open)openDish(d.open);
   else if(d.dot){const tr=$("#track");tr.scrollTo({left:+d.dot*tr.clientWidth,behavior:"smooth"})}
   else if(d.dn!==undefined){const li=b.closest("li");li.classList.toggle("done");b.textContent=li.classList.contains("done")?"✓":(+d.dn+1)}
   else if(d.tm)toggleTm(d.tm,+d.min);
   else if(b.id==="cls")closeDish();
-  else if(b.id==="clr"){pantry=[];store.set("pantry",pantry);resetList();renderPantry();renderResults()}
 });
 document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#picker").hidden)closePicker();else if(openId)closeDish()});
 function swipe(sh,inner,close){let y0=null;sh.addEventListener("touchstart",e=>{const sc=sh.querySelector(inner);y0=sc&&sc.scrollTop>0?null:e.touches[0].clientY},{passive:true});
  sh.addEventListener("touchmove",e=>{if(y0==null)return;const dy=e.touches[0].clientY-y0;if(dy>0){sh.style.transition="none";sh.style.transform=`translateY(${dy}px)`}},{passive:true});
  sh.addEventListener("touchend",e=>{if(y0==null)return;const dy=e.changedTouches[0].clientY-y0;sh.style.transition="";sh.style.transform="";if(dy>110)close();y0=null})}
 swipe($("#sheet"),".sc",closeDish);swipe($("#picker"),"#pkList",closePicker);
-if("IntersectionObserver" in window){new IntersectionObserver(([e])=>{$("#mini").classList.toggle("on",!e.isIntersecting&&e.boundingClientRect.top<0)}).observe($("#qs"))}
 window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h&&BYID.has(h)){if(openId!==h)openDish(h)}else if(openId)closeDish()});
+window.NP={ALL,BYID,REGION,REGIONS,COUNTRIES,FLAG,CNT,MEALS,STAPLE,SYN,ALIAS,VOCAB,T,
+  lang:()=>lang,t,trC,trI,trS,dn,norm,canon,base,fmtTime,match,has,setPantry,pantry:()=>pantry,cardHTML,observeCovers,openDish,esc,store,
+  showCountry(c){fC=c||"";fR="";store.set("fC",fC);store.set("fR",fR);resetList();renderFilters();renderResults()}};
+window.dispatchEvent(new Event("np-ready"));
 renderAll();
 const h0=location.hash.slice(1);if(h0&&BYID.has(h0))openDish(h0);
 };
