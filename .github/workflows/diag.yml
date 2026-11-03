@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps chromium webkit firefox
+      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps webkit
       - name: browser test
         run: mkdir -p out/${{ matrix.pw }} && OUT=out/${{ matrix.pw }} node tools/diag.js
       - name: save
