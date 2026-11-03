@@ -1,0 +1,75 @@
+{
+ "version": "18.0",
+ "base": {
+  "t": 3,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nosnap": {
+  "t": 1,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nooverscroll": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "noscrollTo": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nobackdrop": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "noanim": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nofixed": {
+  "t": 0,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "noauth": {
+  "t": 12,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "nochef": {
+  "t": 1,
+  "filled": 0,
+  "imgs": 0,
+  "loaded": 0,
+  "req": 0
+ },
+ "live": {
+  "t": 12
+ },
+ "preview-home": {
+  "t": 12
+ },
+ "preview-menu": {
+  "t": 12
+ }
+}
