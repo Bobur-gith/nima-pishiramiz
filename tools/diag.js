@@ -1,26 +1,24 @@
 const pw=require('playwright');const fs=require('fs');const OUT=process.env.OUT;const res={};const save=()=>fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));
-const NB=`*,*::before,*::after{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}`;
-const P="https://bobur-gith.github.io/nima-pishiramiz/preview/";
-const CASES=[
- ["preview-home",P+"#/",{}],["preview-home-m2x",P+"#/",{mobile:true}],
- ["preview-recipes",P+"#/retseptlar",{}],["preview-recipes-m2x",P+"#/retseptlar",{mobile:true}],
- ["live",  "https://bobur-gith.github.io/nima-pishiramiz/",{}],["live-m2x","https://bobur-gith.github.io/nima-pishiramiz/",{mobile:true}],
-];
-(async()=>{for(const eng of (process.env.ENGINES||"webkit").split(",")){const b=await pw[eng].launch();res[eng+"_version"]=b.version();save();
-for(const [name,url,o] of CASES){const t0=Date.now();const key=eng+"|"+name;res[key]={};
- const ctx=await b.newContext(o.mobile?{viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:eng!=="firefox",hasTouch:true}:{viewport:{width:390,height:844}});
- const p=await ctx.newPage();const L={req:0,resp:{},failed:[],errors:[]};
- p.on('request',r=>{if(/wikimedia/.test(r.url()))L.req++});
- p.on('response',r=>{if(/wikimedia/.test(r.url())){const k=r.status();L.resp[k]=(L.resp[k]||0)+1}});
- p.on('requestfailed',r=>{if(L.failed.length<4)L.failed.push([r.url().slice(-70),r.failure()&&r.failure().errorText])});
- p.on('pageerror',e=>L.errors.push(String(e).slice(0,200)));
- try{await p.goto(url,{waitUntil:'domcontentloaded',timeout:30000})}catch(e){L.errors.push("goto "+String(e).slice(0,100))}
- if(o.css)await p.addStyleTag({content:o.css}).catch(()=>{});
- const series=[];
- for(let i=0;i<10;i++){await p.waitForTimeout(2000);
-  const r=await Promise.race([new Promise(z=>setTimeout(()=>z(null),8000)),p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];return [document.querySelectorAll('.cover').length,im.length,im.filter(i=>i.complete&&i.naturalWidth>0).length,document.querySelectorAll('.cover.in').length,document.querySelectorAll('.cover .tile').length]})]);
-  series.push(r);res[key]={ms:Date.now()-t0,series,...L};save();if(r&&r[1]>0&&r[2]===r[1]&&i>=2)break}
- const vis=await Promise.race([new Promise(z=>setTimeout(()=>z(null),8000)),p.evaluate(()=>{const v=document.querySelector('#app>.view:not([hidden])')||document.querySelector('main')||document.body;const cs=getComputedStyle(v);const h1=document.querySelector('h1');return {op:cs.opacity,anim:cs.animationName,ih:innerHeight,iw:innerWidth,h1:h1&&h1.getBoundingClientRect().top,h1op:h1&&getComputedStyle(h1).opacity}})]);res[key].vis=vis;
- await p.screenshot({path:`${OUT}/${eng}-${name}.png`,timeout:12000}).catch(e=>res[key].shot=String(e).slice(0,80));
- res[key].ms=Date.now()-t0;save();await ctx.close().catch(()=>{})}
-await b.close()}console.log(JSON.stringify(res))})();
+const INIT=`window.__io={created:0,observed:0,cb:0,inter:0};(()=>{const O=window.IntersectionObserver;if(!O)return;window.IntersectionObserver=function(cb,opt){__io.created++;const o=new O((es,ob)=>{__io.cb++;__io.inter+=es.filter(e=>e.isIntersecting).length;cb(es,ob)},opt);const ob=o.observe.bind(o);o.observe=el=>{__io.observed++;ob(el)};return o}})();
+window.__t={set:0,fired:0};setInterval(()=>__t.fired++,500);`;
+(async()=>{const b=await pw.webkit.launch();res.version=b.version();
+for(const [name,mobile] of [["recipes-m2x",true],["recipes-desk",false]]){
+ const ctx=await b.newContext(mobile?{viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true}:{viewport:{width:390,height:844}});
+ await ctx.addInitScript(INIT);const p=await ctx.newPage();const L={req:0,errors:[],console:[]};
+ p.on('request',r=>{if(/wikimedia/.test(r.url()))L.req++});p.on('pageerror',e=>L.errors.push(String(e).slice(0,200)));
+ p.on('console',m=>{if(L.console.length<8)L.console.push(m.type()+": "+m.text().slice(0,160))});
+ await p.goto("https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{waitUntil:'domcontentloaded',timeout:30000}).catch(e=>L.errors.push(String(e).slice(0,100)));
+ const snaps=[];
+ for(let i=0;i<6;i++){await p.waitForTimeout(2500);
+  snaps.push(await Promise.race([new Promise(z=>setTimeout(()=>z('evalTimeout'),8000)),p.evaluate(()=>{const c=document.querySelector('.cover');const r=c&&c.getBoundingClientRect();
+   return {io:{...window.__io},t:window.__t.fired,seen:document.querySelectorAll('.cover[data-seen]').length,filled:document.querySelectorAll('.cover[data-filled]').length,imgs:document.querySelectorAll('.cover img').length,
+   r0:r&&[Math.round(r.top),Math.round(r.left),Math.round(r.width),Math.round(r.height)],ih:innerHeight,ch:document.documentElement.clientHeight,sy:scrollY,vv:window.visualViewport&&[visualViewport.width,visualViewport.height,visualViewport.scale],vis:document.visibilityState,raf:0}})]));
+  res[name]={snaps,...L};save()}
+ // manual: does a plain image load in this mode?
+ const man=await Promise.race([new Promise(z=>setTimeout(()=>z('timeout'),12000)),p.evaluate(()=>new Promise(z=>{const im=new Image();im.onload=()=>z('load '+im.naturalWidth);im.onerror=()=>z('error');im.src='https://commons.wikimedia.org/wiki/Special:FilePath/Plov.jpg?width=320'}))]);
+ const raf=await Promise.race([new Promise(z=>setTimeout(()=>z('no-raf'),5000)),p.evaluate(()=>new Promise(z=>requestAnimationFrame(()=>z('raf ok'))))]);
+ await p.evaluate(()=>window.scrollBy(0,300)).catch(()=>{});await p.waitForTimeout(3000);
+ const after=await p.evaluate(()=>({io:{...window.__io},filled:document.querySelectorAll('.cover[data-filled]').length,imgs:document.querySelectorAll('.cover img').length})).catch(e=>String(e));
+ res[name].manual=man;res[name].raf=raf;res[name].afterScroll=after;res[name].req2=L.req;save();
+ await p.screenshot({path:`${OUT}/${name}.png`,timeout:12000}).catch(e=>res[name].shot=String(e).slice(0,80));save();await ctx.close().catch(()=>{})}
+await b.close();console.log(JSON.stringify(res))})();
