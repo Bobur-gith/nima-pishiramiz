@@ -6,17 +6,22 @@ permissions:
   contents: write
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        pw: ["1.48.2", "latest"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium webkit firefox
+      - run: npm i playwright@${{ matrix.pw }} && npx playwright install --with-deps chromium webkit firefox
       - name: browser test
-        run: mkdir -p out && node tools/diag.js
+        run: mkdir -p out/${{ matrix.pw }} && OUT=out/${{ matrix.pw }} node tools/diag.js
       - name: save
         if: always()
         run: |
           git config user.name "github-actions[bot]"; git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git add -f out; git commit -m "diag natija 2" || true; git push
+          git pull -q --rebase origin diag || true; git add -f out; git commit -m "diag natija ${{ matrix.pw }}" || true; git push

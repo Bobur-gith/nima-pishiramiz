@@ -13,7 +13,7 @@ for(const eng of ["chromium","webkit","firefox"]){const b=await pw[eng].launch()
      const vis=im.filter(i=>{const r=i.getBoundingClientRect();return r.height>20&&getComputedStyle(i).opacity>0.5}).length;
      return {coverH:cs,imgs:im.length,loaded:im.filter(i=>i.complete&&i.naturalWidth>0).length,visible:vis,ua:navigator.userAgent.slice(0,140)}});
    r.errors=errs;res[`${eng}|${name}|${fx}`]=r;
-   if(fx==="none"||fx==="A")await p.screenshot({path:`out/${eng}-${name}-${fx}.png`});
+   if(fx==="none"||fx==="A")await p.screenshot({path:`${process.env.OUT}/${eng}-${name}-${fx}.png`});
    await ctx.close()}}
  await b.close()}
-fs.writeFileSync('out/diag.json',JSON.stringify(res,null,1));console.log(JSON.stringify(res,null,1))})();
+fs.writeFileSync(process.env.OUT+'/diag.json',JSON.stringify(res,null,1));console.log(JSON.stringify(res,null,1))})();
