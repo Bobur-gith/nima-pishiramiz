@@ -1,11 +1,10 @@
 const pw=require('playwright');const fs=require('fs');const OUT=process.env.OUT;const res={};const save=()=>fs.writeFileSync(OUT+'/diag.json',JSON.stringify(res,null,1));
 const NB=`*,*::before,*::after{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}`;
+const P="https://bobur-gith.github.io/nima-pishiramiz/preview/";
 const CASES=[
- ["preview-base","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{}],
- ["preview-nobackdrop","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{css:NB}],
- ["preview-home","https://bobur-gith.github.io/nima-pishiramiz/preview/#/",{}],
- ["live","https://bobur-gith.github.io/nima-pishiramiz/",{}],
- ["preview-mobile2x","https://bobur-gith.github.io/nima-pishiramiz/preview/#/retseptlar",{mobile:true}],
+ ["preview-home",P+"#/",{}],["preview-home-m2x",P+"#/",{mobile:true}],
+ ["preview-recipes",P+"#/retseptlar",{}],["preview-recipes-m2x",P+"#/retseptlar",{mobile:true}],
+ ["live",  "https://bobur-gith.github.io/nima-pishiramiz/",{}],["live-m2x","https://bobur-gith.github.io/nima-pishiramiz/",{mobile:true}],
 ];
 (async()=>{for(const eng of (process.env.ENGINES||"webkit").split(",")){const b=await pw[eng].launch();res[eng+"_version"]=b.version();save();
 for(const [name,url,o] of CASES){const t0=Date.now();const key=eng+"|"+name;res[key]={};
@@ -20,7 +19,8 @@ for(const [name,url,o] of CASES){const t0=Date.now();const key=eng+"|"+name;res[
  const series=[];
  for(let i=0;i<10;i++){await p.waitForTimeout(2000);
   const r=await Promise.race([new Promise(z=>setTimeout(()=>z(null),8000)),p.evaluate(()=>{const im=[...document.querySelectorAll('.cover img')];return [document.querySelectorAll('.cover').length,im.length,im.filter(i=>i.complete&&i.naturalWidth>0).length,document.querySelectorAll('.cover.in').length,document.querySelectorAll('.cover .tile').length]})]);
-  series.push(r);res[key]={ms:Date.now()-t0,series,...L};save();if(r&&r[1]>0&&r[2]===r[1])break}
+  series.push(r);res[key]={ms:Date.now()-t0,series,...L};save();if(r&&r[1]>0&&r[2]===r[1]&&i>=2)break}
+ const vis=await Promise.race([new Promise(z=>setTimeout(()=>z(null),8000)),p.evaluate(()=>{const v=document.querySelector('#app>.view:not([hidden])')||document.querySelector('main')||document.body;const cs=getComputedStyle(v);const h1=document.querySelector('h1');return {op:cs.opacity,anim:cs.animationName,ih:innerHeight,iw:innerWidth,h1:h1&&h1.getBoundingClientRect().top,h1op:h1&&getComputedStyle(h1).opacity}})]);res[key].vis=vis;
  await p.screenshot({path:`${OUT}/${eng}-${name}.png`,timeout:12000}).catch(e=>res[key].shot=String(e).slice(0,80));
  res[key].ms=Date.now()-t0;save();await ctx.close().catch(()=>{})}
 await b.close()}console.log(JSON.stringify(res))})();
