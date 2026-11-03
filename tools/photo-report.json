@@ -23,23 +23,18 @@
   ],
   [
    "O'zbekiston",
-   "Tandir somsa",
-   "Tandoor samsa"
-  ],
-  [
-   "O'zbekiston",
-   "Qatlama somsa",
-   "Flaky samsa"
-  ],
-  [
-   "O'zbekiston",
-   "Ko'k somsa",
-   "Green samsa"
+   "Chuchvara sho'rva",
+   "Chuchvara soup"
   ],
   [
    "O'zbekiston",
    "Qovoq somsa",
    "Pumpkin samsa"
+  ],
+  [
+   "O'zbekiston",
+   "Tandir go'sht",
+   "Tandir gosht"
   ],
   [
    "O'zbekiston",
@@ -68,6 +63,16 @@
   ],
   [
    "O'zbekiston",
+   "Xonim",
+   "Khonim"
+  ],
+  [
+   "O'zbekiston",
+   "Patir non",
+   "Patir bread"
+  ],
+  [
+   "O'zbekiston",
    "Toshkent salati",
    "Tashkent salad"
   ],
@@ -78,8 +83,8 @@
   ],
   [
    "O'zbekiston",
-   "Hasib",
-   "Hasib"
+   "Qazi",
+   "Qazi"
   ],
   [
    "O'zbekiston",
@@ -103,11 +108,6 @@
   ],
   [
    "Qozog'iston",
-   "Qazi",
-   "Kazy"
-  ],
-  [
-   "Qozog'iston",
    "Shalgam salati",
    "Shalgam salad"
   ],
@@ -115,6 +115,11 @@
    "Qozog'iston",
    "Asip",
    "Asip"
+  ],
+  [
+   "Qozog'iston",
+   "Shubat",
+   "Shubat"
   ],
   [
    "Qozog'iston",
@@ -153,6 +158,11 @@
   ],
   [
    "Qirg'iziston",
+   "Dymdama",
+   "Dymdama"
+  ],
+  [
+   "Qirg'iziston",
    "Mampar",
    "Mampar"
   ],
@@ -165,6 +175,11 @@
    "Qirg'iziston",
    "Chuchvara (qirg'izcha)",
    "Kyrgyz chuchvara"
+  ],
+  [
+   "Qirg'iziston",
+   "Kurut sho'rva",
+   "Kurut soup"
   ],
   [
    "Qirg'iziston",
@@ -182,14 +197,19 @@
    "Chicken gan-fan"
   ],
   [
+   "Qirg'iziston",
+   "Kuurma shorpo",
+   "Fried shorpo"
+  ],
+  [
    "Tojikiston",
    "Shirchoy",
    "Shirchoy"
   ],
   [
    "Tojikiston",
-   "Dimlama (tojikcha)",
-   "Tajik dimlama"
+   "Mastoba",
+   "Mastoba"
   ],
   [
    "Tojikiston",
@@ -200,6 +220,11 @@
    "Tojikiston",
    "Nishollo",
    "Nishollo"
+  ],
+  [
+   "Tojikiston",
+   "Ugro",
+   "Ugro"
   ],
   [
    "Tojikiston",
@@ -282,9 +307,14 @@
    "Buckwheat with meat"
   ],
   [
+   "Rossiya",
+   "Zapekanka",
+   "Cottage cheese casserole"
+  ],
+  [
    "Ukraina",
-   "Galushki tvoroqli (linivi varenyky)",
-   "Lazy varenyky"
+   "Varenik tvoroqli",
+   "Cottage cheese varenyky"
   ],
   [
    "Ukraina",
@@ -303,11 +333,6 @@
   ],
   [
    "Belarus",
-   "Xolodnik",
-   "Kholodnik"
-  ],
-  [
-   "Belarus",
    "Pyachisto",
    "Pyachysta"
   ],
@@ -323,18 +348,18 @@
   ],
   [
    "Belarus",
+   "Nordon karam sho'rvasi",
+   "Sour cabbage soup"
+  ],
+  [
+   "Belarus",
    "Pirojki karamli",
    "Cabbage pirozhki"
   ],
   [
    "Belarus",
-   "Kissel klyukvali",
-   "Cranberry kissel"
-  ],
-  [
-   "Belarus",
-   "Kartoshkali blin",
-   "Potato blini"
+   "Tvorog bilan blin",
+   "Blini with cottage cheese"
   ],
   [
    "Belarus",
@@ -353,6 +378,11 @@
   ],
   [
    "Ozarbayjon",
+   "Kyuftya bozbash",
+   "Kufta bozbash"
+  ],
+  [
+   "Ozarbayjon",
    "Lyavangi baliq",
    "Fish lavangi"
   ],
@@ -360,6 +390,11 @@
    "Ozarbayjon",
    "Ozarbayjon choyi",
    "Azerbaijani tea"
+  ],
+  [
+   "Ozarbayjon",
+   "Badimjan dolmasi",
+   "Stuffed eggplant dolma"
   ],
   [
    "Ozarbayjon",
@@ -393,23 +428,18 @@
   ],
   [
    "Armaniston",
-   "Karam tolmasi",
-   "Cabbage tolma"
+   "Armancha salat (sabzavotli)",
+   "Armenian vegetable salad"
   ],
   [
    "Armaniston",
-   "Ishli kyufta",
-   "Ishli kufta"
+   "Ttu lavash",
+   "Fruit lavash"
   ],
   [
    "Armaniston",
-   "Ajapsandal (armancha)",
-   "Ajapsandal (Armenian)"
-  ],
-  [
-   "Armaniston",
-   "Kufta Echmiadzin",
-   "Etchmiadzin kufta"
+   "Harisa",
+   "Harissa porridge"
   ],
   [
    "Armaniston",
@@ -417,19 +447,14 @@
    "Ishkhan trout"
   ],
   [
-   "Armaniston",
-   "Armancha gilos kompoti",
-   "Cherry kompot"
-  ],
-  [
    "Arab davlatlari",
-   "Lentil sho'rva (shorbat adas)",
-   "Shorbat adas"
+   "Ouzi",
+   "Ouzi"
   ],
   [
-   "Xitoy",
-   "Pomidorli tuxum",
-   "Tomato and egg stir-fry"
+   "Koreya",
+   "Kongnamul salat",
+   "Kongnamul salad"
   ],
   [
    "Koreya",
@@ -437,9 +462,24 @@
    "Korean eggplant"
   ],
   [
+   "Fransiya",
+   "Tovuq qaymoqli sousda",
+   "Chicken in cream sauce"
+  ],
+  [
+   "Fransiya",
+   "Sabzavotli sho'rva (pyure)",
+   "Cream of vegetable soup"
+  ],
+  [
+   "Fransiya",
+   "Fransuzcha go'sht (myaso po-frantsuzski)",
+   "French-style baked meat"
+  ],
+  [
    "Ispaniya",
-   "Sangriya (alkogolsiz)",
-   "Virgin sangria"
+   "Tortilla ko'katli",
+   "Herb tortilla"
   ],
   [
    "Germaniya",
@@ -457,6 +497,11 @@
    "Fish plaki"
   ],
   [
+   "Gretsiya",
+   "Horta",
+   "Horta"
+  ],
+  [
    "Meksika",
    "Kesadilya qo'ziqorinli",
    "Mushroom quesadilla"
@@ -470,16 +515,6 @@
    "Buyuk Britaniya",
    "Ingliz choyi sut bilan",
    "English breakfast tea with milk"
-  ],
-  [
-   "Irlandiya",
-   "Koddl",
-   "Dublin coddle"
-  ],
-  [
-   "Irlandiya",
-   "Irland qahvasi (alkogolsiz)",
-   "Irish coffee without alcohol"
   ],
   [
    "Portugaliya",
@@ -512,24 +547,9 @@
    "Rieslingspaschteit"
   ],
   [
-   "Shveytsariya",
-   "Birxer myusli",
-   "Bircher muesli"
-  ],
-  [
-   "Avstriya",
-   "Gulash (Vena)",
-   "Wiener Saftgulasch"
-  ],
-  [
-   "Avstriya",
-   "Almdudler limonadi",
-   "Herbal lemonade"
-  ],
-  [
-   "Polsha",
-   "Gołąbki bez zawijania (dangasa golubtsi)",
-   "Lazy cabbage rolls"
+   "Chexiya",
+   "Knedlíky",
+   "Czech bread dumplings"
   ],
   [
    "Chexiya",
@@ -542,14 +562,9 @@
    "Bean soup Slovak"
   ],
   [
-   "Vengriya",
-   "Hideg meggyleves",
-   "Cold cherry soup"
-  ],
-  [
    "Ruminiya",
-   "Tochitură",
-   "Tochitură"
+   "Salată de vinete",
+   "Salata de vinete"
   ],
   [
    "Ruminiya",
@@ -557,9 +572,19 @@
    "Varză călită"
   ],
   [
+   "Ruminiya",
+   "Ciorbă de legume",
+   "Romanian vegetable soup"
+  ],
+  [
    "Moldova",
    "Ghiveci",
    "Ghiveci"
+  ],
+  [
+   "Moldova",
+   "Tochitura moldoveneasca",
+   "Tochitură moldovenească"
   ],
   [
    "Moldova",
@@ -575,11 +600,6 @@
    "Bolgariya",
    "Sirene po shopski",
    "Sirene po shopski"
-  ],
-  [
-   "Bolgariya",
-   "Bob chorba",
-   "Bob chorba"
   ],
   [
    "Xorvatiya",
@@ -623,13 +643,13 @@
   ],
   [
    "Shimoliy Makedoniya",
-   "Polneti piperki",
-   "Polneti piperki"
-  ],
-  [
-   "Shimoliy Makedoniya",
    "Kompir mandža",
    "Kompir mandža"
+  ],
+  [
+   "Albaniya",
+   "Speca me gjize",
+   "Peppers stuffed with cheese"
   ],
   [
    "Islandiya",
@@ -637,19 +657,9 @@
    "Icelandic grilled cod"
   ],
   [
-   "Estoniya",
-   "Verivorst (go'shtli)",
-   "Estonian sausage with sauerkraut"
-  ],
-  [
    "Latviya",
    "Pelēkie zirņi",
    "Grey peas with bacon"
-  ],
-  [
-   "Latviya",
-   "Rupjmaizes kārtojums",
-   "Rye bread dessert"
   ],
   [
    "Malta",
@@ -722,11 +732,6 @@
    "Törkarebl"
   ],
   [
-   "Vatikan",
-   "Abbacchio a scottadito",
-   "Abbacchio a scottadito"
-  ],
-  [
    "Eron",
    "Joojeh kabob",
    "Joojeh kabab"
@@ -738,18 +743,8 @@
   ],
   [
    "Eron",
-   "Bastani",
-   "Bastani sonnati"
-  ],
-  [
-   "Eron",
    "Bademjan zeytun",
    "Torshi zeytun"
-  ],
-  [
-   "Iroq",
-   "Quzi",
-   "Quzi"
   ],
   [
    "Iroq",
@@ -788,21 +783,6 @@
   ],
   [
    "Falastin",
-   "Musakhan",
-   "Musakhan"
-  ],
-  [
-   "Falastin",
-   "Maqluba",
-   "Maqluba"
-  ],
-  [
-   "Falastin",
-   "Knafeh nabulsieh",
-   "Knafeh nabulsieh"
-  ],
-  [
-   "Falastin",
    "Msakhan rolls",
    "Musakhan rolls"
   ],
@@ -838,8 +818,8 @@
   ],
   [
    "Qatar",
-   "Harees (qatarcha)",
-   "Harees (Qatar)"
+   "Luqaimat (qatarcha)",
+   "Luqaimat (Qatar)"
   ],
   [
    "Quvayt",
@@ -923,6 +903,11 @@
   ],
   [
    "Ummon",
+   "Kabuli (ummon)",
+   "Omani kabuli"
+  ],
+  [
+   "Ummon",
    "Mushaltat",
    "Mushaltat"
   ],
@@ -945,6 +930,11 @@
    "Afg'oniston",
    "Borani banjan",
    "Borani banjan"
+  ],
+  [
+   "Bangladesh",
+   "Beef bhuna",
+   "Beef bhuna"
   ],
   [
    "Butan",
@@ -1018,18 +1008,8 @@
   ],
   [
    "Shimoliy Koreya",
-   "Haeju bibimbap",
-   "Haeju bibimbap"
-  ],
-  [
-   "Shimoliy Koreya",
    "Kaesong pyonsu",
    "Kaesong pyeonsu"
-  ],
-  [
-   "Tailand",
-   "Khao man gai",
-   "Khao man gai"
   ],
   [
    "Tailand",
@@ -1040,6 +1020,11 @@
    "Tailand",
    "Moo ping (mol go'shti bilan)",
    "Thai grilled skewers"
+  ],
+  [
+   "Vyetnam",
+   "Ga nuong",
+   "Vietnamese grilled chicken"
   ],
   [
    "Laos",
@@ -1082,6 +1067,11 @@
    "Kuih mor"
   ],
   [
+   "Bruney",
+   "Pulut panggang",
+   "Pulut panggang"
+  ],
+  [
    "Sharqiy Timor",
    "Ikan sabuko",
    "Ikan sabuko"
@@ -1113,8 +1103,8 @@
   ],
   [
    "Marokash",
-   "Kefta tajini",
-   "Kefta tagine"
+   "Qo'zi tajini o'rik bilan",
+   "Lamb tagine with apricots"
   ],
   [
    "Marokash",
@@ -1137,9 +1127,9 @@
    "Libyan rishda"
   ],
   [
-   "Liviya",
-   "Liviyacha burek",
-   "Libyan bureek"
+   "Sudan",
+   "Ful (sudancha)",
+   "Sudanese ful"
   ],
   [
    "Sudan",
@@ -1165,11 +1155,6 @@
    "Sudan",
    "Kavari",
    "Kawari"
-  ],
-  [
-   "Janubiy Sudan",
-   "Kisra (j. sudan)",
-   "South Sudanese kisra"
   ],
   [
    "Janubiy Sudan",
@@ -1203,6 +1188,16 @@
   ],
   [
    "Efiopiya",
+   "Misir wat",
+   "Misir wat"
+  ],
+  [
+   "Efiopiya",
+   "Gomen",
+   "Gomen"
+  ],
+  [
+   "Efiopiya",
    "Atkilt wat",
    "Atkilt wat"
   ],
@@ -1210,6 +1205,11 @@
    "Eritreya",
    "Tsebhi dorho",
    "Tsebhi dorho"
+  ],
+  [
+   "Eritreya",
+   "Kicha fit-fit",
+   "Kicha fit fit"
   ],
   [
    "Eritreya",
@@ -1258,6 +1258,11 @@
   ],
   [
    "Somali",
+   "Canjeero",
+   "Canjeero"
+  ],
+  [
+   "Somali",
    "Suqaar",
    "Suqaar"
   ],
@@ -1275,11 +1280,6 @@
    "Keniya",
    "Keniya choyi",
    "Kenyan chai"
-  ],
-  [
-   "Uganda",
-   "Yer yong'oq sousi",
-   "Ugandan groundnut sauce"
   ],
   [
    "Tanzaniya",
@@ -1347,6 +1347,11 @@
    "Ikivuguto"
   ],
   [
+   "Senegal",
+   "Thiou",
+   "Thiou"
+  ],
+  [
    "Fil suyagi qirg'og'i",
    "Gnamakoudji",
    "Gnamakoudji ginger juice"
@@ -1382,6 +1387,16 @@
    "Burkina tô"
   ],
   [
+   "Burkina-Faso",
+   "Poulet bicyclette",
+   "Poulet bicyclette"
+  ],
+  [
+   "Burkina-Faso",
+   "Benga",
+   "Benga"
+  ],
+  [
    "Niger",
    "Djerma dimlamasi",
    "Djerma stew"
@@ -1405,6 +1420,11 @@
    "Kamerun",
    "Eru",
    "Eru"
+  ],
+  [
+   "Kamerun",
+   "Sanga",
+   "Sanga"
   ],
   [
    "Chad",
@@ -1432,9 +1452,24 @@
    "Chadian brochettes"
   ],
   [
+   "Chad",
+   "Mafe (chad)",
+   "Maafe (Chad)"
+  ],
+  [
    "Markaziy Afrika Respublikasi",
    "Ngunza",
    "Ngunza"
+  ],
+  [
+   "Markaziy Afrika Respublikasi",
+   "Makara",
+   "Makara"
+  ],
+  [
+   "Markaziy Afrika Respublikasi",
+   "Bambara",
+   "Bambara porridge"
   ],
   [
    "Markaziy Afrika Respublikasi",
@@ -1460,6 +1495,11 @@
    "Kongo DR",
    "Makayabu",
    "Makayabu"
+  ],
+  [
+   "Kongo Respublikasi",
+   "Poulet moambe (kongo)",
+   "Poulet moambe"
   ],
   [
    "Kongo Respublikasi",
@@ -1533,6 +1573,11 @@
   ],
   [
    "Ekvatorial Gvineya",
+   "Tovuq yer yong'oq sousida",
+   "Chicken in peanut sauce"
+  ],
+  [
+   "Ekvatorial Gvineya",
    "Malanga qaynatmasi",
    "Boiled malanga"
   ],
@@ -1598,6 +1643,11 @@
   ],
   [
    "Benin",
+   "Moyo",
+   "Moyo relish"
+  ],
+  [
+   "Benin",
    "Fetri (benin)",
    "Fetri (Benin)"
   ],
@@ -1630,6 +1680,11 @@
    "Gvineya",
    "Konkoé",
    "Konkoé"
+  ],
+  [
+   "Gvineya-Bisau",
+   "Caldo de mancarra",
+   "Caldo de mancarra"
   ],
   [
    "Gvineya-Bisau",
@@ -1698,8 +1753,8 @@
   ],
   [
    "Mavritaniya",
-   "Tuya suti",
-   "Camel milk drink"
+   "Bassi",
+   "Bassi"
   ],
   [
    "Mavritaniya",
@@ -1768,6 +1823,11 @@
   ],
   [
    "Zimbabve",
+   "Nyama (zimbabvecha)",
+   "Zimbabwe beef stew"
+  ],
+  [
+   "Zimbabve",
    "Mazhanje (maheu)",
    "Mahewu drink"
   ],
@@ -1780,11 +1840,6 @@
    "Zimbabve",
    "Chimukuyu",
    "Chimukuyu"
-  ],
-  [
-   "Zambiya",
-   "Munkoyo",
-   "Munkoyo drink"
   ],
   [
    "Zambiya",
@@ -1810,11 +1865,6 @@
    "Malavi",
    "Kondowole",
    "Kondowole"
-  ],
-  [
-   "Malavi",
-   "Mandasi (malavi)",
-   "Malawian mandasi"
   ],
   [
    "Malavi",
@@ -1850,6 +1900,11 @@
    "Mozambik",
    "Mucapata",
    "Mucapata"
+  ],
+  [
+   "Angola",
+   "Muamba de galinha",
+   "Muamba de galinha"
   ],
   [
    "Angola",
@@ -1973,6 +2028,11 @@
   ],
   [
    "Mavrikiy",
+   "Bol renversé",
+   "Bol renversé"
+  ],
+  [
+   "Mavrikiy",
    "Napolitaines",
    "Napolitaines"
   ],
@@ -2000,6 +2060,11 @@
    "Komor orollari",
    "Mtsolola",
    "Mtsolola"
+  ],
+  [
+   "Komor orollari",
+   "Putu",
+   "Putu chili sauce"
   ],
   [
    "Komor orollari",
@@ -2050,11 +2115,6 @@
    "Seyshel orollari",
    "Rougay pwason",
    "Rougay pwason"
-  ],
-  [
-   "Kanada",
-   "No'xat sho'rva (Kvebek)",
-   "Quebec pea soup"
   ],
   [
    "Gvatemala",
@@ -2127,11 +2187,6 @@
    "Empanadas de plátano"
   ],
   [
-   "Salvador",
-   "Atol de elote (salvador)",
-   "Atol de elote (El Salvador)"
-  ],
-  [
    "Kosta-Rika",
    "Agua de sapo",
    "Agua de sapo"
@@ -2162,19 +2217,14 @@
    "Festival dumplings"
   ],
   [
-   "Yamayka",
-   "Sorrel ichimligi",
-   "Jamaican sorrel drink"
-  ],
-  [
    "Gaiti",
    "Diri ak djon djon",
    "Diri djon djon"
   ],
   [
    "Gaiti",
-   "Bannann peze",
-   "Bannann peze"
+   "Tasso",
+   "Tasso"
   ],
   [
    "Gaiti",
@@ -2185,6 +2235,11 @@
    "Gaiti",
    "Pen patat",
    "Pen patat"
+  ],
+  [
+   "Dominikan Respublikasi",
+   "La bandera",
+   "La bandera dominicana"
   ],
   [
    "Dominikan Respublikasi",
@@ -2203,13 +2258,13 @@
   ],
   [
    "Bagama orollari",
-   "Qovurilgan chig'anoq",
-   "Cracked conch"
+   "Bagama sho'rvasi",
+   "Bahamian stew fish"
   ],
   [
    "Bagama orollari",
-   "Bagama sho'rvasi",
-   "Bahamian stew fish"
+   "Souse (bagama)",
+   "Chicken souse"
   ],
   [
    "Bagama orollari",
@@ -2228,6 +2283,11 @@
   ],
   [
    "Barbados",
+   "Baliq kotletlari (bajan)",
+   "Bajan fish cakes"
+  ],
+  [
+   "Barbados",
    "Bajan ziravori",
    "Bajan seasoning"
   ],
@@ -2235,6 +2295,21 @@
    "Barbados",
    "Bajan pepperpot",
    "Bajan pepperpot"
+  ],
+  [
+   "Barbados",
+   "Coconut bread (bajan)",
+   "Bajan coconut bread"
+  ],
+  [
+   "Barbados",
+   "Rice and peas (bajan)",
+   "Bajan rice and peas"
+  ],
+  [
+   "Barbados",
+   "Sweet bread (bajan)",
+   "Bajan sweet bread"
   ],
   [
    "Trinidad va Tobago",
@@ -2250,6 +2325,11 @@
    "Grenada",
    "Callaloo soup (grenada)",
    "Grenadian callaloo soup"
+  ],
+  [
+   "Grenada",
+   "Lambi",
+   "Lambi stew"
   ],
   [
    "Grenada",
@@ -2333,6 +2413,11 @@
   ],
   [
    "Antigua va Barbuda",
+   "Seasoned rice",
+   "Antiguan seasoned rice"
+  ],
+  [
+   "Antigua va Barbuda",
    "Goat water (antigua)",
    "Goat water (Antigua)"
   ],
@@ -2398,16 +2483,6 @@
   ],
   [
    "Sent-Kits va Nevis",
-   "Seasoned rice (kits)",
-   "Seasoned rice (St Kitts)"
-  ],
-  [
-   "Sent-Kits va Nevis",
-   "Chig'anoq oladyasi",
-   "Conch fritters"
-  ],
-  [
-   "Sent-Kits va Nevis",
    "Bull foot soup",
    "Bull foot soup"
   ],
@@ -2420,16 +2495,6 @@
    "Sent-Kits va Nevis",
    "Sugar cake (kits)",
    "Sugar cake (St Kitts)"
-  ],
-  [
-   "Braziliya",
-   "Pastel",
-   "Pastel brasileiro"
-  ],
-  [
-   "Braziliya",
-   "Caipirinha (alkogolsiz)",
-   "Virgin caipirinha"
   ],
   [
    "Braziliya",
@@ -2447,24 +2512,14 @@
    "Lemon verbena soda"
   ],
   [
-   "Kolumbiya",
-   "Kolumbiya qahvasi (tinto)",
-   "Colombian tinto coffee"
-  ],
-  [
-   "Venesuela",
-   "Arepa reina pepiada",
-   "Reina pepiada"
-  ],
-  [
-   "Venesuela",
-   "Patacón maracucho",
-   "Patacón maracucho"
-  ],
-  [
    "Urugvay",
    "Chajá",
    "Chaja cake"
+  ],
+  [
+   "Urugvay",
+   "Martín Fierro",
+   "Martín Fierro dessert"
   ],
   [
    "Paragvay",
@@ -2488,6 +2543,11 @@
   ],
   [
    "Gayana",
+   "Salara",
+   "Salara"
+  ],
+  [
+   "Gayana",
    "Pine tart",
    "Pine tart"
   ],
@@ -2508,6 +2568,11 @@
   ],
   [
    "Yangi Zelandiya",
+   "Qiyma-pishloqli pirog",
+   "Mince and cheese pie"
+  ],
+  [
+   "Yangi Zelandiya",
    "Shirin kartoshka chipsi",
    "Kumara chips"
   ],
@@ -2525,6 +2590,11 @@
    "Fiji",
    "Kokoda",
    "Kokoda"
+  ],
+  [
+   "Fiji",
+   "Lovo",
+   "Lovo"
   ],
   [
    "Fiji",
@@ -2572,6 +2642,11 @@
    "Pitpit"
   ],
   [
+   "Papua – Yangi Gvineya",
+   "Kumu",
+   "Kumu greens"
+  ],
+  [
    "Samoa",
    "Oka",
    "Oka"
@@ -2615,11 +2690,6 @@
    "Tonga",
    "Lu pulu",
    "Lu pulu"
-  ],
-  [
-   "Tonga",
-   "'Otai",
-   "Otai drink"
   ],
   [
    "Tonga",
@@ -2715,6 +2785,11 @@
    "Solomon orollari",
    "Solomon tunetsi",
    "Solomon tuna"
+  ],
+  [
+   "Solomon orollari",
+   "Pudding (solomon)",
+   "Solomon cassava pudding"
   ],
   [
    "Solomon orollari",
@@ -2903,11 +2978,6 @@
   ],
   [
    "Mikroneziya",
-   "Sashimi (pohnpei)",
-   "Pohnpei sashimi"
-  ],
-  [
-   "Mikroneziya",
    "Non mevasi kokosda",
    "Breadfruit in coconut milk"
   ],
@@ -2983,6 +3053,16 @@
   ],
   [
    "Naxchivan",
+   "Ketə",
+   "Kata pastry"
+  ],
+  [
+   "Naxchivan",
+   "Gurza",
+   "Gurza dumplings"
+  ],
+  [
+   "Naxchivan",
    "Ərişte oshi",
    "Arishta soup"
   ],
@@ -3008,13 +3088,13 @@
   ],
   [
    "Ajariya",
-   "Mchadi kaymoq bilan",
-   "Mchadi with kaimaghi"
-  ],
-  [
-   "Ajariya",
    "Iaxni",
    "Iakhni"
+  ],
+  [
+   "Gagauziya",
+   "Kurban",
+   "Kurban"
   ],
   [
    "Gagauziya",
@@ -3035,6 +3115,16 @@
    "Gagauziya",
    "Gagauz chorbasi",
    "Gagauz chorba"
+  ],
+  [
+   "Gagauziya",
+   "Kachamak",
+   "Kaçamak"
+  ],
+  [
+   "Gagauziya",
+   "Kalach",
+   "Gagauz kalach"
   ],
   [
    "Qrim",
@@ -3065,6 +3155,16 @@
    "Tatariston",
    "Gubadiya",
    "Gubadiya"
+  ],
+  [
+   "Tatariston",
+   "Zur belish",
+   "Zur belish"
+  ],
+  [
+   "Tatariston",
+   "Tokmach",
+   "Tokmach noodle soup"
   ],
   [
    "Tatariston",
@@ -3108,18 +3208,23 @@
   ],
   [
    "Boshqirdiston",
+   "Salma",
+   "Salma soup"
+  ],
+  [
+   "Boshqirdiston",
    "To'qmas",
    "Tukmas"
   ],
   [
    "Boshqirdiston",
-   "Kistibay",
-   "Bashkir kystybai"
+   "Boshqird bavirsog'i",
+   "Bashkir baursak"
   ],
   [
    "Boshqirdiston",
-   "Boshqird elishi",
-   "Bashkir belesh"
+   "Kistibay",
+   "Bashkir kystybai"
   ],
   [
    "Boshqirdiston",
@@ -3163,11 +3268,6 @@
   ],
   [
    "Dog'iston",
-   "Dog'iston bozbashi",
-   "Dagestani bozbash"
-  ],
-  [
-   "Dog'iston",
    "Lak kurzesi",
    "Lak kurze"
   ],
@@ -3200,6 +3300,11 @@
    "Chechenistan",
    "Gazandali galnash",
    "Nettle galnash"
+  ],
+  [
+   "Shimoliy Osetiya",
+   "Ualibax",
+   "Ualibakh"
   ],
   [
    "Shimoliy Osetiya",
@@ -3283,6 +3388,11 @@
   ],
   [
    "Yoqutiya",
+   "Kuerchex",
+   "Kuerchekh"
+  ],
+  [
+   "Yoqutiya",
    "Yoqut salamati",
    "Yakut salamat"
   ],
@@ -3363,6 +3473,11 @@
   ],
   [
    "Chuvashiya",
+   "Ikerche",
+   "Ikerche pancakes"
+  ],
+  [
+   "Chuvashiya",
    "Yava",
    "Yava pastries"
   ],
@@ -3428,13 +3543,23 @@
   ],
   [
    "Kareliya",
-   "Brusnika morsi",
-   "Lingonberry mors"
+   "Kalakeitto",
+   "Kalakeitto fish soup"
+  ],
+  [
+   "Kareliya",
+   "Karelcha losos sho'rva",
+   "Karelian salmon soup"
   ],
   [
    "Kareliya",
    "Kartoshkali kalitka",
    "Potato kalitki"
+  ],
+  [
+   "Shinjon",
+   "Suyuqash",
+   "Süyqash"
   ],
   [
    "Shinjon",
@@ -3515,20 +3640,8 @@
  "few": [
   [
    "O'zbekiston",
-   "Toshkent oshi",
-   "Tashkent plov",
-   2
-  ],
-  [
-   "O'zbekiston",
-   "Buxoro oshi",
-   "Bukhara plov",
-   1
-  ],
-  [
-   "O'zbekiston",
-   "Kovurma palov (choyxona oshi)",
-   "Choyxona plov",
+   "Qatlama somsa",
+   "Flaky samsa",
    2
   ],
   [
@@ -3539,14 +3652,8 @@
   ],
   [
    "O'zbekiston",
-   "Mastava",
-   "Mastava",
-   1
-  ],
-  [
-   "O'zbekiston",
-   "Xonim",
-   "Khonim",
+   "Norin",
+   "Norin",
    1
   ],
   [
@@ -3560,12 +3667,6 @@
    "Qatlama",
    "Qatlama",
    1
-  ],
-  [
-   "O'zbekiston",
-   "Patir non",
-   "Patir bread",
-   2
   ],
   [
    "O'zbekiston",
@@ -3575,8 +3676,8 @@
   ],
   [
    "O'zbekiston",
-   "Qora choy limon bilan",
-   "Black tea with lemon",
+   "Chalop",
+   "Chalop",
    2
   ],
   [
@@ -3593,8 +3694,8 @@
   ],
   [
    "O'zbekiston",
-   "Bug'irsoq",
-   "Bugirsoq",
+   "Hasib",
+   "Hasib",
    1
   ],
   [
@@ -3605,14 +3706,8 @@
   ],
   [
    "Qozog'iston",
-   "Qimiz",
-   "Kumis",
-   1
-  ],
-  [
-   "Qozog'iston",
-   "Nauryz ko'je",
-   "Nauryz kozhe",
+   "Qazi",
+   "Kazy",
    2
   ],
   [
@@ -3623,21 +3718,27 @@
   ],
   [
    "Qirg'iziston",
-   "Boorsok",
-   "Boorsok",
-   2
-  ],
-  [
-   "Qirg'iziston",
-   "Oromo",
-   "Oromo",
-   2
-  ],
-  [
-   "Qirg'iziston",
-   "Dymdama",
-   "Dymdama",
+   "Chuchuk",
+   "Chuchuk",
    1
+  ],
+  [
+   "Qirg'iziston",
+   "Shorpo",
+   "Shorpo",
+   2
+  ],
+  [
+   "Qirg'iziston",
+   "Maksym",
+   "Maksym",
+   1
+  ],
+  [
+   "Qirg'iziston",
+   "Qimiz (qirg'izcha)",
+   "Kymyz",
+   2
   ],
   [
    "Qirg'iziston",
@@ -3646,10 +3747,10 @@
    2
   ],
   [
-   "Qirg'iziston",
-   "Kuurma shorpo",
-   "Fried shorpo",
-   2
+   "Tojikiston",
+   "Oshi burida",
+   "Oshi burida",
+   1
   ],
   [
    "Tojikiston",
@@ -3659,8 +3760,8 @@
   ],
   [
    "Tojikiston",
-   "Mastoba",
-   "Mastoba",
+   "Dimlama (tojikcha)",
+   "Tajik dimlama",
    2
   ],
   [
@@ -3670,10 +3771,10 @@
    2
   ],
   [
-   "Rossiya",
-   "Shchi",
-   "Shchi",
-   2
+   "Turkmaniston",
+   "Chal",
+   "Chal",
+   1
   ],
   [
    "Rossiya",
@@ -3682,27 +3783,9 @@
    1
   ],
   [
-   "Rossiya",
-   "Vareniki gilos bilan",
-   "Cherry vareniki",
-   1
-  ],
-  [
-   "Ukraina",
-   "Kruchenyky",
-   "Kruchenyky",
-   1
-  ],
-  [
    "Ukraina",
    "Kulish",
    "Kulish",
-   1
-  ],
-  [
-   "Ukraina",
-   "Makovnik",
-   "Poppy seed roll",
    1
   ],
   [
@@ -3718,16 +3801,16 @@
    1
   ],
   [
-   "Belarus",
-   "Machanka",
-   "Machanka",
+   "Ukraina",
+   "Kisil",
+   "Kysil",
    1
   ],
   [
    "Belarus",
-   "Kolduny",
-   "Kalduny",
-   2
+   "Machanka",
+   "Machanka",
+   1
   ],
   [
    "Belarus",
@@ -3743,15 +3826,21 @@
   ],
   [
    "Belarus",
-   "Nordon karam sho'rvasi",
-   "Sour cabbage soup",
+   "Kotlet (belaruscha)",
+   "Belarusian cutlets",
+   2
+  ],
+  [
+   "Belarus",
+   "Kissel klyukvali",
+   "Cranberry kissel",
    1
   ],
   [
    "Belarus",
-   "Tvorog bilan blin",
-   "Blini with cottage cheese",
-   1
+   "Asalli issiq ichimlik",
+   "Hot honey drink",
+   2
   ],
   [
    "Belarus",
@@ -3773,14 +3862,8 @@
   ],
   [
    "Ozarbayjon",
-   "Lyulya kabob",
-   "Lula kebab",
-   1
-  ],
-  [
-   "Ozarbayjon",
-   "Kyuftya bozbash",
-   "Kufta bozbash",
+   "Plov (shah plov)",
+   "Shah plov",
    1
   ],
   [
@@ -3815,9 +3898,15 @@
   ],
   [
    "Gruziya",
+   "Badrijani nigvzit",
+   "Eggplant rolls with walnuts",
+   1
+  ],
+  [
+   "Gruziya",
    "Ojaxuri",
    "Ojakhuri",
-   2
+   1
   ],
   [
    "Gruziya",
@@ -3829,12 +3918,6 @@
    "Gruziya",
    "Elarji",
    "Elarji",
-   2
-  ],
-  [
-   "Gruziya",
-   "Lobiani",
-   "Lobiani",
    1
   ],
   [
@@ -3850,12 +3933,6 @@
    1
   ],
   [
-   "Gruziya",
-   "Tarxun limonadi",
-   "Tarkhun lemonade",
-   2
-  ],
-  [
    "Armaniston",
    "Spas",
    "Spas",
@@ -3863,44 +3940,14 @@
   ],
   [
    "Armaniston",
-   "Armancha salat (sabzavotli)",
-   "Armenian vegetable salad",
-   1
-  ],
-  [
-   "Armaniston",
-   "Ttu lavash",
-   "Fruit lavash",
+   "Matsun",
+   "Matsun",
    1
   ],
   [
    "Armaniston",
    "Tjvjik",
    "Tjvjik",
-   2
-  ],
-  [
-   "Armaniston",
-   "Harisa",
-   "Harissa porridge",
-   1
-  ],
-  [
-   "Turkiya",
-   "Choban salati",
-   "Shepherd's salad (çoban)",
-   1
-  ],
-  [
-   "Arab davlatlari",
-   "Ouzi",
-   "Ouzi",
-   2
-  ],
-  [
-   "Arab davlatlari",
-   "Maamul",
-   "Maamoul (Arab countries)",
    2
   ],
   [
@@ -3908,6 +3955,12 @@
    "Xurmo sharbati (jallab)",
    "Jallab (Arab countries)",
    1
+  ],
+  [
+   "Xitoy",
+   "Pomidorli tuxum",
+   "Tomato and egg stir-fry",
+   2
   ],
   [
    "Xitoy",
@@ -3931,24 +3984,6 @@
    "Hindiston",
    "Lassi tuzli",
    "Salted lassi",
-   2
-  ],
-  [
-   "Italiya",
-   "Penne arrabbiata",
-   "Penne arrabbiata",
-   2
-  ],
-  [
-   "Fransiya",
-   "Tovuq qaymoqli sousda",
-   "Chicken in cream sauce",
-   1
-  ],
-  [
-   "Fransiya",
-   "Sabzavotli sho'rva (pyure)",
-   "Cream of vegetable soup",
    2
   ],
   [
@@ -3979,7 +4014,7 @@
    "Buyuk Britaniya",
    "Kedjeri",
    "Kedgeree",
-   1
+   2
   ],
   [
    "Buyuk Britaniya",
@@ -3988,15 +4023,21 @@
    1
   ],
   [
-   "Irlandiya",
-   "Champ",
-   "Champ",
+   "Buyuk Britaniya",
+   "Flapjack",
+   "Flapjack",
    1
   ],
   [
+   "Buyuk Britaniya",
+   "Pirog piyoz-pishloqli",
+   "Cheese and onion pie",
+   2
+  ],
+  [
    "Irlandiya",
-   "Kartoshka noni (fadge)",
-   "Potato farls",
+   "Champ",
+   "Champ",
    1
   ],
   [
@@ -4007,21 +4048,9 @@
   ],
   [
    "Portugaliya",
-   "Feijoada portugalcha",
-   "Feijoada à transmontana",
-   1
-  ],
-  [
-   "Portugaliya",
    "Sardina grilda",
    "Grilled sardines Portuguese",
    1
-  ],
-  [
-   "Portugaliya",
-   "Sopa de pedra",
-   "Sopa da pedra",
-   2
   ],
   [
    "Belgiya",
@@ -4069,6 +4098,12 @@
    "Shveytsariya",
    "Basler mehlsuppe",
    "Basler Mehlsuppe",
+   1
+  ],
+  [
+   "Shveytsariya",
+   "Shokoladli fondyu",
+   "Chocolate fondue",
    2
   ],
   [
@@ -4096,33 +4131,27 @@
    1
   ],
   [
-   "Slovakiya",
-   "Segedínsky guláš",
-   "Segedin goulash",
-   1
-  ],
-  [
    "Vengriya",
    "Túrós csusza",
    "Túrós csusza",
    2
   ],
   [
-   "Ruminiya",
-   "Salată de vinete",
-   "Salata de vinete",
+   "Vengriya",
+   "Hideg meggyleves",
+   "Cold cherry soup",
    2
   ],
   [
    "Ruminiya",
-   "Fasole cu cârnați",
-   "Fasole cu cârnați",
-   2
+   "Tochitură",
+   "Tochitură",
+   1
   ],
   [
-   "Moldova",
-   "Tochitura moldoveneasca",
-   "Tochitură moldovenească",
+   "Bolgariya",
+   "Bob chorba",
+   "Bob chorba",
    1
   ],
   [
@@ -4141,12 +4170,18 @@
    "Xorvatiya",
    "Fuži istrian",
    "Fuži",
-   2
+   1
   ],
   [
    "Bosniya va Gertsegovina",
    "Begova čorba",
    "Begova čorba",
+   1
+  ],
+  [
+   "Bosniya va Gertsegovina",
+   "Klepe",
+   "Klepe",
    1
   ],
   [
@@ -4156,40 +4191,22 @@
    1
   ],
   [
+   "Chernogoriya",
+   "Priganice",
+   "Priganice",
+   2
+  ],
+  [
    "Shimoliy Makedoniya",
    "Ohrid alabalig'i",
    "Ohrid trout",
-   2
-  ],
-  [
-   "Albaniya",
-   "Speca me gjize",
-   "Peppers stuffed with cheese",
-   2
-  ],
-  [
-   "Albaniya",
-   "Dhallë",
-   "Dhallë drink",
-   2
+   1
   ],
   [
    "Norvegiya",
    "Lapskaus",
    "Lapskaus",
-   2
-  ],
-  [
-   "Shvetsiya",
-   "Janssons frestelse",
-   "Janssons frestelse",
-   2
-  ],
-  [
-   "Finlyandiya",
-   "Lohikeitto",
-   "Lohikeitto",
-   2
+   1
   ],
   [
    "Finlyandiya",
@@ -4247,6 +4264,18 @@
   ],
   [
    "Latviya",
+   "Rupjmaizes kārtojums",
+   "Rye bread dessert",
+   1
+  ],
+  [
+   "Latviya",
+   "Aukstā zupa",
+   "Latvian cold beet soup",
+   1
+  ],
+  [
+   "Latviya",
    "Karbonāde",
    "Latvian karbonade",
    2
@@ -4255,13 +4284,13 @@
    "Latviya",
    "Jāņu siers",
    "Jāņu siers",
-   1
+   2
   ],
   [
    "Litva",
-   "Kugelis",
-   "Kugelis",
-   2
+   "Šaltibarščiai",
+   "Šaltibarščiai",
+   1
   ],
   [
    "Litva",
@@ -4274,12 +4303,6 @@
    "Skruzdėlynas",
    "Skruzdėlynas",
    1
-  ],
-  [
-   "Litva",
-   "Kepta duona",
-   "Kepta duona",
-   2
   ],
   [
    "Malta",
@@ -4301,8 +4324,20 @@
   ],
   [
    "Kipr",
-   "Sheftalia",
-   "Sheftalia",
+   "Kleftiko",
+   "Kleftiko",
+   2
+  ],
+  [
+   "Kipr",
+   "Afelia",
+   "Afelia",
+   2
+  ],
+  [
+   "Kipr",
+   "Trahanas",
+   "Trahanas soup",
    2
   ],
   [
@@ -4342,9 +4377,21 @@
    1
   ],
   [
+   "Vatikan",
+   "Abbacchio a scottadito",
+   "Abbacchio a scottadito",
+   2
+  ],
+  [
    "Eron",
    "Gheymeh",
    "Gheymeh",
+   2
+  ],
+  [
+   "Eron",
+   "Bastani",
+   "Bastani sonnati",
    2
   ],
   [
@@ -4366,10 +4413,16 @@
    1
   ],
   [
+   "Iroq",
+   "Kahi",
+   "Kahi",
+   2
+  ],
+  [
    "Suriya",
    "Shish barak",
    "Shish barak",
-   1
+   2
   ],
   [
    "Suriya",
@@ -4378,21 +4431,9 @@
    2
   ],
   [
-   "Livan",
-   "Kibbeh bil sanieh",
-   "Kibbeh bil sanieh",
-   1
-  ],
-  [
    "Iordaniya",
-   "Maqluba (iordancha)",
-   "Jordanian maqluba",
-   2
-  ],
-  [
-   "Iordaniya",
-   "Galayet bandora",
-   "Galayet bandora",
+   "Zarb",
+   "Zarb",
    2
   ],
   [
@@ -4405,7 +4446,7 @@
    "BAA",
    "Karak choy",
    "Karak chai",
-   1
+   2
   ],
   [
    "BAA",
@@ -4433,8 +4474,8 @@
   ],
   [
    "Qatar",
-   "Umm Ali (qatarcha)",
-   "Umm Ali",
+   "Harees (qatarcha)",
+   "Harees (Qatar)",
    1
   ],
   [
@@ -4513,24 +4554,24 @@
    "Yaman",
    "Lahoh (yaman)",
    "Lahoh (Yemen)",
+   2
+  ],
+  [
+   "Misr",
+   "Om Ali",
+   "Om Ali",
    1
   ],
   [
    "Misr",
-   "Fattah (misrcha)",
-   "Egyptian fattah",
+   "Eish baladi",
+   "Eish baladi",
    2
   ],
   [
-   "Misr",
-   "Hawawshi",
-   "Hawawshi",
-   2
-  ],
-  [
-   "Misr",
-   "Eish baladi",
-   "Eish baladi",
+   "Afg'oniston",
+   "Ashak",
+   "Aushak",
    2
   ],
   [
@@ -4541,15 +4582,9 @@
   ],
   [
    "Pokiston",
-   "Biryani (sindhi)",
-   "Sindhi biryani",
-   2
-  ],
-  [
-   "Pokiston",
    "Chapli kabob (Peshovar)",
    "Peshawari chapli kebab",
-   1
+   2
   ],
   [
    "Pokiston",
@@ -4562,12 +4597,6 @@
    "Doodh patti",
    "Doodh patti",
    2
-  ],
-  [
-   "Bangladesh",
-   "Beef bhuna",
-   "Beef bhuna",
-   1
   ],
   [
    "Bangladesh",
@@ -4595,12 +4624,6 @@
   ],
   [
    "Shri-Lanka",
-   "Parippu",
-   "Parippu",
-   2
-  ],
-  [
-   "Shri-Lanka",
    "Watalappan",
    "Watalappan",
    2
@@ -4622,12 +4645,6 @@
    "Aloo tama",
    "Aloo tama",
    2
-  ],
-  [
-   "Butan",
-   "Suja (sariyog'li choy)",
-   "Suja butter tea",
-   1
   ],
   [
    "Maldiv orollari",
@@ -4666,9 +4683,9 @@
    1
   ],
   [
-   "Tailand",
-   "Tub tim krob",
-   "Tub tim krob",
+   "Mo'g'uliston",
+   "Aaruul",
+   "Aaruul (dried curds)",
    2
   ],
   [
@@ -4715,18 +4732,6 @@
   ],
   [
    "Myanma",
-   "Lahpet thoke",
-   "Lahpet thoke",
-   1
-  ],
-  [
-   "Myanma",
-   "Ohn no khao swe",
-   "Ohn no khao swe",
-   2
-  ],
-  [
-   "Myanma",
    "Shwe yin aye",
    "Shwe yin aye",
    2
@@ -4757,20 +4762,26 @@
   ],
   [
    "Bruney",
-   "Ambuyat",
-   "Ambuyat",
-   2
-  ],
-  [
-   "Bruney",
    "Nasi katok",
    "Nasi katok",
    1
   ],
   [
-   "Marokash",
-   "Mrouzia",
-   "Mrouzia",
+   "Bruney",
+   "Kuih cincin",
+   "Kuih cincin",
+   2
+  ],
+  [
+   "Sharqiy Timor",
+   "Caril (timor)",
+   "Timorese chicken curry",
+   2
+  ],
+  [
+   "Jazoir",
+   "Garantita",
+   "Garantita",
    2
   ],
   [
@@ -4792,46 +4803,16 @@
    2
   ],
   [
-   "Sudan",
-   "Ful (sudancha)",
-   "Sudanese ful",
+   "Liviya",
+   "Liviyacha burek",
+   "Libyan bureek",
    1
-  ],
-  [
-   "Sudan",
-   "Kisra",
-   "Kisra",
-   1
-  ],
-  [
-   "Sudan",
-   "Basbousa (sudancha)",
-   "Sudanese basbousa",
-   2
-  ],
-  [
-   "Efiopiya",
-   "Doro wat",
-   "Doro wat",
-   2
   ],
   [
    "Efiopiya",
    "Tibs",
    "Tibs",
    1
-  ],
-  [
-   "Efiopiya",
-   "Misir wat",
-   "Misir wat",
-   2
-  ],
-  [
-   "Efiopiya",
-   "Firfir",
-   "Firfir",
-   2
   ],
   [
    "Efiopiya",
@@ -4850,12 +4831,6 @@
    "Zigni",
    "Zigni",
    1
-  ],
-  [
-   "Eritreya",
-   "Kicha fit-fit",
-   "Kicha fit fit",
-   2
   ],
   [
    "Eritreya",
@@ -4871,12 +4846,6 @@
   ],
   [
    "Somali",
-   "Canjeero",
-   "Canjeero",
-   1
-  ],
-  [
-   "Somali",
    "Somali choyi (shaah)",
    "Somali shaah",
    2
@@ -4888,9 +4857,9 @@
    1
   ],
   [
-   "Keniya",
-   "Mukimo",
-   "Mukimo",
+   "Uganda",
+   "Posho va loviya",
+   "Posho and beans",
    1
   ],
   [
@@ -4898,6 +4867,18 @@
    "Muchomo",
    "Muchomo",
    1
+  ],
+  [
+   "Uganda",
+   "Malewa",
+   "Malewa",
+   1
+  ],
+  [
+   "Tanzaniya",
+   "Mishkaki",
+   "Mishkaki",
+   2
   ],
   [
    "Tanzaniya",
@@ -4919,14 +4900,14 @@
   ],
   [
    "Ruanda",
-   "Ibirayi",
-   "Ibirayi",
-   1
+   "Ibishyimbo",
+   "Ibishyimbo",
+   2
   ],
   [
-   "Nigeriya",
-   "Chapman",
-   "Chapman drink",
+   "Ruanda",
+   "Ibirayi",
+   "Ibirayi",
    1
   ],
   [
@@ -4948,22 +4929,22 @@
    1
   ],
   [
+   "Burkina-Faso",
+   "Dèguè (burkina)",
+   "Dèguè (Burkina Faso)",
+   2
+  ],
+  [
    "Kamerun",
    "Achu",
    "Achu",
-   2
+   1
   ],
   [
    "Kamerun",
    "Mbongo tchobi",
    "Mbongo tchobi",
    1
-  ],
-  [
-   "Kamerun",
-   "Sanga",
-   "Sanga",
-   2
   ],
   [
    "Kamerun",
@@ -4979,14 +4960,14 @@
   ],
   [
    "Chad",
-   "Karkanji",
-   "Karkanji drink",
-   2
+   "Kissar",
+   "Kissar",
+   1
   ],
   [
-   "Chad",
-   "Mafe (chad)",
-   "Maafe (Chad)",
+   "Markaziy Afrika Respublikasi",
+   "Gozo",
+   "Gozo",
    2
   ],
   [
@@ -4999,7 +4980,7 @@
    "Kongo DR",
    "Moambe tovuq",
    "Moambe chicken",
-   1
+   2
   ],
   [
    "Kongo DR",
@@ -5009,14 +4990,14 @@
   ],
   [
    "Kongo Respublikasi",
-   "Poulet moambe (kongo)",
-   "Poulet moambe",
-   1
+   "Mbika (kongo)",
+   "Mbika (Congo)",
+   2
   ],
   [
-   "Gabon",
-   "Manok tayoqchasi",
-   "Bâton de manioc",
+   "San-Tome va Prinsipi",
+   "Calulu",
+   "Calulu",
    2
   ],
   [
@@ -5041,19 +5022,19 @@
    "Benin",
    "Atassi",
    "Atassi",
-   2
+   1
   ],
   [
-   "Benin",
-   "Moyo",
-   "Moyo relish",
-   1
+   "Gambiya",
+   "Benachin",
+   "Benachin",
+   2
   ],
   [
    "Gambiya",
    "Chere",
    "Chere",
-   2
+   1
   ],
   [
    "Gambiya",
@@ -5065,12 +5046,6 @@
    "Gvineya",
    "Fouti",
    "Fouti",
-   1
-  ],
-  [
-   "Gvineya-Bisau",
-   "Caldo de mancarra",
-   "Caldo de mancarra",
    1
   ],
   [
@@ -5098,10 +5073,22 @@
    1
   ],
   [
+   "Mavritaniya",
+   "Mavritaniya choyi",
+   "Mauritanian tea",
+   2
+  ],
+  [
    "Kabo-Verde",
    "Canja",
    "Canja de galinha",
    2
+  ],
+  [
+   "Kabo-Verde",
+   "Xerém",
+   "Xerém",
+   1
   ],
   [
    "Kabo-Verde",
@@ -5113,24 +5100,24 @@
    "Namibiya",
    "Oshikundu",
    "Oshikundu",
+   1
+  ],
+  [
+   "Botsvana",
+   "Madila",
+   "Madila",
+   1
+  ],
+  [
+   "Botsvana",
+   "Serobe",
+   "Serobe",
    2
   ],
   [
    "Botsvana",
-   "Madila",
-   "Madila",
-   1
-  ],
-  [
-   "Botsvana",
-   "Serobe",
-   "Serobe",
-   1
-  ],
-  [
-   "Botsvana",
-   "Botsvana braai",
-   "Botswana braai",
+   "Bogobe jwa lerotse",
+   "Bogobe jwa lerotse",
    2
   ],
   [
@@ -5141,6 +5128,12 @@
   ],
   [
    "Zimbabve",
+   "Dovi",
+   "Dovi",
+   2
+  ],
+  [
+   "Zimbabve",
    "Muboora",
    "Muboora",
    1
@@ -5159,6 +5152,12 @@
   ],
   [
    "Zambiya",
+   "Munkoyo",
+   "Munkoyo drink",
+   2
+  ],
+  [
+   "Zambiya",
    "Impwa",
    "Impwa",
    1
@@ -5167,6 +5166,18 @@
    "Zambiya",
    "Delele",
    "Delele",
+   1
+  ],
+  [
+   "Malavi",
+   "Thobwa",
+   "Thobwa",
+   2
+  ],
+  [
+   "Mozambik",
+   "Matapa",
+   "Matapa",
    1
   ],
   [
@@ -5177,12 +5188,6 @@
   ],
   [
    "Angola",
-   "Muamba de galinha",
-   "Muamba de galinha",
-   1
-  ],
-  [
-   "Angola",
    "Funji",
    "Funji",
    2
@@ -5195,21 +5200,9 @@
   ],
   [
    "Angola",
-   "Cocada amarela",
-   "Cocada amarela",
-   1
-  ],
-  [
-   "Angola",
    "Feijão de óleo de palma",
    "Feijão de óleo de palma",
    1
-  ],
-  [
-   "Lesoto",
-   "Chakalaka (lesoto)",
-   "Chakalaka (Lesotho)",
-   2
   ],
   [
    "Lesoto",
@@ -5221,7 +5214,7 @@
    "Madagaskar",
    "Mofo gasy",
    "Mofo gasy",
-   2
+   1
   ],
   [
    "Seyshel orollari",
@@ -5239,7 +5232,7 @@
    "Kanada",
    "Bannock",
    "Bannock",
-   2
+   1
   ],
   [
    "Kanada",
@@ -5261,20 +5254,8 @@
   ],
   [
    "Gvatemala",
-   "Tamales colorados",
-   "Tamales colorados",
-   1
-  ],
-  [
-   "Gvatemala",
    "Rellenitos",
    "Rellenitos",
-   1
-  ],
-  [
-   "Gvatemala",
-   "Atol de elote",
-   "Atol de elote",
    1
   ],
   [
@@ -5285,9 +5266,9 @@
   ],
   [
    "Gonduras",
-   "Sopa de caracol",
-   "Sopa de caracol",
-   2
+   "Plato típico",
+   "Plato tipico Honduras",
+   1
   ],
   [
    "Salvador",
@@ -5309,6 +5290,12 @@
   ],
   [
    "Nikaragua",
+   "Baho",
+   "Baho",
+   1
+  ],
+  [
+   "Nikaragua",
    "Pinolillo",
    "Pinolillo",
    2
@@ -5317,7 +5304,7 @@
    "Kosta-Rika",
    "Chifrijo",
    "Chifrijo",
-   2
+   1
   ],
   [
    "Kosta-Rika",
@@ -5330,6 +5317,12 @@
    "Picadillo de papa",
    "Picadillo de papa",
    1
+  ],
+  [
+   "Panama",
+   "Raspao",
+   "Raspao",
+   2
   ],
   [
    "Kuba",
@@ -5345,12 +5338,6 @@
   ],
   [
    "Gaiti",
-   "Tasso",
-   "Tasso",
-   2
-  ],
-  [
-   "Gaiti",
    "Lalo",
    "Lalo",
    2
@@ -5363,21 +5350,15 @@
   ],
   [
    "Dominikan Respublikasi",
-   "La bandera",
-   "La bandera dominicana",
+   "Habichuelas con dulce",
+   "Habichuelas con dulce",
    2
   ],
   [
    "Dominikan Respublikasi",
-   "Habichuelas con dulce",
-   "Habichuelas con dulce",
-   2
-  ],
-  [
-   "Bagama orollari",
-   "Chig'anoq quymoqlari",
-   "Conch fritters",
-   2
+   "Pastelón",
+   "Pastelón",
+   1
   ],
   [
    "Bagama orollari",
@@ -5398,22 +5379,28 @@
    1
   ],
   [
+   "Sent-Lyusiya",
+   "Accra",
+   "Accra",
+   1
+  ],
+  [
+   "Sent-Lyusiya",
+   "Lambi (lyusiya)",
+   "Lambi (Saint Lucia)",
+   1
+  ],
+  [
    "Sent-Vinsent va Grenadin",
    "Buljol",
    "Buljol",
    1
   ],
   [
-   "Antigua va Barbuda",
-   "Seasoned rice",
-   "Antiguan seasoned rice",
-   1
-  ],
-  [
    "Dominika",
    "Bakes",
    "Dominica bakes",
-   2
+   1
   ],
   [
    "Dominika",
@@ -5422,6 +5409,18 @@
    2
   ],
   [
+   "Sent-Kits va Nevis",
+   "Seasoned rice (kits)",
+   "Seasoned rice (St Kitts)",
+   1
+  ],
+  [
+   "Sent-Kits va Nevis",
+   "Chig'anoq oladyasi",
+   "Conch fritters",
+   2
+  ],
+  [
    "Braziliya",
    "Escondidinho",
    "Escondidinho",
@@ -5431,7 +5430,7 @@
    "Braziliya",
    "Cafezinho",
    "Cafezinho",
-   2
+   1
   ],
   [
    "Peru",
@@ -5447,9 +5446,9 @@
   ],
   [
    "Venesuela",
-   "Chicha venezolana",
-   "Chicha venezolana",
-   2
+   "Patacón maracucho",
+   "Patacón maracucho",
+   1
   ],
   [
    "Ekvador",
@@ -5459,39 +5458,27 @@
   ],
   [
    "Ekvador",
-   "Locro de papa",
-   "Locro de papa",
-   1
-  ],
-  [
-   "Ekvador",
-   "Seco de pollo",
-   "Seco de pollo",
+   "Llapingachos",
+   "Llapingachos",
    2
   ],
   [
    "Ekvador",
+   "Locro de papa",
+   "Locro de papa",
+   1
+  ],
+  [
+   "Ekvador",
    "Guatita",
    "Guatita",
    1
   ],
   [
    "Boliviya",
-   "Sopa de maní",
-   "Sopa de mani",
-   1
-  ],
-  [
-   "Boliviya",
    "Sopa de quinua",
    "Sopa de quinua",
-   1
-  ],
-  [
-   "Chili",
-   "Empanadas de pino",
-   "Empanadas de pino",
-   1
+   2
   ],
   [
    "Urugvay",
@@ -5506,9 +5493,9 @@
    2
   ],
   [
-   "Urugvay",
-   "Martín Fierro",
-   "Martín Fierro dessert",
+   "Paragvay",
+   "Vori vori",
+   "Vori vori",
    2
   ],
   [
@@ -5524,12 +5511,6 @@
    1
   ],
   [
-   "Gayana",
-   "Garlic pork",
-   "Guyanese garlic pork",
-   2
-  ],
-  [
    "Surinam",
    "Pom",
    "Pom Surinamese",
@@ -5537,38 +5518,26 @@
   ],
   [
    "Surinam",
-   "Pastei",
-   "Pastei",
+   "Saoto",
+   "Saoto soup",
+   1
+  ],
+  [
+   "Yangi Zelandiya",
+   "Hokey pokey muzqaymog'i",
+   "Hokey pokey",
    2
   ],
   [
-   "Avstraliya",
-   "Barbekyu (snags)",
-   "Aussie barbecue sausages",
-   1
-  ],
-  [
-   "Yangi Zelandiya",
-   "Qiyma-pishloqli pirog",
-   "Mince and cheese pie",
-   1
-  ],
-  [
-   "Yangi Zelandiya",
-   "Mayda baliq quymoqlari",
-   "Whitebait fritters",
-   1
+   "Papua – Yangi Gvineya",
+   "Mumu",
+   "Mumu",
+   2
   ],
   [
    "Papua – Yangi Gvineya",
    "Sago",
    "Sago pancakes",
-   2
-  ],
-  [
-   "Papua – Yangi Gvineya",
-   "Kokoda (papua)",
-   "Kokoda (PNG)",
    2
   ],
   [
@@ -5578,9 +5547,21 @@
    1
   ],
   [
+   "Tonga",
+   "'Otai",
+   "Otai drink",
+   2
+  ],
+  [
    "Kiribati",
    "Ika mata (kiribati)",
    "Kiribati raw fish",
+   1
+  ],
+  [
+   "Palau",
+   "Palau non mevasi",
+   "Breadfruit (Palau)",
    1
   ],
   [
@@ -5591,26 +5572,8 @@
   ],
   [
    "Naxchivan",
-   "Ketə",
-   "Kata pastry",
-   1
-  ],
-  [
-   "Naxchivan",
    "Ko'kat kuku",
    "Kuku with herbs",
-   1
-  ],
-  [
-   "Gagauziya",
-   "Kurban",
-   "Kurban",
-   1
-  ],
-  [
-   "Gagauziya",
-   "Kalach",
-   "Gagauz kalach",
    1
   ],
   [
@@ -5621,51 +5584,63 @@
   ],
   [
    "Tatariston",
-   "Uchpochmak",
-   "Echpochmak",
-   2
-  ],
-  [
-   "Tatariston",
-   "Zur belish",
-   "Zur belish",
-   2
-  ],
-  [
-   "Tatariston",
    "Kistibiy",
    "Kystybyy",
    1
   ],
   [
    "Tatariston",
-   "Tokmach",
-   "Tokmach noodle soup",
+   "Kosh tele",
+   "Kosh tele",
+   2
+  ],
+  [
+   "Tatariston",
+   "Tatarcha bavirsoq",
+   "Tatar baursak",
    1
   ],
   [
    "Tatariston",
-   "Kosh tele",
-   "Kosh tele",
-   2
-  ],
-  [
-   "Boshqirdiston",
-   "Salma",
-   "Salma soup",
-   2
-  ],
-  [
-   "Boshqirdiston",
-   "Boshqird bavirsog'i",
-   "Bashkir baursak",
+   "Qoymaq",
+   "Koymak pancakes",
    1
+  ],
+  [
+   "Boshqirdiston",
+   "Boshqird kuruti",
+   "Bashkir kurut",
+   2
+  ],
+  [
+   "Boshqirdiston",
+   "Boshqird elishi",
+   "Bashkir belesh",
+   2
+  ],
+  [
+   "Boshqirdiston",
+   "Boshqird shulpasi",
+   "Bashkir shulpa",
+   1
+  ],
+  [
+   "Dog'iston",
+   "Kurze",
+   "Kurze",
+   2
   ],
   [
    "Dog'iston",
    "Urbech",
    "Urbech",
-   2
+   1
+  ],
+  [
+   "Dog'iston",
+   "Dog'iston bozbashi",
+   "Dagestani bozbash",
+   1
   ],
   [
    "Chechenistan",
@@ -5681,15 +5656,15 @@
   ],
   [
    "Shimoliy Osetiya",
-   "Ualibax",
-   "Ualibakh",
-   1
+   "Fidjin",
+   "Fydzhin",
+   2
   ],
   [
    "Shimoliy Osetiya",
    "Osetin pishlog'i",
    "Ossetian cheese",
-   1
+   2
   ],
   [
    "Yoqutiya",
@@ -5710,9 +5685,21 @@
    1
   ],
   [
+   "Chuvashiya",
+   "Turax",
+   "Turakh",
+   1
+  ],
+  [
    "Kareliya",
-   "Karelcha losos sho'rva",
-   "Karelian salmon soup",
+   "Karelcha kalitka",
+   "Karelian kalitki",
+   1
+  ],
+  [
+   "Kareliya",
+   "Brusnika morsi",
+   "Lingonberry mors",
    1
   ],
   [
@@ -5723,21 +5710,9 @@
   ],
   [
    "Shinjon",
-   "Suyuqash",
-   "Süyqash",
-   1
-  ],
-  [
-   "Shinjon",
-   "Chuchvara (uyg'urcha)",
-   "Chöchürä",
-   1
-  ],
-  [
-   "Shinjon",
-   "O'pke hesip",
-   "Öpke-hésip",
-   1
+   "Uyg'ur kabobi",
+   "Uyghur kawap",
+   2
   ],
   [
    "Tibet",
@@ -5755,6 +5730,18 @@
    "Zanzibar",
    "Urojo",
    "Urojo (Zanzibar mix)",
+   1
+  ],
+  [
+   "Zanzibar",
+   "Vitumbua",
+   "Vitumbua",
+   1
+  ],
+  [
+   "Zanzibar",
+   "Zanzibar ziravorli choyi",
+   "Zanzibar spiced tea",
    1
   ]
  ]

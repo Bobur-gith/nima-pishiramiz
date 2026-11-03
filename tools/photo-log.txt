@@ -1,16 +1,16 @@
-21:44:02 articles 1632 missing 144
-21:44:22 article images 15627
-21:57:02 dishes without own article 949 matched on Wikidata 263
-22:02:08 looked up in other Wikipedias 689 found 72
-22:06:16 candidates 250 rate-limited 95 failed 0
-22:11:03 candidates 500 rate-limited 114 failed 0
-22:15:19 candidates 750 rate-limited 128 failed 0
-22:20:03 candidates 1000 rate-limited 149 failed 0
-22:24:15 candidates 1250 rate-limited 168 failed 0
-22:28:00 candidates 1500 rate-limited 187 failed 0
-22:32:03 candidates 1750 rate-limited 205 failed 0
-22:36:02 candidates 2000 rate-limited 225 failed 0
-22:40:04 candidates 2250 rate-limited 242 failed 0
-22:44:16 candidates 2500 rate-limited 257 failed 0
-22:48:18 candidates 2750 rate-limited 274 failed 0
-22:52:01 with photos 2200 none 702 fewer than 3 374 rate-limited 290 failed requests 0
+22:56:43 articles 1632 missing 144
+22:57:01 article images 15630
+23:09:03 dishes without own article 949 matched on Wikidata 262
+23:14:21 looked up in other Wikipedias 690 found 73
+23:18:16 candidates 250 rate-limited 83 failed 0
+23:23:01 candidates 500 rate-limited 100 failed 0
+23:27:16 candidates 750 rate-limited 117 failed 0
+23:31:17 candidates 1000 rate-limited 134 failed 0
+23:35:17 candidates 1250 rate-limited 155 failed 0
+23:39:03 candidates 1500 rate-limited 174 failed 0
+23:43:03 candidates 1750 rate-limited 191 failed 0
+23:46:18 candidates 2000 rate-limited 202 failed 0
+23:51:00 candidates 2250 rate-limited 220 failed 0
+23:55:01 candidates 2500 rate-limited 239 failed 0
+23:59:00 candidates 2750 rate-limited 261 failed 0
+00:01:19 with photos 2175 none 727 fewer than 3 351 rate-limited 275 failed requests 0
