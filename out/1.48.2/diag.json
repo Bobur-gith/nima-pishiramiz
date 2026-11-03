@@ -1,0 +1,116 @@
+{
+ "webkit": "18.0",
+ "webkit|mob|live": {
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 7,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-home": {
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-recipes": {
+  "t": 0,
+  "coversInView": 4,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|mob|prev-uz": {
+  "t": 0,
+  "coversInView": 4,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|desk|live": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-home": {
+  "t": 16,
+  "coversInView": 6,
+  "inViewWithPhoto": 6,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-recipes": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "webkit|desk|prev-uz": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium": "130.0.6723.31",
+ "chromium|mob|live": {
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 7,
+  "inViewTiles": 3,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-home": {
+  "t": 16,
+  "coversInView": 0,
+  "inViewWithPhoto": 0,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-recipes": {
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 5,
+  "zeroH": 0
+ },
+ "chromium|mob|prev-uz": {
+  "t": 16,
+  "coversInView": 10,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 5,
+  "zeroH": 0
+ },
+ "chromium|desk|live": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-home": {
+  "t": 16,
+  "coversInView": 6,
+  "inViewWithPhoto": 6,
+  "inViewTiles": 0,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-recipes": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ },
+ "chromium|desk|prev-uz": {
+  "t": 16,
+  "coversInView": 12,
+  "inViewWithPhoto": 5,
+  "inViewTiles": 7,
+  "zeroH": 0
+ }
+}
