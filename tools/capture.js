@@ -27,8 +27,8 @@ try{
  await p.evaluate(()=>scrollBy(0,330));await p.waitForTimeout(800);await waitImgs();await shot("pantry-results2");
  // AI oshpaz
  await go("#/");await p.evaluate(()=>scrollTo(0,0));await p.waitForTimeout(600);
- const fab=await box("#fab");await shot("home-fab",fab);
- await p.click("#fab");await p.waitForTimeout(1500);await shot("chef-open",await box("#cIn"));
+ const fab=await box("#tabbar [data-chef]");await shot("home-fab",fab);
+ await p.click("#tabbar [data-chef]");await p.waitForTimeout(1500);await shot("chef-open",await box("#cIn"));
  await p.click("#cIn");await p.type("#cIn","Go'shtsiz kechki ovqat",{delay:60});await p.waitForTimeout(300);await shot("chef-typed",await box("#cSend"));
  await p.click("#cSend");await p.waitForTimeout(1800);await shot("chef-thinking");await p.waitForTimeout(5000);await waitImgs(6000);await shot("chef-answer");
  await p.evaluate(()=>{const m=document.querySelector("#msgs");m&&(m.scrollTop=m.scrollHeight)});await p.waitForTimeout(800);await waitImgs(6000);await shot("chef-answer2");
