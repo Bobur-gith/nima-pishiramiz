@@ -49,7 +49,7 @@ async function pool(items, n, fn) {
 const chunks = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 
 // things that are not a photo of food
-const BAD = /\b(map|flag|logo|icon|coat of arms|coa|heraldry|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|restorant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|people|man|men|woman|women|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|bus|truck|tank|aircraft|ship|centre|center|bestanddeelnr)\b|packag|advert|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
+const BAD = /\b(map|flag|logo|icon|coat of arms|coa|heraldry|locator|diagram|emblem|signature|portrait|stamp|seal|banknote|coin|menu|restaurant|restorant|cafe|shop|store|stall|market|street|building|church|mosque|temple|monument|sign|signboard|poster|label|book|cover|screenshot|plant|tree|field|flower|blossom|seed|harvest|farm|cow|sheep|goat|horse|camel|people|man|men|woman|women|girl|boy|family|festival|parade|museum|statue|recipe card|qr code|spices|ingredients?|ingedients|sheets|souk|plaque|tombeau|congress|sentinel|satellite|vehicle|bus|truck|tank|aircraft|ship|centre|center|bestanddeelnr|vendors?|selling|sellers?|box|tin|blik)\b|packag|advert|\.svg|\.gif|\.tiff?$|\.pdf|\.djvu/i;
 // categories that mean the picture is about something else (a person, a town, a bus …)
 const BADCAT = /\b(people|men|women|portraits?|politicians?|members of|births|deaths|vehicles?|buses|trucks|cars|aircraft|ships|buildings|streets|villages|towns|cities|churches|mosques|heraldry|coats of arms|maps|logos|military|army|sports?|football|musicians?|actors?|landscapes|transport|railway|stations?)\b/i;
 const OKMIME = /image\/(jpeg|png|webp)/;
@@ -61,7 +61,7 @@ const tokens = s => words(s).filter(t => !MINOR.has(t));
 // words that really change what is on the plate: an ingredient, a way of cooking, a kind of dish
 const KIND = ['soup', 'stew', 'salad', 'cake', 'bread', 'flatbread', 'pie', 'roll', 'dumpling', 'curry', 'porridge', 'pudding', 'sauce', 'cookie', 'biscuit', 'fritter', 'kebab', 'cutlet', 'chips', 'juice', 'tea', 'pancake', 'sandwich', 'casserole', 'omelette', 'jam', 'compote', 'chowder', 'broth', 'noodle', 'meatball', 'skewer', 'fried', 'boiled', 'baked', 'grilled', 'stuffed', 'smoked', 'dried', 'roasted', 'roast', 'raw', 'steamed', 'spicy', 'seafood', 'milk', 'cream'];
 const ING = new Set(ingWords.flat().flatMap(words));
-const nameOf = f => f.replace(/_/g, ' ').replace(/\.[a-z]+$/i, '');
+const nameOf = f => f.replace(/_/g, ' ').replace(/\.[a-z]+$/i, '').replace(/([a-z])([A-Z])/g, '$1 $2');
 const hasAny = (f, set) => words(nameOf(f)).some(t => set.has(t));
 
 // ---------- 1. articles: lead image + Wikidata item ----------
@@ -277,7 +277,7 @@ await pool(dishes.map((d, i) => i), 6, async i => {
     if (ni >= 2 && out.lead.length + out.dep.filter(goodFile).length + out.name.filter(goodFile).length >= 4) break;
     out.name.push(...(await search(n)).filter(f => foodFile(f, ownCat) && (!it || !it.need || hasNeed(f, it.need))));
   }
-  if (ownCat) out.cat = (await category(w.p373)).filter(f => (it.canon && !it.need) || fits(f));
+  if (ownCat) out.cat = (await category(w.p373)).filter(fits);
   // pictures inside the dish's Wikipedia article (for a cuisine article: only files named after this very dish)
   if (d.wiki) {
     const key = d.wiki.includes(':') ? d.wiki : 'en:' + d.wiki; const a = art[key];
@@ -296,9 +296,9 @@ await pool(dishes.map((d, i) => i), 6, async i => {
 });
 
 // ---------- 6. check lead/P18 files on Commons (size, mime) ----------
-const unknown = [...new Set(cand.flatMap(c => [...c.lead, ...c.art]).filter(n => !fileInfo[n] || !fileInfo[n].w))];
+const unknown = [...new Set(cand.flatMap(c => [...c.lead, ...c.art]).filter(n => !fileInfo[n] || !fileInfo[n].w || !fileInfo[n].cats))];
 await pool(chunks(unknown, 50), 2, async names => {
-  const j = await api('commons.wikimedia.org', { action: 'query', titles: names.map(n => 'File:' + n).join('|'), prop: 'imageinfo', iiprop: 'size|mime' });
+  const j = await api('commons.wikimedia.org', { action: 'query', titles: names.map(n => 'File:' + n).join('|'), prop: 'imageinfo|categories', iiprop: 'size|mime', ...CATS });
   for (const p of (j.query || {}).pages || []) if (!p.missing) addInfo(p);
 });
 
@@ -312,7 +312,7 @@ for (const i of order) {
   const c = cand[i]; const pick = [];
   for (const k of [...c.lead, ...c.dep, ...c.name, ...c.art, ...c.cat, ...c.full]) {
     if (pick.length >= 3) break;
-    if (used.has(k) || pick.includes(k) || !goodFile(k)) continue;
+    if (used.has(k) || pick.includes(k) || !goodFile(k) || ((fileInfo[k] || {}).cats || []).some(x => BADCAT.test(x))) continue;
     pick.push(k);
   }
   pick.forEach(k => used.add(k));
